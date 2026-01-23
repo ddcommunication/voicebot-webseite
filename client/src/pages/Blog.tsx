@@ -1,0 +1,106 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Calendar, User, ArrowRight } from "lucide-react";
+import { Link } from "wouter";
+
+export default function Blog() {
+  const posts = [
+    {
+      title: "Warum Voicebots die Zukunft des Kundenservice sind",
+      excerpt: "Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren. Erfahren Sie, warum Voicebots dabei eine Schlüsselrolle spielen.",
+      date: "12. Jan 2026",
+      author: "Max Zöllner",
+      category: "Technologie",
+      image: "/images/solutions-tech.jpg"
+    },
+    {
+      title: "5 Tipps für die perfekte Voicebot-Begrüßung",
+      excerpt: "Der erste Eindruck zählt. So gestalten Sie Dialoge, die Ihre Anrufer nicht frustrieren, sondern begeistern.",
+      date: "05. Jan 2026",
+      author: "Sarah Muster",
+      category: "Best Practices",
+      image: "/images/contact-support.jpg"
+    },
+    {
+      title: "DSGVO und KI: Worauf Sie achten müssen",
+      excerpt: "Datenschutz ist in Deutschland das A und O. Wir erklären, wie Sie Voicebots rechtskonform einsetzen.",
+      date: "20. Dez 2025",
+      author: "Dr. Recht",
+      category: "Recht",
+      image: "/images/about-team.jpg"
+    }
+  ];
+
+  return (
+    <div className="flex flex-col gap-0">
+      {/* Header */}
+      <section className="bg-primary text-primary-foreground py-20">
+        <div className="container text-center max-w-4xl">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">Wissen & News</h1>
+          <p className="text-xl text-primary-foreground/80 leading-relaxed">
+            Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis und Neuigkeiten von Zöllner Office.
+          </p>
+        </div>
+      </section>
+
+      {/* Blog Grid */}
+      <section className="py-24 bg-background">
+        <div className="container">
+          <div className="grid md:grid-cols-3 gap-8">
+            {posts.map((post, index) => (
+              <Card key={index} className="border-none shadow-lg overflow-hidden flex flex-col h-full hover:shadow-xl transition-shadow">
+                <div className="h-48 overflow-hidden relative">
+                  <img 
+                    src={post.image} 
+                    alt={post.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                  <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
+                    {post.category}
+                  </div>
+                </div>
+                <CardHeader>
+                  <div className="flex items-center gap-4 text-xs text-muted-foreground mb-3">
+                    <span className="flex items-center gap-1"><Calendar className="h-3 w-3" /> {post.date}</span>
+                    <span className="flex items-center gap-1"><User className="h-3 w-3" /> {post.author}</span>
+                  </div>
+                  <CardTitle className="text-xl font-bold text-primary line-clamp-2">
+                    {post.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <p className="text-muted-foreground text-sm leading-relaxed line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                </CardContent>
+                <CardFooter className="border-t pt-4">
+                  <Button variant="link" className="p-0 h-auto text-primary font-semibold hover:text-secondary transition-colors group">
+                    Weiterlesen <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="py-20 bg-muted/30">
+        <div className="container max-w-2xl text-center">
+          <h2 className="text-2xl font-serif font-bold text-primary mb-4">Keine Updates verpassen</h2>
+          <p className="text-muted-foreground mb-8">
+            Abonnieren Sie unseren Newsletter für monatliche Tipps rund um Voicebots und Kundenservice-Automatisierung.
+          </p>
+          <div className="flex gap-4 max-w-md mx-auto">
+            <input 
+              type="email" 
+              placeholder="Ihre E-Mail Adresse" 
+              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            />
+            <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">Anmelden</Button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
