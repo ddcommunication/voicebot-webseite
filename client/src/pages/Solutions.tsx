@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check, Phone, Calendar, MessageSquare, UserCheck, ArrowRight } from "lucide-react";
+import { Check, Phone, Calendar, MessageSquare, UserCheck } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
 
@@ -13,11 +12,28 @@ export default function Solutions() {
         canonical="/loesungen"
       />
 
-      {/* Header */}
-      <section className="bg-primary text-primary-foreground py-20">
-        <div className="container text-center max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">Lösungen für jeden Anruf</h1>
-          <p className="text-xl text-primary-foreground/80 leading-relaxed">
+      {/* Hero Section with Image */}
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/solutions-hero.jpg" 
+            alt="AI Solutions & Connectivity" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/80 backdrop-blur-[2px]"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-transparent to-background"></div>
+        </div>
+
+        {/* Content */}
+        <div className="container relative z-10 text-center max-w-4xl pt-20">
+          <div className="inline-block px-4 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-sm font-medium mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+            Modulare Voice-Technologie
+          </div>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
+            Lösungen für jeden Anruf
+          </h1>
+          <p className="text-xl text-slate-200 leading-relaxed max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
             Unsere Voicebots sind modular aufgebaut. Wählen Sie die Funktionen, die Ihr Unternehmen wirklich braucht – von der einfachen Zentrale bis zum komplexen Kundenservice.
           </p>
         </div>
@@ -28,104 +44,104 @@ export default function Solutions() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Feature 1 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-14 w-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20">
-                  <Phone className="h-7 w-7" />
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+                  <Phone className="h-8 w-8 animate-pulse" />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-3">Intelligente Telefonzentrale</h3>
+                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-blue-600 transition-colors">Intelligente Telefonzentrale</h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   Der Bot nimmt jeden Anruf sofort an, begrüßt den Anrufer professionell und erfragt das Anliegen. Basierend auf den Antworten wird der Anruf an die richtige Abteilung oder den richtigen Ansprechpartner weitergeleitet.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Keine Warteschleifen
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Keine Warteschleifen
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Standort-Erkennung
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Standort-Erkennung
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Mehrsprachigkeit
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Mehrsprachigkeit
                   </li>
                 </ul>
               </div>
             </div>
 
             {/* Feature 2 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-14 w-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20">
-                  <Calendar className="h-7 w-7" />
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-400 flex items-center justify-center text-white shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform duration-300">
+                  <Calendar className="h-8 w-8 animate-bounce" style={{ animationDuration: '3s' }} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-3">Termin-Management</h3>
+                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-purple-600 transition-colors">Termin-Management</h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   Vereinbaren, verschieben oder stornieren Sie Termine vollautomatisch. Der Bot greift direkt auf Ihren Kalender zu, schlägt freie Zeiten vor und trägt Buchungen ein.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Kalender-Synchronisation
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Kalender-Synchronisation
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Erinnerungs-Service
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Erinnerungs-Service
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Notfall-Erkennung
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Notfall-Erkennung
                   </li>
                 </ul>
               </div>
             </div>
 
             {/* Feature 3 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-14 w-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20">
-                  <MessageSquare className="h-7 w-7" />
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-400 flex items-center justify-center text-white shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform duration-300">
+                  <MessageSquare className="h-8 w-8 animate-pulse" style={{ animationDuration: '4s' }} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-3">FAQ & Auskunft</h3>
+                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-amber-600 transition-colors">FAQ & Auskunft</h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   Entlasten Sie Ihr Team von wiederkehrenden Fragen. Öffnungszeiten, Preise, Statusabfragen oder Anfahrtsbeschreibungen beantwortet der Bot souverän und geduldig.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> 24/7 Auskunft
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> 24/7 Auskunft
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Konsistente Antworten
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Konsistente Antworten
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Entlastung bei Standardfragen
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Entlastung bei Standardfragen
                   </li>
                 </ul>
               </div>
             </div>
 
             {/* Feature 4 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-14 w-14 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20">
-                  <UserCheck className="h-7 w-7" />
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-emerald-500/20 group-hover:scale-110 transition-transform duration-300">
+                  <UserCheck className="h-8 w-8 animate-bounce" style={{ animationDuration: '5s' }} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-3">Lead-Qualifizierung</h3>
+                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-emerald-600 transition-colors">Lead-Qualifizierung</h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   Nicht jeder Anruf ist ein Kunde. Der Bot qualifiziert Anfragen vor: Budget, Zeitrahmen und Bedarf werden abgefragt, bevor ein Vertriebsmitarbeiter Zeit investiert.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Vorab-Filterung
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Vorab-Filterung
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Datenerfassung im CRM
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Datenerfassung im CRM
                   </li>
                   <li className="flex items-center gap-2 text-sm text-primary font-medium">
-                    <Check className="h-4 w-4 text-secondary" /> Priorisierung von Leads
+                    <div className="h-5 w-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center"><Check className="h-3 w-3" /></div> Priorisierung von Leads
                   </li>
                 </ul>
               </div>
@@ -146,20 +162,20 @@ export default function Solutions() {
                 Ein Voicebot ist nur so gut wie seine Anbindung. Wir integrieren unsere Lösung in Ihre bestehende IT-Landschaft – egal ob CRM, Kalender oder Ticketsystem.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary">Microsoft Outlook</div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary">Google Calendar</div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary">Salesforce</div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary">HubSpot</div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary">Zendesk</div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary">Jira</div>
+                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">Microsoft Outlook</div>
+                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">Google Calendar</div>
+                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">Salesforce</div>
+                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">HubSpot</div>
+                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">Zendesk</div>
+                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">Jira</div>
               </div>
             </div>
-            <div className="relative">
-              <div className="absolute inset-0 bg-secondary/20 rounded-full blur-3xl opacity-30"></div>
+            <div className="relative group">
+              <div className="absolute inset-0 bg-secondary/20 rounded-full blur-3xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
               <img 
                 src="/images/solutions-tech.jpg" 
                 alt="Integration Dashboard" 
-                className="relative rounded-lg shadow-2xl border border-white/20"
+                className="relative rounded-lg shadow-2xl border border-white/20 transform group-hover:scale-[1.02] transition-transform duration-500"
               />
             </div>
           </div>
@@ -167,14 +183,15 @@ export default function Solutions() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-primary text-primary-foreground text-center">
-        <div className="container max-w-3xl">
+      <section className="py-20 bg-primary text-primary-foreground text-center relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/hero-blue-business.jpg')] opacity-10 bg-cover bg-center"></div>
+        <div className="container max-w-3xl relative z-10">
           <h2 className="text-3xl font-serif font-bold mb-6">Welche Lösung passt zu Ihnen?</h2>
           <p className="text-lg text-primary-foreground/80 mb-8">
             Lassen Sie uns gemeinsam analysieren, wo in Ihrem Unternehmen das größte Potenzial liegt.
           </p>
           <Link href="/kontakt">
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-8">
+            <Button size="lg" className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-400 hover:to-cyan-300 text-white font-bold shadow-lg hover:shadow-xl transition-all px-8 rounded-full">
               Beratungstermin vereinbaren
             </Button>
           </Link>
