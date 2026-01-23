@@ -1,9 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import SEO from "@/components/SEO";
 
 export default function About() {
   return (
     <div className="flex flex-col gap-0">
+      <SEO 
+        title="Über uns"
+        description="Wir verbinden menschlichen Service mit künstlicher Intelligenz. Erfahren Sie mehr über die Mission und Werte von Zöllner Office."
+        canonical="/ueber-uns"
+      />
+
       {/* Hero */}
       <section className="relative bg-primary text-primary-foreground py-24 overflow-hidden">
         <div className="container relative z-10 text-center max-w-4xl">

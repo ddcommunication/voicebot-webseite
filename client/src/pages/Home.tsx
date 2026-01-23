@@ -5,19 +5,26 @@ import { Check, Phone, Clock, Users, ArrowRight, Shield, BarChart3, Headphones }
 import { Link } from "wouter";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import SEO from "@/components/SEO";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-0">
+      <SEO 
+        title="Voicebots für Unternehmen"
+        description="Schluss mit verpassten Anrufen. Unsere KI-Voicebots nehmen Gespräche an, erfassen Anliegen und buchen Termine – 24/7."
+        canonical="/"
+      />
+
       {/* Hero Section */}
-      <section className="relative bg-primary text-primary-foreground overflow-hidden">
+      <section className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="/images/hero-main.jpg" 
             alt="Professioneller Voicebot Service" 
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-60"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40" />
+          <div className="absolute inset-0 bg-black/70" />
         </div>
         
         <div className="container relative z-10 py-24 md:py-32 grid md:grid-cols-2 gap-12 items-center">

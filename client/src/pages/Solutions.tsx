@@ -2,10 +2,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Phone, Calendar, MessageSquare, UserCheck, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
+import SEO from "@/components/SEO";
 
 export default function Solutions() {
   return (
     <div className="flex flex-col gap-0">
+      <SEO 
+        title="Lösungen & Features"
+        description="Entdecken Sie die vielfältigen Einsatzmöglichkeiten unserer Voicebots: Telefonzentrale, Terminvereinbarung, Kundenservice und mehr."
+        canonical="/loesungen"
+      />
+
       {/* Header */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container text-center max-w-4xl">

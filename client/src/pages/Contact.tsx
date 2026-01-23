@@ -4,10 +4,17 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function Contact() {
   return (
     <div className="flex flex-col gap-0">
+      <SEO 
+        title="Kontakt & Demo"
+        description="Erleben Sie unsere Voicebots live. Vereinbaren Sie eine kostenlose Demo oder stellen Sie uns Ihre Fragen."
+        canonical="/kontakt"
+      />
+
       {/* Header */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container text-center max-w-4xl">

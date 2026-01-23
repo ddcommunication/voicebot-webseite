@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
+import SEO from "@/components/SEO";
 
 export default function Blog() {
   const posts = [
@@ -31,8 +32,33 @@ export default function Blog() {
     }
   ];
 
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Zöllner Office Blog",
+    "description": "Aktuelle Einblicke in die Welt der Sprach-KI und Voicebots.",
+    "blogPost": posts.map(post => ({
+      "@type": "BlogPosting",
+      "headline": post.title,
+      "description": post.excerpt,
+      "datePublished": post.date, // Note: Should ideally be ISO format
+      "author": {
+        "@type": "Person",
+        "name": post.author
+      },
+      "image": `https://www.zoellner-office.de${post.image}`
+    }))
+  };
+
   return (
     <div className="flex flex-col gap-0">
+      <SEO 
+        title="Wissen & News"
+        description="Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis und Neuigkeiten von Zöllner Office."
+        canonical="/blog"
+        schema={blogSchema}
+      />
+
       {/* Header */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container text-center max-w-4xl">

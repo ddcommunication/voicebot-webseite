@@ -1,10 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Check, X } from "lucide-react";
 import { Link } from "wouter";
+import SEO from "@/components/SEO";
 
 export default function Pricing() {
   return (
     <div className="flex flex-col gap-0">
+      <SEO 
+        title="Preise & Pakete"
+        description="Transparente Preise für Voicebot-Lösungen. Wählen Sie das Paket, das zu Ihrem Anrufvolumen passt."
+        canonical="/preise"
+      />
+
       {/* Header */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container text-center max-w-4xl">
