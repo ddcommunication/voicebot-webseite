@@ -29,8 +29,8 @@ export default function Blog() {
       date: "12. Jan 2026",
       author: "Max Zöllner",
       category: "Technologie",
-      image: "/images/solutions-tech.jpg",
-      slug: "#",
+      image: "/images/blog-future-customer-service.jpg",
+      slug: "/blog/zukunft-kundenservice",
     },
     {
       title: "5 Tipps für die perfekte Voicebot-Begrüßung",
@@ -39,8 +39,8 @@ export default function Blog() {
       date: "05. Jan 2026",
       author: "Sarah Muster",
       category: "Best Practices",
-      image: "/images/contact-support.jpg",
-      slug: "#",
+      image: "/images/blog-perfect-greeting.jpg",
+      slug: "/blog/perfekte-begruessung",
     },
   ];
 

@@ -9,6 +9,9 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Solutions from "./pages/Solutions";
 import Anwendungsbeispiele from "./pages/Anwendungsbeispiele";
+import BlogVoicebotVsMitarbeiter from "./pages/BlogVoicebotVsMitarbeiter";
+import BlogZukunftKundenservice from "./pages/BlogZukunftKundenservice";
+import BlogPerfekteBegruessung from "./pages/BlogPerfekteBegruessung";
 import About from "./pages/About";
 
 import Contact from "./pages/Contact";
@@ -30,10 +33,9 @@ function Router() {
 
         <Route path="/kontakt" component={Contact} />
         <Route path="/blog" component={Blog} />
-        <Route
-          path="/blog/voicebot-vs-mitarbeiter"
-          component={VoicebotVsMitarbeiter}
-        />
+        <Route path="/blog/voicebot-vs-mitarbeiter" component={BlogVoicebotVsMitarbeiter} />
+        <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
+        <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />
         <Route path="/agb" component={AGB} />
