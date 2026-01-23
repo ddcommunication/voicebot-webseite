@@ -339,9 +339,10 @@ export default function Home() {
                 Wie viel kostet ein Voicebot?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base leading-relaxed">
-                Die Kosten hängen vom Anrufvolumen und der Komplexität ab. Wir
-                bieten transparente Pakete ab 99€/Monat an. Eine detaillierte
-                Übersicht finden Sie auf unserer Preise-Seite.
+                Die Kosten richten sich individuell nach Ihrer Konfiguration und dem Einsatzbereich. 
+                Faktoren wie Anrufvolumen, gewünschte Integrationen und spezifische Anforderungen 
+                bestimmen den Preis. Kontaktieren Sie uns für ein maßgeschneidertes Angebot, 
+                das exakt zu Ihren Bedürfnissen passt.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-8">

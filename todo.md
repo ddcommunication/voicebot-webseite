@@ -28,3 +28,4 @@
 - [ ] Remove Pricing page completely
 - [ ] Create full blog article pages (not just previews)
 - [ ] Add smooth scroll to contact form for CTA buttons
+- [x] Update FAQ pricing answer to remove 99€/Monat and emphasize individual configuration-based pricing
