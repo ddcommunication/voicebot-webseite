@@ -40,9 +40,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-20 items-center justify-between">
           <Link href="/">
-            <span className="flex items-center gap-2 font-serif text-2xl font-bold tracking-tight text-primary hover:opacity-90 transition-opacity cursor-pointer">
-              Zöllner Office
-            </span>
+            <div className="flex items-center gap-2 cursor-pointer group">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center shadow-lg group-hover:shadow-blue-500/50 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-white">
+                  <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                  <line x1="12" x2="12" y1="19" y2="22"/>
+                </svg>
+              </div>
+              <span className="text-2xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300">
+                sprachassistent.net
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}
@@ -65,11 +74,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </span>
               </Link>
             ))}
-            <Link href="/kontakt">
-              <Button variant="default" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium rounded-sm px-6">
-                Demo anfragen
-              </Button>
-            </Link>
+            <Button 
+              onClick={() => {
+                if (window.location.pathname !== '/') {
+                  window.location.href = '/#kontakt';
+                } else {
+                  document.getElementById('kontakt-formular')?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-6"
+            >
+              Demo anfragen
+            </Button>
           </nav>
 
           {/* Mobile Menu Toggle */}
@@ -100,11 +116,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   </span>
                 </Link>
               ))}
-              <Link href="/kontakt">
-                <Button className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground mt-2">
-                  Demo anfragen
-                </Button>
-              </Link>
+              <Button 
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  if (window.location.pathname !== '/') {
+                    window.location.href = '/#kontakt';
+                  } else {
+                    document.getElementById('kontakt-formular')?.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold mt-2"
+              >
+                Demo anfragen
+              </Button>
             </nav>
           </div>
         )}
@@ -120,7 +144,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <footer className="bg-primary text-primary-foreground pt-16 pb-8">
         <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="space-y-4">
-            <h3 className="text-xl font-serif font-bold text-white">Zöllner Office</h3>
+            <h3 className="text-xl font-serif font-bold text-white">sprachassistent.net</h3>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Professionelle Voicebot-Lösungen für Unternehmen. Wir automatisieren Ihre Telefonie, damit Sie mehr Zeit für das Wesentliche haben.
             </p>
@@ -167,7 +191,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
         
         <div className="container border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Zöllner Office. Alle Rechte vorbehalten.</p>
+          <p>&copy; {new Date().getFullYear()} sprachassistent.net. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
             <Link href="/impressum"><span className="hover:text-white transition-colors cursor-pointer">Impressum</span></Link>
             <Link href="/datenschutz"><span className="hover:text-white transition-colors cursor-pointer">Datenschutz</span></Link>

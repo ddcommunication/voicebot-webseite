@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {/* Extended Contact Form in Hero */}
-          <div className="bg-white/10 backdrop-blur-xl p-8 rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.3)] text-white animate-in slide-in-from-right-5 duration-700 delay-200 border border-white/20 relative overflow-hidden group">
+          <div id="kontakt-formular" className="bg-white/10 backdrop-blur-xl p-8 rounded-3xl shadow-[0_0_40px_rgba(0,0,0,0.3)] text-white animate-in slide-in-from-right-5 duration-700 delay-200 border border-white/20 relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500"></div>
             <div className="absolute -right-20 -top-20 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl group-hover:bg-blue-500/30 transition-all duration-1000"></div>
             
@@ -281,6 +281,42 @@ export default function Home() {
               <AccordionTrigger className="text-lg font-medium">Ist das System DSGVO-konform?</AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base leading-relaxed">
                 Absolut. Alle Daten werden auf Servern in Deutschland verarbeitet. Wir schließen mit Ihnen einen Auftragsverarbeitungsvertrag (AVV) ab und erfüllen alle gesetzlichen Datenschutzanforderungen.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+              <AccordionTrigger className="text-lg font-medium">Kann ich meine bestehende Telefonnummer behalten?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                Ja, Sie können Ihre bestehende Nummer einfach per Rufumleitung auf den Voicebot weiterleiten. Alternativ können wir Ihnen auch neue Rufnummern aus Ihrem Ortsnetz bereitstellen.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-6">
+              <AccordionTrigger className="text-lg font-medium">Welche Sprachen spricht der Voicebot?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                Unsere Bots beherrschen über 50 Sprachen fließend, darunter Deutsch, Englisch, Französisch, Spanisch und Italienisch. Er kann sogar die Sprache des Anrufers automatisch erkennen und wechseln.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-7">
+              <AccordionTrigger className="text-lg font-medium">Wie viel kostet ein Voicebot?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                Die Kosten hängen vom Anrufvolumen und der Komplexität ab. Wir bieten transparente Pakete ab 99€/Monat an. Eine detaillierte Übersicht finden Sie auf unserer Preise-Seite.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-8">
+              <AccordionTrigger className="text-lg font-medium">Kann der Bot Termine direkt in meinen Kalender eintragen?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                Ja, wir bieten Integrationen für alle gängigen Kalendersysteme wie Google Calendar, Outlook, Doctolib, Calendly und viele branchenspezifische Softwarelösungen an.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-9">
+              <AccordionTrigger className="text-lg font-medium">Gibt es eine Mindestvertragslaufzeit?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                Wir glauben an unsere Qualität, nicht an Knebelverträge. Unsere Standard-Pakete sind monatlich kündbar. Für Enterprise-Lösungen bieten wir attraktive Jahreskonditionen an.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-10">
+              <AccordionTrigger className="text-lg font-medium">Wie kann ich den Bot testen?</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                Sie können jederzeit eine kostenlose Demo anfordern. Wir richten Ihnen gerne einen Testzugang ein, damit Sie die Qualität unserer Spracherkennung und Stimmen selbst erleben können.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
