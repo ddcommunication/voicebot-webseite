@@ -8,6 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Solutions from "./pages/Solutions";
+import Anwendungsbeispiele from "./pages/Anwendungsbeispiele";
 import About from "./pages/About";
 
 import Contact from "./pages/Contact";
@@ -24,6 +25,7 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/loesungen" component={Solutions} />
+        <Route path="/anwendungsbeispiele" component={Anwendungsbeispiele} />
         <Route path="/ueber-uns" component={About} />
 
         <Route path="/kontakt" component={Contact} />
