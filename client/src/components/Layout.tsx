@@ -39,18 +39,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-20 items-center justify-between">
           <Link href="/">
-            <a className="flex items-center gap-2 font-serif text-2xl font-bold tracking-tight text-primary hover:opacity-90 transition-opacity">
+            <span className="flex items-center gap-2 font-serif text-2xl font-bold tracking-tight text-primary hover:opacity-90 transition-opacity cursor-pointer">
               Zöllner Office
-            </a>
+            </span>
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href}>
-                <a
+                <span
                   className={cn(
-                    "text-sm font-medium transition-colors hover:text-primary relative group",
+                    "text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer",
                     location === item.href
                       ? "text-primary"
                       : "text-muted-foreground"
@@ -61,7 +61,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     "absolute -bottom-1 left-0 w-full h-0.5 bg-secondary transform scale-x-0 transition-transform group-hover:scale-x-100",
                     location === item.href && "scale-x-100"
                   )} />
-                </a>
+                </span>
               </Link>
             ))}
             <Link href="/kontakt">
@@ -86,9 +86,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <Link key={item.href} href={item.href}>
-                  <a
+                  <span
                     className={cn(
-                      "text-base font-medium p-2 rounded-md hover:bg-muted transition-colors",
+                      "text-base font-medium p-2 rounded-md hover:bg-muted transition-colors cursor-pointer block",
                       location === item.href
                         ? "text-primary bg-muted/50"
                         : "text-muted-foreground"
@@ -96,7 +96,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.label}
-                  </a>
+                  </span>
                 </Link>
               ))}
               <Link href="/kontakt">
@@ -127,20 +127,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div>
             <h4 className="font-bold mb-6 text-white">Lösungen</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/80">
-              <li><Link href="/loesungen"><a className="hover:text-white transition-colors">Telefonzentrale</a></Link></li>
-              <li><Link href="/loesungen"><a className="hover:text-white transition-colors">Terminvereinbarung</a></Link></li>
-              <li><Link href="/loesungen"><a className="hover:text-white transition-colors">Kundenservice</a></Link></li>
-              <li><Link href="/loesungen"><a className="hover:text-white transition-colors">Lead-Qualifizierung</a></Link></li>
+              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Telefonzentrale</span></Link></li>
+              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Terminvereinbarung</span></Link></li>
+              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Kundenservice</span></Link></li>
+              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Lead-Qualifizierung</span></Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-6 text-white">Unternehmen</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/80">
-              <li><Link href="/ueber-uns"><a className="hover:text-white transition-colors">Über uns</a></Link></li>
-              <li><Link href="/blog"><a className="hover:text-white transition-colors">Blog & News</a></Link></li>
-              <li><Link href="/karriere"><a className="hover:text-white transition-colors">Karriere</a></Link></li>
-              <li><Link href="/kontakt"><a className="hover:text-white transition-colors">Kontakt</a></Link></li>
+              <li><Link href="/ueber-uns"><span className="hover:text-white transition-colors cursor-pointer">Über uns</span></Link></li>
+              <li><Link href="/blog"><span className="hover:text-white transition-colors cursor-pointer">Blog & News</span></Link></li>
+              <li><Link href="/karriere"><span className="hover:text-white transition-colors cursor-pointer">Karriere</span></Link></li>
+              <li><Link href="/kontakt"><span className="hover:text-white transition-colors cursor-pointer">Kontakt</span></Link></li>
             </ul>
           </div>
 
@@ -167,9 +167,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-primary-foreground/60">
           <p>&copy; {new Date().getFullYear()} Zöllner Office. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
-            <Link href="/impressum"><a className="hover:text-white transition-colors">Impressum</a></Link>
-            <Link href="/datenschutz"><a className="hover:text-white transition-colors">Datenschutz</a></Link>
-            <Link href="/agb"><a className="hover:text-white transition-colors">AGB</a></Link>
+            <Link href="/impressum"><span className="hover:text-white transition-colors cursor-pointer">Impressum</span></Link>
+            <Link href="/datenschutz"><span className="hover:text-white transition-colors cursor-pointer">Datenschutz</span></Link>
+            <Link href="/agb"><span className="hover:text-white transition-colors cursor-pointer">AGB</span></Link>
           </div>
         </div>
       </footer>
