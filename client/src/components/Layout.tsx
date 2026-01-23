@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { useState } from "react";
+import CookieBanner from "./CookieBanner";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
@@ -114,6 +115,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
 
+      <CookieBanner />
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground pt-16 pb-8">
         <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">

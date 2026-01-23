@@ -181,7 +181,6 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative">
-              <div className="absolute -inset-4 bg-secondary/10 rounded-xl transform -rotate-2"></div>
               <img 
                 src="/images/solutions-tech.jpg" 
                 alt="Voicebot Technologie Visualisierung" 
