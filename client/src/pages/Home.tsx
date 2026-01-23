@@ -22,9 +22,9 @@ export default function Home() {
           <img 
             src="/images/hero-main.jpg" 
             alt="Professioneller Voicebot Service" 
-            className="w-full h-full object-cover opacity-60"
+            className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-black/70" />
+          <div className="absolute inset-0 bg-black/80" />
         </div>
         
         <div className="container relative z-10 py-24 md:py-32 grid md:grid-cols-2 gap-12 items-center">

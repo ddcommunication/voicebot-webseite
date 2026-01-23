@@ -12,6 +12,11 @@ import About from "./pages/About";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
+import AGB from "./pages/AGB";
+import Karriere from "./pages/Karriere";
+import VoicebotVsMitarbeiter from "./pages/blog/VoicebotVsMitarbeiter";
 
 function Router() {
   return (
@@ -23,6 +28,13 @@ function Router() {
         <Route path="/preise" component={Pricing} />
         <Route path="/kontakt" component={Contact} />
         <Route path="/blog" component={Blog} />
+        <Route path="/blog/voicebot-vs-mitarbeiter" component={VoicebotVsMitarbeiter} />
+        <Route path="/impressum" component={Impressum} />
+        <Route path="/datenschutz" component={Datenschutz} />
+        <Route path="/agb" component={AGB} />
+        <Route path="/karriere" component={Karriere} />
+        <Route path="/404" component={NotFound} />
+        {/* Final fallback route */}
         <Route component={NotFound} />
       </Switch>
     </Layout>
