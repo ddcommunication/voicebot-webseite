@@ -56,7 +56,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <line x1="12" x2="12" y1="19" y2="22" />
                 </svg>
               </div>
-              <span className="text-2xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300">
+              <span className="text-2xl font-sans font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300">
                 sprachassistent.net
               </span>
             </div>

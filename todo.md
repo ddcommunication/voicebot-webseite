@@ -30,3 +30,4 @@
 - [ ] Add smooth scroll to contact form for CTA buttons
 - [x] Update FAQ pricing answer to remove 99€/Monat and emphasize individual configuration-based pricing
 - [x] Update Impressum with Zöllner Büro- & IT-Systeme GmbH data
+- [x] Update logo font to match modern website typography
