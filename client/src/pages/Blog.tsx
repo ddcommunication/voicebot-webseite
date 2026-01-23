@@ -7,12 +7,22 @@ import SEO from "@/components/SEO";
 export default function Blog() {
   const posts = [
     {
+      title: "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich",
+      excerpt: "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.",
+      date: "23. Jan 2026",
+      author: "Dr. Thomas Zöllner",
+      category: "Analyse",
+      image: "/images/blog-voicebot-vs-human.jpg",
+      slug: "/blog/voicebot-vs-mitarbeiter"
+    },
+    {
       title: "Warum Voicebots die Zukunft des Kundenservice sind",
       excerpt: "Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren. Erfahren Sie, warum Voicebots dabei eine Schlüsselrolle spielen.",
       date: "12. Jan 2026",
       author: "Max Zöllner",
       category: "Technologie",
-      image: "/images/solutions-tech.jpg"
+      image: "/images/solutions-tech.jpg",
+      slug: "#"
     },
     {
       title: "5 Tipps für die perfekte Voicebot-Begrüßung",
@@ -20,15 +30,8 @@ export default function Blog() {
       date: "05. Jan 2026",
       author: "Sarah Muster",
       category: "Best Practices",
-      image: "/images/contact-support.jpg"
-    },
-    {
-      title: "DSGVO und KI: Worauf Sie achten müssen",
-      excerpt: "Datenschutz ist in Deutschland das A und O. Wir erklären, wie Sie Voicebots rechtskonform einsetzen.",
-      date: "20. Dez 2025",
-      author: "Dr. Recht",
-      category: "Recht",
-      image: "/images/about-team.jpg"
+      image: "/images/contact-support.jpg",
+      slug: "#"
     }
   ];
 
@@ -100,9 +103,11 @@ export default function Blog() {
                   </p>
                 </CardContent>
                 <CardFooter className="border-t pt-4">
-                  <Button variant="link" className="p-0 h-auto text-primary font-semibold hover:text-secondary transition-colors group">
-                    Weiterlesen <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
+                  <Link href={post.slug || "#"}>
+                    <Button variant="link" className="p-0 h-auto text-primary font-semibold hover:text-secondary transition-colors group">
+                      Weiterlesen <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Button>
+                  </Link>
                 </CardFooter>
               </Card>
             ))}
