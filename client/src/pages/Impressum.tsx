@@ -21,7 +21,7 @@ export default function Impressum() {
             <h1 className="text-4xl md:text-5xl font-serif font-bold">Impressum</h1>
           </div>
           <p className="text-slate-300 text-lg">
-            Angaben gemäß § 5 TMG und rechtliche Informationen
+            Rechtliche Informationen und Anbieterkennzeichnung
           </p>
         </div>
       </section>
@@ -166,34 +166,6 @@ export default function Impressum() {
                 <p className="text-muted-foreground">
                   Andreas Fiedler | Online Marketing Dresden
                 </p>
-              </CardContent>
-            </Card>
-
-            {/* Streitschlichtung */}
-            <Card className="border-none shadow-lg">
-              <CardContent className="p-8">
-                <h2 className="text-2xl font-bold text-primary mb-4">
-                  Streitschlichtung
-                </h2>
-                <div className="space-y-4 text-muted-foreground leading-relaxed">
-                  <p>
-                    Die Europäische Kommission stellt eine Plattform zur
-                    Online-Streitbeilegung (OS) bereit:{" "}
-                    <a
-                      href="https://ec.europa.eu/consumers/odr"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline"
-                    >
-                      https://ec.europa.eu/consumers/odr
-                    </a>
-                  </p>
-                  <p>
-                    Wir sind nicht bereit oder verpflichtet, an
-                    Streitbeilegungsverfahren vor einer
-                    Verbraucherschlichtungsstelle teilzunehmen.
-                  </p>
-                </div>
               </CardContent>
             </Card>
           </div>
