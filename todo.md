@@ -1,0 +1,30 @@
+# Project TODO
+
+## Completed Features
+
+- [x] Basic project structure
+- [x] Hero section with contact form
+- [x] FAQ section
+- [x] Blog page structure
+- [x] Legal pages (Impressum, Datenschutz, AGB)
+- [x] Karriere page
+- [x] SEO meta tags
+- [x] Cookie banner
+- [x] Local fonts integration
+- [x] Responsive design
+- [x] Solutions page with hero image
+
+## Pending Tasks
+
+- [ ] Update headline "Die Lösung für überlastete Telefonleitungen" to focus on efficiency and team relief
+- [x] Implement functional contact form mailer (send to voicebot@dd-communication.de)
+- [x] Create database-backed contact form submissions as fallback
+- [ ] Replace Solutions page hero image with faster-loading eyecatcher
+- [ ] Update phone number everywhere to +49 3533 4807-0
+- [ ] Add two contact addresses (Elsterwerda and Dresden)
+- [ ] Update About Us page with Zöllner Office information, focus on voice assistants
+- [ ] Mention NFON and botario partnerships with detailed descriptions
+- [ ] Optimize homepage for "Sprachassistent" SEO ranking
+- [ ] Remove Pricing page completely
+- [ ] Create full blog article pages (not just previews)
+- [ ] Add smooth scroll to contact form for CTA buttons

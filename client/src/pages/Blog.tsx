@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
@@ -8,54 +14,57 @@ export default function Blog() {
   const posts = [
     {
       title: "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich",
-      excerpt: "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.",
+      excerpt:
+        "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.",
       date: "23. Jan 2026",
       author: "Dr. Thomas Zöllner",
       category: "Analyse",
       image: "/images/blog-voicebot-vs-human.jpg",
-      slug: "/blog/voicebot-vs-mitarbeiter"
+      slug: "/blog/voicebot-vs-mitarbeiter",
     },
     {
       title: "Warum Voicebots die Zukunft des Kundenservice sind",
-      excerpt: "Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren. Erfahren Sie, warum Voicebots dabei eine Schlüsselrolle spielen.",
+      excerpt:
+        "Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren. Erfahren Sie, warum Voicebots dabei eine Schlüsselrolle spielen.",
       date: "12. Jan 2026",
       author: "Max Zöllner",
       category: "Technologie",
       image: "/images/solutions-tech.jpg",
-      slug: "#"
+      slug: "#",
     },
     {
       title: "5 Tipps für die perfekte Voicebot-Begrüßung",
-      excerpt: "Der erste Eindruck zählt. So gestalten Sie Dialoge, die Ihre Anrufer nicht frustrieren, sondern begeistern.",
+      excerpt:
+        "Der erste Eindruck zählt. So gestalten Sie Dialoge, die Ihre Anrufer nicht frustrieren, sondern begeistern.",
       date: "05. Jan 2026",
       author: "Sarah Muster",
       category: "Best Practices",
       image: "/images/contact-support.jpg",
-      slug: "#"
-    }
+      slug: "#",
+    },
   ];
 
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Zöllner Office Blog",
-    "description": "Aktuelle Einblicke in die Welt der Sprach-KI und Voicebots.",
-    "blogPost": posts.map(post => ({
+    name: "Zöllner Office Blog",
+    description: "Aktuelle Einblicke in die Welt der Sprach-KI und Voicebots.",
+    blogPost: posts.map(post => ({
       "@type": "BlogPosting",
-      "headline": post.title,
-      "description": post.excerpt,
-      "datePublished": post.date, // Note: Should ideally be ISO format
-      "author": {
+      headline: post.title,
+      description: post.excerpt,
+      datePublished: post.date, // Note: Should ideally be ISO format
+      author: {
         "@type": "Person",
-        "name": post.author
+        name: post.author,
       },
-      "image": `https://www.zoellner-office.de${post.image}`
-    }))
+      image: `https://www.zoellner-office.de${post.image}`,
+    })),
   };
 
   return (
     <div className="flex flex-col gap-0">
-      <SEO 
+      <SEO
         title="Wissen & News"
         description="Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis und Neuigkeiten von Zöllner Office."
         canonical="/blog"
@@ -65,9 +74,12 @@ export default function Blog() {
       {/* Header */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container text-center max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">Wissen & News</h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">
+            Wissen & News
+          </h1>
           <p className="text-xl text-primary-foreground/80 leading-relaxed">
-            Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis und Neuigkeiten von Zöllner Office.
+            Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis
+            und Neuigkeiten von Zöllner Office.
           </p>
         </div>
       </section>
@@ -77,11 +89,14 @@ export default function Blog() {
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8">
             {posts.map((post, index) => (
-              <Card key={index} className="border-none shadow-lg overflow-hidden flex flex-col h-full hover:shadow-xl transition-shadow">
+              <Card
+                key={index}
+                className="border-none shadow-lg overflow-hidden flex flex-col h-full hover:shadow-xl transition-shadow"
+              >
                 <div className="h-48 overflow-hidden relative">
-                  <img 
-                    src={post.image} 
-                    alt={post.title} 
+                  <img
+                    src={post.image}
+                    alt={post.title}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
                   <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
@@ -90,8 +105,12 @@ export default function Blog() {
                 </div>
                 <CardHeader>
                   <div className="flex items-center gap-4 text-xs text-muted-foreground mb-3">
-                    <span className="flex items-center gap-1"><Calendar className="h-3 w-3" /> {post.date}</span>
-                    <span className="flex items-center gap-1"><User className="h-3 w-3" /> {post.author}</span>
+                    <span className="flex items-center gap-1">
+                      <Calendar className="h-3 w-3" /> {post.date}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <User className="h-3 w-3" /> {post.author}
+                    </span>
                   </div>
                   <CardTitle className="text-xl font-bold text-primary line-clamp-2">
                     {post.title}
@@ -104,8 +123,12 @@ export default function Blog() {
                 </CardContent>
                 <CardFooter className="border-t pt-4">
                   <Link href={post.slug || "#"}>
-                    <Button variant="link" className="p-0 h-auto text-primary font-semibold hover:text-secondary transition-colors group">
-                      Weiterlesen <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <Button
+                      variant="link"
+                      className="p-0 h-auto text-primary font-semibold hover:text-secondary transition-colors group"
+                    >
+                      Weiterlesen{" "}
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Button>
                   </Link>
                 </CardFooter>
@@ -118,17 +141,22 @@ export default function Blog() {
       {/* Newsletter */}
       <section className="py-20 bg-muted/30">
         <div className="container max-w-2xl text-center">
-          <h2 className="text-2xl font-serif font-bold text-primary mb-4">Keine Updates verpassen</h2>
+          <h2 className="text-2xl font-serif font-bold text-primary mb-4">
+            Keine Updates verpassen
+          </h2>
           <p className="text-muted-foreground mb-8">
-            Abonnieren Sie unseren Newsletter für monatliche Tipps rund um Voicebots und Kundenservice-Automatisierung.
+            Abonnieren Sie unseren Newsletter für monatliche Tipps rund um
+            Voicebots und Kundenservice-Automatisierung.
           </p>
           <div className="flex gap-4 max-w-md mx-auto">
-            <input 
-              type="email" 
-              placeholder="Ihre E-Mail Adresse" 
+            <input
+              type="email"
+              placeholder="Ihre E-Mail Adresse"
               className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             />
-            <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">Anmelden</Button>
+            <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
+              Anmelden
+            </Button>
           </div>
         </div>
       </section>

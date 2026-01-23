@@ -9,13 +9,13 @@ interface SEOProps {
   schema?: object;
 }
 
-export default function SEO({ 
-  title, 
-  description, 
-  canonical, 
-  type = "website", 
+export default function SEO({
+  title,
+  description,
+  canonical,
+  type = "website",
   image = "/images/hero-main.jpg",
-  schema 
+  schema,
 }: SEOProps) {
   const siteTitle = "Zöllner Office";
   const fullTitle = `${title} | ${siteTitle}`;
@@ -46,9 +46,7 @@ export default function SEO({
 
       {/* Structured Data (JSON-LD) */}
       {schema && (
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(schema)}</script>
       )}
     </Helmet>
   );

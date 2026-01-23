@@ -42,10 +42,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Link href="/">
             <div className="flex items-center gap-2 cursor-pointer group">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center shadow-lg group-hover:shadow-blue-500/50 transition-all duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-white">
-                  <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
-                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                  <line x1="12" x2="12" y1="19" y2="22"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-6 h-6 text-white"
+                >
+                  <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" x2="12" y1="19" y2="22" />
                 </svg>
               </div>
               <span className="text-2xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300">
@@ -56,7 +65,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
+            {navItems.map(item => (
               <Link key={item.href} href={item.href}>
                 <span
                   className={cn(
@@ -67,19 +76,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   )}
                 >
                   {item.label}
-                  <span className={cn(
-                    "absolute -bottom-1 left-0 w-full h-0.5 bg-secondary transform scale-x-0 transition-transform group-hover:scale-x-100",
-                    location === item.href && "scale-x-100"
-                  )} />
+                  <span
+                    className={cn(
+                      "absolute -bottom-1 left-0 w-full h-0.5 bg-secondary transform scale-x-0 transition-transform group-hover:scale-x-100",
+                      location === item.href && "scale-x-100"
+                    )}
+                  />
                 </span>
               </Link>
             ))}
-            <Button 
+            <Button
               onClick={() => {
-                if (window.location.pathname !== '/') {
-                  window.location.href = '/#kontakt';
+                if (window.location.pathname !== "/") {
+                  window.location.href = "/#kontakt";
                 } else {
-                  document.getElementById('kontakt-formular')?.scrollIntoView({ behavior: 'smooth' });
+                  document
+                    .getElementById("kontakt-formular")
+                    ?.scrollIntoView({ behavior: "smooth" });
                 }
               }}
               className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-6"
@@ -101,7 +114,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {isMobileMenuOpen && (
           <div className="md:hidden border-t bg-background p-4 absolute w-full shadow-lg animate-in slide-in-from-top-5">
             <nav className="flex flex-col gap-4">
-              {navItems.map((item) => (
+              {navItems.map(item => (
                 <Link key={item.href} href={item.href}>
                   <span
                     className={cn(
@@ -116,13 +129,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   </span>
                 </Link>
               ))}
-              <Button 
+              <Button
                 onClick={() => {
                   setIsMobileMenuOpen(false);
-                  if (window.location.pathname !== '/') {
-                    window.location.href = '/#kontakt';
+                  if (window.location.pathname !== "/") {
+                    window.location.href = "/#kontakt";
                   } else {
-                    document.getElementById('kontakt-formular')?.scrollIntoView({ behavior: 'smooth' });
+                    document
+                      .getElementById("kontakt-formular")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }
                 }}
                 className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold mt-2"
@@ -135,38 +150,88 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1">
-        {children}
-      </main>
+      <main className="flex-1">{children}</main>
 
       <CookieBanner />
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground pt-16 pb-8">
         <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="space-y-4">
-            <h3 className="text-xl font-serif font-bold text-white">sprachassistent.net</h3>
+            <h3 className="text-xl font-serif font-bold text-white">
+              sprachassistent.net
+            </h3>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
-              Professionelle Voicebot-Lösungen für Unternehmen. Wir automatisieren Ihre Telefonie, damit Sie mehr Zeit für das Wesentliche haben.
+              Professionelle Voicebot-Lösungen für Unternehmen. Wir
+              automatisieren Ihre Telefonie, damit Sie mehr Zeit für das
+              Wesentliche haben.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-bold mb-6 text-white">Lösungen</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/80">
-              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Telefonzentrale</span></Link></li>
-              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Terminvereinbarung</span></Link></li>
-              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Kundenservice</span></Link></li>
-              <li><Link href="/loesungen"><span className="hover:text-white transition-colors cursor-pointer">Lead-Qualifizierung</span></Link></li>
+              <li>
+                <Link href="/loesungen">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Telefonzentrale
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/loesungen">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Terminvereinbarung
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/loesungen">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Kundenservice
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/loesungen">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Lead-Qualifizierung
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-6 text-white">Unternehmen</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/80">
-              <li><Link href="/ueber-uns"><span className="hover:text-white transition-colors cursor-pointer">Über uns</span></Link></li>
-              <li><Link href="/blog"><span className="hover:text-white transition-colors cursor-pointer">Blog & News</span></Link></li>
-              <li><Link href="/karriere"><span className="hover:text-white transition-colors cursor-pointer">Karriere</span></Link></li>
-              <li><Link href="/kontakt"><span className="hover:text-white transition-colors cursor-pointer">Kontakt</span></Link></li>
+              <li>
+                <Link href="/ueber-uns">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Über uns
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Blog & News
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/karriere">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Karriere
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/kontakt">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    Kontakt
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -182,20 +247,38 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <span>info@zoellner-office.de</span>
               </li>
               <li className="mt-4">
-                <Button variant="outline" className="border-primary-foreground/20 hover:bg-primary-foreground/10 text-white w-full">
+                <Button
+                  variant="outline"
+                  className="border-primary-foreground/20 hover:bg-primary-foreground/10 text-white w-full"
+                >
                   Rückruf anfordern
                 </Button>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="container border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} sprachassistent.net. Alle Rechte vorbehalten.</p>
+          <p>
+            &copy; {new Date().getFullYear()} sprachassistent.net. Alle Rechte
+            vorbehalten.
+          </p>
           <div className="flex gap-6">
-            <Link href="/impressum"><span className="hover:text-white transition-colors cursor-pointer">Impressum</span></Link>
-            <Link href="/datenschutz"><span className="hover:text-white transition-colors cursor-pointer">Datenschutz</span></Link>
-            <Link href="/agb"><span className="hover:text-white transition-colors cursor-pointer">AGB</span></Link>
+            <Link href="/impressum">
+              <span className="hover:text-white transition-colors cursor-pointer">
+                Impressum
+              </span>
+            </Link>
+            <Link href="/datenschutz">
+              <span className="hover:text-white transition-colors cursor-pointer">
+                Datenschutz
+              </span>
+            </Link>
+            <Link href="/agb">
+              <span className="hover:text-white transition-colors cursor-pointer">
+                AGB
+              </span>
+            </Link>
           </div>
         </div>
       </footer>

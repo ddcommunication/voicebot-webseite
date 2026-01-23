@@ -11,35 +11,41 @@
 4. **Subtile Dynamik**: Animationen sind minimal und dienen nur der Orientierung (z.B. sanftes Einblenden von Elementen).
 
 **Color Philosophy**:
+
 - **Dunkelblau (#0F172A)**: Steht für Kompetenz, Technologie und Vertrauen.
 - **Weiß & Hellgrau (#F8FAFC)**: Viel Whitespace für Lesbarkeit und Ordnung.
 - **Akzent Gold/Bronze (#D97706)**: Für Call-to-Actions und Highlights, vermittelt Wertigkeit und Wärme.
 
 **Layout Paradigm**:
+
 - Asymmetrische Grids mit viel Whitespace.
 - Split-Screen-Layouts für Hero-Sections (Text links, Bild rechts).
 - Klare Trennung von Sektionen durch Hintergrundfarben (Weiß vs. Hellgrau).
 
 **Signature Elements**:
+
 - **Feine Linien & Rahmen**: Subtile Grenzen zwischen Elementen.
 - **Hochwertige Fotografie**: Echte Menschen in Büroumgebungen, kombiniert mit abstrakten Tech-Elementen.
 - **Icons im Line-Style**: Dünne, präzise Icons für Features.
 
 **Interaction Philosophy**:
+
 - Hover-Effekte sind dezent (leichte Schatten, Farbwechsel).
 - Fokus auf Lesbarkeit und schnelle Informationsaufnahme.
 
 **Animation**:
+
 - Fade-In beim Scrollen.
 - Smooth Scroll für Navigation.
 - Keine ablenkenden Bewegungen.
 
 **Typography System**:
-- **Überschriften**: *Playfair Display* (Serif) für einen Hauch von Klassik und Eleganz.
-- **Fließtext**: *Inter* oder *Roboto* (Sans-Serif) für maximale Lesbarkeit und Modernität.
-</text>
-<probability>0.05</probability>
-</response>
+
+- **Überschriften**: _Playfair Display_ (Serif) für einen Hauch von Klassik und Eleganz.
+- **Fließtext**: _Inter_ oder _Roboto_ (Sans-Serif) für maximale Lesbarkeit und Modernität.
+  </text>
+  <probability>0.05</probability>
+  </response>
 
 <response>
 <text>
@@ -52,34 +58,40 @@
 4. **Dunkler Modus als Standard**: Vermittelt Premium-Tech-Feeling.
 
 **Color Philosophy**:
+
 - **Tiefes Schwarz/Grau (#0A0A0A)**: Als Basis für den Dark Mode.
 - **Neon-Blau (#3B82F6) & Violett (#8B5CF6)**: Für Verläufe und Highlights (Tech-Vibe).
 - **Weiß**: Nur für Text, hoher Kontrast.
 
 **Layout Paradigm**:
+
 - Schwebende Karten auf dunklem Hintergrund.
 - Überlappende Elemente für Tiefe.
 - Zentrale Ausrichtung für wichtige Botschaften.
 
 **Signature Elements**:
+
 - **Glass-Effekte**: Milchglas-Hintergründe für Header und Karten.
 - **Leuchtende Verläufe**: Subtile Glow-Effekte hinter Elementen.
 - **Abstrakte 3D-Formen**: Als Hintergrundelemente.
 
 **Interaction Philosophy**:
+
 - Starke Hover-Effekte (Glow, Lift).
 - Parallax-Scrolling für Hintergrundelemente.
 
 **Animation**:
+
 - Pulsierende Elemente.
 - Flüssige Übergänge zwischen Sektionen.
 
 **Typography System**:
-- **Überschriften**: *Sora* oder *Outfit* (Modern Sans) für futuristischen Look.
-- **Fließtext**: *DM Sans* für technische Anmutung.
-</text>
-<probability>0.03</probability>
-</response>
+
+- **Überschriften**: _Sora_ oder _Outfit_ (Modern Sans) für futuristischen Look.
+- **Fließtext**: _DM Sans_ für technische Anmutung.
+  </text>
+  <probability>0.03</probability>
+  </response>
 
 <response>
 <text>
@@ -92,31 +104,37 @@
 4. **Barrierefreiheit & Inklusion**: Hohe Kontraste, große Schriften.
 
 **Color Philosophy**:
+
 - **Sanftes Beige/Creme (#FFF7ED)**: Als Hintergrund statt hartem Weiß.
 - **Waldgrün (#14532D) & Salbei (#86EFAC)**: Für Vertrauen, Wachstum und Ruhe.
 - **Koralle (#FB7185)**: Als freundlicher Akzent.
 
 **Layout Paradigm**:
+
 - Organische Sektionstrenner (Wellen).
 - Große Bilder und Illustrationen.
 - Viel Platz für Zitate und Testimonials.
 
 **Signature Elements**:
+
 - **Abgerundete Ecken**: Überall (Buttons, Karten, Bilder).
 - **Handgezeichnete Elemente**: Pfeile oder Kringel zur Hervorhebung.
 - **Weiche Schatten**: Für Tiefe ohne Härte.
 
 **Interaction Philosophy**:
+
 - Weiche, federnde Animationen.
 - Große, klickbare Flächen.
 
 **Animation**:
+
 - Morphing Shapes im Hintergrund.
 - Text, der sich "aufbaut".
 
 **Typography System**:
-- **Überschriften**: *Merriweather* (Serif) für Wärme und Charakter.
-- **Fließtext**: *Lato* (Sans-Serif) für freundliche Lesbarkeit.
-</text>
-<probability>0.02</probability>
-</response>
+
+- **Überschriften**: _Merriweather_ (Serif) für Wärme und Charakter.
+- **Fließtext**: _Lato_ (Sans-Serif) für freundliche Lesbarkeit.
+  </text>
+  <probability>0.02</probability>
+  </response>

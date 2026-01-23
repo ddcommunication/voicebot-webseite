@@ -17,8 +17,8 @@ import Datenschutz from "./pages/Datenschutz";
 import AGB from "./pages/AGB";
 import Karriere from "./pages/Karriere";
 import VoicebotVsMitarbeiter from "./pages/blog/VoicebotVsMitarbeiter";
-
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Layout>
       <Switch>
@@ -28,7 +28,10 @@ function Router() {
         <Route path="/preise" component={Pricing} />
         <Route path="/kontakt" component={Contact} />
         <Route path="/blog" component={Blog} />
-        <Route path="/blog/voicebot-vs-mitarbeiter" component={VoicebotVsMitarbeiter} />
+        <Route
+          path="/blog/voicebot-vs-mitarbeiter"
+          component={VoicebotVsMitarbeiter}
+        />
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />
         <Route path="/agb" component={AGB} />
