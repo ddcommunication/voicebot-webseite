@@ -28,7 +28,7 @@ export default function Impressum() {
 
             <h3>Kontakt</h3>
             <p>
-              Telefon: +49 (0) 30 123 456 78
+              Telefon: +49 3533 4807-0
               <br />
               E-Mail: info@zoellner-office.de
             </p>

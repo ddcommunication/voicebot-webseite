@@ -20,7 +20,7 @@
 - [x] Implement functional contact form mailer (send to voicebot@dd-communication.de)
 - [x] Create database-backed contact form submissions as fallback
 - [ ] Replace Solutions page hero image with faster-loading eyecatcher
-- [ ] Update phone number everywhere to +49 3533 4807-0
+- [x] Update phone number everywhere to +49 3533 4807-0
 - [ ] Add two contact addresses (Elsterwerda and Dresden)
 - [ ] Update About Us page with Zöllner Office information, focus on voice assistants
 - [ ] Mention NFON and botario partnerships with detailed descriptions

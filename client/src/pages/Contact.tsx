@@ -152,7 +152,7 @@ export default function Contact() {
                     <div>
                       <h3 className="font-bold text-primary">Telefon</h3>
                       <p className="text-muted-foreground">
-                        +49 (0) 30 123 456 78
+                        +49 3533 4807-0
                         <br />
                         <span className="text-sm text-muted-foreground/80">
                           Mo-Fr, 08:00 - 18:00 Uhr

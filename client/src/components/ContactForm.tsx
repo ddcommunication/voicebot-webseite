@@ -126,7 +126,7 @@ export default function ContactForm() {
           <input
             id="phone"
             type="tel"
-            placeholder="+49 30 12345678"
+            placeholder="+49 3533 4807-0"
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
             required
