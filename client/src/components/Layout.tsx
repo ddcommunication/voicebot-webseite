@@ -85,20 +85,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </span>
               </Link>
             ))}
-            <Button
-              onClick={() => {
-                if (window.location.pathname !== "/") {
-                  window.location.href = "/#kontakt";
-                } else {
-                  document
-                    .getElementById("kontakt-formular")
-                    ?.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-              className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-6"
-            >
-              Demo anfragen
-            </Button>
+            <Link href="/kontakt">
+              <Button
+                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-6"
+              >
+                Demo anfragen
+              </Button>
+            </Link>
           </nav>
 
           {/* Mobile Menu Toggle */}
@@ -129,21 +122,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   </span>
                 </Link>
               ))}
-              <Button
-                onClick={() => {
-                  setIsMobileMenuOpen(false);
-                  if (window.location.pathname !== "/") {
-                    window.location.href = "/#kontakt";
-                  } else {
-                    document
-                      .getElementById("kontakt-formular")
-                      ?.scrollIntoView({ behavior: "smooth" });
-                  }
-                }}
-                className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold mt-2"
-              >
-                Demo anfragen
-              </Button>
+              <Link href="/kontakt">
+                <Button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold mt-2"
+                >
+                  Demo anfragen
+                </Button>
+              </Link>
             </nav>
           </div>
         )}

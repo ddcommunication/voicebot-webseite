@@ -32,3 +32,4 @@
 - [x] Update Impressum with Zöllner Büro- & IT-Systeme GmbH data
 - [x] Update logo font to match modern website typography
 - [x] Create new "Anwendungsbeispiele" page with industry use cases
+- [x] Update all "Beratungstermin" and "Demo anfragen" buttons to link to /kontakt
