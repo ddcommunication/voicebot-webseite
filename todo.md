@@ -25,7 +25,7 @@
 - [ ] Update About Us page with Zöllner Office information, focus on voice assistants
 - [ ] Mention NFON and botario partnerships with detailed descriptions
 - [ ] Optimize homepage for "Sprachassistent" SEO ranking
-- [ ] Remove Pricing page completely
+- [x] Remove Pricing page completely
 - [ ] Create full blog article pages (not just previews)
 - [ ] Add smooth scroll to contact form for CTA buttons
 - [x] Update FAQ pricing answer to remove 99€/Monat and emphasize individual configuration-based pricing

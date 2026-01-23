@@ -12,7 +12,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const navItems = [
     { label: "Lösungen", href: "/loesungen" },
     { label: "Über uns", href: "/ueber-uns" },
-    { label: "Preise", href: "/preise" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" },
   ];

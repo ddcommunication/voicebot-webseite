@@ -9,7 +9,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Solutions from "./pages/Solutions";
 import About from "./pages/About";
-import Pricing from "./pages/Pricing";
+
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Impressum from "./pages/Impressum";
@@ -25,7 +25,7 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/loesungen" component={Solutions} />
         <Route path="/ueber-uns" component={About} />
-        <Route path="/preise" component={Pricing} />
+
         <Route path="/kontakt" component={Contact} />
         <Route path="/blog" component={Blog} />
         <Route
