@@ -35,3 +35,4 @@
 - [x] Update all "Beratungstermin" and "Demo anfragen" buttons to link to /kontakt
 - [x] Generate new images for blog posts
 - [x] Create full blog article pages for all 3 blog posts
+- [x] Implement scroll to top on all page navigations

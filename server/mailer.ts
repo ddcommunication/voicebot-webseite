@@ -14,17 +14,17 @@ export async function sendContactEmail(data: {
   try {
     // Create transporter with SMTP configuration
     // For production, configure SMTP credentials via environment variables
-    const smtpPort = parseInt(process.env.SMTP_PORT || "465");
+    const smtpPort = parseInt(process.env.SMTP_PORT || "25");
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || "smtp.strato.de",
       port: smtpPort,
-      secure: smtpPort === 465, // true for 465, false for other ports
+      secure: false, // Use STARTTLS for port 25/587
       auth: {
         user: process.env.SMTP_USER || "voicebot@dd-communication.de",
         pass: process.env.SMTP_PASS || "",
       },
       tls: {
-        // Do not fail on invalid certs (for development)
+        // Do not fail on invalid certs
         rejectUnauthorized: false,
       },
       debug: true, // Enable debug output
@@ -33,7 +33,7 @@ export async function sendContactEmail(data: {
 
     // Email content
     const mailOptions = {
-      from: process.env.SMTP_USER || "voicebot@dd-communication.de",
+      from: `"Sprachassistent.net Kontaktformular" <${process.env.SMTP_USER || "voicebot@dd-communication.de"}>`,
       to: "voicebot@dd-communication.de",
       subject: `Neue Kontaktanfrage von ${data.name} (${data.company})`,
       html: `
