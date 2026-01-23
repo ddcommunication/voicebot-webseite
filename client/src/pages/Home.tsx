@@ -3,6 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, Phone, Clock, Users, ArrowRight, Shield, BarChart3, Headphones } from "lucide-react";
 import { Link } from "wouter";
+import { Input } from "@/components/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 export default function Home() {
   return (
@@ -60,37 +62,50 @@ export default function Home() {
             </div>
           </div>
           
-          {/* Hero Image/Card - Right Side */}
+          {/* Contact Form - Right Side */}
           <div className="hidden md:block relative animate-in slide-in-from-right-5 duration-1000 delay-200">
-            <div className="relative rounded-lg overflow-hidden shadow-2xl border border-white/10 bg-white/5 backdrop-blur-md p-6">
-              <div className="flex items-center gap-4 mb-6 border-b border-white/10 pb-4">
-                <div className="h-12 w-12 rounded-full bg-secondary/20 flex items-center justify-center text-secondary">
-                  <Phone className="h-6 w-6" />
-                </div>
-                <div>
-                  <div className="font-bold text-white">Live Anruf-Simulation</div>
-                  <div className="text-sm text-primary-foreground/60">Eingehender Anruf...</div>
-                </div>
+            <div className="relative rounded-lg overflow-hidden shadow-2xl border border-white/10 bg-white/90 backdrop-blur-md p-6 text-foreground">
+              <div className="mb-6 border-b border-border pb-4">
+                <h3 className="font-bold text-xl text-primary">Kurzer Weg zur Demo</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  Zwei, drei Eckdaten genügen – wir melden uns mit einem Vorschlag.
+                </p>
               </div>
               
-              <div className="space-y-4">
-                <div className="bg-white/10 rounded-lg p-4 rounded-tl-none ml-4">
-                  <p className="text-sm text-primary-foreground/80 mb-1">Kunde</p>
-                  <p className="text-white">"Ich brauche dringend einen Termin für nächste Woche."</p>
+              <form className="space-y-4">
+                <div className="space-y-2">
+                  <label htmlFor="hero-company" className="text-sm font-medium">Firma</label>
+                  <Input id="hero-company" placeholder="z. B. Müller Haustechnik GmbH" className="bg-white" />
                 </div>
-                <div className="bg-secondary/20 rounded-lg p-4 rounded-tr-none mr-4 border border-secondary/30">
-                  <p className="text-sm text-secondary mb-1">Voicebot</p>
-                  <p className="text-white">"Gerne. Worum geht es genau? Ersttermin oder Folgetermin?"</p>
+
+                <div className="space-y-2">
+                  <label htmlFor="hero-phone" className="text-sm font-medium">Telefon</label>
+                  <Input id="hero-phone" type="tel" placeholder="+49 ..." className="bg-white" />
                 </div>
-                <div className="bg-white/10 rounded-lg p-4 rounded-tl-none ml-4">
-                  <p className="text-sm text-primary-foreground/80 mb-1">Kunde</p>
-                  <p className="text-white">"Es geht um einen Ersttermin zur Beratung."</p>
+
+                <div className="space-y-2">
+                  <label htmlFor="hero-topic" className="text-sm font-medium">Worum geht's?</label>
+                  <Select>
+                    <SelectTrigger className="bg-white">
+                      <SelectValue placeholder="Bitte wählen" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="zentrale">Telefonzentrale / Erstannahme</SelectItem>
+                      <SelectItem value="termin">Terminvereinbarung</SelectItem>
+                      <SelectItem value="service">Service & häufige Fragen</SelectItem>
+                      <SelectItem value="lead">Lead-Qualifizierung</SelectItem>
+                      <SelectItem value="standorte">Mehrere Standorte / Teams</SelectItem>
+                    </SelectContent>
+                  </Select>
                 </div>
-                <div className="bg-secondary/20 rounded-lg p-4 rounded-tr-none mr-4 border border-secondary/30">
-                  <p className="text-sm text-secondary mb-1">Voicebot</p>
-                  <p className="text-white">"Verstanden. Ich habe am Dienstag um 14:00 Uhr noch etwas frei. Passt das?"</p>
-                </div>
-              </div>
+
+                <Button type="submit" className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold mt-2">
+                  Anfrage senden
+                </Button>
+                <p className="text-xs text-muted-foreground text-center mt-2">
+                  Unverbindlich & kostenlos.
+                </p>
+              </form>
             </div>
           </div>
         </div>
