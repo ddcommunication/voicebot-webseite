@@ -108,7 +108,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-              Die Lösung für überlastete Telefonleitungen
+              Die Lösung für professionelle Kommunikation – Ihr intelligenter Sprachassistent
             </h2>
             <p className="text-lg text-muted-foreground">
               In vielen Betrieben entscheidet ein einziges Telefonat über
