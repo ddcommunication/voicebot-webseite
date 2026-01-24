@@ -105,10 +105,14 @@ export default function Anwendungsbeispiele() {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-cyan-500 rounded-full blur-3xl"></div>
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/images/anwendungsbeispiele-hero.jpg"
+            alt="Diverse Industries Using AI Voice Technology"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         <div className="container relative z-10">

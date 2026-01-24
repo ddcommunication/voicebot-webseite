@@ -43,3 +43,4 @@
 - [x] Create favicon (browser tab icon) for website
 - [x] Change orange icons on homepage use case section to blue
 - [x] Generate dark blue robot hero image matching homepage style
+- [x] Add dark blue hero image to Anwendungsbeispiele page
