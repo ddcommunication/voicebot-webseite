@@ -14,26 +14,24 @@ export default function Solutions() {
 
       {/* Hero Section with Image */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        {/* Background Image with Overlay */}
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/solutions-hero-new.jpg"
-            alt="AI Solutions & Connectivity"
+            src="/images/solutions-hero-robot.jpg"
+            alt="Friendly AI Robot Assistant"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-slate-900/80 backdrop-blur-[2px]"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-transparent to-background"></div>
         </div>
 
         {/* Content */}
         <div className="container relative z-10 text-center max-w-4xl pt-20">
-          <div className="inline-block px-4 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-sm font-medium mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <div className="inline-block px-4 py-1.5 rounded-full bg-blue-500/90 border border-blue-600 text-white text-sm font-medium mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 shadow-lg">
             Modulare Voice-Technologie
           </div>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100 drop-shadow-sm">
             Lösungen für jeden Anruf
           </h1>
-          <p className="text-xl text-slate-200 leading-relaxed max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
+          <p className="text-xl text-slate-700 leading-relaxed max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
             Unsere Voicebots sind modular aufgebaut. Wählen Sie die Funktionen,
             die Ihr Unternehmen wirklich braucht – von der einfachen Zentrale
             bis zum komplexen Kundenservice.
