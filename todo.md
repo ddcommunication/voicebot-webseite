@@ -40,3 +40,4 @@
 - [x] Integrate email service for contact form (PHP mail handler)
 - [x] Create simple IONOS upload guide
 - [x] Change all orange icons to blue to match website color scheme
+- [x] Create favicon (browser tab icon) for website
