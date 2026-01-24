@@ -46,3 +46,4 @@
 - [x] Add dark blue hero image to Anwendungsbeispiele page
 - [x] Create comprehensive About Us page with company history, team, and partnerships
 - [x] Replace playful Anwendungsbeispiele hero with serious business image in homepage colors
+- [x] Darken Anwendungsbeispiele hero image and change text to white

@@ -109,7 +109,7 @@ export default function Anwendungsbeispiele() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/anwendungsbeispiele-hero-business.jpg"
+            src="/images/anwendungsbeispiele-hero-dark.jpg"
             alt="Diverse Industries Using AI Voice Technology"
             className="w-full h-full object-cover"
           />
@@ -121,9 +121,9 @@ export default function Anwendungsbeispiele() {
               <Phone className="h-4 w-4 mr-2" />
               Branchenspezifische Lösungen
             </div>
-            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 leading-tight text-white">
               Anwendungsbeispiele für{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+              <span className="text-white">
                 intelligente Sprachassistenten
               </span>
             </h1>
