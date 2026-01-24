@@ -226,19 +226,21 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <ul className="space-y-3 text-sm text-primary-foreground/80">
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 mt-0.5 shrink-0" />
-                <span>+49 3533 4807-0</span>
+                <a href="tel:+4935334807-0" className="hover:text-white transition-colors">+49 3533 4807-0</a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 mt-0.5 shrink-0" />
-                <span>info@zoellner-office.de</span>
+                <a href="mailto:info@zoellner-office.de" className="hover:text-white transition-colors">info@zoellner-office.de</a>
               </li>
               <li className="mt-4">
-                <Button
-                  variant="outline"
-                  className="border-primary-foreground/20 hover:bg-primary-foreground/10 text-white w-full"
-                >
-                  Rückruf anfordern
-                </Button>
+                <Link href="/kontakt">
+                  <Button
+                    variant="outline"
+                    className="border-primary-foreground/20 hover:bg-primary-foreground/10 text-white w-full"
+                  >
+                    Rückruf anfordern
+                  </Button>
+                </Link>
               </li>
             </ul>
           </div>

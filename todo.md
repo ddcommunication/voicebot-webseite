@@ -53,3 +53,6 @@
 - [x] Update contact form colors: background #E7E8E9, input fields white, submit button #0B1528 with white text
 - [x] Replace privacy policy (Datenschutzerklärung) with user-provided content
 - [x] Improve privacy policy page layout: better structure, more whitespace, clearer hierarchy
+- [x] Link "Rückruf anfordern" button in footer to contact page
+- [x] Make phone number +49 3533 4807-0 clickable with tel: link
+- [x] Make email info@zoellner-office.de clickable with mailto: link
