@@ -17,7 +17,7 @@ export default function Solutions() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/solutions-hero-robot.jpg"
+            src="/images/solutions-hero-robot-dark.jpg"
             alt="Friendly AI Robot Assistant"
             className="w-full h-full object-cover"
           />
@@ -25,13 +25,13 @@ export default function Solutions() {
 
         {/* Content */}
         <div className="container relative z-10 text-center max-w-4xl pt-20">
-          <div className="inline-block px-4 py-1.5 rounded-full bg-blue-500/90 border border-blue-600 text-white text-sm font-medium mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 shadow-lg">
+          <div className="inline-block px-4 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-sm font-medium mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
             Modulare Voice-Technologie
           </div>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100 drop-shadow-sm">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
             Lösungen für jeden Anruf
           </h1>
-          <p className="text-xl text-slate-700 leading-relaxed max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
+          <p className="text-xl text-slate-200 leading-relaxed max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
             Unsere Voicebots sind modular aufgebaut. Wählen Sie die Funktionen,
             die Ihr Unternehmen wirklich braucht – von der einfachen Zentrale
             bis zum komplexen Kundenservice.
