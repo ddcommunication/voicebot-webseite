@@ -52,3 +52,4 @@
 - [x] Highlight contact form with appropriate background color
 - [x] Update contact form colors: background #E7E8E9, input fields white, submit button #0B1528 with white text
 - [x] Replace privacy policy (Datenschutzerklärung) with user-provided content
+- [x] Improve privacy policy page layout: better structure, more whitespace, clearer hierarchy
