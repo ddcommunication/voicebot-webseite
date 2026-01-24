@@ -38,7 +38,7 @@ export default function Contact() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16">
             {/* Contact Form */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950/20 dark:to-cyan-950/20 p-8 rounded-2xl shadow-lg border border-blue-100 dark:border-blue-900/30">
+            <div className="p-8 rounded-2xl shadow-lg border border-gray-200" style={{ backgroundColor: '#E7E8E9' }}>
               <h2 className="text-2xl font-serif font-bold text-primary mb-6">
                 Nachricht senden
               </h2>
@@ -48,13 +48,13 @@ export default function Contact() {
                     <label htmlFor="firstname" className="text-sm font-medium">
                       Vorname
                     </label>
-                    <Input id="firstname" placeholder="Max" />
+                    <Input id="firstname" placeholder="Max" className="bg-white" />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="lastname" className="text-sm font-medium">
                       Nachname
                     </label>
-                    <Input id="lastname" placeholder="Mustermann" />
+                    <Input id="lastname" placeholder="Mustermann" className="bg-white" />
                   </div>
                 </div>
 
@@ -62,14 +62,14 @@ export default function Contact() {
                   <label htmlFor="email" className="text-sm font-medium">
                     E-Mail
                   </label>
-                  <Input id="email" type="email" placeholder="max@firma.de" />
+                  <Input id="email" type="email" placeholder="max@firma.de" className="bg-white" />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium">
                     Telefon
                   </label>
-                  <Input id="phone" type="tel" placeholder="+49 ..." />
+                  <Input id="phone" type="tel" placeholder="+49 ..." className="bg-white" />
                 </div>
 
                 <div className="space-y-2">
@@ -77,7 +77,7 @@ export default function Contact() {
                     Thema
                   </label>
                   <Select>
-                    <SelectTrigger>
+                    <SelectTrigger className="bg-white">
                       <SelectValue placeholder="Bitte wählen" />
                     </SelectTrigger>
                     <SelectContent>
@@ -96,13 +96,14 @@ export default function Contact() {
                   <Textarea
                     id="message"
                     placeholder="Wie können wir Ihnen helfen?"
-                    className="min-h-[120px]"
+                    className="min-h-[120px] bg-white"
                   />
                 </div>
 
                 <Button
                   type="submit"
-                  className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold"
+                  className="w-full font-bold text-white hover:opacity-90"
+                  style={{ backgroundColor: '#0B1528' }}
                 >
                   Absenden
                 </Button>
