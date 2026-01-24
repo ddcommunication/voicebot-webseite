@@ -36,3 +36,7 @@
 - [x] Generate new images for blog posts
 - [x] Create full blog article pages for all 3 blog posts
 - [x] Implement scroll to top on all page navigations
+- [x] Create static HTML export for IONOS shared hosting
+- [x] Integrate email service for contact form (PHP mail handler)
+- [x] Create simple IONOS upload guide
+- [x] Change all orange icons to blue to match website color scheme

@@ -88,7 +88,7 @@ export default function Solutions() {
             {/* Feature 2 */}
             <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-400 flex items-center justify-center text-white shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform duration-300">
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-400 flex items-center justify-center text-white shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
                   <Calendar
                     className="h-8 w-8 animate-bounce"
                     style={{ animationDuration: "3s" }}
@@ -96,7 +96,7 @@ export default function Solutions() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-purple-600 transition-colors">
+                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-blue-600 transition-colors">
                   Termin-Management
                 </h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
@@ -130,7 +130,7 @@ export default function Solutions() {
             {/* Feature 3 */}
             <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-400 flex items-center justify-center text-white shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform duration-300">
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-blue-600/20 group-hover:scale-110 transition-transform duration-300">
                   <MessageSquare
                     className="h-8 w-8 animate-pulse"
                     style={{ animationDuration: "4s" }}
@@ -138,7 +138,7 @@ export default function Solutions() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-amber-600 transition-colors">
+                <h3 className="text-2xl font-bold text-primary mb-3 group-hover:text-blue-600 transition-colors">
                   FAQ & Auskunft
                 </h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
@@ -173,7 +173,7 @@ export default function Solutions() {
             {/* Feature 4 */}
             <div className="flex gap-6 group">
               <div className="shrink-0">
-                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-emerald-500/20 group-hover:scale-110 transition-transform duration-300">
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-blue-400/20 group-hover:scale-110 transition-transform duration-300">
                   <UserCheck
                     className="h-8 w-8 animate-bounce"
                     style={{ animationDuration: "5s" }}

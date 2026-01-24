@@ -27,7 +27,7 @@ export default function Anwendungsbeispiele() {
         "Rezeptbestellung per Telefon",
         "Mehrsprachige Patientenbetreuung",
       ],
-      color: "from-red-500 to-pink-500",
+      color: "from-blue-500 to-blue-400",
     },
     {
       icon: Wrench,
@@ -40,7 +40,7 @@ export default function Anwendungsbeispiele() {
         "Terminkoordination mit Technikern",
         "Rückrufservice bei komplexen Anfragen",
       ],
-      color: "from-orange-500 to-amber-500",
+      color: "from-blue-600 to-cyan-500",
     },
     {
       icon: ShoppingBag,
@@ -66,7 +66,7 @@ export default function Anwendungsbeispiele() {
         "Mietanfragen vorqualifizieren",
         "Notfall-Hotline für Mieter",
       ],
-      color: "from-green-500 to-emerald-500",
+      color: "from-blue-400 to-cyan-400",
     },
     {
       icon: Briefcase,
@@ -79,7 +79,7 @@ export default function Anwendungsbeispiele() {
         "Fristenerinnerungen",
         "Vertrauliche Datenerfassung",
       ],
-      color: "from-purple-500 to-violet-500",
+      color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Home,
@@ -92,7 +92,7 @@ export default function Anwendungsbeispiele() {
         "Hausmeister-Service anfragen",
         "Mieterkommunikation automatisieren",
       ],
-      color: "from-teal-500 to-cyan-500",
+      color: "from-blue-400 to-blue-500",
     },
   ];
 
