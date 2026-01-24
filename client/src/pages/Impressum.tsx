@@ -38,7 +38,7 @@ export default function Impressum() {
                   </div>
                   <div>
                     <h2 className="text-2xl font-bold text-primary mb-2">
-                      Angaben gemäß § 5 TMG
+                      Angaben gemäß § 5 DDG
                     </h2>
                     <div className="text-lg space-y-1">
                       <p className="font-semibold text-slate-900">
