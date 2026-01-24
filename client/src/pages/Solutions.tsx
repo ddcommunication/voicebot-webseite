@@ -17,7 +17,7 @@ export default function Solutions() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/solutions-hero.jpg"
+            src="/images/solutions-hero-new.jpg"
             alt="AI Solutions & Connectivity"
             className="w-full h-full object-cover"
           />
