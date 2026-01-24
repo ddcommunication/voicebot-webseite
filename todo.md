@@ -21,7 +21,7 @@
 - [x] Create database-backed contact form submissions as fallback
 - [ ] Replace Solutions page hero image with faster-loading eyecatcher
 - [x] Update phone number everywhere to +49 3533 4807-0
-- [ ] Add two contact addresses (Elsterwerda and Dresden)
+- [x] Add two contact addresses (Elsterwerda: Burgstraße 1, 04910 Elsterwerda, +49 3533 4807-0 and Dresden: Pillnitzer Landstraße 32, 01326 Dresden, +49 351 287087-50)
 - [ ] Update About Us page with Zöllner Office information, focus on voice assistants
 - [ ] Mention NFON and botario partnerships with detailed descriptions
 - [ ] Optimize homepage for "Sprachassistent" SEO ranking
@@ -49,3 +49,4 @@
 - [x] Darken Anwendungsbeispiele hero image and change text to white
 - [x] Apply blue/cyan gradient to "intelligente Sprachassistenten" text
 - [x] Replace About Us hero with dark open office space image
+- [x] Highlight contact form with appropriate background color

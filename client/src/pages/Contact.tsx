@@ -38,7 +38,7 @@ export default function Contact() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16">
             {/* Contact Form */}
-            <div>
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950/20 dark:to-cyan-950/20 p-8 rounded-2xl shadow-lg border border-blue-100 dark:border-blue-900/30">
               <h2 className="text-2xl font-serif font-bold text-primary mb-6">
                 Nachricht senden
               </h2>
@@ -119,9 +119,7 @@ export default function Contact() {
                   Hier finden Sie uns
                 </h2>
                 <p className="text-muted-foreground mb-8">
-                  Zöllner Office ist Ihr Partner für digitale Kommunikation. Wir
-                  sitzen im Herzen von Berlin, arbeiten aber für Kunden in ganz
-                  Deutschland.
+                  Die Zöllner Büro- & IT-Systeme GmbH ist Ihr Partner für digitale Kommunikation und intelligente Sprachassistenten. Mit zwei Standorten in Elsterwerda und Dresden sind wir für Kunden in ganz Deutschland erreichbar.
                 </p>
               </div>
 
@@ -132,13 +130,31 @@ export default function Contact() {
                       <MapPin className="h-5 w-5" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-primary">Anschrift</h3>
+                      <h3 className="font-bold text-primary">Hauptsitz Elsterwerda</h3>
                       <p className="text-muted-foreground">
-                        Zöllner Office GmbH
+                        Zöllner Büro- & IT-Systeme GmbH
                         <br />
-                        Musterstraße 123
+                        Burgstraße 1
                         <br />
-                        10115 Berlin
+                        04910 Elsterwerda
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-none shadow-md">
+                  <CardContent className="flex items-start gap-4 p-6">
+                    <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                      <MapPin className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-primary">Standort Dresden</h3>
+                      <p className="text-muted-foreground">
+                        Zöllner Büro- & IT-Systeme GmbH
+                        <br />
+                        Pillnitzer Landstraße 32
+                        <br />
+                        01326 Dresden
                       </p>
                     </div>
                   </CardContent>
@@ -152,7 +168,9 @@ export default function Contact() {
                     <div>
                       <h3 className="font-bold text-primary">Telefon</h3>
                       <p className="text-muted-foreground">
-                        +49 3533 4807-0
+                        <strong>Elsterwerda:</strong> +49 3533 4807-0
+                        <br />
+                        <strong>Dresden:</strong> +49 351 287087-50
                         <br />
                         <span className="text-sm text-muted-foreground/80">
                           Mo-Fr, 08:00 - 18:00 Uhr
