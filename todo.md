@@ -41,3 +41,4 @@
 - [x] Create simple IONOS upload guide
 - [x] Change all orange icons to blue to match website color scheme
 - [x] Create favicon (browser tab icon) for website
+- [x] Change orange icons on homepage use case section to blue

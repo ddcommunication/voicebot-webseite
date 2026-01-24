@@ -48,8 +48,8 @@
   --primary: oklch(0.2 0.04 260);
   --primary-foreground: oklch(0.98 0 0);
 
-  /* Secondary: Gold/Bronze #D97706 -> oklch(0.65 0.18 65) */
-  --secondary: oklch(0.65 0.18 65);
+  /* Secondary: Bright Blue #3B82F6 -> oklch(0.62 0.2 250) */
+  --secondary: oklch(0.62 0.2 250);
   --secondary-foreground: oklch(0.98 0 0);
 
   /* Backgrounds: White & Light Gray */
