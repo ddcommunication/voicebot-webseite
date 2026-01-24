@@ -7,6 +7,7 @@ interface SEOProps {
   type?: "website" | "article";
   image?: string;
   schema?: object;
+  keywords?: string;
 }
 
 export default function SEO({
@@ -16,6 +17,7 @@ export default function SEO({
   type = "website",
   image = "/images/hero-main.jpg",
   schema,
+  keywords,
 }: SEOProps) {
   const siteTitle = "Zöllner Office";
   const fullTitle = `${title} | ${siteTitle}`;
@@ -28,6 +30,7 @@ export default function SEO({
       {/* Standard Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={fullCanonical} />
 
       {/* Open Graph / Facebook */}

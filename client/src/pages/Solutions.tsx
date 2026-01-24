@@ -7,8 +7,9 @@ export default function Solutions() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Lösungen & Features"
-        description="Entdecken Sie die vielfältigen Einsatzmöglichkeiten unserer Voicebots: Telefonzentrale, Terminvereinbarung, Kundenservice und mehr."
+        title="Voicebot-Lösungen für Unternehmen | Telefonzentrale & Kundenservice"
+        description="Professionelle KI-Voicebot-Lösungen von Zöllner Office: Automatische Telefonzentrale, intelligente Terminvereinbarung, 24/7 Kundenservice. DSGVO-konform, Made in Germany. Jetzt Demo anfragen!"
+        keywords="Voicebot, KI-Sprachassistent, automatische Telefonzentrale, Terminvereinbarung, Kundenservice Bot, 24/7 Erreichbarkeit, DSGVO-konform, Made in Germany, Zöllner Office"
         canonical="/loesungen"
       />
 
