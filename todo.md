@@ -44,3 +44,4 @@
 - [x] Change orange icons on homepage use case section to blue
 - [x] Generate dark blue robot hero image matching homepage style
 - [x] Add dark blue hero image to Anwendungsbeispiele page
+- [x] Create comprehensive About Us page with company history, team, and partnerships
