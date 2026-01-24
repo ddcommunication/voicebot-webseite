@@ -123,7 +123,7 @@ export default function Anwendungsbeispiele() {
             </div>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 leading-tight text-white">
               Anwendungsbeispiele für{" "}
-              <span className="text-white">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-400 animate-gradient bg-300%">
                 intelligente Sprachassistenten
               </span>
             </h1>
