@@ -56,3 +56,4 @@
 - [x] Link "Rückruf anfordern" button in footer to contact page
 - [x] Make phone number +49 3533 4807-0 clickable with tel: link
 - [x] Make email info@zoellner-office.de clickable with mailto: link
+- [x] Add contact person section under "Hier finden Sie uns": Peter Gemander, Experte für Kommunikationslösungen with photo

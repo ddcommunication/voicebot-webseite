@@ -122,6 +122,24 @@ export default function Contact() {
                 <p className="text-muted-foreground mb-8">
                   Die Zöllner Büro- & IT-Systeme GmbH ist Ihr Partner für digitale Kommunikation und intelligente Sprachassistenten. Mit zwei Standorten in Elsterwerda und Dresden sind wir für Kunden in ganz Deutschland erreichbar.
                 </p>
+
+                {/* Contact Person */}
+                <Card className="border-none shadow-md bg-gradient-to-br from-blue-50 to-cyan-50 mb-8">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-6">
+                      <img 
+                        src="/images/peter-gemander.jpg" 
+                        alt="Peter Gemander" 
+                        className="w-24 h-24 rounded-full object-cover shadow-lg border-4 border-white"
+                      />
+                      <div>
+                        <h3 className="text-xl font-bold text-primary mb-1">Ihr Ansprechpartner</h3>
+                        <p className="text-lg font-semibold text-primary/90">Peter Gemander</p>
+                        <p className="text-sm text-muted-foreground">Experte für Kommunikationslösungen</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
 
               <div className="grid gap-6">
