@@ -58,3 +58,7 @@
 - [x] Make email info@zoellner-office.de clickable with mailto: link
 - [x] Add contact person section under "Hier finden Sie uns": Peter Gemander, Experte für Kommunikationslösungen with photo
 - [x] Replace Peter Gemander photo with original uploaded image
+- [x] Test SMTP settings by sending a test email
+- [x] Update SMTP settings with correct configuration (smtp.dd-communication.de:465, voicebots@dd-communication.de)
+- [x] Implement contact form backend with email sending functionality
+- [x] Send test email through contact form to verify end-to-end functionality

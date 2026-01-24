@@ -1,18 +1,59 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import SEO from "@/components/SEO";
+import { trpc } from "@/lib/trpc";
+import { useState } from "react";
+import { toast } from "sonner";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    firstname: "",
+    lastname: "",
+    company: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const submitMutation = trpc.contact.submit.useMutation({
+    onSuccess: () => {
+      toast.success("Vielen Dank!", {
+        description: "Ihre Nachricht wurde erfolgreich versendet. Wir melden uns in Kürze bei Ihnen.",
+      });
+      // Reset form
+      setFormData({
+        firstname: "",
+        lastname: "",
+        company: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    },
+    onError: (error) => {
+      toast.error("Fehler beim Senden", {
+        description: error.message || "Bitte versuchen Sie es später erneut.",
+      });
+    },
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    const fullName = `${formData.firstname} ${formData.lastname}`.trim();
+    
+    submitMutation.mutate({
+      name: fullName,
+      company: formData.company,
+      email: formData.email,
+      phone: formData.phone,
+      message: formData.message,
+    });
+  };
+
   return (
     <div className="flex flex-col gap-0">
       <SEO
@@ -42,61 +83,89 @@ export default function Contact() {
               <h2 className="text-2xl font-serif font-bold text-primary mb-6">
                 Nachricht senden
               </h2>
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="firstname" className="text-sm font-medium">
-                      Vorname
+                      Vorname *
                     </label>
-                    <Input id="firstname" placeholder="Max" className="bg-white" />
+                    <Input 
+                      id="firstname" 
+                      placeholder="Max" 
+                      className="bg-white"
+                      value={formData.firstname}
+                      onChange={(e) => setFormData({ ...formData, firstname: e.target.value })}
+                      required
+                    />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="lastname" className="text-sm font-medium">
-                      Nachname
+                      Nachname *
                     </label>
-                    <Input id="lastname" placeholder="Mustermann" className="bg-white" />
+                    <Input 
+                      id="lastname" 
+                      placeholder="Mustermann" 
+                      className="bg-white"
+                      value={formData.lastname}
+                      onChange={(e) => setFormData({ ...formData, lastname: e.target.value })}
+                      required
+                    />
                   </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label htmlFor="company" className="text-sm font-medium">
+                    Firma (optional)
+                  </label>
+                  <Input 
+                    id="company" 
+                    placeholder="Muster GmbH" 
+                    className="bg-white"
+                    value={formData.company}
+                    onChange={(e) => setFormData({ ...formData, company: e.target.value })}
+                  />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">
-                    E-Mail
+                    E-Mail *
                   </label>
-                  <Input id="email" type="email" placeholder="max@firma.de" className="bg-white" />
+                  <Input 
+                    id="email" 
+                    type="email" 
+                    placeholder="max@firma.de" 
+                    className="bg-white"
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    required
+                  />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium">
-                    Telefon
+                    Telefon *
                   </label>
-                  <Input id="phone" type="tel" placeholder="+49 ..." className="bg-white" />
-                </div>
-
-                <div className="space-y-2">
-                  <label htmlFor="topic" className="text-sm font-medium">
-                    Thema
-                  </label>
-                  <Select>
-                    <SelectTrigger className="bg-white">
-                      <SelectValue placeholder="Bitte wählen" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="demo">Demo anfragen</SelectItem>
-                      <SelectItem value="beratung">Beratung</SelectItem>
-                      <SelectItem value="support">Support</SelectItem>
-                      <SelectItem value="sonstiges">Sonstiges</SelectItem>
-                    </SelectContent>
-                  </Select>
+                  <Input 
+                    id="phone" 
+                    type="tel" 
+                    placeholder="+49 ..." 
+                    className="bg-white"
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    required
+                  />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
-                    Nachricht
+                    Nachricht (optional)
                   </label>
                   <Textarea
                     id="message"
                     placeholder="Wie können wir Ihnen helfen?"
                     className="min-h-[120px] bg-white"
+                    value={formData.message}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   />
                 </div>
 
@@ -104,8 +173,9 @@ export default function Contact() {
                   type="submit"
                   className="w-full font-bold text-white hover:opacity-90"
                   style={{ backgroundColor: '#0B1528' }}
+                  disabled={submitMutation.isPending}
                 >
-                  Absenden
+                  {submitMutation.isPending ? "Wird gesendet..." : "Absenden"}
                 </Button>
                 <p className="text-xs text-muted-foreground text-center">
                   Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu.

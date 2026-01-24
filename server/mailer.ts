@@ -18,7 +18,7 @@ export async function sendContactEmail(data: {
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || "smtp.strato.de",
       port: smtpPort,
-      secure: false, // Use STARTTLS for port 25/587
+      secure: smtpPort === 465, // Use SSL/TLS for port 465, STARTTLS for 25/587
       auth: {
         user: process.env.SMTP_USER || "voicebot@dd-communication.de",
         pass: process.env.SMTP_PASS || "",
