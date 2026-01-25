@@ -72,3 +72,5 @@
 - [x] Generate new Anwendungsbeispiele background image matching the dark blue style of other pages (no brown tones)
 - [x] Replace all blog author names (Dr. Thomas Zöllner, Max Zöllner, Sarah Muster) with "Zöllner Office"
 - [x] Add "Startseite" menu item at the beginning of navigation linking to homepage
+- [x] Replace integration section image with 6 integration logos (Microsoft Outlook, Google Calendar, Salesforce, HubSpot, Zendesk, Jira) as trust badges
+- [x] Change heading from "Nahtlose Integration in Ihre Systeme" to "Nahtlose Integration"

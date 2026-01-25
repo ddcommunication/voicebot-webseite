@@ -220,7 +220,7 @@ export default function Solutions() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">
-                Nahtlose Integration in Ihre Systeme
+                Nahtlose Integration
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
                 Ein Voicebot ist nur so gut wie seine Anbindung. Wir integrieren
@@ -248,13 +248,49 @@ export default function Solutions() {
                 </div>
               </div>
             </div>
-            <div className="relative group">
-              <div className="absolute inset-0 bg-secondary/20 rounded-full blur-3xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <img
-                src="/images/solutions-tech.jpg"
-                alt="Integration Dashboard"
-                className="relative rounded-lg shadow-2xl border border-white/20 transform group-hover:scale-[1.02] transition-transform duration-500"
-              />
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <img
+                  src="/images/logo-outlook.png"
+                  alt="Microsoft Outlook"
+                  className="h-12 object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <img
+                  src="/images/logo-google-calendar.png"
+                  alt="Google Calendar"
+                  className="h-12 object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <img
+                  src="/images/logo-salesforce.png"
+                  alt="Salesforce"
+                  className="h-12 object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <img
+                  src="/images/logo-hubspot.png"
+                  alt="HubSpot"
+                  className="h-12 object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <img
+                  src="/images/logo-zendesk.png"
+                  alt="Zendesk"
+                  className="h-12 object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <img
+                  src="/images/logo-jira.png"
+                  alt="Jira"
+                  className="h-12 object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
