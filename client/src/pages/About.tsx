@@ -22,6 +22,7 @@ export default function About() {
             alt="Zöllner Team - Voice AI Solutions"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
 
         <div className="container relative z-10">
