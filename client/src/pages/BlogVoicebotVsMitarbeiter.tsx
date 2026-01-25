@@ -15,7 +15,7 @@ export default function BlogVoicebotVsMitarbeiter() {
       {/* Hero Image */}
       <section className="relative h-96 overflow-hidden">
         <img
-          src="/images/blog-voicebot-vs-human.jpg"
+          src="/images/blog-cost-benefit-professional.jpg"
           alt="Voicebot vs. Mitarbeiter Vergleich"
           className="w-full h-full object-cover"
         />

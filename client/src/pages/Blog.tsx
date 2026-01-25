@@ -19,7 +19,7 @@ export default function Blog() {
       date: "23. Jan 2026",
       author: "Dr. Thomas Zöllner",
       category: "Analyse",
-      image: "/images/blog-voicebot-vs-human.jpg",
+      image: "/images/blog-cost-benefit-professional.jpg",
       slug: "/blog/voicebot-vs-mitarbeiter",
     },
     {
