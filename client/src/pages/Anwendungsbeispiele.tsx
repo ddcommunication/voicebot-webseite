@@ -111,8 +111,9 @@ export default function Anwendungsbeispiele() {
           <img
             src="/images/anwendungsbeispiele-hero.jpg"
             alt="Diverse Industries Using AI Voice Technology"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-80"
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
         </div>
 
         <div className="container relative z-10">
