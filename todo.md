@@ -83,3 +83,4 @@
 - [x] Remove newsletter section from Blog page (no newsletter exists)
 - [x] Replace icons with official NFON and botario logos
 - [x] Remove AGB page completely including footer link
+- [x] Change "Unsere Partnerschaften" to "Wir sind Entwicklungspartner" on About page
