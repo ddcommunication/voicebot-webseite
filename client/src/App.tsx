@@ -19,7 +19,6 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
-import AGB from "./pages/AGB";
 
 import VoicebotVsMitarbeiter from "./pages/blog/VoicebotVsMitarbeiter";
 function Router() {
@@ -46,7 +45,6 @@ function Router() {
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />
-        <Route path="/agb" component={AGB} />
 
         <Route path="/404" component={NotFound} />
         {/* Final fallback route */}

@@ -256,11 +256,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 Datenschutz
               </span>
             </Link>
-            <Link href="/agb">
-              <span className="hover:text-white transition-colors cursor-pointer">
-                AGB
-              </span>
-            </Link>
           </div>
         </div>
       </footer>
