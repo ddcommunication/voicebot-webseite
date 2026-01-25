@@ -67,8 +67,8 @@ export default function Contact() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/contact-hero-elsterwerda.png" 
-            alt="Elsterwerda - Unser Standort" 
+            src="/images/contact-hero-ai-robot.jpg" 
+            alt="KI-gestützte Kommunikationslösungen" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-slate-900/60" />
