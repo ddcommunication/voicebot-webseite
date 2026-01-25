@@ -79,3 +79,4 @@
 - [x] Make feature benefits larger and more representative/prominent
 - [x] Reduce icon size on Solutions page to match Anwendungsbeispiele page size
 - [x] Enlarge integration logos on Solutions page so they align with bottom edge of left buttons in desktop view
+- [x] Generate new blog image for "Voicebot vs. Mitarbeiter" based on provided reference (robot vs human split view, no text overlay)

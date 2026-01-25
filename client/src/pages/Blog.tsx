@@ -19,7 +19,7 @@ export default function Blog() {
       date: "23. Jan 2026",
       author: "Zöllner Office",
       category: "Analyse",
-      image: "/images/blog-cost-benefit-professional.jpg",
+      image: "/images/blog-voicebot-vs-mitarbeiter-new.jpg",
       slug: "/blog/voicebot-vs-mitarbeiter",
     },
     {
