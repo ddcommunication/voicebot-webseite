@@ -10,6 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
+    { label: "Startseite", href: "/" },
     { label: "Lösungen", href: "/loesungen" },
     { label: "Anwendungsbeispiele", href: "/anwendungsbeispiele" },
     { label: "Über uns", href: "/ueber-uns" },

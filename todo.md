@@ -71,3 +71,4 @@
 - [x] Add dark blue overlay to Anwendungsbeispiele background image to match style of other pages
 - [x] Generate new Anwendungsbeispiele background image matching the dark blue style of other pages (no brown tones)
 - [x] Replace all blog author names (Dr. Thomas Zöllner, Max Zöllner, Sarah Muster) with "Zöllner Office"
+- [x] Add "Startseite" menu item at the beginning of navigation linking to homepage
