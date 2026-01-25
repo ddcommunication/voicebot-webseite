@@ -74,3 +74,6 @@
 - [x] Add "Startseite" menu item at the beginning of navigation linking to homepage
 - [x] Replace integration section image with 6 integration logos (Microsoft Outlook, Google Calendar, Salesforce, HubSpot, Zendesk, Jira) as trust badges
 - [x] Change heading from "Nahtlose Integration in Ihre Systeme" to "Nahtlose Integration"
+- [x] Reposition icons above headings on Solutions page (instead of left-aligned)
+- [x] Make text full-width on mobile devices
+- [x] Make feature benefits larger and more representative/prominent
