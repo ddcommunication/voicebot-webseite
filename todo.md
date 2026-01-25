@@ -69,3 +69,4 @@
 - [x] Darken background image on About page (Über uns) to improve text readability
 - [x] Replace Anwendungsbeispiele page background image with hotel-themed image while maintaining consistent style
 - [x] Add dark blue overlay to Anwendungsbeispiele background image to match style of other pages
+- [x] Generate new Anwendungsbeispiele background image matching the dark blue style of other pages (no brown tones)

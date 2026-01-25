@@ -109,7 +109,7 @@ export default function Anwendungsbeispiele() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/anwendungsbeispiele-hero.jpg"
+            src="/images/anwendungsbeispiele-hero-new.jpg"
             alt="Diverse Industries Using AI Voice Technology"
             className="w-full h-full object-cover opacity-80"
           />
