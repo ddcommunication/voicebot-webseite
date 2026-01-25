@@ -205,13 +205,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </Link>
               </li>
               <li>
-                <Link href="/karriere">
-                  <span className="hover:text-white transition-colors cursor-pointer">
-                    Karriere
-                  </span>
-                </Link>
-              </li>
-              <li>
                 <Link href="/kontakt">
                   <span className="hover:text-white transition-colors cursor-pointer">
                     Kontakt

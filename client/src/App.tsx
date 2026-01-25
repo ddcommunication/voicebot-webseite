@@ -20,7 +20,7 @@ import Blog from "./pages/Blog";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 import AGB from "./pages/AGB";
-import Karriere from "./pages/Karriere";
+
 import VoicebotVsMitarbeiter from "./pages/blog/VoicebotVsMitarbeiter";
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -47,7 +47,7 @@ function Router() {
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />
         <Route path="/agb" component={AGB} />
-        <Route path="/karriere" component={Karriere} />
+
         <Route path="/404" component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />

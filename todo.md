@@ -65,3 +65,4 @@
 - [x] Update Impressum: Replace "§ 5 TMG" with "§ 5 DDG" (Digitale-Dienste-Gesetz) or remove reference
 - [x] Optimize Solutions page SEO: Update title to "Voicebot-Lösungen für Unternehmen | Telefonzentrale & Kundenservice", create optimized description and keywords
 - [x] Replace blog post image for "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich" with more professional, less playful image (both preview and article page)
+- [x] Remove /karriere page completely and all footer links to it
