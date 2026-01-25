@@ -17,7 +17,7 @@ export default function Blog() {
       excerpt:
         "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.",
       date: "23. Jan 2026",
-      author: "Dr. Thomas Zöllner",
+      author: "Zöllner Office",
       category: "Analyse",
       image: "/images/blog-cost-benefit-professional.jpg",
       slug: "/blog/voicebot-vs-mitarbeiter",
@@ -27,7 +27,7 @@ export default function Blog() {
       excerpt:
         "Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren. Erfahren Sie, warum Voicebots dabei eine Schlüsselrolle spielen.",
       date: "12. Jan 2026",
-      author: "Max Zöllner",
+      author: "Zöllner Office",
       category: "Technologie",
       image: "/images/blog-future-customer-service.jpg",
       slug: "/blog/zukunft-kundenservice",
@@ -37,7 +37,7 @@ export default function Blog() {
       excerpt:
         "Der erste Eindruck zählt. So gestalten Sie Dialoge, die Ihre Anrufer nicht frustrieren, sondern begeistern.",
       date: "05. Jan 2026",
-      author: "Sarah Muster",
+      author: "Zöllner Office",
       category: "Best Practices",
       image: "/images/blog-perfect-greeting.jpg",
       slug: "/blog/perfekte-begruessung",

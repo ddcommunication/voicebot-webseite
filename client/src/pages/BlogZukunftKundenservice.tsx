@@ -33,7 +33,7 @@ export default function BlogZukunftKundenservice() {
                 <Calendar className="h-4 w-4" /> 12. Jan 2026
               </span>
               <span className="flex items-center gap-2">
-                <User className="h-4 w-4" /> Max Zöllner
+                <User className="h-4 w-4" /> Zöllner Office
               </span>
             </div>
           </div>
