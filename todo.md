@@ -87,3 +87,4 @@
 - [x] Create hero background image for contact page showing Elsterwerda
 - [x] Update contact page hero to match homepage style (90vh height, larger text)
 - [x] Remove gradient overlay from contact hero and restore 60vh height
+- [x] Apply dark slate overlay style to contact hero (matching About page)

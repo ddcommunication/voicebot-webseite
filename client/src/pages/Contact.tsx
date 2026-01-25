@@ -63,16 +63,18 @@ export default function Contact() {
       />
 
       {/* Hero Section with Elsterwerda Background */}
-      <section className="relative bg-slate-900 text-white overflow-hidden min-h-[60vh] flex items-center">
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
             src="/images/contact-hero-elsterwerda.png" 
             alt="Elsterwerda - Unser Standort" 
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
         
-        <div className="container relative z-10 py-20">
+        <div className="container relative z-10 py-20 text-white">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight mb-6">
               Kontakt & Demo
