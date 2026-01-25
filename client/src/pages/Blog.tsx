@@ -138,28 +138,7 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="py-20 bg-muted/30">
-        <div className="container max-w-2xl text-center">
-          <h2 className="text-2xl font-serif font-bold text-primary mb-4">
-            Keine Updates verpassen
-          </h2>
-          <p className="text-muted-foreground mb-8">
-            Abonnieren Sie unseren Newsletter für monatliche Tipps rund um
-            Voicebots und Kundenservice-Automatisierung.
-          </p>
-          <div className="flex gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Ihre E-Mail Adresse"
-              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            />
-            <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-              Anmelden
-            </Button>
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
