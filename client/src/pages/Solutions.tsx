@@ -47,8 +47,8 @@ export default function Solutions() {
             {/* Feature 1 */}
             <div className="group text-center md:text-left">
               <div className="flex justify-center md:justify-start mb-6">
-                <div className="h-20 w-20 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-xl shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300">
-                  <Phone className="h-10 w-10 animate-pulse" />
+                <div className="h-14 w-14 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+                  <Phone className="h-7 w-7 animate-pulse" />
                 </div>
               </div>
               <h3 className="text-3xl font-bold text-primary mb-4 group-hover:text-blue-600 transition-colors">
@@ -85,9 +85,9 @@ export default function Solutions() {
             {/* Feature 2 */}
             <div className="group text-center md:text-left">
               <div className="flex justify-center md:justify-start mb-6">
-                <div className="h-20 w-20 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-400 flex items-center justify-center text-white shadow-xl shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300">
+                <div className="h-14 w-14 rounded-xl bg-gradient-to-br from-blue-500 to-blue-400 flex items-center justify-center text-white shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
                   <Calendar
-                    className="h-10 w-10 animate-bounce"
+                    className="h-7 w-7 animate-bounce"
                     style={{ animationDuration: "3s" }}
                   />
                 </div>
@@ -125,9 +125,9 @@ export default function Solutions() {
             {/* Feature 3 */}
             <div className="group text-center md:text-left">
               <div className="flex justify-center md:justify-start mb-6">
-                <div className="h-20 w-20 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-xl shadow-blue-600/30 group-hover:scale-110 transition-transform duration-300">
+                <div className="h-14 w-14 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-blue-600/20 group-hover:scale-110 transition-transform duration-300">
                   <MessageSquare
-                    className="h-10 w-10 animate-pulse"
+                    className="h-7 w-7 animate-pulse"
                     style={{ animationDuration: "4s" }}
                   />
                 </div>
@@ -166,9 +166,9 @@ export default function Solutions() {
             {/* Feature 4 */}
             <div className="group text-center md:text-left">
               <div className="flex justify-center md:justify-start mb-6">
-                <div className="h-20 w-20 rounded-2xl bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center text-white shadow-xl shadow-blue-400/30 group-hover:scale-110 transition-transform duration-300">
+                <div className="h-14 w-14 rounded-xl bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-blue-400/20 group-hover:scale-110 transition-transform duration-300">
                   <UserCheck
-                    className="h-10 w-10 animate-bounce"
+                    className="h-7 w-7 animate-bounce"
                     style={{ animationDuration: "5s" }}
                   />
                 </div>

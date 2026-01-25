@@ -77,3 +77,4 @@
 - [x] Reposition icons above headings on Solutions page (instead of left-aligned)
 - [x] Make text full-width on mobile devices
 - [x] Make feature benefits larger and more representative/prominent
+- [x] Reduce icon size on Solutions page to match Anwendungsbeispiele page size
