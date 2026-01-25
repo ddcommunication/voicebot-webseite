@@ -62,16 +62,27 @@ export default function Contact() {
         canonical="/kontakt"
       />
 
-      {/* Header */}
-      <section className="bg-primary text-primary-foreground py-20">
-        <div className="container text-center max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-            Kontakt & Demo
-          </h1>
-          <p className="text-xl text-primary-foreground/80 leading-relaxed">
-            Erleben Sie unsere Voicebots live. Vereinbaren Sie eine kostenlose
-            Demo oder stellen Sie uns Ihre Fragen.
-          </p>
+      {/* Hero Section with Elsterwerda Background */}
+      <section className="relative bg-slate-900 text-white overflow-hidden min-h-[60vh] flex items-center">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/contact-hero-elsterwerda.png" 
+            alt="Elsterwerda - Unser Standort" 
+            className="w-full h-full object-cover opacity-80"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
+        </div>
+        
+        <div className="container relative z-10 py-20">
+          <div className="max-w-3xl">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight mb-6">
+              Kontakt & Demo
+            </h1>
+            <p className="text-xl text-slate-300 leading-relaxed">
+              Erleben Sie unsere Voicebots live. Vereinbaren Sie eine kostenlose
+              Demo oder stellen Sie uns Ihre Fragen. Wir sind für Sie da.
+            </p>
+          </div>
         </div>
       </section>
 

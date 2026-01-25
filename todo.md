@@ -84,3 +84,4 @@
 - [x] Replace icons with official NFON and botario logos
 - [x] Remove AGB page completely including footer link
 - [x] Change "Unsere Partnerschaften" to "Wir sind Entwicklungspartner" on About page
+- [x] Create hero background image for contact page showing Elsterwerda
