@@ -67,3 +67,4 @@
 - [x] Replace blog post image for "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich" with more professional, less playful image (both preview and article page)
 - [x] Remove /karriere page completely and all footer links to it
 - [x] Darken background image on About page (Über uns) to improve text readability
+- [x] Replace Anwendungsbeispiele page background image with hotel-themed image while maintaining consistent style
