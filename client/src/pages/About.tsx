@@ -181,8 +181,8 @@ export default function About() {
             <Card className="border-none shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <CardContent className="pt-8">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-blue-600 to-blue-400 flex items-center justify-center text-white text-2xl font-bold">
-                    N
+                  <div className="h-16 w-16 rounded-xl bg-white border border-gray-200 flex items-center justify-center p-2">
+                    <img src="/images/nfon-logo.png" alt="NFON Logo" className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-primary">NFON</h3>
@@ -219,8 +219,8 @@ export default function About() {
             <Card className="border-none shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <CardContent className="pt-8">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center text-white text-2xl font-bold">
-                    B
+                  <div className="h-16 w-16 rounded-xl bg-white border border-gray-200 flex items-center justify-center p-2">
+                    <img src="/images/botario-logo.jpg" alt="botario Logo" className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-primary">botario</h3>

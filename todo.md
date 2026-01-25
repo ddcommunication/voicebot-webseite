@@ -81,3 +81,4 @@
 - [x] Enlarge integration logos on Solutions page so they align with bottom edge of left buttons in desktop view
 - [x] Generate new blog image for "Voicebot vs. Mitarbeiter" based on provided reference (robot vs human split view, no text overlay)
 - [x] Remove newsletter section from Blog page (no newsletter exists)
+- [x] Replace icons with official NFON and botario logos
