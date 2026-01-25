@@ -85,3 +85,4 @@
 - [x] Remove AGB page completely including footer link
 - [x] Change "Unsere Partnerschaften" to "Wir sind Entwicklungspartner" on About page
 - [x] Create hero background image for contact page showing Elsterwerda
+- [x] Update contact page hero to match homepage style (90vh height, larger text)
