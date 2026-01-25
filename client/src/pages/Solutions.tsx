@@ -241,46 +241,46 @@ export default function Solutions() {
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <img
                   src="/images/logo-outlook.png"
                   alt="Microsoft Outlook"
-                  className="h-12 object-contain"
+                  className="h-16 object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <img
                   src="/images/logo-google-calendar.png"
                   alt="Google Calendar"
-                  className="h-12 object-contain"
+                  className="h-16 object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <img
                   src="/images/logo-salesforce.png"
                   alt="Salesforce"
-                  className="h-12 object-contain"
+                  className="h-16 object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <img
                   src="/images/logo-hubspot.png"
                   alt="HubSpot"
-                  className="h-12 object-contain"
+                  className="h-16 object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <img
                   src="/images/logo-zendesk.png"
                   alt="Zendesk"
-                  className="h-12 object-contain"
+                  className="h-16 object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <img
                   src="/images/logo-jira.png"
                   alt="Jira"
-                  className="h-12 object-contain"
+                  className="h-16 object-contain"
                 />
               </div>
             </div>
