@@ -59,8 +59,8 @@ export default function VoicebotVsMitarbeiter() {
             </Button>
           </Link>
 
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
-            Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich für Arztpraxen
+                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich
           </h1>
 
           <div className="flex items-center gap-4 text-muted-foreground mb-12 text-sm">
