@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
-import { Calendar, User, ArrowLeft } from "lucide-react";
+import { Calendar, User, ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
 
 export default function BlogVoicebotVsMitarbeiter() {
@@ -54,7 +54,7 @@ export default function BlogVoicebotVsMitarbeiter() {
           </Link>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-base text-muted-foreground leading-relaxed mb-8">
               Die Entscheidung zwischen einem Voicebot und zusätzlichen
               Mitarbeitern ist für viele Unternehmen eine zentrale Frage. In
               diesem Artikel analysieren wir die Kosten, Vorteile und
@@ -231,20 +231,35 @@ export default function BlogVoicebotVsMitarbeiter() {
             <p className="text-muted-foreground leading-relaxed mb-4">
               Ein Voicebot ist besonders sinnvoll, wenn:
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-              <li>Sie mehr als 50 Anrufe pro Tag erhalten</li>
-              <li>
-                Viele Anrufe außerhalb der Geschäftszeiten eingehen (Notdienst,
-                internationale Kunden)
+            <ul className="space-y-3 text-muted-foreground mb-6">
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Sie mehr als 50 Anrufe pro Tag erhalten</span>
               </li>
-              <li>
-                Standardanfragen einen Großteil der Anrufe ausmachen
-                (Terminbuchungen, Öffnungszeiten, Bestellstatus)
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  Viele Anrufe außerhalb der Geschäftszeiten eingehen (Notdienst,
+                  internationale Kunden)
+                </span>
               </li>
-              <li>
-                Sie Ihre Mitarbeiter von Routineaufgaben entlasten möchten
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  Standardanfragen einen Großteil der Anrufe ausmachen
+                  (Terminbuchungen, Öffnungszeiten, Bestellstatus)
+                </span>
               </li>
-              <li>Skalierbarkeit wichtig ist (z.B. saisonale Schwankungen)</li>
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  Sie Ihre Mitarbeiter von Routineaufgaben entlasten möchten
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Skalierbarkeit wichtig ist (z.B. saisonale Schwankungen)</span>
+              </li>
             </ul>
 
             <p className="text-muted-foreground leading-relaxed">

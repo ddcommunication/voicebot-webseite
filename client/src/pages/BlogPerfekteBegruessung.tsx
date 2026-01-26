@@ -54,7 +54,7 @@ export default function BlogPerfekteBegruessung() {
           </Link>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-base text-muted-foreground leading-relaxed mb-8">
               Die ersten Sekunden eines Telefonats entscheiden darüber, ob ein
               Anrufer frustriert auflegt oder positiv gestimmt bleibt. Bei
               Voicebots ist dieser erste Eindruck noch wichtiger – denn hier gibt
@@ -302,17 +302,29 @@ export default function BlogPerfekteBegruessung() {
               regelmäßig Ihre Gesprächsdaten:
             </p>
 
-            <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-              <li>Wie viele Anrufer brechen in den ersten 10 Sekunden ab?</li>
-              <li>
-                Welche Formulierungen führen zu Missverständnissen?
+            <ul className="space-y-3 text-muted-foreground mb-6">
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Wie viele Anrufer brechen in den ersten 10 Sekunden ab?</span>
               </li>
-              <li>
-                Wie oft sagen Anrufer "Mitarbeiter", ohne den Bot auszuprobieren?
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  Welche Formulierungen führen zu Missverständnissen?
+                </span>
               </li>
-              <li>
-                Gibt es bestimmte Tageszeiten oder Anrufgründe mit höheren
-                Abbruchraten?
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  Wie oft sagen Anrufer "Mitarbeiter", ohne den Bot auszuprobieren?
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  Gibt es bestimmte Tageszeiten oder Anrufgründe mit höheren
+                  Abbruchraten?
+                </span>
               </li>
             </ul>
 
@@ -413,7 +425,7 @@ export default function BlogPerfekteBegruessung() {
             <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/blog-voicebot-vs-human.jpg"
+                  src="/images/blog-voicebot-vs-mitarbeiter-new.jpg"
                   alt="Voicebot vs. Mitarbeiter"
                   className="w-full h-48 object-cover"
                 />

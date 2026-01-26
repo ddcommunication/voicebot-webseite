@@ -102,3 +102,6 @@
 - [x] Fix lead paragraph font size to match all other paragraphs (text-base)
 - [x] Add "Weitere interessante Artikel" section to all other blog posts
 - [x] Fix missing blog preview image in "Weitere interessante Artikel" section
+- [x] Update blog preview image to new split-screen design (AI vs Human)
+- [x] Fix intro paragraph font size in all blog posts (change from text-xl to text-base)
+- [x] Add checkmark icons to all bullet lists in blog posts

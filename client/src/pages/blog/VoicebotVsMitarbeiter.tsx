@@ -10,7 +10,7 @@ export default function VoicebotVsMitarbeiter() {
     "@type": "Article",
     headline:
       "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich",
-    image: "https://www.zoellner-office.de/images/blog-voicebot-vs-human.jpg",
+    image: "https://www.zoellner-office.de/images/blog-voicebot-vs-mitarbeiter-new.jpg",
     author: {
       "@type": "Person",
       name: "Dr. Thomas Zöllner",

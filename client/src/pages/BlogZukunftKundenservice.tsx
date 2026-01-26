@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
-import { Calendar, User, ArrowLeft } from "lucide-react";
+import { Calendar, User, ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
 
 export default function BlogZukunftKundenservice() {
@@ -54,7 +54,7 @@ export default function BlogZukunftKundenservice() {
           </Link>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-base text-muted-foreground leading-relaxed mb-8">
               Die Art und Weise, wie Unternehmen mit ihren Kunden kommunizieren,
               befindet sich im Umbruch. Künstliche Intelligenz und
               Sprachassistenten verändern die Erwartungen der Kunden
@@ -177,26 +177,41 @@ export default function BlogZukunftKundenservice() {
               Kunden einen spürbar besseren Service:
             </p>
 
-            <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-              <li>
-                <strong>Keine Wartezeiten:</strong> Sofortige Antwort, keine
-                Warteschleife
+            <ul className="space-y-3 text-muted-foreground mb-6">
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Keine Wartezeiten:</strong> Sofortige Antwort, keine
+                  Warteschleife
+                </span>
               </li>
-              <li>
-                <strong>Rund-um-die-Uhr-Service:</strong> Auch nachts, am
-                Wochenende oder an Feiertagen erreichbar
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Rund-um-die-Uhr-Service:</strong> Auch nachts, am
+                  Wochenende oder an Feiertagen erreichbar
+                </span>
               </li>
-              <li>
-                <strong>Konsistente Qualität:</strong> Jeder Anrufer erhält die
-                gleiche hohe Servicequalität
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Konsistente Qualität:</strong> Jeder Anrufer erhält die
+                  gleiche hohe Servicequalität
+                </span>
               </li>
-              <li>
-                <strong>Schnelle Problemlösung:</strong> Standardanfragen werden
-                in Sekunden bearbeitet
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Schnelle Problemlösung:</strong> Standardanfragen werden
+                  in Sekunden bearbeitet
+                </span>
               </li>
-              <li>
-                <strong>Mehrsprachigkeit:</strong> Kommunikation in über 50
-                Sprachen möglich
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Mehrsprachigkeit:</strong> Kommunikation in über 50
+                  Sprachen möglich
+                </span>
               </li>
             </ul>
 
@@ -242,22 +257,34 @@ export default function BlogZukunftKundenservice() {
               Trends zeigen, wohin die Reise geht:
             </p>
 
-            <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-              <li>
-                <strong>Emotionserkennung:</strong> Bots erkennen Frustration,
-                Ärger oder Dringlichkeit und passen ihr Verhalten entsprechend an
+            <ul className="space-y-3 text-muted-foreground mb-6">
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Emotionserkennung:</strong> Bots erkennen Frustration,
+                  Ärger oder Dringlichkeit und passen ihr Verhalten entsprechend an
+                </span>
               </li>
-              <li>
-                <strong>Personalisierung:</strong> Wiederkehrende Anrufer werden
-                erkannt und individuell begrüßt
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Personalisierung:</strong> Wiederkehrende Anrufer werden
+                  erkannt und individuell begrüßt
+                </span>
               </li>
-              <li>
-                <strong>Proaktive Kommunikation:</strong> Bots rufen Kunden an,
-                um Termine zu bestätigen oder Updates zu geben
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Proaktive Kommunikation:</strong> Bots rufen Kunden an,
+                  um Termine zu bestätigen oder Updates zu geben
+                </span>
               </li>
-              <li>
-                <strong>Multimodale Interaktion:</strong> Nahtloser Wechsel
-                zwischen Sprache, Text und visuellen Elementen
+              <li className="flex gap-3">
+                <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>
+                  <strong>Multimodale Interaktion:</strong> Nahtloser Wechsel
+                  zwischen Sprache, Text und visuellen Elementen
+                </span>
               </li>
             </ul>
 
@@ -315,7 +342,7 @@ export default function BlogZukunftKundenservice() {
             <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/blog-voicebot-vs-human.jpg"
+                  src="/images/blog-voicebot-vs-mitarbeiter-new.jpg"
                   alt="Voicebot vs. Mitarbeiter"
                   className="w-full h-48 object-cover"
                 />
