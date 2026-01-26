@@ -315,7 +315,7 @@ export default function BlogZukunftKundenservice() {
             <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/blog-voicebot-vs-human.webp"
+                  src="/images/blog-voicebot-vs-human.jpg"
                   alt="Voicebot vs. Mitarbeiter"
                   className="w-full h-48 object-cover"
                 />

@@ -101,3 +101,4 @@
 - [x] Properly fix all typography issues in blog article (consistent sizes and spacing)
 - [x] Fix lead paragraph font size to match all other paragraphs (text-base)
 - [x] Add "Weitere interessante Artikel" section to all other blog posts
+- [x] Fix missing blog preview image in "Weitere interessante Artikel" section
