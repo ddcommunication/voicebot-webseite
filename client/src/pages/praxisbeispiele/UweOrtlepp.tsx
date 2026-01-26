@@ -209,7 +209,13 @@ export default function UweOrtleppCaseStudy() {
                       Telefonische Anfragen
                     </div>
                   </div>
-                  <div className="hidden md:block text-primary text-2xl">→</div>
+                  
+                  {/* Arrow - horizontal on desktop, vertical on mobile */}
+                  <div className="text-primary text-3xl font-bold">
+                    <span className="md:hidden">↓</span>
+                    <span className="hidden md:inline">→</span>
+                  </div>
+                  
                   <div className="bg-white p-6 rounded-lg shadow-md text-center min-w-[160px]">
                     <div className="text-secondary font-bold text-lg mb-2">
                       Timum
@@ -218,7 +224,13 @@ export default function UweOrtleppCaseStudy() {
                       Terminbuchung
                     </div>
                   </div>
-                  <div className="hidden md:block text-primary text-2xl">→</div>
+                  
+                  {/* Arrow - horizontal on desktop, vertical on mobile */}
+                  <div className="text-primary text-3xl font-bold">
+                    <span className="md:hidden">↓</span>
+                    <span className="hidden md:inline">→</span>
+                  </div>
+                  
                   <div className="bg-white p-6 rounded-lg shadow-md text-center min-w-[160px]">
                     <div className="text-primary font-bold text-lg mb-2">
                       onOffice

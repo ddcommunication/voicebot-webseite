@@ -121,3 +121,4 @@
 - [x] Remove link from H1 "Uwe Ortlepp" but keep blue color
 - [x] Add company info "Inhaber - OW Immobilien Finanzierung" below hero
 - [x] Add website link below company info
+- [x] Add visible flow arrows between system integration cards in mobile view
