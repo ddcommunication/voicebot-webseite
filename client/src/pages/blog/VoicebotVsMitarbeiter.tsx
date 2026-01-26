@@ -214,7 +214,12 @@ export default function VoicebotVsMitarbeiter() {
           <h3 className="text-3xl font-bold mb-8 text-center">Weitere interessante Artikel</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <Link href="/blog/zukunft-kundenservice" className="block">
-              <Card className="h-full hover:shadow-lg transition-shadow">
+              <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden">
+                <img
+                  src="/images/blog-future-customer-service.jpg"
+                  alt="Zukunft des Kundenservice"
+                  className="w-full h-48 object-cover"
+                />
                 <CardContent className="p-6">
                   <h4 className="font-bold text-xl mb-3">Warum Voicebots die Zukunft des Kundenservice sind</h4>
                   <p className="text-muted-foreground">
@@ -225,7 +230,12 @@ export default function VoicebotVsMitarbeiter() {
             </Link>
 
             <Link href="/blog/perfekte-begruessung" className="block">
-              <Card className="h-full hover:shadow-lg transition-shadow">
+              <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden">
+                <img
+                  src="/images/blog-perfect-greeting.jpg"
+                  alt="Perfekte Voicebot-Begrüßung"
+                  className="w-full h-48 object-cover"
+                />
                 <CardContent className="p-6">
                   <h4 className="font-bold text-xl mb-3">5 Tipps für die perfekte Voicebot-Begrüßung</h4>
                   <p className="text-muted-foreground">
