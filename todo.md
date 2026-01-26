@@ -112,3 +112,4 @@
 - [x] Update routing for new pages
 - [x] Add background image to Praxisbeispiele hero section
 - [x] Link Uwe Ortlepp name to https://uoimmofinanz.de/ with proper alt tag
+- [x] Replace case study header image with new consultation meeting photo

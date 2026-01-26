@@ -54,8 +54,8 @@ export default function UweOrtleppCaseStudy() {
       {/* Hero Section with Image */}
       <section className="relative h-[500px] overflow-hidden">
         <img
-          src="/images/uwe-ortlepp-portrait.jpg"
-          alt="Uwe Ortlepp - Inhaber OW Immobilien Finanzierung"
+          src="/images/uwe-ortlepp-consultation.jpg"
+          alt="Uwe Ortlepp im Beratungsgespräch - Immobilienfinanzierung"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
