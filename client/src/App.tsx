@@ -21,6 +21,8 @@ import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 
 import VoicebotVsMitarbeiter from "./pages/blog/VoicebotVsMitarbeiter";
+import Praxisbeispiele from "./pages/Praxisbeispiele";
+import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
 function Router() {
   // make sure to consider if you need authentication for certain routes
   const [location] = useLocation();
@@ -43,6 +45,8 @@ function Router() {
         <Route path="/blog/voicebot-vs-mitarbeiter" component={VoicebotVsMitarbeiter} />
         <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
+        <Route path="/praxisbeispiele" component={Praxisbeispiele} />
+        <Route path="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" component={UweOrtleppCaseStudy} />
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />
 

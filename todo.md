@@ -105,3 +105,8 @@
 - [x] Update blog preview image to new split-screen design (AI vs Human)
 - [x] Fix intro paragraph font size in all blog posts (change from text-xl to text-base)
 - [x] Add checkmark icons to all bullet lists in blog posts
+- [x] Create new "Praxisbeispiele" category page with overview
+- [x] Create case study blog post from Uwe Ortlepp PDF
+- [x] Add Uwe Ortlepp portrait image to project
+- [x] Add "Praxisbeispiele" to navigation menu
+- [x] Update routing for new pages

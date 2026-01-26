@@ -13,6 +13,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { label: "Startseite", href: "/" },
     { label: "Lösungen", href: "/loesungen" },
     { label: "Anwendungsbeispiele", href: "/anwendungsbeispiele" },
+    { label: "Praxisbeispiele", href: "/praxisbeispiele" },
     { label: "Über uns", href: "/ueber-uns" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" },
