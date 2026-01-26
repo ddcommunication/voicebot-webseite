@@ -118,3 +118,6 @@
 - [x] Change Finanzdienstleistung badge to lighter color for better visibility
 - [x] Change "echten Welt" text color to solid blue #0287F6 in Praxisbeispiele hero
 - [x] Change Uwe Ortlepp link color in hero to blue #0287F6 for better readability
+- [x] Remove link from H1 "Uwe Ortlepp" but keep blue color
+- [x] Add company info "Inhaber - OW Immobilien Finanzierung" below hero
+- [x] Add website link below company info

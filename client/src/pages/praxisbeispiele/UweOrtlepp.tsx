@@ -66,22 +66,25 @@ export default function UweOrtleppCaseStudy() {
               Finanzdienstleistung
             </div>
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
+              <span style={{color: '#0287F6'}}>Uwe Ortlepp</span>{" "}
+              Immobilienfinanzierung
+            </h1>
+            <p className="text-xl text-white/90 max-w-2xl mb-6">
+              24/7 Erreichbarkeit und automatisierte Terminbuchung durch
+              intelligente Voicebot-Integration
+            </p>
+            <div className="text-white/80 space-y-1">
+              <p className="text-sm font-medium">Inhaber - OW Immobilien Finanzierung</p>
               <a 
                 href="https://uoimmofinanz.de/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                style={{color: '#0287F6'}}
-                className="hover:opacity-80 transition-opacity underline decoration-2 underline-offset-4"
+                className="text-sm text-primary hover:text-primary/80 transition-colors underline"
                 title="Immobilien – Finanzierung"
               >
-                Uwe Ortlepp
-              </a>{" "}
-              Immobilienfinanzierung
-            </h1>
-            <p className="text-xl text-white/90 max-w-2xl">
-              24/7 Erreichbarkeit und automatisierte Terminbuchung durch
-              intelligente Voicebot-Integration
-            </p>
+                uoimmofinanz.de
+              </a>
+            </div>
           </div>
         </div>
       </section>
