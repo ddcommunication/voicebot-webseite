@@ -114,3 +114,5 @@
 - [x] Link Uwe Ortlepp name to https://uoimmofinanz.de/ with proper alt tag
 - [x] Replace case study header image with new consultation meeting photo
 - [x] Left-align "Über Zöllner Büro- IT-Systeme GmbH" heading in case study
+- [x] Add color highlighting to Uwe Ortlepp links to make them recognizable
+- [x] Change Finanzdienstleistung badge to lighter color for better visibility

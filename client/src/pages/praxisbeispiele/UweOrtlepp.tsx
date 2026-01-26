@@ -61,7 +61,7 @@ export default function UweOrtleppCaseStudy() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 pb-12">
           <div className="container max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-md text-primary border border-primary/30 text-xs font-bold px-3 py-1.5 rounded-full mb-4">
+            <div className="inline-flex items-center gap-2 bg-white/90 backdrop-blur-md text-slate-900 border border-white/50 text-xs font-bold px-3 py-1.5 rounded-full mb-4">
               <Building2 className="h-3.5 w-3.5" />
               Finanzdienstleistung
             </div>
@@ -70,7 +70,7 @@ export default function UweOrtleppCaseStudy() {
                 href="https://uoimmofinanz.de/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
+                className="text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
                 title="Immobilien – Finanzierung"
               >
                 Uwe Ortlepp
@@ -361,7 +361,7 @@ export default function UweOrtleppCaseStudy() {
                       href="https://uoimmofinanz.de/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="font-bold text-lg text-foreground hover:text-primary transition-colors"
+                      className="font-bold text-lg text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-2"
                       title="Immobilien – Finanzierung"
                     >
                       Uwe Ortlepp
