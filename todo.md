@@ -116,3 +116,4 @@
 - [x] Left-align "Über Zöllner Büro- IT-Systeme GmbH" heading in case study
 - [x] Add color highlighting to Uwe Ortlepp links to make them recognizable
 - [x] Change Finanzdienstleistung badge to lighter color for better visibility
+- [x] Change "echten Welt" text color to solid blue #0287F6 in Praxisbeispiele hero
