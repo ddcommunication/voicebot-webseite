@@ -65,7 +65,7 @@ export default function UweOrtleppCaseStudy() {
               <Building2 className="h-3.5 w-3.5" />
               Finanzdienstleistung
             </div>
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4 break-words">
               <span style={{color: '#0287F6'}}>Uwe Ortlepp</span>{" "}
               Immobilienfinanzierung
             </h1>
