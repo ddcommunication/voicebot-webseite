@@ -305,6 +305,52 @@ export default function BlogZukunftKundenservice() {
           </div>
         </div>
       </article>
+
+      {/* Related Articles */}
+      <section className="py-16 bg-muted/30">
+        <div className="container max-w-4xl">
+          <h2 className="text-3xl font-bold text-primary mb-8">Weitere interessante Artikel</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Article 1 */}
+            <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
+              <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img
+                  src="/images/blog-voicebot-vs-human.webp"
+                  alt="Voicebot vs. Mitarbeiter"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
+                    Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich
+                  </h3>
+                  <p className="text-muted-foreground text-sm">
+                    Lohnt sich die Investition in einen KI-Voicebot wirklich? Wir machen den harten Fakten-Check mit konkreten Zahlen.
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Article 2 */}
+            <Link href="/blog/perfekte-begruessung" className="group">
+              <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img
+                  src="/images/blog-perfect-greeting.jpg"
+                  alt="Perfekte Voicebot-Begrüßung"
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
+                    5 Tipps für die perfekte Voicebot-Begrüßung
+                  </h3>
+                  <p className="text-muted-foreground text-sm">
+                    Der erste Eindruck zählt. So gestalten Sie Dialoge, die begeistern.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
