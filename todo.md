@@ -99,3 +99,4 @@
 - [x] Fix blog article typography and paragraph spacing inconsistencies
 - [x] Remove 'für Arztpraxen' from blog article title
 - [x] Properly fix all typography issues in blog article (consistent sizes and spacing)
+- [x] Fix lead paragraph font size to match all other paragraphs (text-base)

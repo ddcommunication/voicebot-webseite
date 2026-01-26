@@ -71,7 +71,7 @@ export default function VoicebotVsMitarbeiter() {
           </div>
 
           {/* Lead Paragraph */}
-          <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
+          <p className="text-base text-muted-foreground mb-12 leading-relaxed">
             Das Telefon klingelt ununterbrochen. Die medizinischen
             Fachangestellten (MFA) hetzen zwischen Anmeldung,
             Behandlungszimmer und Telefon hin und her. Patienten in der
