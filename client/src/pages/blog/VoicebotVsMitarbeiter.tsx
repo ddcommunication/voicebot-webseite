@@ -71,7 +71,7 @@ export default function VoicebotVsMitarbeiter() {
             <span>Von Dr. Thomas Zöllner</span>
           </div>
 
-          <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:leading-relaxed prose-a:text-primary prose-ul:my-6 prose-ul:space-y-2">
+          <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:leading-relaxed prose-p:text-base prose-a:text-primary prose-ul:my-6 prose-ul:space-y-3 prose-li:text-base prose-strong:font-semibold">
             <p className="lead text-xl text-muted-foreground mb-8">
               Das Telefon klingelt ununterbrochen. Die medizinischen
               Fachangestellten (MFA) hetzen zwischen Anmeldung,
