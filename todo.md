@@ -91,4 +91,4 @@
 - [x] Create futuristic AI/robot hero background for contact page (cyan/blue neon style)
 - [x] Optimize and compress all hero background images for faster loading
 - [x] Make blog preview images clickable and link to blog posts
-- [x] Add related blog posts section at the end of each blog article
+- [x] Add related blog posts section at the end of blog articles

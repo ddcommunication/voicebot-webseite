@@ -40,7 +40,7 @@ function Router() {
 
         <Route path="/kontakt" component={Contact} />
         <Route path="/blog" component={Blog} />
-        <Route path="/blog/voicebot-vs-mitarbeiter" component={BlogVoicebotVsMitarbeiter} />
+        <Route path="/blog/voicebot-vs-mitarbeiter" component={VoicebotVsMitarbeiter} />
         <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/impressum" component={Impressum} />
