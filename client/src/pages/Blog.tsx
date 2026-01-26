@@ -93,16 +93,18 @@ export default function Blog() {
                 key={index}
                 className="border-none shadow-lg overflow-hidden flex flex-col h-full hover:shadow-xl transition-shadow"
               >
-                <div className="h-48 overflow-hidden relative">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                  />
-                  <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
-                    {post.category}
+                <Link href={post.slug || "#"} className="block">
+                  <div className="h-48 overflow-hidden relative cursor-pointer">
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                    <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
+                      {post.category}
+                    </div>
                   </div>
-                </div>
+                </Link>
                 <CardHeader>
                   <div className="flex items-center gap-4 text-xs text-muted-foreground mb-3">
                     <span className="flex items-center gap-1">
