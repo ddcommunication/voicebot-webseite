@@ -110,3 +110,5 @@
 - [x] Add Uwe Ortlepp portrait image to project
 - [x] Add "Praxisbeispiele" to navigation menu
 - [x] Update routing for new pages
+- [x] Add background image to Praxisbeispiele hero section
+- [x] Link Uwe Ortlepp name to https://uoimmofinanz.de/ with proper alt tag

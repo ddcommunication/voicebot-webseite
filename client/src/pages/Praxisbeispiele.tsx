@@ -36,10 +36,14 @@ export default function Praxisbeispiele() {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary rounded-full blur-3xl"></div>
+      <section className="relative bg-slate-900 text-white py-24 overflow-hidden min-h-[500px] flex items-center">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/hero-dynamic-blue.jpg" 
+            alt="Praxisbeispiele Voicebot Technologie" 
+            className="w-full h-full object-cover opacity-80"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
         </div>
 
         <div className="container relative z-10">
