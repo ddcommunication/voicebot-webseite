@@ -94,3 +94,4 @@
 - [x] Add related blog posts section at the end of blog articles
 - [x] Restore hero images to blog article pages
 - [x] Update blog article hero image to match preview (robot vs human split-view)
+- [x] Remove gradient overlay from blog hero image (display in full color)

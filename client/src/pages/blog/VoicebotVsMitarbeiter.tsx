@@ -45,7 +45,7 @@ export default function VoicebotVsMitarbeiter() {
           alt="Voicebot vs. Mitarbeiter Kostenvergleich"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+
       </div>
 
       <article className="bg-background py-20 -mt-32 relative z-10">
