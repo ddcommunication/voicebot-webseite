@@ -92,3 +92,4 @@
 - [x] Optimize and compress all hero background images for faster loading
 - [x] Make blog preview images clickable and link to blog posts
 - [x] Add related blog posts section at the end of blog articles
+- [x] Restore hero images to blog article pages

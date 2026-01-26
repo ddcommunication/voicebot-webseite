@@ -38,7 +38,17 @@ export default function VoicebotVsMitarbeiter() {
         schema={articleSchema}
       />
 
-      <article className="bg-background py-20">
+      {/* Hero Image */}
+      <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
+        <img
+          src="/images/blog-cost-benefit-professional.jpg"
+          alt="Voicebot vs. Mitarbeiter Kostenvergleich"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+      </div>
+
+      <article className="bg-background py-20 -mt-32 relative z-10">
         <div className="container max-w-3xl">
           <Link href="/blog">
             <Button
