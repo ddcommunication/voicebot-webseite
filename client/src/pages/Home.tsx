@@ -47,7 +47,7 @@ export default function Home() {
       <section className="relative bg-slate-900 text-white overflow-hidden min-h-[90vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/hero-dynamic-blue.jpg"
+            src="/images/hero-dynamic-blue.webp"
             alt="Dynamische Voicebot Technologie"
             className="w-full h-full object-cover opacity-80"
           />

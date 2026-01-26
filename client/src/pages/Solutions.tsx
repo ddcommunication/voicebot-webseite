@@ -18,7 +18,7 @@ export default function Solutions() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/solutions-hero-robot-dark.jpg"
+            src="/images/solutions-hero-robot-dark.webp"
             alt="Friendly AI Robot Assistant"
             className="w-full h-full object-cover"
           />
@@ -290,7 +290,7 @@ export default function Solutions() {
 
       {/* CTA */}
       <section className="py-20 bg-primary text-primary-foreground text-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero-blue-business.jpg')] opacity-10 bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('/images/hero-blue-business.webp')] opacity-10 bg-cover bg-center"></div>
         <div className="container max-w-3xl relative z-10">
           <h2 className="text-3xl font-serif font-bold mb-6">
             Welche Lösung passt zu Ihnen?

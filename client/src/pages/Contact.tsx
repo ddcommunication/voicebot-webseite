@@ -67,7 +67,7 @@ export default function Contact() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/contact-hero-ai-robot.jpg" 
+            src="/images/contact-hero-ai-robot.webp" 
             alt="KI-gestützte Kommunikationslösungen" 
             className="w-full h-full object-cover"
           />

@@ -18,7 +18,7 @@ export default function About() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/about-hero-office.jpg"
+            src="/images/about-hero-office.webp"
             alt="Zöllner Team - Voice AI Solutions"
             className="w-full h-full object-cover"
           />
