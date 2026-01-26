@@ -41,7 +41,7 @@ export default function VoicebotVsMitarbeiter() {
       {/* Hero Image */}
       <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
         <img
-          src="/images/blog-cost-benefit-professional.jpg"
+          src="/images/blog-voicebot-vs-mitarbeiter-new.jpg"
           alt="Voicebot vs. Mitarbeiter Kostenvergleich"
           className="w-full h-full object-cover"
         />

@@ -93,3 +93,4 @@
 - [x] Make blog preview images clickable and link to blog posts
 - [x] Add related blog posts section at the end of blog articles
 - [x] Restore hero images to blog article pages
+- [x] Update blog article hero image to match preview (robot vs human split-view)
