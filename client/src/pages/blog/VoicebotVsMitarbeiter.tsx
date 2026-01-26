@@ -71,7 +71,7 @@ export default function VoicebotVsMitarbeiter() {
             <span>Von Dr. Thomas Zöllner</span>
           </div>
 
-          <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-a:text-primary">
+          <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:leading-relaxed prose-a:text-primary prose-ul:my-6 prose-ul:space-y-2">
             <p className="lead text-xl text-muted-foreground mb-8">
               Das Telefon klingelt ununterbrochen. Die medizinischen
               Fachangestellten (MFA) hetzen zwischen Anmeldung,
@@ -95,7 +95,7 @@ export default function VoicebotVsMitarbeiter() {
             <div className="my-12 grid md:grid-cols-2 gap-6 not-prose">
               <Card className="bg-red-50 border-red-100">
                 <CardContent className="pt-6">
-                  <h3 className="text-lg font-bold text-red-800 mb-4 flex items-center">
+                  <h3 className="text-xl font-bold text-red-800 mb-4 flex items-center">
                     <X className="w-5 h-5 mr-2" /> Status Quo (Mensch)
                   </h3>
                   <ul className="space-y-3 text-sm">
@@ -116,7 +116,7 @@ export default function VoicebotVsMitarbeiter() {
               </Card>
               <Card className="bg-green-50 border-green-100">
                 <CardContent className="pt-6">
-                  <h3 className="text-lg font-bold text-green-800 mb-4 flex items-center">
+                  <h3 className="text-xl font-bold text-green-800 mb-4 flex items-center">
                     <Check className="w-5 h-5 mr-2" /> Mit Voicebot (KI)
                   </h3>
                   <ul className="space-y-3 text-sm">
