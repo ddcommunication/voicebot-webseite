@@ -98,4 +98,4 @@
 - [x] Move preview images above titles in related articles section
 - [x] Fix blog article typography and paragraph spacing inconsistencies
 - [x] Remove 'für Arztpraxen' from blog article title
-- [x] Thoroughly fix all font sizes and paragraph spacing in blog article
+- [x] Properly fix all typography issues in blog article (consistent sizes and spacing)
