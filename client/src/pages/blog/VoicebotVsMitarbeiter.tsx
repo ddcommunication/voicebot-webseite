@@ -181,6 +181,48 @@ export default function VoicebotVsMitarbeiter() {
             </p>
           </div>
 
+          {/* Related Posts Section */}
+          <div className="mt-16 border-t pt-12">
+            <h3 className="text-2xl font-serif font-bold mb-8">Weitere interessante Artikel</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/zukunft-kundenservice">
+                <Card className="border-none shadow-md hover:shadow-lg transition-all cursor-pointer h-full">
+                  <div className="h-40 overflow-hidden">
+                    <img
+                      src="/images/blog-future-customer-service.jpg"
+                      alt="Zukunft des Kundenservice"
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                  </div>
+                  <CardContent className="p-6">
+                    <h4 className="font-bold text-lg mb-2 text-primary">Warum Voicebots die Zukunft des Kundenservice sind</h4>
+                    <p className="text-sm text-muted-foreground line-clamp-2">
+                      Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/blog/perfekte-begruessung">
+                <Card className="border-none shadow-md hover:shadow-lg transition-all cursor-pointer h-full">
+                  <div className="h-40 overflow-hidden">
+                    <img
+                      src="/images/blog-perfect-greeting.jpg"
+                      alt="Perfekte Voicebot-Begrüßung"
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                  </div>
+                  <CardContent className="p-6">
+                    <h4 className="font-bold text-lg mb-2 text-primary">5 Tipps für die perfekte Voicebot-Begrüßung</h4>
+                    <p className="text-sm text-muted-foreground line-clamp-2">
+                      Der erste Eindruck zählt. So gestalten Sie Dialoge, die begeistern.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+            </div>
+          </div>
+
           <div className="mt-16 p-8 bg-primary/5 rounded-2xl border border-primary/10 text-center">
             <h3 className="text-2xl font-serif font-bold mb-4">
               Möchten Sie Ihre Erreichbarkeit testen?
