@@ -466,12 +466,9 @@ export default function UweOrtleppCaseStudy() {
 
             {/* About Zöllner */}
             <div className="bg-slate-900 text-white p-8 md:p-10 rounded-2xl">
-              <div className="flex items-center gap-3 mb-4">
-                <Clock className="h-6 w-6 text-primary" />
-                <h3 className="text-2xl font-bold m-0">
-                  Über Zöllner Büro- IT-Systeme GmbH
-                </h3>
-              </div>
+              <h3 className="text-2xl font-bold mb-4">
+                Über Zöllner Büro- IT-Systeme GmbH
+              </h3>
               <p className="text-slate-300 mb-4">
                 <strong className="text-white">NFON-Entwicklungspartner</strong>
               </p>
