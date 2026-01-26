@@ -70,7 +70,8 @@ export default function UweOrtleppCaseStudy() {
                 href="https://uoimmofinanz.de/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
+                style={{color: '#0287F6'}}
+                className="hover:opacity-80 transition-opacity underline decoration-2 underline-offset-4"
                 title="Immobilien – Finanzierung"
               >
                 Uwe Ortlepp

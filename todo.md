@@ -117,3 +117,4 @@
 - [x] Add color highlighting to Uwe Ortlepp links to make them recognizable
 - [x] Change Finanzdienstleistung badge to lighter color for better visibility
 - [x] Change "echten Welt" text color to solid blue #0287F6 in Praxisbeispiele hero
+- [x] Change Uwe Ortlepp link color in hero to blue #0287F6 for better readability
