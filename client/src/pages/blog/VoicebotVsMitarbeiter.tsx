@@ -9,7 +9,7 @@ export default function VoicebotVsMitarbeiter() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich",
+      "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich für Arztpraxen",
     image: "https://www.zoellner-office.de/images/blog-voicebot-vs-mitarbeiter-new.jpg",
     author: {
       "@type": "Person",
@@ -59,7 +59,7 @@ export default function VoicebotVsMitarbeiter() {
           </Link>
 
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich
+            Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich für Arztpraxen
           </h1>
 
           <div className="flex items-center gap-4 text-muted-foreground mb-12 text-sm">

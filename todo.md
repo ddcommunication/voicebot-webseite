@@ -125,3 +125,5 @@
 - [x] Fix mobile text overflow for "Immobilienfinanzierung" in hero heading
 - [x] Fix author name from "Dr. Thomas Zöllner" to "Zöllner office" in Voicebot vs. Mitarbeiter blog post
 - [x] Verify all blog posts have consistent "Zöllner office" author naming
+- [x] Add 'für Arztpraxen' back to blog post title in article page
+- [x] Add 'für Arztpraxen' back to blog post title in preview/overview page
