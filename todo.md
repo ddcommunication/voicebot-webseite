@@ -131,3 +131,6 @@
 ## Title Shortening (Jan 27, 2026)
 - [x] Shorten blog title from "Der Kosten-Nutzen-Vergleich für Arztpraxen" to "Kosten-Nutzen-Vergleich Arztpraxen" in article page
 - [x] Shorten blog title in overview page preview
+
+## Author Name Capitalization (Jan 27, 2026)
+- [x] Change author from "Zöllner office" to "Zöllner Office" in blog post VoicebotVsMitarbeiter.tsx
