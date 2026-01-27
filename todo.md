@@ -123,3 +123,5 @@
 - [x] Add website link below company info
 - [x] Add visible flow arrows between system integration cards in mobile view
 - [x] Fix mobile text overflow for "Immobilienfinanzierung" in hero heading
+- [x] Fix author name from "Dr. Thomas Zöllner" to "Zöllner office" in Voicebot vs. Mitarbeiter blog post
+- [x] Verify all blog posts have consistent "Zöllner office" author naming

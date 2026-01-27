@@ -13,7 +13,7 @@ export default function VoicebotVsMitarbeiter() {
     image: "https://www.zoellner-office.de/images/blog-voicebot-vs-mitarbeiter-new.jpg",
     author: {
       "@type": "Person",
-      name: "Dr. Thomas Zöllner",
+      name: "Zöllner office",
     },
     publisher: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function VoicebotVsMitarbeiter() {
             <span>•</span>
             <span>Lesezeit: 5 Min.</span>
             <span>•</span>
-            <span>Von Dr. Thomas Zöllner</span>
+            <span>Von Zöllner office</span>
           </div>
 
           {/* Lead Paragraph */}
