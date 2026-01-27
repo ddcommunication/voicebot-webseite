@@ -13,7 +13,7 @@ import SEO from "@/components/SEO";
 export default function Blog() {
   const posts = [
     {
-      title: "Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich für Arztpraxen",
+      title: "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen",
       excerpt:
         "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.",
       date: "23. Jan 2026",

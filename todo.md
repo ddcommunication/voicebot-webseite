@@ -127,3 +127,7 @@
 - [x] Verify all blog posts have consistent "Zöllner office" author naming
 - [x] Add 'für Arztpraxen' back to blog post title in article page
 - [x] Add 'für Arztpraxen' back to blog post title in preview/overview page
+
+## Title Shortening (Jan 27, 2026)
+- [x] Shorten blog title from "Der Kosten-Nutzen-Vergleich für Arztpraxen" to "Kosten-Nutzen-Vergleich Arztpraxen" in article page
+- [x] Shorten blog title in overview page preview
