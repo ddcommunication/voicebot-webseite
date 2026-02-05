@@ -10,7 +10,7 @@ export default function VoicebotVsMitarbeiter() {
     "@type": "Article",
     headline:
       "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen",
-    image: "https://www.zoellner-office.de/images/blog-voicebot-vs-mitarbeiter-new.jpg",
+    image: "https://www.zoellner-office.dehttps://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
     author: {
       "@type": "Person",
       name: "Zöllner Office",
@@ -41,7 +41,7 @@ export default function VoicebotVsMitarbeiter() {
       {/* Hero Image */}
       <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
         <img
-          src="/images/blog-voicebot-vs-mitarbeiter-new.jpg"
+          src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
           alt="Voicebot vs. Mitarbeiter Kostenvergleich"
           className="w-full h-full object-cover"
         />
@@ -228,7 +228,7 @@ export default function VoicebotVsMitarbeiter() {
             <Link href="/blog/zukunft-kundenservice" className="block">
               <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden">
                 <img
-                  src="/images/blog-future-customer-service.jpg"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg"
                   alt="Zukunft des Kundenservice"
                   className="w-full h-48 object-cover"
                 />
@@ -244,7 +244,7 @@ export default function VoicebotVsMitarbeiter() {
             <Link href="/blog/perfekte-begruessung" className="block">
               <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden">
                 <img
-                  src="/images/blog-perfect-greeting.jpg"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
                   alt="Perfekte Voicebot-Begrüßung"
                   className="w-full h-48 object-cover"
                 />

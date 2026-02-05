@@ -13,13 +13,23 @@ import SEO from "@/components/SEO";
 export default function Blog() {
   const posts = [
     {
+      title: "Hackathon Vice-Meister bei Nexus Connect 2026",
+      excerpt:
+        "60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsf\u00e4higen Voicebot f\u00fcr Verwaltungszentralen und erreichte den zweiten Platz.",
+      date: "05. Feb 2026",
+      author: "Z\u00f6llner Office",
+      category: "News",
+      image: "/images/Hackathon-Vice-Meister4.jpeg",
+      slug: "/blog/hackathon-vice-meister",
+    },
+    {
       title: "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen",
       excerpt:
         "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.",
       date: "23. Jan 2026",
       author: "Zöllner Office",
       category: "Analyse",
-      image: "/images/blog-voicebot-vs-mitarbeiter-new.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
       slug: "/blog/voicebot-vs-mitarbeiter",
     },
     {
@@ -29,7 +39,7 @@ export default function Blog() {
       date: "12. Jan 2026",
       author: "Zöllner Office",
       category: "Technologie",
-      image: "/images/blog-future-customer-service.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg",
       slug: "/blog/zukunft-kundenservice",
     },
     {
@@ -39,7 +49,7 @@ export default function Blog() {
       date: "05. Jan 2026",
       author: "Zöllner Office",
       category: "Best Practices",
-      image: "/images/blog-perfect-greeting.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg",
       slug: "/blog/perfekte-begruessung",
     },
   ];

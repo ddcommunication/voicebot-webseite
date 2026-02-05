@@ -134,3 +134,10 @@
 
 ## Author Name Capitalization (Jan 27, 2026)
 - [x] Change author from "Zöllner office" to "Zöllner Office" in blog post VoicebotVsMitarbeiter.tsx
+
+## New Blog Post: Hackathon Vice-Meister (Jan 27, 2026)
+- [x] Copy hackathon images to project public/images folder
+- [x] Create blog post component HackathonViceMeister.tsx
+- [x] Add blog post to Blog.tsx overview page
+- [x] Add routing in App.tsx for /blog/hackathon-vice-meister
+- [x] Test blog post display and navigation

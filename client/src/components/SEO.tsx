@@ -15,7 +15,7 @@ export default function SEO({
   description,
   canonical,
   type = "website",
-  image = "/images/hero-main.jpg",
+  image = "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/aJdwTMGgxMBLbFMd.jpg",
   schema,
   keywords,
 }: SEOProps) {

@@ -109,7 +109,7 @@ export default function Anwendungsbeispiele() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/anwendungsbeispiele-hero-new.webp"
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/vEwXgklqrXAAeRvh.jpg"
             alt="Diverse Industries Using AI Voice Technology"
             className="w-full h-full object-cover opacity-80"
           />

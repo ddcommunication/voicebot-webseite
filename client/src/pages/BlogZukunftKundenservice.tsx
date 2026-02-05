@@ -15,7 +15,7 @@ export default function BlogZukunftKundenservice() {
       {/* Hero Image */}
       <section className="relative h-96 overflow-hidden">
         <img
-          src="/images/blog-future-customer-service.jpg"
+          src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg"
           alt="Zukunft des Kundenservice mit KI"
           className="w-full h-full object-cover"
         />
@@ -342,7 +342,7 @@ export default function BlogZukunftKundenservice() {
             <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/blog-voicebot-vs-mitarbeiter-new.jpg"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
                   alt="Voicebot vs. Mitarbeiter"
                   className="w-full h-48 object-cover"
                 />
@@ -361,7 +361,7 @@ export default function BlogZukunftKundenservice() {
             <Link href="/blog/perfekte-begruessung" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/blog-perfect-greeting.jpg"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
                   alt="Perfekte Voicebot-Begrüßung"
                   className="w-full h-48 object-cover"
                 />

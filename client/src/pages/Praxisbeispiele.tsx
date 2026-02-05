@@ -39,7 +39,7 @@ export default function Praxisbeispiele() {
       <section className="relative bg-slate-900 text-white py-24 overflow-hidden min-h-[500px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero-dynamic-blue.jpg" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FsnTgEKaTsmGiZsv.jpg" 
             alt="Praxisbeispiele Voicebot Technologie" 
             className="w-full h-full object-cover opacity-80"
           />
