@@ -173,3 +173,9 @@
 - [x] Update WohnungswirtschaftCaseStudy.tsx related articles with images
 - [x] Update other blog posts with related articles images (only WohnungswirtschaftCaseStudy has related articles section)
 - [x] Test related articles display (code updated, HMR triggered successfully)
+
+## Move Housing Case Study to Anwendungsbeispiele (Feb 6, 2026)
+- [x] Read and analyze current Anwendungsbeispiele page structure (has 6 use case cards in grid layout, no detailed case studies yet)
+- [x] Add housing case study to Anwendungsbeispiele page with image and description (added detailed card with image, description, and 3 key benefits)
+- [x] Update navigation links if needed (no changes needed - blog post remains accessible, now also featured on Anwendungsbeispiele page)
+- [x] Test Anwendungsbeispiele page display (HMR triggered successfully, case study section added before use cases grid)
