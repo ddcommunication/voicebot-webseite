@@ -10,7 +10,7 @@ export default function WohnungswirtschaftCaseStudy() {
     "@type": "Article",
     headline:
       "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hBssY4yFgrDMxKuQUwbMQs/sandbox/5JPTOfBKPWHtiL6jUToS28-img-1_1770375848000_na1fn_YmxvZy13b2hudW5nc3dpcnRzY2hhZnQtdm9pY2Vib3Q.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaEJzc1k0eUZnckRNeEt1UVV3Yk1Rcy9zYW5kYm94LzVKUFRPZkJLUFdIdGlMNmpVVG9TMjgtaW1nLTFfMTc3MDM3NTg0ODAwMF9uYTFmbl9ZbXh2WnkxM2IyaHVkVzVuYzNkcnRzWTJoaFpuUXRkbTlwWTJWaWIzUS5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=B78RZar9GenM~UCU5R3aYfGQstmiaAVlHSRL7JyF~554RiD-KL5smGjzarcBnsSW3LhgHMCdjumnWNMtjpORWJPKxD5hTB--lFj4U9DBmm0mZSnxb-DqgmiUkWnbxMdQRS2noEcaIBFDDkU-byNpWyJtFrWlpWoapvByQQmp5UCIVbrCaM6MnTUItXXR3WHRl8tg3M0tEhk2Z5F2PeSY75Si~9-H9i-n-LZ10osTfQvcRWWE6zdeQAsnEbUzdVWKmvlJhzXH-tJ0iyDavabIrWHru2XlcQq2mB4zuVTHkkSLmEugcWJ5w7FhtnvLUKbck8lc6OZMQlFFsOYvS5ztHw__",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
     author: {
       "@type": "Person",
       name: "Zöllner Office",
@@ -41,7 +41,7 @@ export default function WohnungswirtschaftCaseStudy() {
       {/* Hero Image */}
       <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
         <img
-          src="https://private-us-east-1.manuscdn.com/sessionFile/hBssY4yFgrDMxKuQUwbMQs/sandbox/5JPTOfBKPWHtiL6jUToS28-img-1_1770375848000_na1fn_YmxvZy13b2hudW5nc3dpcnRzY2hhZnQtdm9pY2Vib3Q.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaEJzc1k0eUZnckRNeEt1UVV3Yk1Rcy9zYW5kYm94LzVKUFRPZkJLUFdIdGlMNmpVVG9TMjgtaW1nLTFfMTc3MDM3NTg0ODAwMF9uYTFmbl9ZbXh2WnkxM2IyaHVkVzVuYzNkcnRzWTJoaFpuUXRkbTlwWTJWaWIzUS5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=B78RZar9GenM~UCU5R3aYfGQstmiaAVlHSRL7JyF~554RiD-KL5smGjzarcBnsSW3LhgHMCdjumnWNMtjpORWJPKxD5hTB--lFj4U9DBmm0mZSnxb-DqgmiUkWnbxMdQRS2noEcaIBFDDkU-byNpWyJtFrWlpWoapvByQQmp5UCIVbrCaM6MnTUItXXR3WHRl8tg3M0tEhk2Z5F2PeSY75Si~9-H9i-n-LZ10osTfQvcRWWE6zdeQAsnEbUzdVWKmvlJhzXH-tJ0iyDavabIrWHru2XlcQq2mB4zuVTHkkSLmEugcWJ5w7FhtnvLUKbck8lc6OZMQlFFsOYvS5ztHw__"
+          src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png"
           alt="Wohnungswirtschaft VoiceBot Automatisierung"
           className="w-full h-full object-cover"
         />
