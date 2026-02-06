@@ -148,3 +148,9 @@
 - [x] Add blog post to Blog.tsx overview page
 - [x] Add routing in App.tsx for /blog/wohnungswirtschaft-voicebot
 - [x] Test blog post display and navigation
+
+## Fix Housing Industry Blog Image (Feb 6, 2026)
+- [x] Upload blog-wohnungswirtschaft-voicebot.jpg to S3 (URL: https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/ZjCNqAYkEkkArsxY.jpg)
+- [x] Update WohnungswirtschaftCaseStudy.tsx with S3 URL
+- [x] Update Blog.tsx overview with S3 URL
+- [x] Test image display (Image loads correctly with S3 URL)
