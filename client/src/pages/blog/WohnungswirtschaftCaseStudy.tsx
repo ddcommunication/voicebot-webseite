@@ -498,7 +498,12 @@ export default function WohnungswirtschaftCaseStudy() {
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/hackathon-vice-meister">
-                <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
+                <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full overflow-hidden">
+                  <img 
+                    src="/images/Hackathon-Vice-Meister4.jpeg" 
+                    alt="Hackathon Vice-Meister bei Nexus Connect 2026" 
+                    className="w-full h-48 object-cover"
+                  />
                   <CardContent className="pt-6">
                     <h4 className="font-bold text-lg mb-2 hover:text-primary transition-colors">
                       Hackathon Vice-Meister bei Nexus Connect 2026
@@ -510,7 +515,12 @@ export default function WohnungswirtschaftCaseStudy() {
                 </Card>
               </Link>
               <Link href="/blog/voicebot-vs-mitarbeiter">
-                <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
+                <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg" 
+                    alt="Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen" 
+                    className="w-full h-48 object-cover"
+                  />
                   <CardContent className="pt-6">
                     <h4 className="font-bold text-lg mb-2 hover:text-primary transition-colors">
                       Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen

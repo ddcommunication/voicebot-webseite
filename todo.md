@@ -167,3 +167,9 @@
 - [x] Update WohnungswirtschaftCaseStudy.tsx with new image URL
 - [x] Update Blog.tsx overview with new image URL
 - [x] Test image display (new modern apartment building image displays correctly)
+
+## Add Images to Related Articles Cards (Feb 6, 2026)
+- [x] Get image URLs from Blog.tsx for hackathon and voicebot-vs-mitarbeiter posts (Hackathon: /images/Hackathon-Vice-Meister4.jpeg, Voicebot-vs-Mitarbeiter: https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg)
+- [x] Update WohnungswirtschaftCaseStudy.tsx related articles with images
+- [x] Update other blog posts with related articles images (only WohnungswirtschaftCaseStudy has related articles section)
+- [x] Test related articles display (code updated, HMR triggered successfully)
