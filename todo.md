@@ -141,3 +141,10 @@
 - [x] Add blog post to Blog.tsx overview page
 - [x] Add routing in App.tsx for /blog/hackathon-vice-meister
 - [x] Test blog post display and navigation
+
+## New Blog Post: Wohnungswirtschaft Case Study (Feb 5, 2026)
+- [x] Generate hero image for housing industry case study
+- [x] Create blog post component WohnungswirtschaftCaseStudy.tsx
+- [x] Add blog post to Blog.tsx overview page
+- [x] Add routing in App.tsx for /blog/wohnungswirtschaft-voicebot
+- [x] Test blog post display and navigation

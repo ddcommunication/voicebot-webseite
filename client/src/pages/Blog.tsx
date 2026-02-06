@@ -13,6 +13,16 @@ import SEO from "@/components/SEO";
 export default function Blog() {
   const posts = [
     {
+      title: "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
+      excerpt:
+        "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente Sprachautomatisierung den Kundenservice revolutionierte und die Erreichbarkeit auf 24/7 erweiterte.",
+      date: "05. Feb 2026",
+      author: "Zöllner Office",
+      category: "Praxisbeispiel",
+      image: "https://private-us-east-1.manuscdn.com/sessionFile/hBssY4yFgrDMxKuQUwbMQs/sandbox/5JPTOfBKPWHtiL6jUToS28-img-1_1770375848000_na1fn_YmxvZy13b2hudW5nc3dpcnRzY2hhZnQtdm9pY2Vib3Q.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaEJzc1k0eUZnckRNeEt1UVV3Yk1Rcy9zYW5kYm94LzVKUFRPZkJLUFdIdGlMNmpVVG9TMjgtaW1nLTFfMTc3MDM3NTg0ODAwMF9uYTFmbl9ZbXh2WnkxM2IyaHVkVzVuYzNkcnRzWTJoaFpuUXRkbTlwWTJWaWIzUS5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=B78RZar9GenM~UCU5R3aYfGQstmiaAVlHSRL7JyF~554RiD-KL5smGjzarcBnsSW3LhgHMCdjumnWNMtjpORWJPKxD5hTB--lFj4U9DBmm0mZSnxb-DqgmiUkWnbxMdQRS2noEcaIBFDDkU-byNpWyJtFrWlpWoapvByQQmp5UCIVbrCaM6MnTUItXXR3WHRl8tg3M0tEhk2Z5F2PeSY75Si~9-H9i-n-LZ10osTfQvcRWWE6zdeQAsnEbUzdVWKmvlJhzXH-tJ0iyDavabIrWHru2XlcQq2mB4zuVTHkkSLmEugcWJ5w7FhtnvLUKbck8lc6OZMQlFFsOYvS5ztHw__",
+      slug: "/blog/wohnungswirtschaft-voicebot",
+    },
+    {
       title: "Hackathon Vice-Meister bei Nexus Connect 2026",
       excerpt:
         "60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsf\u00e4higen Voicebot f\u00fcr Verwaltungszentralen und erreichte den zweiten Platz.",
