@@ -137,71 +137,8 @@ export default function Anwendungsbeispiele() {
         </div>
       </section>
 
-      {/* Detailed Case Study Section */}
-      <section className="py-24 bg-background">
-        <div className="container max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-              Praxisbeispiel aus der Wohnungswirtschaft
-            </h2>
-            <p className="text-lg text-muted-foreground">
-              Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch VoiceBot-Automatisierung den Kundenservice revolutionierte
-            </p>
-          </div>
-
-          <Link href="/blog/wohnungswirtschaft-voicebot">
-            <Card className="border-none shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group cursor-pointer">
-              <div className="grid md:grid-cols-2 gap-0">
-                <div className="relative h-64 md:h-auto">
-                  <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png"
-                    alt="Moderne Wohnanlage mit automatisierter Telefonannahme"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <CardContent className="p-8 md:p-12 flex flex-col justify-center">
-                  <div className="inline-flex items-center rounded-full border border-blue-400/30 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-600 mb-4 w-fit">
-                    Praxisbeispiel
-                  </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 group-hover:text-blue-600 transition-colors">
-                    Automatisierte Telefonannahme mit VoiceBot
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed mb-6">
-                    Erfahren Sie, wie eine Wohnungsgenossenschaft durch intelligente Sprachautomatisierung die Erreichbarkeit auf 24/7 erweiterte, das Service-Team spürbar entlastete und gleichzeitig die Servicequalität deutlich steigerte.
-                  </p>
-                  <div className="space-y-3 mb-6">
-                    <div className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span className="text-sm text-muted-foreground">
-                        7 automatisierte Prozesstypen (Havarie, Schadensmeldung, Beschwerde, Wohnungssuche, FAQ)
-                      </span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span className="text-sm text-muted-foreground">
-                        24/7-Erreichbarkeit auch außerhalb der Geschäftszeiten
-                      </span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span className="text-sm text-muted-foreground">
-                        Deutliche Entlastung des Service-Teams von Routineanfragen
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flex items-center text-primary font-semibold group-hover:gap-3 gap-2 transition-all">
-                    Zum vollständigen Praxisbeispiel
-                    <ArrowRight className="h-5 w-5" />
-                  </div>
-                </CardContent>
-              </div>
-            </Card>
-          </Link>
-        </div>
-      </section>
-
       {/* Use Cases Grid */}
-      <section className="py-24 bg-muted/30">
+      <section className="py-24 bg-background">
         <div className="container">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {useCases.map((useCase, index) => (

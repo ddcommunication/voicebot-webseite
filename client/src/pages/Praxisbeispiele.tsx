@@ -12,6 +12,20 @@ export default function Praxisbeispiele() {
 
   const caseStudies = [
     {
+      slug: "wohnungswirtschaft-voicebot",
+      title: "Wohnungsgenossenschaft: Automatisierte Telefonannahme",
+      category: "Wohnungswirtschaft",
+      excerpt:
+        "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch VoiceBot-Automatisierung die Erreichbarkeit auf 24/7 erweiterte und das Service-Team spürbar entlastete.",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
+      readTime: "7 Min.",
+      results: [
+        "7 automatisierte Prozesstypen (Havarie, Schadensmeldung, Beschwerde, Wohnungssuche, FAQ)",
+        "24/7-Erreichbarkeit auch außerhalb der Geschäftszeiten",
+        "Deutliche Entlastung des Service-Teams von Routineanfragen",
+      ],
+    },
+    {
       slug: "uwe-ortlepp-immobilienfinanzierung",
       title: "Uwe Ortlepp Immobilienfinanzierung",
       category: "Finanzdienstleistung",
@@ -129,7 +143,7 @@ export default function Praxisbeispiele() {
                       </div>
                     </div>
 
-                    <Link href={`/praxisbeispiele/${study.slug}`}>
+                    <Link href={study.slug === 'wohnungswirtschaft-voicebot' ? '/blog/wohnungswirtschaft-voicebot' : `/praxisbeispiele/${study.slug}`}>
                       <Button
                         className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground group/btn"
                       >

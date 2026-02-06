@@ -179,3 +179,10 @@
 - [x] Add housing case study to Anwendungsbeispiele page with image and description (added detailed card with image, description, and 3 key benefits)
 - [x] Update navigation links if needed (no changes needed - blog post remains accessible, now also featured on Anwendungsbeispiele page)
 - [x] Test Anwendungsbeispiele page display (HMR triggered successfully, case study section added before use cases grid)
+
+## Move Case Study to Praxisbeispiele Page (Feb 6, 2026)
+- [x] Check if Praxisbeispiele page exists and read its structure (page exists with 1 case study in grid, uses same card layout style)
+- [x] Remove housing case study from Anwendungsbeispiele page
+- [x] Add housing case study to Praxisbeispiele page (added as first item in caseStudies array with proper link to blog post)
+- [x] Update routing if needed (no routing changes needed - case study links to existing blog post)
+- [x] Test Praxisbeispiele page display (housing case study displays correctly as first item with image, title, category, and 3 results)
