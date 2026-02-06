@@ -161,3 +161,9 @@
 - [x] Generate new image or use alternative solution (used search result image #8, uploaded to S3: https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/olUFyZKpncXgNDPz.jpg)
 - [x] Update all references with working image URL (replaced in both WohnungswirtschaftCaseStudy.tsx and Blog.tsx)
 - [x] Verify image displays correctly (confirmed working with new URL)
+
+## Replace Housing Blog Image with User-Provided Photo (Feb 6, 2026)
+- [x] Upload a-modern-architectural-photograph.png to S3 (URL: https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png)
+- [x] Update WohnungswirtschaftCaseStudy.tsx with new image URL
+- [x] Update Blog.tsx overview with new image URL
+- [x] Test image display (new modern apartment building image displays correctly)
