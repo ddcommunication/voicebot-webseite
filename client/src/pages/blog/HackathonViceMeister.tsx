@@ -189,8 +189,35 @@ export default function HackathonViceMeister() {
           {/* Presentation Image */}
           <div className="my-12">
             <img
-              src="/images/Hackathon-Vice-Meister9.jpeg"
-              alt="Team-Präsentation beim Hackathon"
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/iLkxonQweFWnToVE.jpg"
+              alt="Team-Präsentation beim Hackathon - Bühne mit NEXUS CONNECT Branding"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+
+          {/* Award Ceremony Image */}
+          <div className="my-12">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/VvsFJoZeVGgOajNH.jpg"
+              alt="Siegerehrung - Team auf der Bühne bei der Preisverleihung"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+
+          {/* Team with Robot Image */}
+          <div className="my-12">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/sBfGkdPcgAHPecJW.jpg"
+              alt="Team mit NFON Roboter und Auszeichnung"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+
+          {/* Trophy Close-up Image */}
+          <div className="my-12">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/TITBmQRRsrvtJrIA.jpg"
+              alt="NEXUS CONNECT 2026 Pokal - AI Deal 2025 für Zöllner Büro- & IT-Systeme GmbH"
               className="w-full rounded-lg shadow-lg"
             />
           </div>
