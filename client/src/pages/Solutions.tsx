@@ -214,10 +214,17 @@ export default function Solutions() {
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">
                 Nahtlose Integration
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
-                Ein Voicebot ist nur so gut wie seine Anbindung. Wir integrieren
-                unsere Lösung in Ihre bestehende IT-Landschaft – egal ob CRM,
-                Kalender oder Ticketsystem.
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                <strong>Welche Systeme sind bereits integriert:</strong>
+              </p>
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                Über 100 Unternehmen aus Branchen mit strengsten Datenschutzstandards setzen bereits auf botario.
+              </p>
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                <strong>Verbinden, was zusammengehört.</strong>
+              </p>
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                botario kann über flexible APIs mit beliebig vielen Drittsystemen verbunden werden. Ob Dateneintrag ins HR-System, Zugriff auf Informationen im ERP oder CRM oder das Auslösen externer Workflows – sofern Ihr System über eine Schnittstelle verfügt, kann botario damit interagieren.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
