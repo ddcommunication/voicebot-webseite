@@ -191,3 +191,7 @@
 - [x] Upload 4 new Nexus Connect images to S3 (presentation: iLkxonQweFWnToVE.jpg, award: VvsFJoZeVGgOajNH.jpg, team+robot: sBfGkdPcgAHPecJW.jpg, trophy: TITBmQRRsrvtJrIA.jpg)
 - [x] Update HackathonViceMeister.tsx with new images in article body (replaced presentation image and added 3 new images: award ceremony, team with robot, trophy close-up)
 - [x] Test image display in blog post (all 4 images displaying correctly: presentation, award ceremony, team with robot, trophy close-up)
+
+## Text Correction - Housing Industry Blog Post (Feb 12, 2026)
+- [x] Replace "Iterative Entwicklung" with "Schrittweise Entwicklung" in WohnungswirtschaftCaseStudy.tsx (line 259)
+- [x] Test and verify the change

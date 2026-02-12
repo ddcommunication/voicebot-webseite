@@ -256,7 +256,7 @@ export default function WohnungswirtschaftCaseStudy() {
                 </div>
                 <div>
                   <div className="font-semibold">Enge Abstimmung zwischen Business-Anforderungen und Technologie</div>
-                  <div className="text-sm text-muted-foreground">Iterative Entwicklung mit kontinuierlichem Feedback aus der Praxis</div>
+                  <div className="text-sm text-muted-foreground">Schrittweise Entwicklung mit kontinuierlichem Feedback aus der Praxis</div>
                 </div>
               </div>
             </CardContent>
