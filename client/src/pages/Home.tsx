@@ -229,8 +229,7 @@ export default function Home() {
                       Telefonzentrale & Erstannahme
                     </h3>
                     <p className="text-muted-foreground">
-                      Nimmt jedes Gespräch an, erkennt Abteilungen und leitet
-                      gezielt weiter.
+                      Nimmt jedes Gespräch an, verbindet gezielt weiter und erkennt ob frei oder besetzt ist.
                     </p>
                   </div>
                 </div>

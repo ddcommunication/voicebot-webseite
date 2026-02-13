@@ -232,3 +232,7 @@
 ## Increase Border Radius of Robot Image (Feb 13, 2026)
 - [x] Update image CSS classes to increase border radius
 - [x] Test and verify the rounded corners
+
+## Update Telefonzentrale Description Text (Feb 13, 2026)
+- [x] Change "Nimmt jedes Gespräch an, erkennt Abteilungen und leitet gezielt weiter." to "Nimmt jedes Gespräch an, verbindet gezielt weiter und erkennt ob frei oder besetzt ist"
+- [x] Test and verify the text change
