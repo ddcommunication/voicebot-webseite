@@ -222,3 +222,9 @@
 - [x] Add SEO meta headers to Privacy page
 - [x] Add SEO meta headers to Imprint page
 - [x] Test and verify all SEO implementations
+
+## Replace Old Image with Robot-on-Phone Image (Feb 13, 2026)
+- [x] Find all occurrences of fYUInIDzcUEZUHqq.jpg in the codebase
+- [x] Upload new robot-on-phone image (KIRoboteramTelefon.webp) to S3
+- [x] Replace all old image URLs with new image URL
+- [x] Test and verify the image replacement
