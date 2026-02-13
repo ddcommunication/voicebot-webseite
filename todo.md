@@ -200,3 +200,10 @@
 - [x] Read current Solutions page integration section
 - [x] Replace integration text with new content about botario's 100+ customers and flexible API capabilities
 - [x] Test and verify the changes
+
+## Redesign Solutions Page Integration Section (Feb 13, 2026)
+- [x] Remove button-style cards from integration section
+- [x] Add new system logos: OTRS, Freshdesk, CCHub, SAP, Cloudya, Freshworks (total 12 systems)
+- [x] Display text in full width above logo grid
+- [x] Make "Verbinden, was zusammengehört." larger and more prominent
+- [x] Test and verify the new layout

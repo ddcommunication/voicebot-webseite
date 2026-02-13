@@ -209,87 +209,108 @@ export default function Solutions() {
       {/* Integration Section */}
       <section className="py-20 bg-muted/30">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">
-                Nahtlose Integration
-              </h2>
-              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                <strong>Welche Systeme sind bereits integriert:</strong>
-              </p>
-              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Über 100 Unternehmen aus Branchen mit strengsten Datenschutzstandards setzen bereits auf botario.
-              </p>
-              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                <strong>Verbinden, was zusammengehört.</strong>
-              </p>
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                botario kann über flexible APIs mit beliebig vielen Drittsystemen verbunden werden. Ob Dateneintrag ins HR-System, Zugriff auf Informationen im ERP oder CRM oder das Auslösen externer Workflows – sofern Ihr System über eine Schnittstelle verfügt, kann botario damit interagieren.
-              </p>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
-                  Microsoft Outlook
-                </div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
-                  Google Calendar
-                </div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
-                  Salesforce
-                </div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
-                  HubSpot
-                </div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
-                  Zendesk
-                </div>
-                <div className="bg-white p-4 rounded-lg border shadow-sm text-center font-medium text-primary hover:shadow-md transition-shadow cursor-default">
-                  Jira
-                </div>
-              </div>
+          <div className="text-center max-w-4xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">
+              Nahtlose Integration
+            </h2>
+            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+              <strong>Welche Systeme sind bereits integriert:</strong>
+            </p>
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Über 100 Unternehmen aus Branchen mit strengsten Datenschutzstandards setzen bereits auf botario.
+            </p>
+            <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4">
+              Verbinden, was zusammengehört.
+            </h3>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              botario kann über flexible APIs mit beliebig vielen Drittsystemen verbunden werden. Ob Dateneintrag ins HR-System, Zugriff auf Informationen im ERP oder CRM oder das Auslösen externer Workflows – sofern Ihr System über eine Schnittstelle verfügt, kann botario damit interagieren.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-outlook.png"
+                alt="Microsoft Outlook"
+                className="h-12 object-contain"
+              />
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src="/images/logo-outlook.png"
-                  alt="Microsoft Outlook"
-                  className="h-16 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src="/images/logo-google-calendar.png"
-                  alt="Google Calendar"
-                  className="h-16 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src="/images/logo-salesforce.png"
-                  alt="Salesforce"
-                  className="h-16 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src="/images/logo-hubspot.png"
-                  alt="HubSpot"
-                  className="h-16 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src="/images/logo-zendesk.png"
-                  alt="Zendesk"
-                  className="h-16 object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src="/images/logo-jira.png"
-                  alt="Jira"
-                  className="h-16 object-contain"
-                />
-              </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-google-calendar.png"
+                alt="Google Calendar"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-salesforce.png"
+                alt="Salesforce"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-hubspot.png"
+                alt="HubSpot"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-zendesk.png"
+                alt="Zendesk"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-jira.png"
+                alt="Jira"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-otrs.png"
+                alt="OTRS"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-freshdesk.png"
+                alt="Freshdesk"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-cchub.png"
+                alt="CCHub"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-sap.png"
+                alt="SAP"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-cloudya.png"
+                alt="Cloudya"
+                className="h-12 object-contain"
+              />
+            </div>
+            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <img
+                src="/images/logo-freshworks.png"
+                alt="Freshworks"
+                className="h-12 object-contain"
+              />
             </div>
           </div>
         </div>
