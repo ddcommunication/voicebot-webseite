@@ -250,3 +250,8 @@
 - [x] Remove Manus Analytics (Umami) tracking from index.html
 - [x] Add noindex, nofollow meta tags to index.html
 - [x] Test and verify changes
+
+## Update Praxisbeispiele Preview Images (Feb 13, 2026)
+- [x] Remove shadows from preview images
+- [x] Add rounded corners to preview images
+- [x] Test and verify the styling changes
