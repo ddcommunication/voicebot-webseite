@@ -236,3 +236,17 @@
 ## Update Telefonzentrale Description Text (Feb 13, 2026)
 - [x] Change "Nimmt jedes Gespräch an, erkennt Abteilungen und leitet gezielt weiter." to "Nimmt jedes Gespräch an, verbindet gezielt weiter und erkennt ob frei oder besetzt ist"
 - [x] Test and verify the text change
+
+## Remove Manus Analytics and Add Noindex (Feb 13, 2026)
+- [x] Remove Manus Analytics (Umami) tracking from index.html
+- [x] Add noindex, nofollow meta tags to index.html
+- [x] Test and verify changes
+
+## Add Noindex Meta Tag (Feb 13, 2026)
+- [x] Update index.html to add noindex, nofollow meta tags
+- [x] Test and verify that search engines are blocked
+
+## Remove Manus Analytics and Add Noindex (Feb 13, 2026)
+- [x] Remove Manus Analytics (Umami) tracking from index.html
+- [x] Add noindex, nofollow meta tags to index.html
+- [x] Test and verify changes
