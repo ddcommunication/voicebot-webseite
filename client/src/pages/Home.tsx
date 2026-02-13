@@ -204,7 +204,7 @@ export default function Home() {
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/hlgZPasNjAgptxJy.webp"
                 alt="Voicebot Technologie Visualisierung"
-                className="relative rounded-lg shadow-2xl w-full object-cover aspect-[4/3]"
+                className="relative rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
               />
             </div>
 

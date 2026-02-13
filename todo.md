@@ -228,3 +228,7 @@
 - [x] Upload new robot-on-phone image (KIRoboteramTelefon.webp) to S3
 - [x] Replace all old image URLs with new image URL
 - [x] Test and verify the image replacement
+
+## Increase Border Radius of Robot Image (Feb 13, 2026)
+- [x] Update image CSS classes to increase border radius
+- [x] Test and verify the rounded corners
