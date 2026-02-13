@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -20,25 +21,22 @@ export default function UweOrtleppCaseStudy() {
 
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Case Study: Voicebot-Lösung für Uwe Ortlepp Immobilienfinanzierung",
-    image: "https://www.zoellner-office.de/images/uwe-ortlepp-portrait.jpg",
-    author: {
-      "@type": "Person",
-      name: "Dr. Thomas Zöllner",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Zöllner Office",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.zoellner-office.de/logo.png",
-      },
-    },
-    datePublished: "2026-01-26",
-    description:
-      "Erfolgreiche Voicebot-Implementierung bei Uwe Ortlepp Immobilienfinanzierung: 24/7 Erreichbarkeit und automatisierte Terminbuchung.",
+    "@graph": [
+      generateArticleSchema({
+        title: "Case Study: Voicebot-Lösung für Uwe Ortlepp Immobilienfinanzierung",
+        description: "Erfolgreiche Voicebot-Implementierung: 24/7 Erreichbarkeit und automatisierte Terminbuchung für Immobilienfinanzierung.",
+        url: "https://www.zoellner-office.de/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung",
+        image: "https://www.zoellner-office.de/images/uwe-ortlepp-portrait.jpg",
+        datePublished: "2026-01-26",
+        dateModified: "2026-02-13",
+        author: "Dr. Thomas Zöllner"
+      }),
+      generateBreadcrumbSchema([
+        { name: "Startseite", url: "/" },
+        { name: "Praxisbeispiele", url: "/praxisbeispiele" },
+        { name: "Uwe Ortlepp", url: "/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" }
+      ])
+    ]
   };
 
   return (
@@ -48,6 +46,7 @@ export default function UweOrtleppCaseStudy() {
         description="Erfolgreiche Voicebot-Implementierung: 24/7 Erreichbarkeit und automatisierte Terminbuchung für Immobilienfinanzierung."
         canonical="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung"
         type="article"
+        keywords="Uwe Ortlepp, Immobilienfinanzierung, Voicebot, Case Study, 24/7 Erreichbarkeit, Terminbuchung"
         schema={articleSchema}
       />
 

@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Check, Phone, Clock, Users, TrendingUp, Shield, AlertTriangle } from "lucide-react";
@@ -7,25 +8,21 @@ import { Link } from "wouter";
 export default function WohnungswirtschaftCaseStudy() {
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
-    author: {
-      "@type": "Person",
-      name: "Zöllner Office",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Zöllner Office",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.zoellner-office.de/logo.png",
-      },
-    },
-    datePublished: "2026-02-05",
-    description:
-      "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente VoiceBot-Automatisierung den Kundenservice revolutionierte und die Erreichbarkeit auf 24/7 erweiterte.",
+    "@graph": [
+      generateArticleSchema({
+        title: "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
+        description: "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente VoiceBot-Automatisierung den Kundenservice revolutionierte und die Erreichbarkeit auf 24/7 erweiterte.",
+        url: "https://www.zoellner-office.de/blog/wohnungswirtschaft-voicebot",
+        image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
+        datePublished: "2026-02-05",
+        dateModified: "2026-02-13"
+      }),
+      generateBreadcrumbSchema([
+        { name: "Startseite", url: "/" },
+        { name: "Blog", url: "/blog" },
+        { name: "Wohnungswirtschaft VoiceBot", url: "/blog/wohnungswirtschaft-voicebot" }
+      ])
+    ]
   };
 
   return (
@@ -35,6 +32,7 @@ export default function WohnungswirtschaftCaseStudy() {
         description="Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente VoiceBot-Automatisierung den Kundenservice revolutionierte."
         canonical="/blog/wohnungswirtschaft-voicebot"
         type="article"
+        keywords="Wohnungswirtschaft, VoiceBot, Praxisbeispiel, Automatisierung, Kundenservice, 24/7 Erreichbarkeit"
         schema={articleSchema}
       />
 

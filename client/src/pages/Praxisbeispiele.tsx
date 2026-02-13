@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Building2, Clock, TrendingUp } from "lucide-react";
@@ -47,6 +48,16 @@ export default function Praxisbeispiele() {
         title="Praxisbeispiele - Erfolgreiche Voicebot-Implementierungen"
         description="Erfahren Sie, wie Unternehmen aus verschiedenen Branchen mit Voicebots ihre Erreichbarkeit verbessern und Prozesse automatisieren."
         canonical="/praxisbeispiele"
+        keywords="Praxisbeispiele, Case Studies, Voicebot Erfolge, Wohnungswirtschaft, Immobilienfinanzierung, Referenzen"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Praxisbeispiele", url: "/praxisbeispiele" }
+            ])
+          ]
+        }}
       />
 
       {/* Hero Section */}

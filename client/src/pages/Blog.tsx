@@ -9,6 +9,7 @@ import {
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function Blog() {
   const posts = [
@@ -66,20 +67,29 @@ export default function Blog() {
 
   const blogSchema = {
     "@context": "https://schema.org",
-    "@type": "Blog",
-    name: "Zöllner Office Blog",
-    description: "Aktuelle Einblicke in die Welt der Sprach-KI und Voicebots.",
-    blogPost: posts.map(post => ({
-      "@type": "BlogPosting",
-      headline: post.title,
-      description: post.excerpt,
-      datePublished: post.date, // Note: Should ideally be ISO format
-      author: {
-        "@type": "Person",
-        name: post.author,
+    "@graph": [
+      {
+        "@type": "Blog",
+        name: "Zöllner Office Blog",
+        description: "Aktuelle Einblicke in die Welt der Sprach-KI und Voicebots.",
+        url: "https://www.zoellner-office.de/blog",
+        blogPost: posts.map(post => ({
+          "@type": "BlogPosting",
+          headline: post.title,
+          description: post.excerpt,
+          image: post.image,
+          url: `https://www.zoellner-office.de${post.slug}`,
+          author: {
+            "@type": "Organization",
+            name: post.author,
+          },
+        })),
       },
-      image: `https://www.zoellner-office.de${post.image}`,
-    })),
+      generateBreadcrumbSchema([
+        { name: "Startseite", url: "/" },
+        { name: "Blog", url: "/blog" }
+      ])
+    ]
   };
 
   return (
@@ -88,6 +98,7 @@ export default function Blog() {
         title="Wissen & News"
         description="Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis und Neuigkeiten von Zöllner Office."
         canonical="/blog"
+        keywords="Voicebot Blog, Sprach-KI, Best Practices, Praxisbeispiele, News, Wissen"
         schema={blogSchema}
       />
 

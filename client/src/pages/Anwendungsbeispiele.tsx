@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -102,6 +103,16 @@ export default function Anwendungsbeispiele() {
         title="Anwendungsbeispiele"
         description="Entdecken Sie, wie Voicebots in verschiedenen Branchen eingesetzt werden: Arztpraxen, Handwerk, E-Commerce, Immobilien und mehr."
         canonical="/anwendungsbeispiele"
+        keywords="Voicebot Anwendungsbeispiele, Arztpraxen, Handwerk, E-Commerce, Immobilien, Branchen"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Anwendungsbeispiele", url: "/anwendungsbeispiele" }
+            ])
+          ]
+        }}
       />
 
       {/* Hero Section */}

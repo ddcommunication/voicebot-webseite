@@ -4,6 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin } from "lucide-react";
 import SEO from "@/components/SEO";
+import { generateLocalBusinessSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { trpc } from "@/lib/trpc";
 import { useState } from "react";
 import { toast } from "sonner";
@@ -60,6 +61,17 @@ export default function Contact() {
         title="Kontakt & Demo"
         description="Erleben Sie unsere Voicebots live. Vereinbaren Sie eine kostenlose Demo oder stellen Sie uns Ihre Fragen."
         canonical="/kontakt"
+        keywords="Kontakt, Demo anfragen, Voicebot Demo, Beratung, Zöllner Office Kontakt"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateLocalBusinessSchema(),
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Kontakt", url: "/kontakt" }
+            ])
+          ]
+        }}
       />
 
       {/* Hero Section with Elsterwerda Background */}

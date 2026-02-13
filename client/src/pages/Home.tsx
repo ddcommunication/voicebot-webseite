@@ -29,6 +29,7 @@ import {
 } from "@/components/ui/select";
 import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
+import { generateOrganizationSchema, generateWebSiteSchema, generateFAQSchema } from "@/lib/schema";
 
 export default function Home() {
   // The userAuth hooks provides authentication state
@@ -41,6 +42,28 @@ export default function Home() {
         title="Voicebots für Unternehmen"
         description="Schluss mit verpassten Anrufen. Unsere KI-Voicebots nehmen Gespräche an, erfassen Anliegen und buchen Termine – 24/7."
         canonical="/"
+        keywords="Voicebot, KI-Sprachassistent, automatische Telefonzentrale, Terminvereinbarung, 24/7 Kundenservice, DSGVO-konform, Made in Germany"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateOrganizationSchema(),
+            generateWebSiteSchema(),
+            generateFAQSchema([
+              {
+                question: "Wie schnell ist der Voicebot einsatzbereit?",
+                answer: "Standard-Lösungen können oft innerhalb von 48 Stunden aktiviert werden. Für komplexere, individuelle Integrationen in Ihre CRM-Systeme benötigen wir in der Regel 2-4 Wochen."
+              },
+              {
+                question: "Klingt der Bot wie ein Roboter?",
+                answer: "Nein. Wir nutzen modernste Neural Text-to-Speech Technologie. Die Stimmen sind kaum von menschlichen Sprechern zu unterscheiden und können sogar Emotionen und Betonungen variieren."
+              },
+              {
+                question: "Was passiert, wenn der Bot nicht weiterweiß?",
+                answer: "Der Bot erkennt, wenn er an seine Grenzen stößt, und leitet das Gespräch nahtlos an einen Mitarbeiter weiter. Dabei übergibt er alle bereits erfassten Informationen, sodass der Kunde sich nicht wiederholen muss."
+              }
+            ])
+          ]
+        }}
       />
 
       {/* Hero Section */}

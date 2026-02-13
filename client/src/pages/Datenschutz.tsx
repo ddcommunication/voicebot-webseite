@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function Datenschutz() {
   return (
@@ -7,6 +8,15 @@ export default function Datenschutz() {
         title="Datenschutzerklärung"
         description="Informationen zum Umgang mit Ihren Daten bei Zöllner Büro- & IT-Systeme GmbH."
         canonical="/datenschutz"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Datenschutz", url: "/datenschutz" }
+            ])
+          ]
+        }}
       />
 
       {/* Header */}

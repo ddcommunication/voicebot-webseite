@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Trophy, Clock, Zap } from "lucide-react";
 import { Link } from "wouter";
@@ -6,24 +7,21 @@ import { Link } from "wouter";
 export default function HackathonViceMeister() {
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Hackathon Vice-Meister bei Nexus Connect 2026",
-    image: "https://www.zoellner-office.de/images/Hackathon-Vice-Meister4.jpeg",
-    author: {
-      "@type": "Person",
-      name: "Zöllner Office",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Zöllner Office",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.zoellner-office.de/logo.png",
-      },
-    },
-    datePublished: "2026-02-05",
-    description:
-      "60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsfähigen Voicebot für Verwaltungszentralen und erreichte den zweiten Platz.",
+    "@graph": [
+      generateArticleSchema({
+        title: "Hackathon Vice-Meister bei Nexus Connect 2026",
+        description: "60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsfähigen Voicebot für Verwaltungszentralen und erreichte den zweiten Platz.",
+        url: "https://www.zoellner-office.de/blog/hackathon-vice-meister",
+        image: "https://www.zoellner-office.de/images/Hackathon-Vice-Meister4.jpeg",
+        datePublished: "2026-02-05",
+        dateModified: "2026-02-13"
+      }),
+      generateBreadcrumbSchema([
+        { name: "Startseite", url: "/" },
+        { name: "Blog", url: "/blog" },
+        { name: "Hackathon Vice-Meister", url: "/blog/hackathon-vice-meister" }
+      ])
+    ]
   };
 
   return (
@@ -33,6 +31,7 @@ export default function HackathonViceMeister() {
         description="60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsfähigen Voicebot für Verwaltungszentralen und erreichte den zweiten Platz."
         canonical="/blog/hackathon-vice-meister"
         type="article"
+        keywords="Hackathon, Nexus Connect, NFON, botario, Voicebot, AI-Engineer, Wettbewerb"
         schema={articleSchema}
       />
 

@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Building2, Phone, Mail, Printer, FileText, Scale } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function Impressum() {
   return (
@@ -9,6 +10,15 @@ export default function Impressum() {
         title="Impressum"
         description="Rechtliche Informationen und Anbieterkennzeichnung von Zöllner Büro- & IT-Systeme GmbH."
         canonical="/impressum"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Impressum", url: "/impressum" }
+            ])
+          ]
+        }}
       />
 
       {/* Hero Section */}

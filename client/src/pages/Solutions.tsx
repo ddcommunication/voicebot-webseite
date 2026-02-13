@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Phone, Calendar, MessageSquare, UserCheck } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function Solutions() {
   return (
@@ -11,6 +12,45 @@ export default function Solutions() {
         description="Professionelle KI-Voicebot-Lösungen von Zöllner Office: Automatische Telefonzentrale, intelligente Terminvereinbarung, 24/7 Kundenservice. DSGVO-konform, Made in Germany. Jetzt Demo anfragen!"
         keywords="Voicebot, KI-Sprachassistent, automatische Telefonzentrale, Terminvereinbarung, Kundenservice Bot, 24/7 Erreichbarkeit, DSGVO-konform, Made in Germany, Zöllner Office"
         canonical="/loesungen"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Lösungen", url: "/loesungen" }
+            ]),
+            generateServiceSchema({
+              name: "Intelligente Telefonzentrale",
+              description: "Der Bot nimmt jeden Anruf sofort an, begrüßt den Anrufer professionell und erfragt das Anliegen. Basierend auf den Antworten wird der Anruf an die richtige Abteilung oder den richtigen Ansprechpartner weitergeleitet.",
+              url: "https://www.zoellner-office.de/loesungen"
+            }),
+            {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "Service",
+                  "name": "Intelligente Telefonzentrale",
+                  "description": "Automatische Anrufannahme und Weiterleitung"
+                },
+                {
+                  "@type": "Service",
+                  "name": "Termin-Management",
+                  "description": "Vollautomatische Terminvereinbarung mit Kalender-Synchronisation"
+                },
+                {
+                  "@type": "Service",
+                  "name": "FAQ & Auskunft",
+                  "description": "24/7 Beantwortung von Standardfragen"
+                },
+                {
+                  "@type": "Service",
+                  "name": "Lead-Qualifizierung",
+                  "description": "Automatische Vorqualifizierung von Kundenanfragen"
+                }
+              ]
+            }
+          ]
+        }}
       />
 
       {/* Hero Section with Image */}

@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
 import { Building2, Users, Award, CheckCircle2, Phone } from "lucide-react";
+import { generateOrganizationSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function About() {
   return (
@@ -11,6 +12,17 @@ export default function About() {
         title="Über uns"
         description="Zöllner Büro- & IT-Systeme GmbH - Ihr Partner für intelligente Sprachassistenten. Erfahren Sie mehr über unsere Geschichte, unser Team und unsere Partnerschaften mit NFON und botario."
         canonical="/ueber-uns"
+        keywords="Zöllner Office, Unternehmensgeschichte, NFON Partner, botario, Sprachassistent Anbieter, Deutschland"
+        schema={{
+          "@context": "https://schema.org",
+          "@graph": [
+            generateOrganizationSchema(),
+            generateBreadcrumbSchema([
+              { name: "Startseite", url: "/" },
+              { name: "Über uns", url: "/ueber-uns" }
+            ])
+          ]
+        }}
       />
 
       {/* Hero Section */}

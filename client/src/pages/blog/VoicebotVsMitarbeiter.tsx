@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Check, X, Clock, Euro, Phone } from "lucide-react";
@@ -7,25 +8,21 @@ import { Link } from "wouter";
 export default function VoicebotVsMitarbeiter() {
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen",
-    image: "https://www.zoellner-office.dehttps://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
-    author: {
-      "@type": "Person",
-      name: "Zöllner Office",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Zöllner Office",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.zoellner-office.de/logo.png",
-      },
-    },
-    datePublished: "2026-01-23",
-    description:
-      "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz.",
+    "@graph": [
+      generateArticleSchema({
+        title: "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen",
+        description: "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz.",
+        url: "https://www.zoellner-office.de/blog/voicebot-vs-mitarbeiter",
+        image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
+        datePublished: "2026-01-23",
+        dateModified: "2026-02-13"
+      }),
+      generateBreadcrumbSchema([
+        { name: "Startseite", url: "/" },
+        { name: "Blog", url: "/blog" },
+        { name: "Voicebot vs. Mitarbeiter", url: "/blog/voicebot-vs-mitarbeiter" }
+      ])
+    ]
   };
 
   return (
@@ -35,6 +32,7 @@ export default function VoicebotVsMitarbeiter() {
         description="Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz."
         canonical="/blog/voicebot-vs-mitarbeiter"
         type="article"
+        keywords="Voicebot, Kosten-Nutzen-Vergleich, Arztpraxen, Mitarbeiter, Effizienz, ROI"
         schema={articleSchema}
       />
 
