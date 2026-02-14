@@ -271,3 +271,7 @@
 - [x] Upload optimized Voicebots-Lösungen.jpg to S3
 - [x] Replace old hero image URL with new optimized image
 - [x] Test page load speed improvement
+
+## Remove Gradient Overlay from Praxisbeispiele Images (Feb 14, 2026)
+- [x] Find and remove gradient overlay CSS from preview images
+- [x] Test and verify images display clearly without overlay
