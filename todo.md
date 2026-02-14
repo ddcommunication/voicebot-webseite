@@ -275,3 +275,10 @@
 ## Remove Gradient Overlay from Praxisbeispiele Images (Feb 14, 2026)
 - [x] Find and remove gradient overlay CSS from preview images
 - [x] Test and verify images display clearly without overlay
+
+## Create New Blog Post: Voicebot für KMU (Feb 14, 2026)
+- [x] Generate optimized hero image in website style
+- [x] Write comprehensive blog post with SEO keywords
+- [x] Create blog post component file
+- [x] Add blog post to blog list
+- [x] Test and verify the new blog post

@@ -23,6 +23,7 @@ import Datenschutz from "./pages/Datenschutz";
 import VoicebotVsMitarbeiter from "./pages/blog/VoicebotVsMitarbeiter";
 import HackathonViceMeister from "./pages/blog/HackathonViceMeister";
 import WohnungswirtschaftCaseStudy from "./pages/blog/WohnungswirtschaftCaseStudy";
+import VoicebotFuerKMU from "./pages/blog/VoicebotFuerKMU";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
 function Router() {
@@ -47,6 +48,7 @@ function Router() {
         <Route path="/blog/voicebot-vs-mitarbeiter" component={VoicebotVsMitarbeiter} />
         <Route path="/blog/hackathon-vice-meister" component={HackathonViceMeister} />
         <Route path="/blog/wohnungswirtschaft-voicebot" component={WohnungswirtschaftCaseStudy} />
+        <Route path="/blog/voicebot-kmu-kosten-roi" component={VoicebotFuerKMU} />
         <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/praxisbeispiele" component={Praxisbeispiele} />

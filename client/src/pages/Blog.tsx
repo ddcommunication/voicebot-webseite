@@ -14,6 +14,16 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export default function Blog() {
   const posts = [
     {
+      title: "Voicebot für KMU: Lohnt sich das?",
+      excerpt:
+        "Umfassende Analyse der Kosten, des Nutzens und der praktischen Einsatzmöglichkeiten von KI-Telefonassistenten für kleine und mittelständische Unternehmen. Inklusive ROI-Rechnung und Praxisbeispielen.",
+      date: "14. Feb 2026",
+      author: "Voicenexus Redaktion",
+      category: "KMU & Mittelstand",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg",
+      slug: "/blog/voicebot-kmu-kosten-roi",
+    },
+    {
       title: "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
       excerpt:
         "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente Sprachautomatisierung den Kundenservice revolutionierte und die Erreichbarkeit auf 24/7 erweiterte.",
