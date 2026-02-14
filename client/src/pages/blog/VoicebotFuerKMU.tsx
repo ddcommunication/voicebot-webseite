@@ -38,11 +38,11 @@ export default function VoicebotFuerKMU() {
       <section className="relative bg-slate-900 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/wMwNFKsdYBdTJHqL.jpg" 
             alt="KI-Telefonassistent Kosten-Nutzen-Analyse für KMU" 
-            className="w-full h-full object-cover opacity-80"
+            className="w-full h-full object-cover opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 via-slate-900/40 to-slate-900/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/50 via-slate-900/30 to-slate-900/20" />
         </div>
         
         <div className="container relative z-10 py-16 md:py-24">
@@ -259,21 +259,39 @@ export default function VoicebotFuerKMU() {
               Neben der offensichtlichen Entlastung Ihres Teams bringt ein Voicebot für KMU weitere Vorteile, die sich nicht sofort in Euro und Cent messen lassen:
             </p>
 
-            <p>
-              <strong>Verbesserte Kundenzufriedenheit</strong> entsteht durch sofortige Erreichbarkeit. Niemand muss mehr in der Warteschleife hängen oder auf einen Rückruf warten. Studien zeigen, dass 60 Prozent der Kunden lieber mit einem kompetenten Bot sprechen als minutenlang in der Warteschleife zu hängen.
-            </p>
+            <div className="space-y-6 my-8">
+              <div className="flex gap-4">
+                <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Verbesserte Kundenzufriedenheit</strong>
+                  <p className="mt-2">entsteht durch sofortige Erreichbarkeit. Niemand muss mehr in der Warteschleife hängen oder auf einen Rückruf warten. Studien zeigen, dass 60 Prozent der Kunden lieber mit einem kompetenten Bot sprechen als minutenlang in der Warteschleife zu hängen.</p>
+                </div>
+              </div>
 
-            <p>
-              <strong>Konsistente Servicequalität</strong> ist garantiert, da der Bot nie einen schlechten Tag hat, nie genervt reagiert und immer freundlich bleibt – auch beim hundertsten Anruf am Tag.
-            </p>
+              <div className="flex gap-4">
+                <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Konsistente Servicequalität</strong>
+                  <p className="mt-2">ist garantiert, da der Bot nie einen schlechten Tag hat, nie genervt reagiert und immer freundlich bleibt – auch beim hundertsten Anruf am Tag.</p>
+                </div>
+              </div>
 
-            <p>
-              <strong>Wertvolle Datenerfassung</strong> erfolgt automatisch. Jedes Gespräch wird protokolliert, kategorisiert und ausgewertet. Sie erhalten Einblicke in die häufigsten Kundenanliegen und können Ihre Prozesse entsprechend optimieren.
-            </p>
+              <div className="flex gap-4">
+                <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Wertvolle Datenerfassung</strong>
+                  <p className="mt-2">erfolgt automatisch. Jedes Gespräch wird protokolliert, kategorisiert und ausgewertet. Sie erhalten Einblicke in die häufigsten Kundenanliegen und können Ihre Prozesse entsprechend optimieren.</p>
+                </div>
+              </div>
 
-            <p>
-              <strong>Skalierbarkeit ohne Personalaufbau</strong> wird möglich. Wenn Ihr Geschäft wächst und die Anrufzahlen steigen, skaliert der Voicebot einfach mit – ohne dass Sie neue Mitarbeiter einstellen und einarbeiten müssen.
-            </p>
+              <div className="flex gap-4">
+                <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Skalierbarkeit ohne Personalaufbau</strong>
+                  <p className="mt-2">wird möglich. Wenn Ihr Geschäft wächst und die Anrufzahlen steigen, skaliert der Voicebot einfach mit – ohne dass Sie neue Mitarbeiter einstellen und einarbeiten müssen.</p>
+                </div>
+              </div>
+            </div>
 
             {/* ROI-Rechnung */}
             <h2 className="text-3xl font-bold text-foreground mt-12 mb-6">ROI-Rechnung: Ein Praxisbeispiel</h2>
@@ -314,17 +332,31 @@ export default function VoicebotFuerKMU() {
               Bei aller Begeisterung für die Technologie ist es wichtig, realistische Erwartungen zu haben. Ein KI-Telefonassistent ist kein Allheilmittel und kann menschliche Mitarbeiter nicht vollständig ersetzen.
             </p>
 
-            <p>
-              <strong>Komplexe Beratungsgespräche</strong> erfordern weiterhin menschliches Einfühlungsvermögen und Fachwissen. Ein Voicebot kann Informationen sammeln und vorqualifizieren, aber die eigentliche Beratung sollte ein Experte übernehmen.
-            </p>
+            <div className="space-y-6 my-8">
+              <div className="flex gap-4">
+                <AlertCircle className="h-6 w-6 text-amber-500 shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Komplexe Beratungsgespräche</strong>
+                  <p className="mt-2">erfordern weiterhin menschliches Einfühlungsvermögen und Fachwissen. Ein Voicebot kann Informationen sammeln und vorqualifizieren, aber die eigentliche Beratung sollte ein Experte übernehmen.</p>
+                </div>
+              </div>
 
-            <p>
-              <strong>Emotionale Situationen</strong> wie Beschwerden oder Notfälle benötigen oft menschliche Empathie. Hier sollte der Bot schnell an einen Mitarbeiter weiterleiten können.
-            </p>
+              <div className="flex gap-4">
+                <AlertCircle className="h-6 w-6 text-amber-500 shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Emotionale Situationen</strong>
+                  <p className="mt-2">wie Beschwerden oder Notfälle benötigen oft menschliche Empathie. Hier sollte der Bot schnell an einen Mitarbeiter weiterleiten können.</p>
+                </div>
+              </div>
 
-            <p>
-              <strong>Sehr spezifische Fachfragen</strong> übersteigen häufig die Fähigkeiten eines Voicebots. Er kann auf FAQ-Inhalte zurückgreifen, aber bei hochspezialisierten Anfragen ist menschliche Expertise gefragt.
-            </p>
+              <div className="flex gap-4">
+                <AlertCircle className="h-6 w-6 text-amber-500 shrink-0 mt-1" />
+                <div>
+                  <strong className="text-lg">Sehr spezifische Fachfragen</strong>
+                  <p className="mt-2">übersteigen häufig die Fähigkeiten eines Voicebots. Er kann auf FAQ-Inhalte zurückgreifen, aber bei hochspezialisierten Anfragen ist menschliche Expertise gefragt.</p>
+                </div>
+              </div>
+            </div>
 
             <p className="text-lg font-medium text-primary border-l-4 border-primary pl-6 my-8">
               Die Lösung liegt in der intelligenten Kombination: Der Voicebot übernimmt Routineaufgaben und leitet komplexe Fälle an Ihre Mitarbeiter weiter. So entsteht ein effizientes Team aus Mensch und Maschine.

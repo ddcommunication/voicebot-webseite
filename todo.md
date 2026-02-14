@@ -285,3 +285,7 @@
 - [x] Remove Wohnungswirtschaft case study from blog overview (already on /praxisbeispiele)
 - [x] Make KMU blog post hero image even lighter
 - [x] Update KMU blog post meta title and description for better SEO
+- [x] Make KMU blog hero image even lighter (reduce overlay)
+- [x] Resize KMU blog hero image to 1600px width
+- [x] Rename KMU blog hero image with SEO-friendly filename
+- [x] Improve visual highlighting of bullet points in 'Die versteckten Vorteile' section
