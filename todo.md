@@ -292,3 +292,4 @@
 - [x] Remove first 3 images from Hackathon blog post and redistribute remaining images
 - [ ] Create and integrate ROI calculation infographic for KMU blog post
 - [x] Add preview images to related articles section in KMU blog post
+- [x] Fix meta title and description in KMU blog post
