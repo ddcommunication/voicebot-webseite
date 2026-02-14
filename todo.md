@@ -282,3 +282,4 @@
 - [x] Create blog post component file
 - [x] Add blog post to blog list
 - [x] Test and verify the new blog post
+- [x] Remove Wohnungswirtschaft case study from blog overview (already on /praxisbeispiele)

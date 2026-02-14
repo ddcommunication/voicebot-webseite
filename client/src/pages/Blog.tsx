@@ -24,16 +24,6 @@ export default function Blog() {
       slug: "/blog/voicebot-kmu-kosten-roi",
     },
     {
-      title: "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
-      excerpt:
-        "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente Sprachautomatisierung den Kundenservice revolutionierte und die Erreichbarkeit auf 24/7 erweiterte.",
-      date: "05. Feb 2026",
-      author: "Zöllner Office",
-      category: "Praxisbeispiel",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
-      slug: "/blog/wohnungswirtschaft-voicebot",
-    },
-    {
       title: "Hackathon Vice-Meister bei Nexus Connect 2026",
       excerpt:
         "60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsf\u00e4higen Voicebot f\u00fcr Verwaltungszentralen und erreichte den zweiten Platz.",
