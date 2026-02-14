@@ -290,3 +290,5 @@
 - [x] Rename KMU blog hero image with SEO-friendly filename
 - [x] Improve visual highlighting of bullet points in 'Die versteckten Vorteile' section
 - [x] Remove first 3 images from Hackathon blog post and redistribute remaining images
+- [ ] Create and integrate ROI calculation infographic for KMU blog post
+- [x] Add preview images to related articles section in KMU blog post

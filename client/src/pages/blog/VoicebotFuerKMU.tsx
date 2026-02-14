@@ -410,21 +410,39 @@ export default function VoicebotFuerKMU() {
         <div className="container max-w-4xl">
           <h2 className="text-3xl font-bold text-foreground mb-8">Weitere Artikel zum Thema</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link href="/blog/voicebot-vs-mitarbeiter">
-              <div className="bg-card border border-border rounded-2xl p-6 hover:shadow-lg transition-shadow cursor-pointer">
-                <h3 className="text-xl font-bold text-foreground mb-3">Voicebot vs. Mitarbeiter: Der direkte Vergleich</h3>
-                <p className="text-sm text-muted-foreground">
-                  Wann lohnt sich ein Voicebot und wann ist ein menschlicher Mitarbeiter die bessere Wahl?
-                </p>
+            <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
+              <div className="bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
+                <div className="overflow-hidden">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
+                    alt="Voicebot vs. Mitarbeiter Vergleich"
+                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">Voicebot vs. Mitarbeiter: Der direkte Vergleich</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Wann lohnt sich ein Voicebot und wann ist ein menschlicher Mitarbeiter die bessere Wahl?
+                  </p>
+                </div>
               </div>
             </Link>
 
-            <Link href="/blog/wohnungswirtschaft-voicebot">
-              <div className="bg-card border border-border rounded-2xl p-6 hover:shadow-lg transition-shadow cursor-pointer">
-                <h3 className="text-xl font-bold text-foreground mb-3">Wohnungsgenossenschaft: Automatisierte Telefonannahme</h3>
-                <p className="text-sm text-muted-foreground">
-                  Wie eine Wohnungsgenossenschaft durch VoiceBot-Automatisierung die Erreichbarkeit verbesserte.
-                </p>
+            <Link href="/blog/wohnungswirtschaft-voicebot" className="group">
+              <div className="bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
+                <div className="overflow-hidden">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/ZjDFZmkGTxILkgAp.jpg"
+                    alt="Wohnungswirtschaft Voicebot Praxisbeispiel"
+                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">Wohnungsgenossenschaft: Automatisierte Telefonannahme</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Wie eine Wohnungsgenossenschaft durch VoiceBot-Automatisierung die Erreichbarkeit verbesserte.
+                  </p>
+                </div>
               </div>
             </Link>
           </div>
