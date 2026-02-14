@@ -174,7 +174,15 @@ export default function Impressum() {
                   Redaktionelle Unterstützung
                 </h2>
                 <p className="text-muted-foreground">
-                  Andreas Fiedler | Online Marketing Dresden
+                  Andreas Fiedler |{" "}
+                  <a
+                    href="https://www.andreas-fiedler.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline font-medium"
+                  >
+                    Online Marketing Dresden
+                  </a>
                 </p>
               </CardContent>
             </Card>

@@ -260,3 +260,9 @@
 - [x] Check Card component for default shadow classes
 - [x] Remove all shadow-related CSS from preview cards
 - [x] Test and verify no shadows remain
+
+## Add Link to Online Marketing Dresden in Impressum (Feb 13, 2026)
+- [x] Link "Online Marketing Dresden" to https://www.andreas-fiedler.com/
+- [x] Set link as dofollow (no rel="nofollow")
+- [x] Open link in new window (target="_blank")
+- [x] Test and verify the link
