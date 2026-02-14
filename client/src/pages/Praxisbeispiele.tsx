@@ -99,7 +99,7 @@ export default function Praxisbeispiele() {
             {caseStudies.map((study) => (
               <Card
                 key={study.slug}
-                className="overflow-hidden transition-all duration-300 border-none bg-card group rounded-2xl"
+                className="overflow-hidden transition-all duration-300 border-none bg-card group rounded-2xl shadow-none"
               >
                 <div className="grid md:grid-cols-5 gap-0">
                   {/* Image Section */}

@@ -255,3 +255,8 @@
 - [x] Remove shadows from preview images
 - [x] Add rounded corners to preview images
 - [x] Test and verify the styling changes
+
+## Remove All Shadows from Praxisbeispiele Images (Feb 13, 2026)
+- [x] Check Card component for default shadow classes
+- [x] Remove all shadow-related CSS from preview cards
+- [x] Test and verify no shadows remain
