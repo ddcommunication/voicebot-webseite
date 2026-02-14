@@ -40,9 +40,9 @@ export default function VoicebotFuerKMU() {
           <img 
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg" 
             alt="KI-Telefonassistent Kosten-Nutzen-Analyse für KMU" 
-            className="w-full h-full object-cover opacity-60"
+            className="w-full h-full object-cover opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/60 to-slate-900/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 via-slate-900/40 to-slate-900/30" />
         </div>
         
         <div className="container relative z-10 py-16 md:py-24">

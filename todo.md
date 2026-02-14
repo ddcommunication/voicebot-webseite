@@ -283,3 +283,4 @@
 - [x] Add blog post to blog list
 - [x] Test and verify the new blog post
 - [x] Remove Wohnungswirtschaft case study from blog overview (already on /praxisbeispiele)
+- [x] Make KMU blog post hero image even lighter
