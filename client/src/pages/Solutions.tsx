@@ -58,7 +58,7 @@ export default function Solutions() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/boOcVABCkiCwaQhl.jpg"
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/MKzQqiciNiUNjeqR.jpg"
             alt="Friendly AI Robot Assistant"
             className="w-full h-full object-cover"
           />

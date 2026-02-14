@@ -266,3 +266,8 @@
 - [x] Set link as dofollow (no rel="nofollow")
 - [x] Open link in new window (target="_blank")
 - [x] Test and verify the link
+
+## Replace Hero Image on Solutions Page (Feb 14, 2026)
+- [x] Upload optimized Voicebots-Lösungen.jpg to S3
+- [x] Replace old hero image URL with new optimized image
+- [x] Test page load speed improvement
