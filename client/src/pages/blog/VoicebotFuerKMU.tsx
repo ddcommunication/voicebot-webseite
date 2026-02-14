@@ -374,11 +374,19 @@ export default function VoicebotFuerKMU() {
             </p>
 
             <p>
-              Besonders für Unternehmen mit hohem Anrufaufkommen, vielen Routineanfragen oder dem Wunsch nach erweiterter Erreichbarkeit ist ein Voicebot eine sinnvolle Investition. Die Amortisationszeit liegt oft bei unter einem Jahr, und die langfristigen Vorteile – von Zeitersparnis über verbesserte Kundenzufriedenheit bis hin zu wertvollen Dateneinblicken – sind erheblich.
+              Besonders für Unternehmen mit hohem Anrufaufkommen, vielen Routineanfragen oder dem Wunsch nach erweiterter Erreichbarkeit ist ein Voicebot eine sinnvolle Investition.
             </p>
 
             <p>
-              Wichtig ist, mit realistischen Erwartungen zu starten. Ein Voicebot ersetzt keine menschlichen Mitarbeiter, sondern ergänzt sie. Er übernimmt die Routineaufgaben, damit Ihr Team sich auf das konzentrieren kann, was wirklich zählt: persönliche Beratung, komplexe Problemlösungen und den Aufbau echter Kundenbeziehungen.
+              Die Amortisationszeit liegt oft bei unter einem Jahr, und die langfristigen Vorteile – von Zeitersparnis über verbesserte Kundenzufriedenheit bis hin zu wertvollen Dateneinblicken – sind erheblich.
+            </p>
+
+            <p>
+              Wichtig ist, mit realistischen Erwartungen zu starten. Ein Voicebot ersetzt keine menschlichen Mitarbeiter, sondern ergänzt sie.
+            </p>
+
+            <p>
+              Er übernimmt die Routineaufgaben, damit Ihr Team sich auf das konzentrieren kann, was wirklich zählt: persönliche Beratung, komplexe Problemlösungen und den Aufbau echter Kundenbeziehungen.
             </p>
 
             <div className="bg-primary/5 rounded-2xl p-8 my-12 border-2 border-primary/20">
