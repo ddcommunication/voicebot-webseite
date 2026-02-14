@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 
 interface SEOProps {
   title: string;
@@ -24,6 +25,18 @@ export default function SEO({
   const baseUrl = "https://www.zoellner-office.de";
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
   const fullImage = image.startsWith("http") ? image : `${baseUrl}${image}`;
+
+  // Remove Manus-injected OG tags on component mount
+  useEffect(() => {
+    // Remove all existing OG and Twitter meta tags that were injected by Manus
+    const ogTags = document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"]');
+    ogTags.forEach(tag => {
+      // Only remove tags that are not managed by Helmet (Helmet tags have data-rh attribute)
+      if (!tag.hasAttribute('data-rh')) {
+        tag.remove();
+      }
+    });
+  }, []);
 
   return (
     <Helmet>

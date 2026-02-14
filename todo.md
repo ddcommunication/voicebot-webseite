@@ -295,3 +295,7 @@
 - [x] Fix meta title and description in KMU blog post
 - [ ] Remove static meta tags from index.html to enable dynamic per-page meta tags
 - [x] Ensure all pages have unique SEO meta title and description
+- [ ] CRITICAL: Remove ALL static meta tags from index.html
+- [ ] CRITICAL: Fix meta tags on live published site (voicenexus.de)
+- [ ] Deploy meta tag fixes to live site manually
+- [x] CRITICAL: Fix Open Graph and Twitter meta tags in SEO component
