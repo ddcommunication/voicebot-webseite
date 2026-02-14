@@ -284,3 +284,4 @@
 - [x] Test and verify the new blog post
 - [x] Remove Wohnungswirtschaft case study from blog overview (already on /praxisbeispiele)
 - [x] Make KMU blog post hero image even lighter
+- [x] Update KMU blog post meta title and description for better SEO

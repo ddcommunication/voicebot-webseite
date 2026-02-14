@@ -27,8 +27,8 @@ export default function VoicebotFuerKMU() {
   return (
     <div className="min-h-screen bg-background">
       <SEO 
-        title="Voicebot für KMU: Lohnt sich das? | Kosten, ROI & Praxisbeispiele"
-        description="Umfassende Analyse der Kosten, des Nutzens und der praktischen Einsatzmöglichkeiten von KI-Telefonassistenten für kleine und mittelständische Unternehmen. Inklusive ROI-Rechnung und Praxisbeispielen."
+        title="Voicebot für KMU: Lohnt sich das?"
+        description="Voicebot für KMU: Kosten, ROI und Einsparpotenziale einfach erklärt. So rechnet sich Telefon-KI für kleine und mittlere Unternehmen."
         canonical="/blog/voicebot-kmu-kosten-roi"
         keywords="Voicebot Kosten, KI Telefonassistent, Voicebot Mittelstand, automatisierte Telefonzentrale, Telefon KI für Unternehmen, Voicebot ROI, KMU Digitalisierung"
         schema={[generateOrganizationSchema(), articleSchema, breadcrumbSchema]}
