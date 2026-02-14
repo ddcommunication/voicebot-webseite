@@ -289,3 +289,4 @@
 - [x] Resize KMU blog hero image to 1600px width
 - [x] Rename KMU blog hero image with SEO-friendly filename
 - [x] Improve visual highlighting of bullet points in 'Die versteckten Vorteile' section
+- [x] Remove first 3 images from Hackathon blog post and redistribute remaining images

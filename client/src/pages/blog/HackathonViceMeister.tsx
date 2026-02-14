@@ -74,15 +74,6 @@ export default function HackathonViceMeister() {
             tief ins AI- & KI-Portfolio der NFON AG und der Botario-Plattform eintauchen können.
           </p>
 
-          {/* Workshop Image */}
-          <div className="my-12">
-            <img
-              src="/images/Hackathon-Vice-Meister2.jpeg"
-              alt="Workshop-Teilnehmer bei der Arbeit"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
-
           {/* Section 1: Der Hackathon */}
           <h2 className="text-3xl font-bold font-serif mb-6 mt-12">
             Der Hackathon: 90 Minuten, 9 Teams, ein Ziel
@@ -92,15 +83,6 @@ export default function HackathonViceMeister() {
             90 Minuten einen Business Case entwickeln und einen Pitch für eine Jury vorbereiten. 
             Die besten drei Teams wurden ausgezeichnet.
           </p>
-
-          {/* Event Venue Image */}
-          <div className="my-12">
-            <img
-              src="/images/Hackathon-Vice-Meister3.jpeg"
-              alt="Event-Location mit modernem Design"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
 
           {/* Section 2: Unser Case */}
           <h2 className="text-3xl font-bold font-serif mb-6 mt-12">
@@ -167,15 +149,6 @@ export default function HackathonViceMeister() {
             Umsetzung übernommen. In 90 Minuten. 🤯 Technisch eine absolute Meisterleistung.
           </p>
 
-          {/* Participants Image */}
-          <div className="my-12">
-            <img
-              src="/images/Hackathon-Vice-Meister1.jpeg"
-              alt="Hackathon-Teilnehmer während der Entwicklungsphase"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
-
           {/* Section 3: Der Plot Twist */}
           <h2 className="text-3xl font-bold font-serif mb-6 mt-12">
             Der Plot-Twist-Moment
@@ -194,6 +167,10 @@ export default function HackathonViceMeister() {
             />
           </div>
 
+          <p className="text-base mb-6 leading-relaxed">
+            Aber trotz der technischen Meisterleistung und dem durchdachten Konzept kam es anders als erwartet.
+          </p>
+
           {/* Award Ceremony Image */}
           <div className="my-12">
             <img
@@ -201,6 +178,19 @@ export default function HackathonViceMeister() {
               alt="Siegerehrung - Team auf der Bühne bei der Preisverleihung"
               className="w-full rounded-lg shadow-lg"
             />
+          </div>
+
+          {/* Conclusion */}
+          <div className="bg-secondary/10 rounded-xl p-8 my-12 border border-secondary/20">
+            <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
+              <Trophy className="h-6 w-6 text-secondary" />
+              Fazit
+            </h3>
+            <p className="text-base leading-relaxed">
+              Trotzdem: Riesenrespekt an das Team – starke Idee, starke Umsetzung, starker Einsatz. 
+              Genau so entsteht Innovation. Der zweite Platz ist ein großartiger Erfolg und zeigt, 
+              was mit den richtigen Tools und dem nötigen Know-how in kürzester Zeit möglich ist.
+            </p>
           </div>
 
           {/* Team with Robot Image */}
@@ -219,19 +209,6 @@ export default function HackathonViceMeister() {
               alt="NEXUS CONNECT 2026 Pokal - AI Deal 2025 für Zöllner Büro- & IT-Systeme GmbH"
               className="w-full rounded-lg shadow-lg"
             />
-          </div>
-
-          {/* Conclusion */}
-          <div className="bg-secondary/10 rounded-xl p-8 my-12 border border-secondary/20">
-            <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <Trophy className="h-6 w-6 text-secondary" />
-              Fazit
-            </h3>
-            <p className="text-base leading-relaxed">
-              Trotzdem: Riesenrespekt an das Team – starke Idee, starke Umsetzung, starker Einsatz. 
-              Genau so entsteht Innovation. Der zweite Platz ist ein großartiger Erfolg und zeigt, 
-              was mit den richtigen Tools und dem nötigen Know-how in kürzester Zeit möglich ist.
-            </p>
           </div>
 
           {/* Related Articles Section */}
