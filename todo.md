@@ -293,3 +293,5 @@
 - [ ] Create and integrate ROI calculation infographic for KMU blog post
 - [x] Add preview images to related articles section in KMU blog post
 - [x] Fix meta title and description in KMU blog post
+- [ ] Remove static meta tags from index.html to enable dynamic per-page meta tags
+- [x] Ensure all pages have unique SEO meta title and description
