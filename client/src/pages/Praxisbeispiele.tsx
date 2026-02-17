@@ -13,6 +13,20 @@ export default function Praxisbeispiele() {
 
   const caseStudies = [
     {
+      slug: "timum-fuer-makler",
+      title: "Timum für Immobilienmakler: Terminautomation mit onOffice & Voicebot",
+      category: "Immobilienwirtschaft",
+      excerpt:
+        "Was kann Timum für Makler? So automatisierst du Besichtigungstermine mit onOffice, Voicebot und Zöllner Office effizient.",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/CmbKtyqgiYbsPWCw.webp",
+      readTime: "8 Min.",
+      results: [
+        "Automatische Terminbuchung für Besichtigungen",
+        "Nahtlose Integration mit onOffice CRM",
+        "Durchgängige Prozesskette: Voicebot → Timum → onOffice",
+      ],
+    },
+    {
       slug: "wohnungswirtschaft-voicebot",
       title: "Wohnungsgenossenschaft: Automatisierte Telefonannahme",
       category: "Wohnungswirtschaft",

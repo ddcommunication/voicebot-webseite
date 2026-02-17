@@ -26,6 +26,7 @@ import WohnungswirtschaftCaseStudy from "./pages/blog/WohnungswirtschaftCaseStud
 import VoicebotFuerKMU from "./pages/blog/VoicebotFuerKMU";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
+import TimumFuerMakler from "./pages/praxisbeispiele/TimumFuerMakler";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -54,6 +55,7 @@ function Router() {
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/praxisbeispiele" component={Praxisbeispiele} />
         <Route path="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" component={UweOrtleppCaseStudy} />
+        <Route path="/praxisbeispiele/timum-fuer-makler" component={TimumFuerMakler} />
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />
 

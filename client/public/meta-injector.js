@@ -56,6 +56,11 @@
       title: `Datenschutz | ${siteTitle}`,
       description: 'Datenschutzerklärung von Zöllner Office. Informationen zum Umgang mit Ihren Daten.',
       keywords: 'Datenschutz, Datenschutzerklärung, DSGVO'
+    },
+    '/praxisbeispiele/timum-fuer-makler': {
+      title: `Timum für Immobilienmakler: Terminautomation mit onOffice & Voicebot | ${siteTitle}`,
+      description: 'Was kann Timum für Makler? So automatisierst du Besichtigungstermine mit onOffice, Voicebot und Zöllner Office effizient.',
+      keywords: 'Timum, Immobilienmakler, onOffice, Terminautomation, Besichtigungstermine, CRM Integration, Voicebot Immobilien'
     }
   };
   
