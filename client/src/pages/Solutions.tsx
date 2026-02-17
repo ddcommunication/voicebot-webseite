@@ -324,13 +324,15 @@ export default function Solutions() {
                 className="h-12 object-contain"
               />
             </div>
-            <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <img
-                src="/images/logo-cchub.png"
-                alt="CCHub"
-                className="h-12 object-contain"
-              />
-            </div>
+            <Link href="/praxisbeispiele/timum-fuer-makler">
+              <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                <img
+                  src="/images/timum-logo.svg"
+                  alt="Timum"
+                  className="h-12 object-contain"
+                />
+              </div>
+            </Link>
             <div className="flex items-center justify-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <img
                 src="/images/logo-sap.png"
