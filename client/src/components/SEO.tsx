@@ -26,17 +26,36 @@ export default function SEO({
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
   const fullImage = image.startsWith("http") ? image : `${baseUrl}${image}`;
 
-  // Remove Manus-injected OG tags on component mount
+  // Aggressively remove Manus-injected meta tags
   useEffect(() => {
-    // Remove all existing OG and Twitter meta tags that were injected by Manus
-    const ogTags = document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"]');
-    ogTags.forEach(tag => {
-      // Only remove tags that are not managed by Helmet (Helmet tags have data-rh attribute)
-      if (!tag.hasAttribute('data-rh')) {
-        tag.remove();
-      }
-    });
-  }, []);
+    const removeManusMetaTags = () => {
+      // Remove all OG, Twitter, and description meta tags not managed by Helmet
+      const selectors = [
+        'meta[property^="og:"]',
+        'meta[name^="twitter:"]',
+        'meta[name="description"]',
+        'title'
+      ];
+      
+      selectors.forEach(selector => {
+        const tags = document.querySelectorAll(selector);
+        tags.forEach(tag => {
+          // Only remove tags that are NOT managed by Helmet
+          if (!tag.hasAttribute('data-rh') && !tag.hasAttribute('data-react-helmet')) {
+            tag.remove();
+          }
+        });
+      });
+    };
+
+    // Remove immediately
+    removeManusMetaTags();
+    
+    // Also remove after a short delay to catch any late injections
+    const timer = setTimeout(removeManusMetaTags, 100);
+    
+    return () => clearTimeout(timer);
+  }, [title, description]);
 
   return (
     <Helmet>
