@@ -167,7 +167,7 @@ export default function TimumFuerMakler() {
             </h2>
             <div className="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-xl mb-8">
               <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/hBssY4yFgrDMxKuQUwbMQs/sandbox/k1qmROarYLQoIkdovKkvx6-img-1_1771347405000_na1fn_dGltdW0tcHJvY2Vzcy1mbG93.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaEJzc1k0eUZnckRNeEt1UVV3Yk1Rcy9zYW5kYm94L2sxcW1ST2FyWUxRb0lrZG92S2t2eDYtaW1nLTFfMTc3MTM0NzQwNTAwMF9uYTFmbl9kR2x0ZFcwdGNISnZZMlZ6Y3kxbWJHOTMucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=onzv5FmmGYwrXVtSwbcA6U52SThQyHrJAPLqwxglgeyj9OiH9VhY11mdKXvlpj-FwDlA2YSlUX55hyTREVsGsmRdLjbPLEopuugcYwETYsCIwE4xj8C2tGlvBF9skv7ITkt9S7OAIWtFEjdaXYSETHqj~hMoShgduB~lnrswM5xy8EgCNprhosbcdhh1A~HT4hAC5GOAOS-XrW54-xQ65C1c-NottMxnw3lk0cJ8p57aDDjIdqHT9NZoF6wX1nswOBnRQGyzNpCuxMiXP-mrnIwrk5rSCoK4opJDfPcqzhpcpqN8kSl0V5ehX8-jEL6n2oF5DprEKsZLpgJbyClXwQ__"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/yNrHebbvpnPcDNLv.png"
                 alt="Prozessablauf: Voicebot → Timum → onOffice"
                 className="w-full h-auto"
                 loading="lazy"
