@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 export default function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false);
+  const [showDetails, setShowDetails] = useState(false);
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
 
   useEffect(() => {
     const consent = localStorage.getItem("cookie-consent");
@@ -12,45 +15,161 @@ export default function CookieBanner() {
     }
   }, []);
 
-  const acceptCookies = () => {
-    localStorage.setItem("cookie-consent", "accepted");
+  const acceptAll = () => {
+    localStorage.setItem("cookie-consent", "all");
+    localStorage.setItem("analytics-consent", "true");
+    setAnalyticsEnabled(true);
     setIsVisible(false);
   };
 
-  const declineCookies = () => {
-    localStorage.setItem("cookie-consent", "declined");
+  const acceptEssential = () => {
+    localStorage.setItem("cookie-consent", "essential");
+    localStorage.setItem("analytics-consent", "false");
+    setAnalyticsEnabled(false);
+    setIsVisible(false);
+  };
+
+  const saveSelection = () => {
+    localStorage.setItem("cookie-consent", analyticsEnabled ? "all" : "essential");
+    localStorage.setItem("analytics-consent", analyticsEnabled ? "true" : "false");
     setIsVisible(false);
   };
 
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-background border-t border-border p-4 md:p-6 shadow-2xl animate-in slide-in-from-bottom-10 duration-500">
-      <div className="container max-w-5xl flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="text-sm text-muted-foreground leading-relaxed text-center md:text-left">
-          <p>
-            Wir nutzen Cookies, um Ihnen die bestmögliche Erfahrung auf unserer
-            Webseite zu bieten. Dazu zählen Cookies, die für den Betrieb der
-            Seite notwendig sind, sowie solche, die zu Statistikzwecken genutzt
-            werden.
-          </p>
-          <p className="mt-1">
-            Weitere Informationen finden Sie in unserer{" "}
-            <Link href="/datenschutz">
-              <span className="underline cursor-pointer hover:text-primary">
-                Datenschutzerklärung
-              </span>
-            </Link>
-            .
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-background border-t border-border shadow-2xl animate-in slide-in-from-bottom-10 duration-500">
+      <div className="container max-w-6xl p-6">
+        {/* Header */}
+        <div className="mb-4">
+          <h3 className="text-lg font-bold text-foreground mb-2">
+            Cookies & Datenschutz
+          </h3>
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            Wir nutzen Cookies und externe Dienste auf unserer Website. Einige
+            sind technisch notwendig, andere helfen uns, die Website zu
+            verbessern. Sie können selbst entscheiden, welche Kategorien Sie
+            zulassen möchten.
           </p>
         </div>
-        <div className="flex gap-3 shrink-0">
-          <Button variant="outline" onClick={declineCookies}>
+
+        {/* Details Toggle */}
+        <button
+          onClick={() => setShowDetails(!showDetails)}
+          className="flex items-center gap-2 text-sm font-medium text-primary hover:underline mb-4"
+        >
+          {showDetails ? (
+            <>
+              <ChevronUp className="h-4 w-4" />
+              Details ausblenden
+            </>
+          ) : (
+            <>
+              <ChevronDown className="h-4 w-4" />
+              Details anzeigen
+            </>
+          )}
+        </button>
+
+        {/* Service Details */}
+        {showDetails && (
+          <div className="space-y-4 mb-6 p-4 bg-muted/30 rounded-lg border border-border">
+            {/* Technisch notwendig */}
+            <div className="space-y-2">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h4 className="font-semibold text-sm text-foreground flex items-center gap-2">
+                    Technisch notwendig
+                    <span className="text-xs font-normal text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                      immer aktiv
+                    </span>
+                  </h4>
+                  <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                    Diese Dienste sind für die Grundfunktionen der Website
+                    erforderlich und können nicht deaktiviert werden.
+                  </p>
+                </div>
+              </div>
+              <div className="ml-4 space-y-2 text-xs text-muted-foreground">
+                <div className="p-2 bg-background rounded border border-border/50">
+                  <p className="font-medium text-foreground">
+                    Manus Hosting-Plattform
+                  </p>
+                  <p className="mt-1">
+                    Butterfly Effect Pte. Ltd., Singapore. Umfasst API-Zugriffe
+                    (api.manus.im) und CDN-Auslieferung (files.manuscdn.com).
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Analytics */}
+            <div className="space-y-2">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h4 className="font-semibold text-sm text-foreground">
+                    Analytics & Statistik
+                  </h4>
+                  <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                    Diese Dienste helfen uns, die Nutzung unserer Website zu
+                    verstehen und zu verbessern.
+                  </p>
+                </div>
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    className="sr-only peer"
+                    checked={analyticsEnabled}
+                    onChange={(e) => setAnalyticsEnabled(e.target.checked)}
+                  />
+                  <div className="w-11 h-6 bg-muted peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+                </label>
+              </div>
+              <div className="ml-4 space-y-2 text-xs text-muted-foreground">
+                <div className="p-2 bg-background rounded border border-border/50">
+                  <p className="font-medium text-foreground">
+                    Amplitude Analytics
+                  </p>
+                  <p className="mt-1">
+                    Analysedienst zur Erfassung von Nutzerverhalten. Domains:
+                    api2.amplitude.com, sr-client-cfg.amplitude.com
+                  </p>
+                </div>
+                <div className="p-2 bg-background rounded border border-border/50">
+                  <p className="font-medium text-foreground">
+                    Plausible Analytics
+                  </p>
+                  <p className="mt-1">
+                    Datenschutzfreundlicher Analysedienst. Domain: plausible.io
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Action Buttons */}
+        <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-end">
+          <Link href="/datenschutz">
+            <Button variant="ghost" size="sm" className="text-xs">
+              Datenschutzerklärung
+            </Button>
+          </Link>
+          <Button
+            variant="outline"
+            onClick={acceptEssential}
+            className="text-sm"
+          >
             Nur Essenzielle
           </Button>
+          {showDetails && (
+            <Button onClick={saveSelection} className="text-sm">
+              Auswahl speichern
+            </Button>
+          )}
           <Button
-            onClick={acceptCookies}
-            className="bg-primary text-primary-foreground hover:bg-primary/90"
+            onClick={acceptAll}
+            className="bg-primary text-primary-foreground hover:bg-primary/90 text-sm"
           >
             Alle akzeptieren
           </Button>

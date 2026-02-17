@@ -26,6 +26,7 @@ import WohnungswirtschaftCaseStudy from "./pages/blog/WohnungswirtschaftCaseStud
 import VoicebotFuerKMU from "./pages/blog/VoicebotFuerKMU";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
+
 function Router() {
   // make sure to consider if you need authentication for certain routes
   const [location] = useLocation();
