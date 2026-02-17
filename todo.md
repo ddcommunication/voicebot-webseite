@@ -299,3 +299,4 @@
 - [ ] CRITICAL: Fix meta tags on live published site (voicenexus.de)
 - [ ] Deploy meta tag fixes to live site manually
 - [x] CRITICAL: Fix Open Graph and Twitter meta tags in SEO component
+- [ ] CRITICAL: Verify all pages have unique, correct meta tags

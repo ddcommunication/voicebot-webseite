@@ -1,0 +1,119 @@
+
+import puppeteer from 'puppeteer';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const routes = [
+  {
+    "path": "/",
+    "file": "index.html"
+  },
+  {
+    "path": "/loesungen",
+    "file": "loesungen.html"
+  },
+  {
+    "path": "/praxisbeispiele",
+    "file": "praxisbeispiele.html"
+  },
+  {
+    "path": "/blog",
+    "file": "blog.html"
+  },
+  {
+    "path": "/blog/voicebot-vs-mitarbeiter",
+    "file": "blog-voicebot-vs-mitarbeiter.html"
+  },
+  {
+    "path": "/blog/voicebot-fuer-kmu",
+    "file": "blog-voicebot-fuer-kmu.html"
+  },
+  {
+    "path": "/blog/wohnungswirtschaft-voicebot",
+    "file": "blog-wohnungswirtschaft-voicebot.html"
+  },
+  {
+    "path": "/blog/hackathon-erfahrung",
+    "file": "blog-hackathon-erfahrung.html"
+  },
+  {
+    "path": "/ueber-uns",
+    "file": "ueber-uns.html"
+  },
+  {
+    "path": "/kontakt",
+    "file": "kontakt.html"
+  },
+  {
+    "path": "/impressum",
+    "file": "impressum.html"
+  },
+  {
+    "path": "/datenschutz",
+    "file": "datenschutz.html"
+  }
+];
+
+async function generateStaticSite() {
+  console.log('🚀 Launching browser...');
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
+  
+  // Start a local server first
+  const { spawn } = await import('child_process');
+  const server = spawn('pnpm', ['preview', '--port', '4173'], {
+    cwd: '/home/ubuntu/voicebot-webseite',
+    stdio: 'pipe'
+  });
+  
+  // Wait for server to start
+  await new Promise(resolve => setTimeout(resolve, 3000));
+  
+  const outputDir = path.join(__dirname, 'static-export');
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+  
+  for (const route of routes) {
+    console.log(`📄 Generating ${route.file}...`);
+    
+    await page.goto(`http://localhost:4173${route.path}`, {
+      waitUntil: 'networkidle0'
+    });
+    
+    const html = await page.content();
+    const filePath = path.join(outputDir, route.file);
+    fs.writeFileSync(filePath, html, 'utf-8');
+    
+    console.log(`   ✅ Saved to ${route.file}`);
+  }
+  
+  // Copy assets
+  console.log('\n📦 Copying assets...');
+  const assetsDir = path.join(__dirname, 'dist/public/assets');
+  const outputAssetsDir = path.join(outputDir, 'assets');
+  
+  if (fs.existsSync(assetsDir)) {
+    fs.cpSync(assetsDir, outputAssetsDir, { recursive: true });
+    console.log('   ✅ Assets copied');
+  }
+  
+  // Copy images
+  const imagesDir = path.join(__dirname, 'dist/public/images');
+  const outputImagesDir = path.join(outputDir, 'images');
+  
+  if (fs.existsSync(imagesDir)) {
+    fs.cpSync(imagesDir, outputImagesDir, { recursive: true });
+    console.log('   ✅ Images copied');
+  }
+  
+  await browser.close();
+  server.kill();
+  
+  console.log(`\n✨ Static site generated successfully in ${outputDir}`);
+}
+
+generateStaticSite().catch(console.error);
