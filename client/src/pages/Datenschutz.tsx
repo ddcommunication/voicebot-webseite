@@ -98,20 +98,48 @@ export default function Datenschutz() {
                   Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
                 </p>
 
-                <div>
-                  <h3 className="text-xl font-bold text-primary mb-3">IONOS</h3>
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <div className="text-muted-foreground leading-relaxed space-y-1 mb-4">
+                    <p className="font-semibold text-primary">Butterfly Effect Pte. Ltd.</p>
+                    <p>109 North Bridge Road</p>
+                    <p>#06-W112 FUNAN</p>
+                    <p>Singapore 179097</p>
+                  </div>
                   <p className="text-muted-foreground leading-relaxed mb-3">
-                    Anbieter ist die IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (nachfolgend IONOS). Wenn Sie unsere Website besuchen, erfasst IONOS verschiedene Logfiles inklusive Ihrer IP-Adressen. Details entnehmen Sie der Datenschutzerklärung von IONOS: <a href="https://www.ionos.de/terms-gtc/terms-privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://www.ionos.de/terms-gtc/terms-privacy</a>.
+                    Die Bereitstellung der Website erfolgt über eine cloudbasierte Infrastruktur.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Die Verwendung von IONOS erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+                    Die Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in einer möglichst zuverlässigen Darstellung unseres Online-Angebots.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers umfasst. Die Einwilligung ist jederzeit widerrufbar.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-primary mb-2">Auftragsverarbeitung</h4>
+                  <h3 className="text-xl font-bold text-primary mb-3">Content Delivery Network (CDN)</h3>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    Zur sicheren und effizienten Auslieferung unserer Website nutzen wir ein Content Delivery Network (CDN). Anbieter ist:
+                  </p>
+                  <div className="bg-blue-50 p-6 rounded-lg mb-4">
+                    <div className="text-muted-foreground leading-relaxed space-y-1">
+                      <p className="font-semibold text-primary">Cloudflare, Inc.</p>
+                      <p>101 Townsend St.</p>
+                      <p>San Francisco, CA 94107</p>
+                      <p>USA</p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    Cloudflare fungiert als Proxy zwischen unserem Webserver und den Besuchern unserer Website. Dabei kann Cloudflare personenbezogene Daten (z. B. IP-Adressen) verarbeiten, um Angriffe abzuwehren und die Auslieferung zu optimieren.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    Die Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed mb-3">
+                    Die Datenübertragung in die USA erfolgt auf Grundlage der Standardvertragsklauseln der EU-Kommission sowie der Zertifizierung nach dem EU-US Data Privacy Framework.
+                  </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+                    Weitere Informationen: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://www.cloudflare.com/privacypolicy/</a>
                   </p>
                 </div>
               </div>
