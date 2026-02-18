@@ -303,3 +303,5 @@
 - [x] Neuer Praxisbeispiel-Artikel: Timum für Immobilienmakler mit Bild, Grafiken und professionellem Layout
 - [x] Prozess-Flow-Grafik mit deutschen Texten erstellen
 - [x] Contact Center Logo durch Timum-Logo auf Lösungen-Seite ersetzen und mit Timum-Artikel verlinken
+- [x] Google Site Verification Meta-Tag im <head> Bereich einfügen
+- [x] Noindex Meta-Tag entfernen, damit Google alle Seiten indexieren kann
