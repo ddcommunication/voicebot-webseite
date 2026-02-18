@@ -308,3 +308,4 @@
 - [x] Google-konforme XML-Sitemap erstellen
 - [x] Alle canonical Tags und Verlinkungen auf https://www.sprachassistent.net aktualisieren
 - [x] Automatische Weiterleitung von sprachassistent.net auf www.sprachassistent.net einrichten
+- [x] SEO Meta-Tags auf Live-Website debuggen und korrigieren
