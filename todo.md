@@ -309,3 +309,5 @@
 - [x] Alle canonical Tags und Verlinkungen auf https://www.sprachassistent.net aktualisieren
 - [x] Automatische Weiterleitung von sprachassistent.net auf www.sprachassistent.net einrichten
 - [x] SEO Meta-Tags auf Live-Website debuggen und korrigieren
+- [ ] Alle Menü-Links auf relative Pfade umstellen (statt absolute URLs ohne www)
+- [x] Jede Seite muss individuelle Meta-Tags haben (nicht alle die gleichen)
