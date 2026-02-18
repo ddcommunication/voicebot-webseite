@@ -25,8 +25,8 @@ export default function UweOrtleppCaseStudy() {
       generateArticleSchema({
         title: "Case Study: Voicebot-Lösung für Uwe Ortlepp Immobilienfinanzierung",
         description: "Erfolgreiche Voicebot-Implementierung: 24/7 Erreichbarkeit und automatisierte Terminbuchung für Immobilienfinanzierung.",
-        url: "https://www.zoellner-office.de/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung",
-        image: "https://www.zoellner-office.de/images/uwe-ortlepp-portrait.jpg",
+        url: "https://www.sprachassistent.net/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung",
+        image: "https://www.sprachassistent.net/images/uwe-ortlepp-portrait.jpg",
         datePublished: "2026-01-26",
         dateModified: "2026-02-13",
         author: "Dr. Thomas Zöllner"

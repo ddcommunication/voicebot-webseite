@@ -22,7 +22,7 @@ export default function Solutions() {
             generateServiceSchema({
               name: "Intelligente Telefonzentrale",
               description: "Der Bot nimmt jeden Anruf sofort an, begrüßt den Anrufer professionell und erfragt das Anliegen. Basierend auf den Antworten wird der Anruf an die richtige Abteilung oder den richtigen Ansprechpartner weitergeleitet.",
-              url: "https://www.zoellner-office.de/loesungen"
+              url: "https://www.sprachassistent.net/loesungen"
             }),
             {
               "@type": "ItemList",

@@ -12,7 +12,7 @@ export default function VoicebotVsMitarbeiter() {
       generateArticleSchema({
         title: "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen",
         description: "Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz.",
-        url: "https://www.zoellner-office.de/blog/voicebot-vs-mitarbeiter",
+        url: "https://www.sprachassistent.net/blog/voicebot-vs-mitarbeiter",
         image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
         datePublished: "2026-01-23",
         dateModified: "2026-02-13"

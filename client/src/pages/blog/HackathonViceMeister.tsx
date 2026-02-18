@@ -11,8 +11,8 @@ export default function HackathonViceMeister() {
       generateArticleSchema({
         title: "Hackathon Vice-Meister bei Nexus Connect 2026",
         description: "60 Teilnehmer, 9 Teams, 90 Minuten: Unser AI-Engineer entwickelte beim NFON/Botario-Workshop einen funktionsfähigen Voicebot für Verwaltungszentralen und erreichte den zweiten Platz.",
-        url: "https://www.zoellner-office.de/blog/hackathon-vice-meister",
-        image: "https://www.zoellner-office.de/images/Hackathon-Vice-Meister4.jpeg",
+        url: "https://www.sprachassistent.net/blog/hackathon-vice-meister",
+        image: "https://www.sprachassistent.net/images/Hackathon-Vice-Meister4.jpeg",
         datePublished: "2026-02-05",
         dateModified: "2026-02-13"
       }),

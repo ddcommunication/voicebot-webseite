@@ -72,13 +72,13 @@ export default function Blog() {
         "@type": "Blog",
         name: "Zöllner Office Blog",
         description: "Aktuelle Einblicke in die Welt der Sprach-KI und Voicebots.",
-        url: "https://www.zoellner-office.de/blog",
+        url: "https://www.sprachassistent.net/blog",
         blogPost: posts.map(post => ({
           "@type": "BlogPosting",
           headline: post.title,
           description: post.excerpt,
           image: post.image,
-          url: `https://www.zoellner-office.de${post.slug}`,
+          url: `https://www.sprachassistent.net${post.slug}`,
           author: {
             "@type": "Organization",
             name: post.author,

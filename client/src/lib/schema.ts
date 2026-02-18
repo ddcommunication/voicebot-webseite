@@ -1,7 +1,7 @@
 // Schema.org markup generators for SEO
 
 const SITE_NAME = "Zöllner Office";
-const SITE_URL = "https://www.zoellner-office.de";
+const SITE_URL = "https://www.sprachassistent.net";
 const LOGO_URL = "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/aJdwTMGgxMBLbFMd.jpg";
 
 export function generateOrganizationSchema() {

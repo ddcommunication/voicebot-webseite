@@ -12,7 +12,7 @@ export default function WohnungswirtschaftCaseStudy() {
       generateArticleSchema({
         title: "Praxisbeispiel Wohnungswirtschaft: Automatisierte Telefonannahme mit VoiceBot",
         description: "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch intelligente VoiceBot-Automatisierung den Kundenservice revolutionierte und die Erreichbarkeit auf 24/7 erweiterte.",
-        url: "https://www.zoellner-office.de/blog/wohnungswirtschaft-voicebot",
+        url: "https://www.sprachassistent.net/blog/wohnungswirtschaft-voicebot",
         image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
         datePublished: "2026-02-05",
         dateModified: "2026-02-13"

@@ -91,7 +91,7 @@
   setMetaTag('property', 'og:title', config.title);
   setMetaTag('property', 'og:description', config.description);
   setMetaTag('property', 'og:type', 'website');
-  setMetaTag('property', 'og:url', `https://www.zoellner-office.de${path}`);
+  setMetaTag('property', 'og:url', `https://www.sprachassistent.net${path}`);
   setMetaTag('property', 'og:site_name', siteTitle);
   setMetaTag('property', 'og:image', 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/aJdwTMGgxMBLbFMd.jpg');
   
