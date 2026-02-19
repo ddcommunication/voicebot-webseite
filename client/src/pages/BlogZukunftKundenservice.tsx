@@ -164,7 +164,7 @@ export default function BlogZukunftKundenservice() {
                     Skalierbarkeit: unbegrenzt
                   </strong>
                   <br />
-                  Tausende parallele Gespräche ohne zusätzliche Kosten
+                  Modularer Aufbau und flexibel skalierbar
                 </li>
               </ul>
             </div>
