@@ -360,7 +360,7 @@ export default function Home() {
               <AccordionContent className="text-muted-foreground text-base leading-relaxed">
                 Die Kosten richten sich individuell nach Ihrer Konfiguration und dem Einsatzbereich. 
                 Faktoren wie Anrufvolumen, gewünschte Integrationen und spezifische Anforderungen 
-                bestimmen den Preis. Kontaktieren Sie uns für ein maßgeschneidertes Angebot, 
+                bestimmen den Preis. Unser Sprachassistent für den Einstieg kostet 49 Cent die Minute zzgl. Aktivierungskosten. <Link href="/termin" className="text-primary hover:underline font-medium">Kontaktieren Sie uns</Link> für ein maßgeschneidertes Angebot, 
                 das exakt zu Ihren Bedürfnissen passt.
               </AccordionContent>
             </AccordionItem>
