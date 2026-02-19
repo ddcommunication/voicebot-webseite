@@ -314,3 +314,5 @@
 - [x] Öffnungszeiten aus Header und Kontaktseite entfernen
 - [x] Alle Telefonnummern auf +49 3533 4807-48 ändern
 - [x] E-Mail-Adresse auf kontakt@sprachassistent.net ändern und Kontaktformular konfigurieren
+- [x] support@zoellner-office.de E-Mail-Adresse ersatzlos entfernen
+- [x] Terminbuchungsseite unter /termin mit Timum-Widget erstellen

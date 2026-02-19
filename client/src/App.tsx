@@ -14,6 +14,7 @@ import BlogVoicebotVsMitarbeiter from "./pages/BlogVoicebotVsMitarbeiter";
 import BlogZukunftKundenservice from "./pages/BlogZukunftKundenservice";
 import BlogPerfekteBegruessung from "./pages/BlogPerfekteBegruessung";
 import About from "./pages/About";
+import Termin from "./pages/Termin";
 
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
@@ -44,6 +45,7 @@ function Router() {
         <Route path="/loesungen" component={Solutions} />
         <Route path="/anwendungsbeispiele" component={Anwendungsbeispiele} />
         <Route path="/ueber-uns" component={About} />
+        <Route path="/termin" component={Termin} />
 
         <Route path="/kontakt" component={Contact} />
         <Route path="/blog" component={Blog} />
