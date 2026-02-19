@@ -41,7 +41,7 @@ export default function About() {
           <div className="max-w-3xl mx-auto text-center text-white">
             <div className="inline-flex items-center rounded-full border border-blue-400/30 bg-blue-500/10 px-4 py-1.5 text-sm font-medium text-blue-300 backdrop-blur-md shadow-[0_0_15px_rgba(59,130,246,0.2)] mb-6">
               <Building2 className="h-4 w-4 mr-2" />
-              Seit über 30 Jahren Ihr Partner
+              Seit über 45 Jahren Ihr Partner
             </div>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 leading-tight">
               Über{" "}
@@ -50,7 +50,7 @@ export default function About() {
               </span>
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              Wir verbinden über 30 Jahre Erfahrung in Büro- und IT-Systemen mit modernster KI-Technologie. 
+              Wir verbinden über 45 Jahre Erfahrung in Büro- und IT-Systemen mit modernster KI-Technologie. 
               Unsere Mission: Unternehmen erreichbar machen und Mitarbeiter entlasten.
             </p>
           </div>
@@ -145,7 +145,7 @@ export default function About() {
                     <h3 className="text-xl font-bold text-primary mb-1">Peter Gemander</h3>
                     <p className="text-sm text-muted-foreground font-medium mb-3">Geschäftsführer</p>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      Mit über 30 Jahren Erfahrung in der Büro- und IT-Branche leitet Peter Gemander das Unternehmen 
+                      Mit über 45 Jahren Erfahrung in der Büro- und IT-Branche leitet Peter Gemander das Unternehmen 
                       mit klarer Vision: Technologie muss dem Menschen dienen, nicht umgekehrt. Seine Expertise in 
                       Kommunikationslösungen prägt die strategische Ausrichtung des Unternehmens.
                     </p>
@@ -355,7 +355,7 @@ export default function About() {
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed">
             Lassen Sie uns gemeinsam Ihren Kundenservice auf das nächste Level heben. 
-            Profitieren Sie von über 30 Jahren Erfahrung und modernster KI-Technologie.
+            Profitieren Sie von über 45 Jahren Erfahrung und modernster KI-Technologie.
           </p>
           <Link href="/termin">
             <Button
