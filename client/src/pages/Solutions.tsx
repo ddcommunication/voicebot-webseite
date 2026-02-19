@@ -136,9 +136,7 @@ export default function Solutions() {
                 Termin-Management
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
-                Vereinbaren, verschieben oder stornieren Sie Termine
-                vollautomatisch. Der Bot greift direkt auf Ihren Kalender zu,
-                schlägt freie Zeiten vor und trägt Buchungen ein.
+                Vereinbaren Sie Termine vollautomatisch. Der Bot greift direkt auf Ihren Kalender zu, schlägt freie Zeiten vor und trägt Buchungen ein. Doppelbuchungen werden vermieden.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-base text-primary font-semibold justify-center md:justify-start">

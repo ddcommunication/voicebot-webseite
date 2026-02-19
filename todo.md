@@ -325,3 +325,4 @@
 - [x] Kalender-Integration-FAQ auf Startseite aktualisieren mit Timum-Praxisbeispiel-Link
 - [x] Test-FAQ auf Startseite aktualisieren mit Telefonnummer und Buchungsinformationen
 - [x] "Standort-Erkennung" zu "Rufnummer-Erkennung" in Intelligente Telefonzentrale Sektion ändern
+- [x] Termin-Management Einleitungstext aktualisieren mit Fokus auf vollautomatische Terminvereinbarung und Doppelbuchungs-Vermeidung
