@@ -283,7 +283,7 @@ export default function Contact() {
                       <p className="text-muted-foreground">
                         <strong>Elsterwerda:</strong> +49 3533 4807-48
                         <br />
-                        <strong>Dresden:</strong> +49 351 287087-50
+                        <strong>Dresden:</strong> +49 351 287087-51
 
                       </p>
                     </div>

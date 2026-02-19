@@ -316,3 +316,4 @@
 - [x] E-Mail-Adresse auf kontakt@sprachassistent.net ändern und Kontaktformular konfigurieren
 - [x] support@zoellner-office.de E-Mail-Adresse ersatzlos entfernen
 - [x] Terminbuchungsseite unter /termin mit Timum-Widget erstellen
+- [x] Dresdner Telefonnummer auf +49 351 287087-51 ändern
