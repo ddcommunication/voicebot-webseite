@@ -111,7 +111,7 @@ export default function Solutions() {
                   <div className="h-6 w-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0">
                     <Check className="h-4 w-4" />
                   </div>
-                  Standort-Erkennung
+                  Rufnummer-Erkennung
                 </li>
                 <li className="flex items-center gap-3 text-base text-primary font-semibold justify-center md:justify-start">
                   <div className="h-6 w-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0">
