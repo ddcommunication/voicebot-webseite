@@ -135,7 +135,7 @@ export default function VoicebotFuerKMU() {
                 Anpassungen und Erweiterungen
               </h3>
               <p>
-                Können zusätzlich anfallen, wenn Sie den Funktionsumfang später erweitern möchten. Hier sollten Sie mit <strong>500 bis 2.000 Euro</strong> pro größerer Anpassung rechnen.
+                Können zusätzlich anfallen, wenn Sie den Funktionsumfang später erweitern möchten.
               </p>
             </div>
 

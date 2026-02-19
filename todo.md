@@ -338,3 +338,4 @@
 - [x] Kostensatz im Blog-Artikel aktualisieren: "Voicebot" zu "Sprachassistent", Preisspanne auf 600€ erweitern, "Die Ersparnis liegt" zu "Die Ersparnis kann...liegen"
 - [x] Einrichtungskosten-Text aktualisieren: Einstiegspreis von 2.000€ auf 800€ senken und Text vereinfachen
 - [x] Monatliche Betriebskosten-Text aktualisieren: Text auf 800€ Einstieg und projektabhängige Kosten ändern
+- [x] Anpassungs-Kosten vereinfachen: Konkrete Preisangaben (500-2.000€) entfernen
