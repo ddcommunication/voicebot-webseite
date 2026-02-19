@@ -245,8 +245,7 @@ export default function Anwendungsbeispiele() {
                   Skalierbarkeit
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Wachsen Sie ohne Grenzen. Der Voicebot passt sich automatisch
-                  an steigende Anrufvolumen an – ohne zusätzliche Kosten.
+                  Wachsen Sie ohne Grenzen. Ihr Voicebot entwickelt sich mit Ihren Anforderungen. Dank des modularen Aufbaus bleibt er jederzeit flexibel und skalierbar.
                 </p>
               </CardContent>
             </Card>

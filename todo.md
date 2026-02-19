@@ -326,3 +326,5 @@
 - [x] Test-FAQ auf Startseite aktualisieren mit Telefonnummer und Buchungsinformationen
 - [x] "Standort-Erkennung" zu "Rufnummer-Erkennung" in Intelligente Telefonzentrale Sektion ändern
 - [x] Termin-Management Einleitungstext aktualisieren mit Fokus auf vollautomatische Terminvereinbarung und Doppelbuchungs-Vermeidung
+- [x] Skalierbarkeit-Text aktualisieren mit Fokus auf modularen Aufbau und Flexibilität
+- [x] Hero-Bild auf Uwe Ortlepp Seite reparieren (Bild wird korrekt angezeigt)
