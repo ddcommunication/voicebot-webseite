@@ -342,3 +342,4 @@
 - [ ] Schriftgrößen im KMU-Kosten-Artikel vereinheitlichen für konsistente Typografie
 - [x] Timum-Widget auf /termin-Seite von Script auf iframe umstellen
 - [x] Timum iframe Problem beheben - zurück zur funktionierenden Script-Variante
+- [x] Timum-Widget Container-Styling entfernen, damit Widget volle Breite nutzen kann

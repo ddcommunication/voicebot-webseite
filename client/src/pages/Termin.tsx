@@ -36,10 +36,10 @@ export default function Termin() {
             </p>
           </div>
 
-          {/* Timum Widget Container */}
+          {/* Timum Widget Container - no styling to allow widget to control its own size */}
           <div 
             id="timumContainer-e4ad70b0-fe8a-401e-85c1-1660b0ca2220"
-            className="min-h-[600px] bg-card rounded-lg shadow-lg p-8"
+            className="min-h-[600px]"
           ></div>
 
           <div className="mt-12 text-center text-sm text-muted-foreground">
