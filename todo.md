@@ -323,3 +323,4 @@
 - [x] DSGVO-FAQ-Antwort auf Startseite aktualisieren mit botario Plattform-Informationen
 - [x] Kosten-FAQ-Antwort auf Startseite aktualisieren mit neuen Preisinformationen (49 Cent/Min) und Link zu /termin
 - [x] Kalender-Integration-FAQ auf Startseite aktualisieren mit Timum-Praxisbeispiel-Link
+- [x] Test-FAQ auf Startseite aktualisieren mit Telefonnummer und Buchungsinformationen
