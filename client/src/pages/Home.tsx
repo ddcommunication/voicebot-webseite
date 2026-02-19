@@ -329,10 +329,7 @@ export default function Home() {
                 Ist das System DSGVO-konform?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base leading-relaxed">
-                Absolut. Alle Daten werden auf Servern in Deutschland
-                verarbeitet. Wir schließen mit Ihnen einen
-                Auftragsverarbeitungsvertrag (AVV) ab und erfüllen alle
-                gesetzlichen Datenschutzanforderungen.
+                Die botario Plattform ist 100 % DSGVO-konform und hostet alle Daten sicher in der EU, mit Verschlüsselung, automatischer Löschung und rollenbasiertem Zugriff für maximalen Schutz sensibler Informationen.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
