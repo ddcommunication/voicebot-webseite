@@ -26,7 +26,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container flex justify-between items-center">
           <div className="flex gap-6">
             <span className="flex items-center gap-2 opacity-90 hover:opacity-100 transition-opacity">
-              <Phone className="h-3 w-3" /> +49 3533 4807-0
+              <Phone className="h-3 w-3" /> +49 3533 4807-48
             </span>
             <span className="flex items-center gap-2 opacity-90 hover:opacity-100 transition-opacity">
               <Mail className="h-3 w-3" /> info@zoellner-office.de
@@ -219,7 +219,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <ul className="space-y-3 text-sm text-primary-foreground/80">
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 mt-0.5 shrink-0" />
-                <a href="tel:+4935334807-0" className="hover:text-white transition-colors">+49 3533 4807-0</a>
+                <a href="tel:+4935334807-48" className="hover:text-white transition-colors">+49 3533 4807-48</a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 mt-0.5 shrink-0" />

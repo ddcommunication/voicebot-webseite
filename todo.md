@@ -312,3 +312,4 @@
 - [ ] Alle Menü-Links auf relative Pfade umstellen (statt absolute URLs ohne www)
 - [x] Jede Seite muss individuelle Meta-Tags haben (nicht alle die gleichen)
 - [x] Öffnungszeiten aus Header und Kontaktseite entfernen
+- [x] Alle Telefonnummern auf +49 3533 4807-48 ändern

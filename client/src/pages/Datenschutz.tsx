@@ -173,7 +173,7 @@ export default function Datenschutz() {
                     <p>Burgstraße 1</p>
                     <p>04910 Elsterwerda</p>
                     <p className="pt-2">Vertreten durch: Peter Gemander</p>
-                    <p className="pt-2">Telefon: +49 3533 4807-0</p>
+                    <p className="pt-2">Telefon: +49 3533 4807-48</p>
                     <p>E-Mail: info@buero-zoellner.de</p>
                   </div>
                   <p className="text-muted-foreground leading-relaxed mt-4 text-sm">
