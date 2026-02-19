@@ -299,8 +299,6 @@ export default function Contact() {
                       <h3 className="font-bold text-primary">E-Mail</h3>
                       <p className="text-muted-foreground">
                         kontakt@sprachassistent.net
-                        <br />
-                        kontakt@sprachassistent.net
                       </p>
                     </div>
                   </CardContent>
