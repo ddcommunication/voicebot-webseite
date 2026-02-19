@@ -339,3 +339,5 @@
 - [x] Einrichtungskosten-Text aktualisieren: Einstiegspreis von 2.000€ auf 800€ senken und Text vereinfachen
 - [x] Monatliche Betriebskosten-Text aktualisieren: Text auf 800€ Einstieg und projektabhängige Kosten ändern
 - [x] Anpassungs-Kosten vereinfachen: Konkrete Preisangaben (500-2.000€) entfernen
+- [ ] Schriftgrößen im KMU-Kosten-Artikel vereinheitlichen für konsistente Typografie
+- [x] Timum-Widget auf /termin-Seite von Script auf iframe umstellen
