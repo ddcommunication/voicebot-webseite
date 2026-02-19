@@ -322,3 +322,4 @@
 - [x] Alle Buttons mit "Jetzt beratung anfragen", "Jetzt Beratungstermin buchen" und "Beratungstermin vereinbaren" mit /termin verlinken
 - [x] DSGVO-FAQ-Antwort auf Startseite aktualisieren mit botario Plattform-Informationen
 - [x] Kosten-FAQ-Antwort auf Startseite aktualisieren mit neuen Preisinformationen (49 Cent/Min) und Link zu /termin
+- [x] Kalender-Integration-FAQ auf Startseite aktualisieren mit Timum-Praxisbeispiel-Link

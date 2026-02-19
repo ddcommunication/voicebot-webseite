@@ -369,9 +369,7 @@ export default function Home() {
                 Kann der Bot Termine direkt in meinen Kalender eintragen?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base leading-relaxed">
-                Ja, wir bieten Integrationen für alle gängigen Kalendersysteme
-                wie Google Calendar, Outlook, Doctolib, Calendly und viele
-                branchenspezifische Softwarelösungen an.
+                Ja, das können wir. In diesem <a href="https://www.sprachassistent.net/praxisbeispiele/timum-fuer-makler" className="text-primary hover:underline font-medium">Praxisbeispiel erläutern wir</a>, wie unser Bot, z.B. mit dem Planungssystem Timum, Termine buchen kann. Testen Sie es live und buchen einen kostenlosen Beratungstermin bei uns.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-9">
