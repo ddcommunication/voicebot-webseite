@@ -85,7 +85,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </span>
               </Link>
             ))}
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button
                 className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-6"
               >
@@ -122,7 +122,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   </span>
                 </Link>
               ))}
-              <Link href="/kontakt">
+              <Link href="/termin">
                 <Button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold mt-2"

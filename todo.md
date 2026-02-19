@@ -318,3 +318,4 @@
 - [x] Terminbuchungsseite unter /termin mit Timum-Widget erstellen
 - [x] Dresdner Telefonnummer auf +49 351 287087-51 ändern
 - [x] Doppelte E-Mail-Adresse auf Kontaktseite entfernen
+- [x] Demo anfragen Button mit /termin verlinken
