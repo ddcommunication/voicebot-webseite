@@ -201,7 +201,7 @@ export default function About() {
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Als zertifizierter NFON-Partner bieten wir professionelle Cloud-Telefonie-Lösungen für Unternehmen jeder Größe. 
                   NFON ist Europas führender Anbieter für Cloud-Telefonanlagen und ermöglicht flexible, skalierbare 
-                  Kommunikationslösungen ohne teure Hardware-Investitionen.
+                  Kommunikationslösungen ohne teure Hardware-Investitionen. NFON arbeitet mit geo-redundanten und BSI-zertifizierten Rechenzentren.
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
