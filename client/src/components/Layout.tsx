@@ -64,7 +64,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8">
             {navItems.map(item => (
               <Link key={item.href} href={item.href}>
                 <span
@@ -96,7 +96,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden p-2 text-primary"
+            className="lg:hidden p-2 text-primary"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -105,7 +105,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Mobile Nav */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-t bg-background p-4 absolute w-full shadow-lg animate-in slide-in-from-top-5">
+          <div className="lg:hidden border-t bg-background p-4 absolute w-full shadow-lg animate-in slide-in-from-top-5">
             <nav className="flex flex-col gap-4">
               {navItems.map(item => (
                 <Link key={item.href} href={item.href}>
