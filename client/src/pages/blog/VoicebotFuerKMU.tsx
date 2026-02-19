@@ -127,7 +127,7 @@ export default function VoicebotFuerKMU() {
                 Monatliche Betriebskosten
               </h3>
               <p className="mb-4">
-                Bewegen sich für KMU in der Regel zwischen <strong>200 und 800 Euro</strong>. Darin enthalten sind die Lizenzgebühren, Hosting, Wartung und Support. Viele Anbieter rechnen nach Gesprächsminuten ab, was besonders für kleinere Unternehmen fair ist – Sie zahlen nur, was Sie tatsächlich nutzen.
+                Der Einstieg ist bereits ab <strong>800 Euro</strong> möglich. Die finalen Kosten richten sich nach Umfang und Komplexität Ihres Projekts. Viele Anbieter rechnen nach Gesprächsminuten ab, was besonders für kleinere Unternehmen fair ist – Sie zahlen nur, was Sie tatsächlich nutzen.
               </p>
 
               <h3 className="text-xl font-bold text-foreground mb-4 mt-8 flex items-center gap-2">
