@@ -331,3 +331,4 @@
 - [x] Skalierbarkeit-Beschreibung im Blog-Artikel "Zukunft Kundenservice" ändern
 - [x] Button am Ende des Blog-Artikels "Zukunft Kundenservice" mit /termin verlinken
 - [x] Jahreszahl von "über 30 Jahre" auf "über 45 Jahre" auf Über-uns-Seite ändern
+- [x] Unternehmenstext im Abschnitt "Heute: Ihr Partner für intelligente Kommunikation" auf Über-uns-Seite aktualisieren

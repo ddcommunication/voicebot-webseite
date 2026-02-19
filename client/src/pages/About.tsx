@@ -110,10 +110,7 @@ export default function About() {
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold text-primary mb-3">Heute: Ihr Partner für intelligente Kommunikation</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Mit Standorten in Elsterwerda und Dresden betreuen wir heute Unternehmen aus den unterschiedlichsten Branchen – 
-                    von Arztpraxen über Handwerksbetriebe bis hin zu E-Commerce-Unternehmen. Unser Team verbindet technisches 
-                    Know-how mit tiefem Verständnis für geschäftliche Prozesse. Wir sprechen die Sprache unserer Kunden und 
-                    entwickeln Lösungen, die wirklich funktionieren.
+                    Mit Standorten in Elsterwerda und Dresden betreuen wir heute Unternehmen aus den unterschiedlichsten Branchen, von Arztpraxen, Handwerksbetrieben, Immobilienwirtschaft, Behörden bis hin zu E-Commerce-Unternehmen. Unser Team verbindet technisches Know-how mit tiefem Verständnis für geschäftliche Prozesse. Wir sprechen die Sprache unserer Kunden und entwickeln Lösungen, die wirklich funktionieren.
                   </p>
                 </CardContent>
               </Card>
