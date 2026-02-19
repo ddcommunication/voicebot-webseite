@@ -321,7 +321,7 @@ export default function BlogZukunftKundenservice() {
               Lassen Sie uns gemeinsam herausfinden, wie ein Voicebot Ihr
               Unternehmen voranbringen kann.
             </p>
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button
                 size="lg"
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold"

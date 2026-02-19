@@ -329,3 +329,4 @@
 - [x] Skalierbarkeit-Text aktualisieren mit Fokus auf modularen Aufbau und Flexibilität
 - [x] Hero-Bild auf Uwe Ortlepp Seite reparieren (Bild wird korrekt angezeigt)
 - [x] Skalierbarkeit-Beschreibung im Blog-Artikel "Zukunft Kundenservice" ändern
+- [x] Button am Ende des Blog-Artikels "Zukunft Kundenservice" mit /termin verlinken
