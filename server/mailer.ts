@@ -34,7 +34,7 @@ export async function sendContactEmail(data: {
     // Email content
     const mailOptions = {
       from: `"Sprachassistent.net Kontaktformular" <${process.env.SMTP_USER || "voicebot@dd-communication.de"}>`,
-      to: "voicebot@dd-communication.de",
+      to: "kontakt@sprachassistent.net",
       subject: `Neue Kontaktanfrage von ${data.name} (${data.company})`,
       html: `
         <h2>Neue Kontaktanfrage über sprachassistent.net</h2>

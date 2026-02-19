@@ -29,7 +29,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Phone className="h-3 w-3" /> +49 3533 4807-48
             </span>
             <span className="flex items-center gap-2 opacity-90 hover:opacity-100 transition-opacity">
-              <Mail className="h-3 w-3" /> info@zoellner-office.de
+              <Mail className="h-3 w-3" /> kontakt@sprachassistent.net
             </span>
           </div>
 
@@ -223,7 +223,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 mt-0.5 shrink-0" />
-                <a href="mailto:info@zoellner-office.de" className="hover:text-white transition-colors">info@zoellner-office.de</a>
+                <a href="mailto:kontakt@sprachassistent.net" className="hover:text-white transition-colors">kontakt@sprachassistent.net</a>
               </li>
               <li className="mt-4">
                 <Link href="/kontakt">

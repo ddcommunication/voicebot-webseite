@@ -20,7 +20,7 @@ export function generateOrganizationSchema() {
       "@type": "ContactPoint",
       telephone: "+49-3533-4807-0",
       contactType: "customer service",
-      email: "info@zoellner-office.de",
+      email: "kontakt@sprachassistent.net",
       availableLanguage: ["de", "en"],
     },
     sameAs: [],
@@ -141,7 +141,7 @@ export function generateLocalBusinessSchema() {
     "@id": SITE_URL,
     url: SITE_URL,
     telephone: "+49-3533-4807-0",
-    email: "info@zoellner-office.de",
+    email: "kontakt@sprachassistent.net",
     address: {
       "@type": "PostalAddress",
       addressCountry: "DE",

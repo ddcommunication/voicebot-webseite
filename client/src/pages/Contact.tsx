@@ -298,9 +298,9 @@ export default function Contact() {
                     <div>
                       <h3 className="font-bold text-primary">E-Mail</h3>
                       <p className="text-muted-foreground">
-                        info@zoellner-office.de
+                        kontakt@sprachassistent.net
                         <br />
-                        support@zoellner-office.de
+                        kontakt@sprachassistent.net
                       </p>
                     </div>
                   </CardContent>
