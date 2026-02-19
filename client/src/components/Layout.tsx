@@ -32,9 +32,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Mail className="h-3 w-3" /> info@zoellner-office.de
             </span>
           </div>
-          <div className="flex gap-4 opacity-90">
-            <span>Mo-Fr: 08:00 - 18:00 Uhr</span>
-          </div>
+
         </div>
       </div>
 

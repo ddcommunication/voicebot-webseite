@@ -284,10 +284,7 @@ export default function Contact() {
                         <strong>Elsterwerda:</strong> +49 3533 4807-0
                         <br />
                         <strong>Dresden:</strong> +49 351 287087-50
-                        <br />
-                        <span className="text-sm text-muted-foreground/80">
-                          Mo-Fr, 08:00 - 18:00 Uhr
-                        </span>
+
                       </p>
                     </div>
                   </CardContent>
