@@ -127,11 +127,11 @@ export default function VoicebotVsMitarbeiter() {
                   </li>
                   <li className="flex items-start">
                     <Phone className="w-4 h-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
-                    <span>Nimmt unbegrenzt viele Anrufe gleichzeitig an</span>
+                    <span>Nimmt unbegrenzt viele Anrufe an</span>
                   </li>
                   <li className="flex items-start">
                     <Euro className="w-4 h-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
-                    <span>Fixe monatliche Pauschale</span>
+                    <span>Kalkulierbare monatliche Pauschale</span>
                   </li>
                 </ul>
               </CardContent>

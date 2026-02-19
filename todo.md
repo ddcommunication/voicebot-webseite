@@ -334,3 +334,4 @@
 - [x] Unternehmenstext im Abschnitt "Heute: Ihr Partner für intelligente Kommunikation" auf Über-uns-Seite aktualisieren
 - [x] Partner-Sektion Untertitel erweitern: "aus Deutschland für Europa" hinzufügen
 - [x] NFON-Abschnitt um geo-redundante und BSI-zertifizierte Rechenzentren ergänzen
+- [x] "Nimmt unbegrenzt viele Anrufe gleichzeitig an" zu "Nimmt unbegrenzt viele Anrufe an" vereinfachen und "Fixe" zu "Kalkulierbare" ändern
