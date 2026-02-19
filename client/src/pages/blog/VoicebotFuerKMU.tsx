@@ -119,7 +119,7 @@ export default function VoicebotFuerKMU() {
                 Einmalige Einrichtungskosten
               </h3>
               <p className="mb-4">
-                Liegen je nach Komplexität zwischen <strong>2.000 und 8.000 Euro</strong>. Dieser Betrag deckt die Konfiguration des Systems, die Anpassung an Ihre spezifischen Prozesse und die Integration in bestehende Systeme wie Ihr CRM oder Ihre Telefonanlage ab.
+                Der Einstieg ist bereits ab <strong>800 Euro</strong> möglich. Die finalen Kosten richten sich nach Umfang und Komplexität Ihres Projekts.
               </p>
 
               <h3 className="text-xl font-bold text-foreground mb-4 mt-8 flex items-center gap-2">
