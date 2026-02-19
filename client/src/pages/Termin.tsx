@@ -1,6 +1,22 @@
+import { useEffect } from "react";
 import SEO from "@/components/SEO";
 
 export default function Termin() {
+  useEffect(() => {
+    // Load Timum widget script dynamically
+    const script = document.createElement("script");
+    script.type = "module";
+    script.src = "https://www.timum.de/4c6f8131-b445-48b3-a78d-deb05e3cb77b/e4ad70b0-fe8a-401e-85c1-1660b0ca2220/widget.js";
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup script on unmount
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <>
       <SEO 
@@ -20,17 +36,11 @@ export default function Termin() {
             </p>
           </div>
 
-          {/* Timum Widget iframe */}
-          <div className="bg-card rounded-lg shadow-lg overflow-hidden">
-            <iframe
-              src="https://www.timum.de/4c6f8131-b445-48b3-a78d-deb05e3cb77b/e4ad70b0-fe8a-401e-85c1-1660b0ca2220?embed=true"
-              width="100%"
-              height="550"
-              frameBorder="0"
-              style={{ border: 'none' }}
-              title="Terminbuchung"
-            />
-          </div>
+          {/* Timum Widget Container */}
+          <div 
+            id="timumContainer-e4ad70b0-fe8a-401e-85c1-1660b0ca2220"
+            className="min-h-[600px] bg-card rounded-lg shadow-lg p-8"
+          ></div>
 
           <div className="mt-12 text-center text-sm text-muted-foreground">
             <p>
