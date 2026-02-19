@@ -181,7 +181,7 @@ export default function About() {
               Wir sind Entwicklungspartner
             </h2>
             <p className="text-lg text-muted-foreground">
-              Starke Partner für erstklassige Lösungen
+              Starke Partner für erstklassige Lösungen, aus Deutschland für Europa
             </p>
           </div>
 
