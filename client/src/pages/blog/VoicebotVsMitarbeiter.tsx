@@ -160,10 +160,10 @@ export default function VoicebotVsMitarbeiter() {
             </li>
           </ul>
           <p className="text-base mb-6 leading-relaxed">
-            Ein professioneller Voicebot kostet im Vergleich
-            dazu oft nur einen Bruchteil – meist zwischen 100€ und 300€ im
+            Ein professioneller Sprachassistent kostet im Vergleich
+            dazu oft nur einen Bruchteil, meist zwischen 100€ und 600€ im
             Monat, je nach Funktionsumfang.{" "}
-            <strong className="font-semibold">Die Ersparnis liegt also bei über 70%.</strong>
+            <strong className="font-semibold">Die Ersparnis kann also bei über 70% liegen.</strong>
           </p>
 
           {/* Section 3 */}
