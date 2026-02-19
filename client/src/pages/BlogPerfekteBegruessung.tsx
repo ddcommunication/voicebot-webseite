@@ -404,7 +404,7 @@ export default function BlogPerfekteBegruessung() {
               Wir unterstützen Sie bei der Entwicklung von Dialogen, die Ihre
               Kunden begeistern. Von der Konzeption bis zur Umsetzung.
             </p>
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button
                 size="lg"
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold"

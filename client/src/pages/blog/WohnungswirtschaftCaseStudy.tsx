@@ -478,7 +478,7 @@ export default function WohnungswirtschaftCaseStudy() {
             <p className="text-lg mb-6 opacity-90">
               Lassen Sie uns gemeinsam herausfinden, wie ein VoiceBot auch Ihren Kundenservice revolutionieren kann.
             </p>
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button
                 size="lg"
                 variant="secondary"

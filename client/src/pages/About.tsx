@@ -357,7 +357,7 @@ export default function About() {
             Lassen Sie uns gemeinsam Ihren Kundenservice auf das nächste Level heben. 
             Profitieren Sie von über 30 Jahren Erfahrung und modernster KI-Technologie.
           </p>
-          <Link href="/kontakt">
+          <Link href="/termin">
             <Button
               size="lg"
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold px-8 h-14 text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105"

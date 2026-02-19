@@ -281,7 +281,7 @@ export default function BlogVoicebotVsMitarbeiter() {
               Wir erstellen Ihnen eine maßgeschneiderte Kalkulation für Ihr
               Unternehmen – kostenlos und unverbindlich.
             </p>
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button
                 size="lg"
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold"

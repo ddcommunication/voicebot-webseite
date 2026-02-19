@@ -394,7 +394,7 @@ export default function VoicebotFuerKMU() {
               <p className="text-muted-foreground mb-6">
                 Wenn Sie überlegen, einen KI-Telefonassistenten einzuführen, starten Sie mit einer gründlichen Analyse Ihrer Telefonprozesse. Identifizieren Sie die Bereiche mit dem größten Automatisierungspotenzial und holen Sie Angebote von mehreren Anbietern ein.
               </p>
-              <Link href="/kontakt">
+              <Link href="/termin">
                 <Button size="lg" className="w-full md:w-auto">
                   Kostenlose Beratung anfragen
                 </Button>

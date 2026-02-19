@@ -209,7 +209,7 @@ export default function VoicebotVsMitarbeiter() {
               Lassen Sie uns gemeinsam herausfinden, wie viel Zeit und Geld Sie
               sparen können.
             </p>
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button size="lg" className="bg-primary text-primary-foreground">
                 Kostenlose Beratung vereinbaren
               </Button>

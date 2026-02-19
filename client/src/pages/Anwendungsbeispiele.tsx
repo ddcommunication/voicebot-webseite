@@ -266,7 +266,7 @@ export default function Anwendungsbeispiele() {
             entwickeln.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button
                 size="lg"
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold px-8 h-14 text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105"

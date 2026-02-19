@@ -300,7 +300,7 @@ export default function TimumFuerMakler() {
             <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">
               Erfahren Sie, wie Zöllner Office Ihnen helfen kann, Timum, onOffice und Voicebot-Technologie nahtlos zu integrieren.
             </p>
-            <Link href="/kontakt">
+            <Link href="/termin">
               <Button size="lg" className="bg-white text-slate-900 hover:bg-slate-100 font-bold">
                 Jetzt Beratung anfragen
                 <ArrowRight className="ml-2 h-5 w-5" />

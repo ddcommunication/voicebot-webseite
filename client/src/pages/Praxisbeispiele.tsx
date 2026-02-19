@@ -212,7 +212,7 @@ export default function Praxisbeispiele() {
               individuelle Lösungskonzepte.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/kontakt">
+              <Link href="/termin">
                 <Button
                   size="lg"
                   className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold"

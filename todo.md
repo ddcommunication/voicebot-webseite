@@ -319,3 +319,4 @@
 - [x] Dresdner Telefonnummer auf +49 351 287087-51 ändern
 - [x] Doppelte E-Mail-Adresse auf Kontaktseite entfernen
 - [x] Demo anfragen Button mit /termin verlinken
+- [x] Alle Buttons mit "Jetzt beratung anfragen", "Jetzt Beratungstermin buchen" und "Beratungstermin vereinbaren" mit /termin verlinken

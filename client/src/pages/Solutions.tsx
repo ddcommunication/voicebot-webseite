@@ -369,7 +369,7 @@ export default function Solutions() {
             Lassen Sie uns gemeinsam analysieren, wo in Ihrem Unternehmen das
             größte Potenzial liegt.
           </p>
-          <Link href="/kontakt">
+          <Link href="/termin">
             <Button
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-400 hover:to-cyan-300 text-white font-bold shadow-lg hover:shadow-xl transition-all px-8 rounded-full"
