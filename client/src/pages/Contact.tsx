@@ -79,7 +79,7 @@ export default function Contact() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/UljuWiKNwsOoYrWa.jpg" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/bOYpkyoxoObWhfQv.jpeg" 
             alt="KI-gestützte Kommunikationslösungen" 
             className="w-full h-full object-cover"
           />

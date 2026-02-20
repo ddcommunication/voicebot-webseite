@@ -345,3 +345,4 @@
 - [x] Timum-Widget Container-Styling entfernen, damit Widget volle Breite nutzen kann
 - [x] Timum-Widget als iframe einbetten (auf Wunsch des Nutzers)
 - [x] Mobile Menü auf iPad Air anzeigen (10,9", 11", 13") - Breakpoint anpassen damit Menü nicht zu breit wird
+- [x] Hero-Bild auf Kontaktseite durch neues KI-Call-Center Bild ersetzen
