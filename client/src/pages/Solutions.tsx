@@ -58,11 +58,11 @@ export default function Solutions() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/hPzCMdSsojTDapiK.jpeg"
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/nsmLdXuQPdYSJYFM.jpeg"
             alt="KI-Mitarbeiterinnen im modernen Call-Center mit Voicebot Solutions"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-blue-900/60" />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
 
         {/* Content */}
