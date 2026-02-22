@@ -354,3 +354,4 @@
 - [x] Anwendungsbeispiele-Seite Hero-Bild mit Hotel-Rezeption Bild ersetzen
 - [x] Farbverlauf auf Anwendungsbeispiele Hero durch gleichmäßigen Overlay ersetzen
 - [x] Startseite Bild mit neuem Voici Voicebot Bild ersetzen
+- [x] Formular-Label "ANSPRECHPARTNER" auf Startseite zu "NAME" ändern

@@ -68,7 +68,7 @@ export default function ContactForm() {
               htmlFor="name"
               className="text-xs font-medium text-blue-200 uppercase tracking-wider"
             >
-              Ansprechpartner *
+              Name *
             </label>
             <input
               id="name"
