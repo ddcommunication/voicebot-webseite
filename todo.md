@@ -353,3 +353,4 @@
 - [x] Anwendungsbeispiele-Seite Hero-Bild mit Comic-Stil Bild ersetzen
 - [x] Anwendungsbeispiele-Seite Hero-Bild mit Hotel-Rezeption Bild ersetzen
 - [x] Farbverlauf auf Anwendungsbeispiele Hero durch gleichmäßigen Overlay ersetzen
+- [x] Startseite Bild mit neuem Voici Voicebot Bild ersetzen

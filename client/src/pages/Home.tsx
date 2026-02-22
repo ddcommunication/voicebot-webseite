@@ -202,8 +202,8 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/hlgZPasNjAgptxJy.webp"
-                alt="Voicebot Technologie Visualisierung"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/MOjMaVCeTtVefNJQ.jpg"
+                alt="Voici Voicebot"
                 className="relative rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
               />
             </div>
