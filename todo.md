@@ -348,3 +348,4 @@
 - [x] Hero-Bild auf Kontaktseite durch neues KI-Call-Center Bild ersetzen
 - [x] Kontaktseite Hero-Bild mit breiterer Call-Center Perspektive ersetzen
 - [x] Lösungsseite Hero-Bild mit Call-Center Bild (mehrere KI-Mitarbeiterinnen) ersetzen
+- [x] Blauen Overlay-Schleier auf Lösungsseite Hero-Bild für bessere Textlesbarkeit
