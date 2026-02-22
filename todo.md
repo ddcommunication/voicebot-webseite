@@ -352,3 +352,4 @@
 - [x] Lösungsseite Hero-Bild mit Comic-Stil Bild ersetzen und Overlay auf slate-grau ändern
 - [x] Anwendungsbeispiele-Seite Hero-Bild mit Comic-Stil Bild ersetzen
 - [x] Anwendungsbeispiele-Seite Hero-Bild mit Hotel-Rezeption Bild ersetzen
+- [x] Farbverlauf auf Anwendungsbeispiele Hero durch gleichmäßigen Overlay ersetzen

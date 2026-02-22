@@ -124,7 +124,7 @@ export default function Anwendungsbeispiele() {
             alt="KI-Mitarbeiterin an Hotel-Rezeption mit VOICI Hotel Assistant"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
 
         <div className="container relative z-10">
