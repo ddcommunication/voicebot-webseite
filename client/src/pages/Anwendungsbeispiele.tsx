@@ -120,8 +120,8 @@ export default function Anwendungsbeispiele() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/UzYLlBgcGqmZhuqN.jpg"
-            alt="KI-Mitarbeiterin mit Roboter-Armen vor AI Voice Analytics Dashboard"
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/HNfjfqMZrYMLJHZs.jpg"
+            alt="KI-Mitarbeiterin an Hotel-Rezeption mit VOICI Hotel Assistant"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
