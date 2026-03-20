@@ -15,7 +15,7 @@ export default function VoicebotFuerKMU() {
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg",
     datePublished: publishDate,
     dateModified: modifiedDate,
-    author: "Voicenexus Redaktion"
+    author: "Zöllner Office"
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([

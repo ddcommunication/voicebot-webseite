@@ -28,7 +28,7 @@ export default function Blog() {
       excerpt:
         "Umfassende Analyse der Kosten, des Nutzens und der praktischen Einsatzmöglichkeiten von KI-Telefonassistenten für kleine und mittelständische Unternehmen. Inklusive ROI-Rechnung und Praxisbeispielen.",
       date: "14. Feb 2026",
-      author: "Voicenexus Redaktion",
+      author: "Zöllner Office",
       category: "KMU & Mittelstand",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg",
       slug: "/blog/voicebot-kmu-kosten-roi",
