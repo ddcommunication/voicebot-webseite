@@ -20,7 +20,7 @@ export default function Blog() {
       date: "20. März 2026",
       author: "Zöllner Office",
       category: "Veranstaltung",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp",
       slug: "/blog/ki-tagung-wohnungsgenossenschaften-2026",
     },
     {
