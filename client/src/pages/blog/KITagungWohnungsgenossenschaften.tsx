@@ -253,7 +253,7 @@ export default function KITagungWohnungsgenossenschaften() {
                 <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
                   <div className="aspect-video overflow-hidden">
                     <img
-                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/wohnungswirtschaft-voicebot.jpg"
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png"
                       alt="Voicebot in der Wohnungswirtschaft"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp'; }}
