@@ -12,7 +12,7 @@ export default function KITagungWohnungsgenossenschaften() {
         title: "KI-Tagung der sächsischen Wohnungsgenossenschaften – Zöllner Office am Stand 11",
         description: "Kostenlose Beratung zu Voicebots: Automatisieren Sie Termine mit onOffice und Timum für Immobilienmakler und Wohnungsgenossenschaften effizient und zeitsparend.",
         url: "https://www.sprachassistent.net/blog/ki-tagung-wohnungsgenossenschaften-2026",
-        image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp",
+        image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp",
         datePublished: "2026-03-20",
         dateModified: "2026-03-20"
       }),
@@ -38,7 +38,7 @@ export default function KITagungWohnungsgenossenschaften() {
       {/* Hero Image */}
       <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
         <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp"
+          src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp"
           alt="KI-Tagung Wohnungswirtschaft Dresden – Fachleute im Gespräch an Ausstellungsstand"
           className="w-full h-full object-cover"
         />
@@ -256,7 +256,7 @@ export default function KITagungWohnungsgenossenschaften() {
                       src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png"
                       alt="Voicebot in der Wohnungswirtschaft"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp'; }}
+                      onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp'; }}
                     />
                   </div>
                   <div className="p-5">
@@ -300,7 +300,7 @@ export default function KITagungWohnungsgenossenschaften() {
                 <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
                   <div className="aspect-video bg-primary/5 flex items-center justify-center overflow-hidden">
                     <img
-                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp"
+                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp"
                       alt="Timum für Makler"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
@@ -326,7 +326,7 @@ export default function KITagungWohnungsgenossenschaften() {
                       src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/Voici-Voicebot-3-Cw4ZLpX8yJFC7rBe6HmoYY.jpeg"
                       alt="Voicebot Lösungen"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp'; }}
+                      onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp'; }}
                     />
                   </div>
                   <div className="p-5">

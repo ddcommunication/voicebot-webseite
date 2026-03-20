@@ -357,3 +357,4 @@
 - [x] Formular-Label "ANSPRECHPARTNER" auf Startseite zu "NAME" ändern
 - [x] Blogbeitrag KI-Tagung sächsische Wohnungsgenossenschaften erstellen mit Hero-Bild
 - [x] Weitere Artikel Abschnitt im KI-Tagung Blogbeitrag hinzufügen
+- [x] Hero-Bild KI-Tagung Blogbeitrag mit Flughafen-Konferenz Bild ersetzen
