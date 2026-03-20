@@ -14,6 +14,16 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export default function Blog() {
   const posts = [
     {
+      title: "KI-Tagung der sächsischen Wohnungsgenossenschaften – Wir sind dabei",
+      excerpt:
+        "Am 19. Mai 2026 findet in Dresden der Thementag \"KI ist jetzt\" statt. Zöllner Office ist am Stand Nr. 11 vertreten und berät zu Voicebots für die Wohnungswirtschaft – inkl. Integration mit onOffice und Timum.",
+      date: "20. März 2026",
+      author: "Zöllner Office",
+      category: "Veranstaltung",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-hero-photo-mLR5GCFZqcpVxCz3vFaCgS.webp",
+      slug: "/blog/ki-tagung-wohnungsgenossenschaften-2026",
+    },
+    {
       title: "Voicebot für KMU: Lohnt sich das?",
       excerpt:
         "Umfassende Analyse der Kosten, des Nutzens und der praktischen Einsatzmöglichkeiten von KI-Telefonassistenten für kleine und mittelständische Unternehmen. Inklusive ROI-Rechnung und Praxisbeispielen.",
