@@ -253,10 +253,9 @@ export default function KITagungWohnungsgenossenschaften() {
                 <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
                   <div className="aspect-video overflow-hidden">
                     <img
-                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png"
+                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/wohnungswirtschaft-voicebot-hero_0f85733d.png"
                       alt="Voicebot in der Wohnungswirtschaft"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp'; }}
                     />
                   </div>
                   <div className="p-5">
@@ -291,53 +290,6 @@ export default function KITagungWohnungsgenossenschaften() {
                     </h3>
                     <p className="text-sm text-muted-foreground line-clamp-2">
                       Umfassende Analyse der Kosten, des Nutzens und der praktischen Einsatzmöglichkeiten von KI-Telefonassistenten.
-                    </p>
-                  </div>
-                </div>
-              </Link>
-
-              <Link href="/praxisbeispiele/timum-fuer-makler">
-                <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                  <div className="aspect-video bg-primary/5 flex items-center justify-center overflow-hidden">
-                    <img
-                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp"
-                      alt="Timum für Makler"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <div className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary mb-3">
-                      Praxisbeispiel
-                    </div>
-                    <h3 className="font-bold text-base mb-2 group-hover:text-primary transition-colors">
-                      Timum für Makler: Terminbuchung mit onOffice
-                    </h3>
-                    <p className="text-sm text-muted-foreground line-clamp-2">
-                      Wie Immobilienmakler mit Timum und onOffice Besichtigungstermine automatisch buchen und verwalten.
-                    </p>
-                  </div>
-                </div>
-              </Link>
-
-              <Link href="/loesungen">
-                <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                  <div className="aspect-video overflow-hidden">
-                    <img
-                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/Voici-Voicebot-3-Cw4ZLpX8yJFC7rBe6HmoYY.jpeg"
-                      alt="Voicebot Lösungen"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      onError={(e) => { (e.target as HTMLImageElement).src = 'https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp'; }}
-                    />
-                  </div>
-                  <div className="p-5">
-                    <div className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary mb-3">
-                      Lösungen
-                    </div>
-                    <h3 className="font-bold text-base mb-2 group-hover:text-primary transition-colors">
-                      Alle Voicebot-Lösungen im Überblick
-                    </h3>
-                    <p className="text-sm text-muted-foreground line-clamp-2">
-                      Von der Telefonzentrale über Terminvereinbarung bis zum 24/7-Kundenservice – entdecken Sie alle Einsatzmöglichkeiten.
                     </p>
                   </div>
                 </div>
