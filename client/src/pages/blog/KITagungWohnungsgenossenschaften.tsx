@@ -74,7 +74,7 @@ export default function KITagungWohnungsgenossenschaften() {
 
           {/* Lead Paragraph */}
           <p className="text-base text-muted-foreground mb-12 leading-relaxed">
-            Am 19. Mai 2026 findet in Dresden der Thementag <strong>„KI ist jetzt – Chefsache und Alltag in der Wohnungswirtschaft"</strong> statt – organisiert vom Verband der Sächsischen Wohnungsgenossenschaften (VSWG). Zöllner Büro- & IT Systeme GmbH ist am <strong>Stand Nr. 11</strong> vertreten und berät Wohnungsunternehmen zu KI-gestützten Voicebots – insbesondere zur Integration mit onOffice und Timum.
+            Am 19. Mai 2026 findet in Dresden der Thementag <strong>„KI ist jetzt – Chefsache und Alltag in der Wohnungswirtschaft"</strong> statt – organisiert vom Verband der Sächsischen Wohnungsgenossenschaften (VSWG). Zöllner Büro- & IT Systeme GmbH ist am <strong>Stand Nr. 11</strong> vertreten und berät Wohnungsunternehmen und Immobilienmakler zu KI-gestützten Voicebots – insbesondere zur Integration mit onOffice und Timum.
           </p>
 
           {/* Was ist die KI-Tagung */}
@@ -96,7 +96,7 @@ export default function KITagungWohnungsgenossenschaften() {
             Als Entwicklungspartner der NFON AG sind wir Experten für KI-gestützte Voicebots in der Wohnungswirtschaft. Unsere Bots automatisieren Mieteranfragen, entlasten den Kundenservice und sichern eine schnelle, digitale Erreichbarkeit – rund um die Uhr.
           </p>
           <p className="text-base mb-6 leading-relaxed">
-            Mit unserer Expertise helfen wir Wohnungsunternehmen, Prozesse zu modernisieren, Servicequalität zu steigern und die Kommunikation mit Mietern zukunftssicher & DSGVO-konform zu gestalten.
+            Mit unserer Expertise helfen wir Wohnungsunternehmen und Immobilienmakler, Prozesse zu modernisieren, Servicequalität zu steigern und die Kommunikation mit Mietern zukunftssicher & DSGVO-konform zu gestalten.
           </p>
 
           {/* onOffice + Timum Integration */}
@@ -105,7 +105,7 @@ export default function KITagungWohnungsgenossenschaften() {
               Highlight: Voicebot + onOffice + Timum
             </h3>
             <p className="text-base mb-4 leading-relaxed">
-              Ein besonderes Thema am Stand Nr. 11 ist die Möglichkeit, Voicebots direkt mit der Immobiliensoftware <strong>onOffice</strong> über die Terminbuchungsplattform <strong>Timum</strong> zu verbinden. Das bedeutet für Wohnungsunternehmen:
+              Ein besonderes Thema am Stand Nr. 11 ist die Möglichkeit, Voicebots direkt mit der Immobiliensoftware <strong>onOffice</strong> über die Terminbuchungsplattform <strong>Timum</strong> zu verbinden. Das bedeutet für Wohnungsunternehmen und Immobilienmakler:
             </p>
             <div className="space-y-3">
               {[
@@ -266,7 +266,7 @@ export default function KITagungWohnungsgenossenschaften() {
                       Voicebot in der Wohnungswirtschaft: Praxisbericht
                     </h3>
                     <p className="text-sm text-muted-foreground line-clamp-2">
-                      Wie Wohnungsunternehmen mit KI-Voicebots Mieteranfragen automatisieren und den Kundenservice entlasten.
+                      Wie Wohnungsunternehmen und Immobilienmakler mit KI-Voicebots Mieteranfragen automatisieren und den Kundenservice entlasten.
                     </p>
                   </div>
                 </div>
