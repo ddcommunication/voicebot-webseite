@@ -356,3 +356,4 @@
 - [x] Startseite Bild mit neuem Voici Voicebot Bild ersetzen
 - [x] Formular-Label "ANSPRECHPARTNER" auf Startseite zu "NAME" ändern
 - [x] Blogbeitrag KI-Tagung sächsische Wohnungsgenossenschaften erstellen mit Hero-Bild
+- [x] Weitere Artikel Abschnitt im KI-Tagung Blogbeitrag hinzufügen
