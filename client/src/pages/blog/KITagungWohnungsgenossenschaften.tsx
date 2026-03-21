@@ -60,7 +60,7 @@ export default function KITagungWohnungsgenossenschaften() {
             Veranstaltung
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-foreground mb-4">
             KI-Tagung der sächsischen Wohnungsgenossenschaften – Wir sind dabei
           </h1>
 
