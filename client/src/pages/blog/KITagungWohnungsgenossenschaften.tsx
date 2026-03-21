@@ -65,7 +65,7 @@ export default function KITagungWohnungsgenossenschaften() {
           </h1>
 
           <div className="flex items-center gap-4 text-muted-foreground mb-12 text-sm">
-            <span>20. März 2026</span>
+            <span>19. Mai 2026</span>
             <span>•</span>
             <span>Lesezeit: 3 Min.</span>
             <span>•</span>
