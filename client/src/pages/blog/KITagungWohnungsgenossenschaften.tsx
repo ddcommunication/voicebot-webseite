@@ -102,15 +102,15 @@ export default function KITagungWohnungsgenossenschaften() {
           {/* onOffice + Timum Integration */}
           <div className="bg-primary/5 rounded-xl p-8 my-12 border border-primary/10">
             <h3 className="text-2xl font-bold mb-4">
-              Highlight: Voicebot + onOffice + Timum
+              Highlight: Voicebot + Timum
             </h3>
             <p className="text-base mb-4 leading-relaxed">
-              Ein besonderes Thema am Stand Nr. 11 ist die Möglichkeit, Voicebots direkt mit der Immobiliensoftware <strong>onOffice</strong> über die Terminbuchungsplattform <strong>Timum</strong> zu verbinden. Das bedeutet für Wohnungsunternehmen und Immobilienmakler:
+              Ein besonderes Thema am Stand Nr. 11 ist die Möglichkeit, Voicebots direkt mit der Terminbuchungsplattform <strong>Timum</strong> zu verbinden. Das bedeutet für Wohnungsunternehmen und Immobilienmakler:
             </p>
             <div className="space-y-3">
               {[
                 "Mieter können Besichtigungstermine und Beratungsgespräche rund um die Uhr per Telefon buchen",
-                "Termine werden automatisch in onOffice synchronisiert – ohne manuelle Eingabe",
+                "Termine werden automatisch synchronisiert – ohne manuelle Eingabe",
                 "Schadensmeldungen werden aufgenommen und direkt weitergeleitet",
                 "Mietanfragen werden qualifiziert und strukturiert erfasst",
                 "Entlastung des Büropersonals von Routineanfragen",
