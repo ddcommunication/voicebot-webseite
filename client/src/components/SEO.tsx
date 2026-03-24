@@ -9,6 +9,7 @@ interface SEOProps {
   image?: string;
   schema?: object;
   keywords?: string;
+  robots?: string;
 }
 
 export default function SEO({
@@ -19,6 +20,7 @@ export default function SEO({
   image = "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/aJdwTMGgxMBLbFMd.jpg",
   schema,
   keywords,
+  robots = "index, follow",
 }: SEOProps) {
   const siteTitle = "Zöllner Office";
   const fullTitle = `${title} | ${siteTitle}`;
@@ -62,6 +64,7 @@ export default function SEO({
       {/* Standard Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      <meta name="robots" content={robots} />
       {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={fullCanonical} />
 

@@ -21,32 +21,38 @@ export default function UweOrtleppCaseStudy() {
 
   const articleSchema = {
     "@context": "https://schema.org",
-    "@graph": [
-      generateArticleSchema({
-        title: "Case Study: Voicebot-Lösung für Uwe Ortlepp Immobilienfinanzierung",
-        description: "Erfolgreiche Voicebot-Implementierung: 24/7 Erreichbarkeit und automatisierte Terminbuchung für Immobilienfinanzierung.",
-        url: "https://www.sprachassistent.net/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung",
-        image: "https://www.sprachassistent.net/images/uwe-ortlepp-portrait.jpg",
-        datePublished: "2026-01-26",
-        dateModified: "2026-02-13",
-        author: "Dr. Thomas Zöllner"
-      }),
-      generateBreadcrumbSchema([
-        { name: "Startseite", url: "/" },
-        { name: "Praxisbeispiele", url: "/praxisbeispiele" },
-        { name: "Uwe Ortlepp", url: "/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" }
-      ])
-    ]
+    "@type": "Article",
+    "headline": "Voicebot in der Praxis: Uwe Ortlepp Immobilienfinanzierung",
+    "description": "Uwe Ortlepp zeigt, wie Voicebots die Immobilienfinanzierung effizienter machen. 24/7 Termine, weniger Aufwand, mehr Abschlüsse",
+    "url": "https://www.sprachassistent.net/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-immobilienmakler-poster_29ce919c.jpg",
+    "datePublished": "2026-01-26",
+    "dateModified": "2026-03-24",
+    "author": {
+      "@type": "Organization",
+      "name": "Zöllner Büro- und IT-Systeme GmbH",
+      "url": "https://www.sprachassistent.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Zöllner Büro- und IT-Systeme GmbH",
+      "url": "https://www.sprachassistent.net"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.sprachassistent.net/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung"
+    }
   };
 
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Case Study: Uwe Ortlepp Immobilienfinanzierung"
-        description="Erfolgreiche Voicebot-Implementierung: 24/7 Erreichbarkeit und automatisierte Terminbuchung für Immobilienfinanzierung."
+        title="Voicebot in der Praxis: Uwe Ortlepp Immobilienfinanzierung"
+        description="Uwe Ortlepp zeigt, wie Voicebots die Immobilienfinanzierung effizienter machen. 24/7 Termine, weniger Aufwand, mehr Abschlüsse"
         canonical="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung"
         type="article"
-        keywords="Uwe Ortlepp, Immobilienfinanzierung, Voicebot, Case Study, 24/7 Erreichbarkeit, Terminbuchung"
+        robots="index, follow"
+        keywords="Uwe Ortlepp, Immobilienfinanzierung, Voicebot, Praxisbeispiel, 24/7 Erreichbarkeit, Terminbuchung"
         schema={articleSchema}
       />
 
