@@ -400,12 +400,13 @@ export default function UweOrtleppCaseStudy() {
 
             {/* Video */}
             <div className="mb-12">
-              <div className="rounded-2xl overflow-hidden shadow-xl bg-black">
+              <div className="rounded-2xl overflow-hidden shadow-xl bg-black relative">
                 <video
                   controls
                   playsInline
                   preload="metadata"
-                  className="w-full aspect-video"
+                  className="w-full"
+                  style={{ aspectRatio: '9/16', maxHeight: '80vh', margin: '0 auto', display: 'block' }}
                   poster="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-immobilienmakler-poster_29ce919c.jpg"
                 >
                   <source
