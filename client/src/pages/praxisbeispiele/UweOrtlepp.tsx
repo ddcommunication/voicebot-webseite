@@ -398,6 +398,25 @@ export default function UweOrtleppCaseStudy() {
               </div>
             </div>
 
+            {/* Video */}
+            <div className="mb-12">
+              <div className="rounded-2xl overflow-hidden shadow-xl bg-black">
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="w-full aspect-video"
+                  poster="/images/uwe-ortlepp-consultation.jpg"
+                >
+                  <source
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-immobilienmakler-praxisbeispiel_990955d3.mp4"
+                    type="video/mp4"
+                  />
+                  Ihr Browser unterstützt das Video-Format nicht.
+                </video>
+              </div>
+            </div>
+
             {/* Mehrwert */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-primary mb-8">
