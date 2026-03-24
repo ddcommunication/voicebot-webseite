@@ -406,7 +406,7 @@ export default function UweOrtleppCaseStudy() {
                   playsInline
                   preload="metadata"
                   className="w-full aspect-video"
-                  poster="/images/uwe-ortlepp-consultation.jpg"
+                  poster="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-immobilienmakler-poster_29ce919c.jpg"
                 >
                   <source
                     src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-immobilienmakler-praxisbeispiel_990955d3.mp4"
