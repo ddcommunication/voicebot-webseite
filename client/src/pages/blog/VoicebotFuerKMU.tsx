@@ -432,7 +432,7 @@ export default function VoicebotFuerKMU() {
               <div className="bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
                 <div className="overflow-hidden">
                   <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/ZjDFZmkGTxILkgAp.jpg"
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/wohnungsgenossenschaft-voicebot-telefonannahme_2f4e9f7c.jpg"
                     alt="Wohnungswirtschaft Voicebot Praxisbeispiel"
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
