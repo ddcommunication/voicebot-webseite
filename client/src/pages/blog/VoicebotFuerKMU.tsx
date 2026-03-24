@@ -317,7 +317,7 @@ export default function VoicebotFuerKMU() {
                   Bei Kosten von 500 € pro Monat und Zeitersparnis im Wert von 1.900 €
                 </p>
                 <p className="text-lg font-semibold text-foreground mt-4">
-                  Amortisation der Anfangsinvestition (5.000 €): <span className="text-primary">3,5 Monate</span>
+                  Amortisation der Anfangsinvestition (3.560 €): <span className="text-primary">2,5 Monate</span>
                 </p>
               </div>
             </div>
