@@ -20,7 +20,7 @@ export default function Blog() {
       date: "8. Mai 2026",
       author: "Zöllner Office",
       category: "Veranstaltung",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-2026-preview-A9UCqnr8jaNvL2SnLZzSYh.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp",
       slug: "/blog/business-beats-2026-onoffice-voicebot",
     },
     {
