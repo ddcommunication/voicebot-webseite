@@ -26,6 +26,7 @@ import HackathonViceMeister from "./pages/blog/HackathonViceMeister";
 import WohnungswirtschaftCaseStudy from "./pages/blog/WohnungswirtschaftCaseStudy";
 import VoicebotFuerKMU from "./pages/blog/VoicebotFuerKMU";
 import KITagungWohnungsgenossenschaften from "./pages/blog/KITagungWohnungsgenossenschaften";
+import BusinessBeats2026 from "./pages/blog/BusinessBeats2026";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
 import TimumFuerMakler from "./pages/praxisbeispiele/TimumFuerMakler";
@@ -55,6 +56,7 @@ function Router() {
         <Route path="/blog/wohnungswirtschaft-voicebot" component={WohnungswirtschaftCaseStudy} />
         <Route path="/blog/voicebot-kmu-kosten-roi" component={VoicebotFuerKMU} />
         <Route path="/blog/ki-tagung-wohnungsgenossenschaften-2026" component={KITagungWohnungsgenossenschaften} />
+        <Route path="/blog/business-beats-2026-onoffice-voicebot" component={BusinessBeats2026} />
         <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/praxisbeispiele" component={Praxisbeispiele} />

@@ -14,6 +14,16 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export default function Blog() {
   const posts = [
     {
+      title: "onOffice business-beats 2026 – Voicebot-Integration live erleben in Aachen",
+      excerpt:
+        "Peter Gemander von Zöllner Office präsentiert am 8. Mai 2026 in Aachen: NFON Cloudya, Voicebot mit Timum-Anbindung an onOffice und ein Live-Praxisbeispiel mit Uwe Ortlepp. Tickets ab 349 €.",
+      date: "8. Mai 2026",
+      author: "Zöllner Office",
+      category: "Veranstaltung",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-2026-preview-A9UCqnr8jaNvL2SnLZzSYh.webp",
+      slug: "/blog/business-beats-2026-onoffice-voicebot",
+    },
+    {
       title: "KI-Tagung der sächsischen Wohnungsgenossenschaften – Wir sind dabei",
       excerpt:
         "Am 19. Mai 2026 findet in Dresden der Thementag \"KI ist jetzt\" statt. Zöllner Office ist am Stand Nr. 11 vertreten und berät zu Voicebots für die Wohnungswirtschaft – inkl. Integration mit onOffice und Timum.",
