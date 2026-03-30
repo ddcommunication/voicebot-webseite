@@ -250,7 +250,7 @@ export default function BusinessBeats2026() {
               <Link href="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung">
                 <div className="group rounded-2xl overflow-hidden border border-border hover:shadow-md transition-shadow cursor-pointer">
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/VorschauVideo-Uo7ypEWJjbS7Wv5Rr5kFJJ.jpg"
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-immobilienmakler-poster_29ce919c.jpg"
                     alt="Uwe Ortlepp Praxisbeispiel"
                     className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
