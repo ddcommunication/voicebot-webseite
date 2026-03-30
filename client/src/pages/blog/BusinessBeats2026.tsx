@@ -9,13 +9,56 @@ export default function BusinessBeats2026() {
     "@context": "https://schema.org",
     "@graph": [
       generateArticleSchema({
-        title: "onOffice business-beats 2026 – Voicebot-Integration live erleben in Aachen",
-        description: "Peter Gemander von Zöllner Büro- und IT-Systeme GmbH präsentiert am 8. Mai 2026 bei den onOffice business-beats in Aachen: NFON Cloudya, Voicebot mit Timum-Anbindung an onOffice und ein Live-Praxisbeispiel mit Uwe Ortlepp.",
+        title: "onOffice business-beats 2026 ✓ sprachassistent.net",
+        description: "Live-Demo Voicebot-Integration in onOffice mit Peter Gemander von Zöllner Büro- und IT-Systeme GmbH, perfekte Lösung für Immobilienmakler",
         url: "https://www.sprachassistent.net/blog/business-beats-2026-onoffice-voicebot",
-        image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-2026-preview-A9UCqnr8jaNvL2SnLZzSYh.webp",
+        image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp",
         datePublished: "2026-03-30",
         dateModified: "2026-03-30"
       }),
+      {
+        "@type": "Event",
+        "name": "onOffice business-beats 2026",
+        "description": "Live-Demo Voicebot-Integration in onOffice mit Peter Gemander von Zöllner Büro- und IT-Systeme GmbH. Branchentreff für Immobilienmakler mit Voicebot, Timum Integration, CRM Automatisierung und Networking.",
+        "startDate": "2026-05-08T09:00:00+02:00",
+        "endDate": "2026-05-08T22:00:00+02:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "DAS LIEBIG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Liebigstraße 19",
+            "addressLocality": "Aachen",
+            "postalCode": "52070",
+            "addressCountry": "DE"
+          }
+        },
+        "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp",
+        "url": "https://www.sprachassistent.net/blog/business-beats-2026-onoffice-voicebot",
+        "organizer": {
+          "@type": "Organization",
+          "name": "onOffice software GmbH",
+          "url": "https://www.business-beats.com"
+        },
+        "performer": {
+          "@type": "Person",
+          "name": "Peter Gemander",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Zöllner Büro- und IT-Systeme GmbH"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "349",
+          "priceCurrency": "EUR",
+          "url": "https://www.business-beats.com/tickets/",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-03-30"
+        }
+      },
       generateBreadcrumbSchema([
         { name: "Startseite", url: "/" },
         { name: "Blog", url: "/blog" },
@@ -27,8 +70,8 @@ export default function BusinessBeats2026() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="onOffice business-beats 2026 ✓ Voicebot-Integration live erleben | Zöllner Office"
-        description="onOffice business-beats 2026 in Aachen ▷ Branchentreff für Immobilienmakler mit Voicebot, Timum Integration, CRM Automatisierung und Networking"
+        title="onOffice business-beats 2026 ✓ sprachassistent.net"
+        description="Live-Demo Voicebot-Integration in onOffice mit Peter Gemander von Zöllner Büro- und IT-Systeme GmbH, perfekte Lösung für Immobilienmakler"
         canonical="/blog/business-beats-2026-onoffice-voicebot"
         type="article"
         keywords="onOffice business-beats 2026, onOffice Voicebot, Timum onOffice, NFON Cloudya, Immobilienmakler KI, Peter Gemander, Zöllner Office, Aachen, business-beats Event"
