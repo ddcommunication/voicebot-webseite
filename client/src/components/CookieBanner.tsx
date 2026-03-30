@@ -7,6 +7,7 @@ export default function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
+  const [youtubeEnabled, setYoutubeEnabled] = useState(false);
 
   useEffect(() => {
     const consent = localStorage.getItem("cookie-consent");
@@ -18,20 +19,25 @@ export default function CookieBanner() {
   const acceptAll = () => {
     localStorage.setItem("cookie-consent", "all");
     localStorage.setItem("analytics-consent", "true");
+    localStorage.setItem("youtube-consent", "true");
     setAnalyticsEnabled(true);
+    setYoutubeEnabled(true);
     setIsVisible(false);
   };
 
   const acceptEssential = () => {
     localStorage.setItem("cookie-consent", "essential");
     localStorage.setItem("analytics-consent", "false");
+    localStorage.setItem("youtube-consent", "false");
     setAnalyticsEnabled(false);
+    setYoutubeEnabled(false);
     setIsVisible(false);
   };
 
   const saveSelection = () => {
-    localStorage.setItem("cookie-consent", analyticsEnabled ? "all" : "essential");
+    localStorage.setItem("cookie-consent", analyticsEnabled || youtubeEnabled ? "all" : "essential");
     localStorage.setItem("analytics-consent", analyticsEnabled ? "true" : "false");
+    localStorage.setItem("youtube-consent", youtubeEnabled ? "true" : "false");
     setIsVisible(false);
   };
 
@@ -141,6 +147,37 @@ export default function CookieBanner() {
                   </p>
                   <p className="mt-1">
                     Datenschutzfreundlicher Analysedienst. Domain: plausible.io
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* YouTube */}
+            <div className="space-y-2">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h4 className="font-semibold text-sm text-foreground">
+                    Externe Medien (YouTube)
+                  </h4>
+                  <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                    Einbindung von YouTube-Videos im erweiterten Datenschutzmodus. Es werden keine personalisierten Cookies gesetzt, jedoch Local Storage Elemente zur Wiedererkennung.
+                  </p>
+                </div>
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    className="sr-only peer"
+                    checked={youtubeEnabled}
+                    onChange={(e) => setYoutubeEnabled(e.target.checked)}
+                  />
+                  <div className="w-11 h-6 bg-muted peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+                </label>
+              </div>
+              <div className="ml-4 space-y-2 text-xs text-muted-foreground">
+                <div className="p-2 bg-background rounded border border-border/50">
+                  <p className="font-medium text-foreground">YouTube (Google Ireland Limited)</p>
+                  <p className="mt-1">
+                    Gordon House, Barrow Street, Dublin 4, Irland. Erweiterter Datenschutzmodus aktiv. Domain: youtube-nocookie.com
                   </p>
                 </div>
               </div>
