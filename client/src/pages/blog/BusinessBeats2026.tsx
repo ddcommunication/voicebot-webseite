@@ -39,7 +39,7 @@ export default function BusinessBeats2026() {
       {/* Hero Image */}
       <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
         <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-2026-preview-TNag2bcp5PN5hogAz6Ssio.png"
+          src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp"
           alt="onOffice business-beats 2026 – Das Branchenevent für Immobilienmakler in Aachen"
           className="w-full h-full object-cover"
         />
