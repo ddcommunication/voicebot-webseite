@@ -27,8 +27,8 @@ export default function BusinessBeats2026() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="onOffice business-beats 2026 – Voicebot-Integration live erleben | Zöllner Office"
-        description="Peter Gemander von Zöllner Office präsentiert am 8. Mai 2026 bei den onOffice business-beats in Aachen: NFON Cloudya, Voicebot mit Timum-Anbindung an onOffice und ein Live-Praxisbeispiel."
+        title="onOffice business-beats 2026 ✓ Voicebot-Integration live erleben | Zöllner Office"
+        description="onOffice business-beats 2026 in Aachen ▷ Branchentreff für Immobilienmakler mit Voicebot, Timum Integration, CRM Automatisierung und Networking"
         canonical="/blog/business-beats-2026-onoffice-voicebot"
         type="article"
         keywords="onOffice business-beats 2026, onOffice Voicebot, Timum onOffice, NFON Cloudya, Immobilienmakler KI, Peter Gemander, Zöllner Office, Aachen, business-beats Event"
