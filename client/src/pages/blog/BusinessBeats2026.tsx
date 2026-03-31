@@ -240,15 +240,27 @@ export default function BusinessBeats2026() {
 
           {/* Jetzt Termin vereinbaren */}
           <div className="mb-12 p-6 bg-slate-900 text-white rounded-2xl">
-            <h3 className="text-lg font-bold mb-3">Jetzt schon Termin mit Peter Gemander vereinbaren</h3>
-            <p className="text-slate-300 leading-relaxed mb-4">
-              Sie möchten sich die Voicebot-Integration vor Ort in Ruhe erklären lassen? Vereinbaren Sie noch heute einen persönlichen Gesprächstermin mit Peter Gemander für den 8. Mai 2026 in Aachen – bevor die Slots ausgebucht sind.
-            </p>
-            <Link href="/kontakt">
-              <Button className="bg-primary hover:bg-primary/90 text-white">
-                Termin anfragen
-              </Button>
-            </Link>
+            <div className="flex flex-col md:flex-row gap-6 items-center">
+              <div className="flex-1">
+                <h3 className="text-lg font-bold mb-3">Jetzt schon Termin mit Peter Gemander vereinbaren</h3>
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  Sie möchten sich die Voicebot-Integration vor Ort in Ruhe erklären lassen? Vereinbaren Sie noch heute einen persönlichen Gesprächstermin mit Peter Gemander für den 8. Mai 2026 in Aachen – bevor die Slots ausgebucht sind.
+                </p>
+                <Link href="/kontakt">
+                  <Button className="bg-primary hover:bg-primary/90 text-white">
+                    Termin anfragen
+                  </Button>
+                </Link>
+              </div>
+              <div className="shrink-0">
+                <img
+                  src="/images/peter-gemander.jpg"
+                  alt="Peter Gemander – Zöllner Büro- und IT-Systeme GmbH"
+                  className="w-36 h-36 md:w-44 md:h-44 rounded-2xl object-cover object-top shadow-lg border-2 border-primary/40"
+                />
+                <p className="text-xs text-slate-400 text-center mt-2">Peter Gemander</p>
+              </div>
+            </div>
           </div>
 
           {/* Tickets */}
