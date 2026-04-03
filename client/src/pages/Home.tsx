@@ -40,7 +40,7 @@ export default function Home() {
     <div className="flex flex-col gap-0">
       <SEO
         title="Voicebots für Unternehmen"
-        description="Zöllner Office: KI-Voicebots für Immobilienmakler, Arztpraxen und KMU. Automatisierte Telefonie mit onOffice, Timum und NFON Cloudya – 24/7 erreichbar, DSGVO-konform, ab 399 €/Monat."
+        description="KI Voicebot für Unternehmen ✓ 24/7 erreichbar ✓ automatisiert Anrufe, Termine & Support ✓ Mehr Leads, weniger Aufwand ✓ DSGVO-konform"
         canonical="/"
         keywords="Voicebot, KI-Sprachassistent, automatische Telefonzentrale, Terminvereinbarung, 24/7 Kundenservice, DSGVO-konform, Made in Germany"
         schema={{
