@@ -7,8 +7,8 @@ export default function BlogVoicebotVsMitarbeiter() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich"
-        description="Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis."
+        title="Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich"
+        description="Voicebot vs. Mitarbeiter: Detaillierter Kosten-Nutzen-Vergleich am Beispiel einer Arztpraxis. Wann lohnt sich KI-Telefonie, was kostet sie und wie schnell amortisiert sie sich?"
         canonical="/blog/voicebot-vs-mitarbeiter"
       />
 

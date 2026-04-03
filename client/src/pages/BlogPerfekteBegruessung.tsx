@@ -8,7 +8,7 @@ export default function BlogPerfekteBegruessung() {
     <div className="flex flex-col gap-0">
       <SEO
         title="5 Tipps für die perfekte Voicebot-Begrüßung"
-        description="Der erste Eindruck zählt. So gestalten Sie Dialoge, die Ihre Anrufer nicht frustrieren, sondern begeistern."
+        description="5 Praxistipps für die perfekte Voicebot-Begrüßung: Wie Sie Dialoge gestalten, die Anrufer nicht frustrieren, sondern begeistern – mit konkreten Beispielen und Formulierungshilfen."
         canonical="/blog/perfekte-begruessung"
       />
 

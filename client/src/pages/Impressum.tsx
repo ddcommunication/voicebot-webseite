@@ -8,7 +8,7 @@ export default function Impressum() {
     <div className="flex flex-col gap-0">
       <SEO
         title="Impressum"
-        description="Rechtliche Informationen und Anbieterkennzeichnung von Zöllner Büro- & IT-Systeme GmbH."
+        description="Impressum der Zöllner Büro- & IT-Systeme GmbH: Anbieterkennzeichnung gemäß § 5 DDG, Geschäftsführung, Handelsregistereintrag und Kontaktdaten des Unternehmens."
         canonical="/impressum"
         schema={{
           "@context": "https://schema.org",

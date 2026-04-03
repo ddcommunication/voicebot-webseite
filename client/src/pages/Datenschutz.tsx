@@ -6,7 +6,7 @@ export default function Datenschutz() {
     <div className="flex flex-col gap-0">
       <SEO
         title="Datenschutzerklärung"
-        description="Informationen zum Umgang mit Ihren Daten bei Zöllner Büro- & IT-Systeme GmbH."
+        description="Datenschutzerklärung der Zöllner Büro- & IT-Systeme GmbH: Informationen zur Datenverarbeitung, Cookies, YouTube-Einbindung und Ihren Rechten gemäß DSGVO und TDDDG."
         canonical="/datenschutz"
         schema={{
           "@context": "https://schema.org",

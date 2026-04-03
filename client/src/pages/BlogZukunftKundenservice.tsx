@@ -7,8 +7,8 @@ export default function BlogZukunftKundenservice() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Warum Voicebots die Zukunft des Kundenservice sind"
-        description="Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren. Erfahren Sie, warum Voicebots dabei eine Schlüsselrolle spielen."
+        title="Voicebots: Die Zukunft des Kundenservice"
+        description="Warum Voicebots die Zukunft des Kundenservice prägen: KI-Telefonie senkt Kosten um bis zu 70 %, steigert Erreichbarkeit auf 24/7 und verbessert die Kundenzufriedenheit messbar."
         canonical="/blog/zukunft-kundenservice"
       />
 

@@ -8,8 +8,8 @@ export default function Solutions() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Anwendungsbeispiele für intelligente Sprachassistenten"
-        description="Entdecken Sie, wie Voicebots in verschiedenen Branchen eingesetzt werden: Arztpraxen, Handwerk, E-Commerce, Immobilien und mehr."
+        title="Voicebot-Lösungen für Immobilien, Handwerk & Praxis"
+        description="Voicebot-Lösungen für Immobilienmakler, Arztpraxen und Handwerksbetriebe: Automatisierte Telefonie mit onOffice, Timum und NFON Cloudya. Modulare Bausteine, schnell einsatzbereit."
         keywords="Voicebot Anwendungsbeispiele, Arztpraxen, Handwerk, E-Commerce, Immobilien, Branchen"
         canonical="/loesungen"
         schema={{

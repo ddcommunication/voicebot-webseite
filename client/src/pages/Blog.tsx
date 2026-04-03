@@ -115,8 +115,8 @@ export default function Blog() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Wissen & News"
-        description="Aktuelle Einblicke in die Welt der Sprach-KI, Tipps für die Praxis und Neuigkeiten von Zöllner Office."
+        title="Voicebot-Blog: Wissen, Praxistipps & News"
+        description="Voicebot-Blog von Zöllner Office: Praxistipps zur KI-Telefonie, Branchen-News zu onOffice und NFON Cloudya, Fallstudien und aktuelle Veranstaltungen rund um Sprachassistenten."
         canonical="/blog"
         keywords="Voicebot Blog, Sprach-KI, Best Practices, Praxisbeispiele, News, Wissen"
         schema={blogSchema}

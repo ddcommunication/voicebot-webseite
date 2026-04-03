@@ -59,7 +59,7 @@ export default function Contact() {
     <div className="flex flex-col gap-0">
       <SEO
         title="Kontakt & Demo"
-        description="Erleben Sie unsere Voicebots live. Vereinbaren Sie eine kostenlose Demo oder stellen Sie uns Ihre Fragen."
+        description="Kontakt zu Zöllner Office: Kostenlose Voicebot-Demo vereinbaren, Beratungsgespräch buchen oder Fragen zur KI-Telefonie stellen. Wir antworten innerhalb von 24 Stunden."
         canonical="/kontakt"
         keywords="Kontakt, Demo anfragen, Voicebot Demo, Beratung, Zöllner Office Kontakt"
         schema={{

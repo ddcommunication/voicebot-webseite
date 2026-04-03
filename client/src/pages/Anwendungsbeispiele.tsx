@@ -100,8 +100,8 @@ export default function Anwendungsbeispiele() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Anwendungsbeispiele"
-        description="Entdecken Sie, wie Voicebots in verschiedenen Branchen eingesetzt werden: Arztpraxen, Handwerk, E-Commerce, Immobilien und mehr."
+        title="Voicebot-Anwendungsbeispiele nach Branche"
+        description="Praxisnahe Voicebot-Anwendungsbeispiele für Arztpraxen, Handwerksbetriebe, Immobilienverwaltung und E-Commerce. Wie automatisierte Telefonie Kosten spart und die Erreichbarkeit verbessert."
         canonical="/anwendungsbeispiele"
         keywords="Voicebot Anwendungsbeispiele, Arztpraxen, Handwerk, E-Commerce, Immobilien, Branchen"
         schema={{
