@@ -33,10 +33,10 @@ export default function BlogNiaFrontDesk() {
       {/* Hero Image */}
       <section className="relative h-96 overflow-hidden">
         <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-sprachassistent-nfon_a90798a2.webp"
+          src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp"
           alt="Nia FrontDesk Sprachassistent – KI-Avatar am Empfang mit Schallwellen-Visualisierung"
           className="w-full h-full object-cover"
-          width="1360"
+          width="1376"
           height="752"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />

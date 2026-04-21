@@ -20,7 +20,7 @@ export default function Blog() {
       date: "21. Apr 2026",
       author: "Zöllner Office",
       category: "Produkttest",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-sprachassistent-nfon_a90798a2.webp",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp",
       slug: "/blog/nia-frontdesk-nfon",
     },
     {
