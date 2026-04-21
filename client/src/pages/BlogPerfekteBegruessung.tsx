@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, X, Check } from "lucide-react";
 import { Link } from "wouter";
+import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogPerfekteBegruessung() {
   return (
@@ -461,6 +462,7 @@ export default function BlogPerfekteBegruessung() {
           </div>
         </div>
       </section>
+      <RelatedPosts currentSlug="/blog/perfekte-begruessung" />
     </div>
   );
 }

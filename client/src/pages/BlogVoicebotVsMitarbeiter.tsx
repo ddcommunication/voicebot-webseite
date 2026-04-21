@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
+import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogVoicebotVsMitarbeiter() {
   return (
@@ -292,6 +293,7 @@ export default function BlogVoicebotVsMitarbeiter() {
           </div>
         </div>
       </article>
+      <RelatedPosts currentSlug="/blog/voicebot-vs-mitarbeiter" />
     </div>
   );
 }

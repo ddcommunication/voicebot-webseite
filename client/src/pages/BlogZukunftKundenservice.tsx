@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
+import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogZukunftKundenservice() {
   return (
@@ -378,6 +379,7 @@ export default function BlogZukunftKundenservice() {
           </div>
         </div>
       </section>
+      <RelatedPosts currentSlug="/blog/zukunft-kundenservice" />
     </div>
   );
 }
