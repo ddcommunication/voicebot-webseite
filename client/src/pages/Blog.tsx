@@ -14,7 +14,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export default function Blog() {
   const posts = [
     {
-      title: "Nia FrontDesk: Der KI-Sprachassistent von NFON im Test",
+      title: "Nia FrontDesk: Der KI-Sprachassistent von NFON",
       excerpt:
         "Nia FrontDesk von NFON nimmt Anrufe automatisch entgegen, beantwortet Standardfragen und leitet Gespräche intelligent weiter – 24/7, DSGVO-konform und ohne zusätzliche Hardware.",
       date: "21. Apr 2026",

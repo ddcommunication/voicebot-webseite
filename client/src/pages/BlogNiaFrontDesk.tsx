@@ -14,7 +14,7 @@ export default function BlogNiaFrontDesk() {
   return (
     <div className="flex flex-col gap-0">
       <SEO
-        title="Nia FrontDesk: Der KI-Sprachassistent von NFON im Test"
+        title="Nia FrontDesk: Der KI-Sprachassistent von NFON"
         description="Nia FrontDesk von NFON im Test: KI-Sprachassistent für automatische Anrufannahme, FAQ-Beantwortung und intelligente Weiterleitung – DSGVO-konform, 24/7 verfügbar."
         canonical="/blog/nia-frontdesk-nfon"
         keywords="Nia FrontDesk, NFON, KI-Sprachassistent, digitale Empfangslösung, Voicebot, automatische Telefonzentrale, DSGVO"
@@ -24,7 +24,7 @@ export default function BlogNiaFrontDesk() {
             generateBreadcrumbSchema([
               { name: "Startseite", url: "/" },
               { name: "Blog", url: "/blog" },
-              { name: "Nia FrontDesk: Der KI-Sprachassistent von NFON im Test", url: "/blog/nia-frontdesk-nfon" },
+              { name: "Nia FrontDesk: Der KI-Sprachassistent von NFON", url: "/blog/nia-frontdesk-nfon" },
             ]),
           ],
         }}
@@ -46,7 +46,7 @@ export default function BlogNiaFrontDesk() {
               Produkttest
             </div>
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
-              Nia FrontDesk: Der KI-Sprachassistent von NFON im Test
+              Nia FrontDesk: Der KI-Sprachassistent von NFON
             </h1>
             <div className="flex items-center gap-4 text-sm text-white/80">
               <span className="flex items-center gap-2">
