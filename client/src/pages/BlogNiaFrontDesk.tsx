@@ -320,6 +320,77 @@ export default function BlogNiaFrontDesk() {
           </div>
         </div>
       </article>
+
+      {/* Ähnliche Beiträge */}
+      <section className="py-16 bg-muted/30">
+        <div className="container max-w-5xl">
+          <h2 className="text-2xl font-bold text-primary mb-8">Ähnliche Beiträge</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link href="/blog/voicebot-vs-mitarbeiter">
+              <div className="bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group">
+                <div className="h-44 overflow-hidden">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
+                    alt="Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-4">
+                  <span className="text-xs font-bold text-secondary uppercase tracking-wider">Analyse</span>
+                  <h3 className="font-bold text-primary mt-1 mb-2 line-clamp-2 group-hover:text-secondary transition-colors">
+                    Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen
+                  </h3>
+                  <p className="text-xs text-muted-foreground line-clamp-2">
+                    Lohnt sich ein Voicebot? Wir vergleichen Kosten, Erreichbarkeit und Effizienz am Beispiel einer Arztpraxis.
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link href="/blog/zukunft-kundenservice">
+              <div className="bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group">
+                <div className="h-44 overflow-hidden">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg"
+                    alt="Warum Voicebots die Zukunft des Kundenservice sind"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-4">
+                  <span className="text-xs font-bold text-secondary uppercase tracking-wider">Technologie</span>
+                  <h3 className="font-bold text-primary mt-1 mb-2 line-clamp-2 group-hover:text-secondary transition-colors">
+                    Warum Voicebots die Zukunft des Kundenservice sind
+                  </h3>
+                  <p className="text-xs text-muted-foreground line-clamp-2">
+                    Künstliche Intelligenz verändert, wie Unternehmen mit Kunden kommunizieren.
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link href="/blog/perfekte-begruessung">
+              <div className="bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group">
+                <div className="h-44 overflow-hidden">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
+                    alt="5 Tipps für die perfekte Voicebot-Begrüßung"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-4">
+                  <span className="text-xs font-bold text-secondary uppercase tracking-wider">Best Practices</span>
+                  <h3 className="font-bold text-primary mt-1 mb-2 line-clamp-2 group-hover:text-secondary transition-colors">
+                    5 Tipps für die perfekte Voicebot-Begrüßung
+                  </h3>
+                  <p className="text-xs text-muted-foreground line-clamp-2">
+                    Der erste Eindruck zählt. So gestalten Sie Dialoge, die Ihre Anrufer begeistern.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
