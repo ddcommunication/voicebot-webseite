@@ -14,6 +14,16 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export default function Blog() {
   const posts = [
     {
+      title: "Nia FrontDesk: Der KI-Sprachassistent von NFON im Test",
+      excerpt:
+        "Nia FrontDesk von NFON nimmt Anrufe automatisch entgegen, beantwortet Standardfragen und leitet Gespräche intelligent weiter – 24/7, DSGVO-konform und ohne zusätzliche Hardware.",
+      date: "21. Apr 2026",
+      author: "Zöllner Office",
+      category: "Produkttest",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-ki-sprachassistent-nfon_faa91405.webp",
+      slug: "/blog/nia-frontdesk-nfon",
+    },
+    {
       title: "onOffice business-beats 2026 – Voicebot-Integration live erleben in Aachen",
       excerpt:
         "Peter Gemander von Zöllner Office präsentiert am 8. Mai 2026 in Aachen: NFON Cloudya, Voicebot mit Timum-Anbindung an onOffice und ein Live-Praxisbeispiel mit Uwe Ortlepp. Tickets ab 349 €.",
