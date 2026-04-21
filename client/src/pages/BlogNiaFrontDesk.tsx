@@ -15,7 +15,7 @@ export default function BlogNiaFrontDesk() {
     <div className="flex flex-col gap-0">
       <SEO
         title="Nia FrontDesk: Der KI-Sprachassistent von NFON"
-        description="Nia FrontDesk von NFON im Test: KI-Sprachassistent für automatische Anrufannahme, FAQ-Beantwortung und intelligente Weiterleitung – DSGVO-konform, 24/7 verfügbar."
+        description="Nia FrontDesk übernimmt den Empfang, beantwortet Routinefragen und leitet Gespräche weiter rund um die Uhr, DSGVO-konform."
         canonical="/blog/nia-frontdesk-nfon"
         keywords="Nia FrontDesk, NFON, KI-Sprachassistent, digitale Empfangslösung, Voicebot, automatische Telefonzentrale, DSGVO"
         schema={{
