@@ -28,6 +28,7 @@ import VoicebotFuerKMU from "./pages/blog/VoicebotFuerKMU";
 import KITagungWohnungsgenossenschaften from "./pages/blog/KITagungWohnungsgenossenschaften";
 import BusinessBeats2026 from "./pages/blog/BusinessBeats2026";
 import BlogNiaFrontDesk from "./pages/BlogNiaFrontDesk";
+import BlogVoicebotGesundheitswesen from "./pages/BlogVoicebotGesundheitswesen";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
 import TimumFuerMakler from "./pages/praxisbeispiele/TimumFuerMakler";
@@ -61,6 +62,7 @@ function Router() {
         <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/blog/nia-frontdesk-nfon" component={BlogNiaFrontDesk} />
+        <Route path="/blog/voicebots-gesundheitswesen-sozialwesen" component={BlogVoicebotGesundheitswesen} />
         <Route path="/praxisbeispiele" component={Praxisbeispiele} />
         <Route path="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" component={UweOrtleppCaseStudy} />
         <Route path="/praxisbeispiele/timum-fuer-makler" component={TimumFuerMakler} />

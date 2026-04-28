@@ -14,6 +14,16 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export default function Blog() {
   const posts = [
     {
+      title: "Voicebots im Gesundheits- und Sozialwesen",
+      excerpt:
+        "Warum DRK, Johanniter und Malteser jetzt handeln müssen: Voicebots entlasten Pflegedienste, sichern 24/7-Erreichbarkeit und schonen Personal – DSGVO-konform und sofort einsatzbereit.",
+      date: "28. Apr 2026",
+      author: "Zöllner Office",
+      category: "Gesundheit & Soziales",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-sozialwesen-gesundheitswesen-pflegedienst_99f45126.webp",
+      slug: "/blog/voicebots-gesundheitswesen-sozialwesen",
+    },
+    {
       title: "Nia FrontDesk: Der KI-Sprachassistent von NFON",
       excerpt:
         "Nia FrontDesk von NFON nimmt Anrufe automatisch entgegen, beantwortet Standardfragen und leitet Gespräche intelligent weiter – 24/7, DSGVO-konform und ohne zusätzliche Hardware.",
