@@ -336,10 +336,11 @@ export default function BlogVoicebotGesundheitswesen() {
             </Link>
           </div>
 
-          {/* Related Posts */}
-          <RelatedPosts currentSlug="/blog/voicebots-gesundheitswesen-sozialwesen" />
         </div>
       </article>
+
+      {/* Related Posts – volle Breite außerhalb des engen Containers */}
+      <RelatedPosts currentSlug="/blog/voicebots-gesundheitswesen-sozialwesen" />
     </div>
   );
 }
