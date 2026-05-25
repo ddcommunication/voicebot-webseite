@@ -44,8 +44,8 @@ const ALL_REVIEWS: Review[] = [
   },
 ];
 
-// Nur die 3 neuesten anzeigen (Liste ist bereits sortiert)
-const DISPLAYED_REVIEWS = ALL_REVIEWS.slice(0, 3);
+// Nur die 2 neuesten anzeigen (Liste ist bereits sortiert)
+const DISPLAYED_REVIEWS = ALL_REVIEWS.slice(0, 2);
 
 const OVERALL_RATING = 4.6;
 const TOTAL_REVIEWS = 10;
