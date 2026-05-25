@@ -28,6 +28,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import SEO from "@/components/SEO";
+import GoogleReviews from "@/components/GoogleReviews";
 import ContactForm from "@/components/ContactForm";
 import { generateOrganizationSchema, generateWebSiteSchema, generateFAQSchema } from "@/lib/schema";
 
@@ -393,6 +394,9 @@ export default function Home() {
           </Accordion>
         </div>
       </section>
+
+      {/* Google Reviews Section */}
+      <GoogleReviews />
 
       {/* CTA Section */}
       <section className="py-24 bg-primary text-primary-foreground">
