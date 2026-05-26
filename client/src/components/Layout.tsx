@@ -39,7 +39,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       {/* Main Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="w-full px-4 xl:px-8 flex h-16 items-center justify-between gap-4">
+        <div className="w-full px-6 xl:px-10 flex h-16 items-center justify-between gap-6">
           <Link href="/">
             <div className="flex items-center gap-2 cursor-pointer group">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center shadow-lg group-hover:shadow-blue-500/50 transition-all duration-300">
@@ -58,19 +58,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <line x1="12" x2="12" y1="19" y2="22" />
                 </svg>
               </div>
-              <span className="text-lg font-sans font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300 whitespace-nowrap">
+              <span className="text-base font-sans font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300 whitespace-nowrap">
                 sprachassistent.net
               </span>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden xl:flex items-center gap-3 2xl:gap-5">
+          <nav className="hidden xl:flex items-center gap-5 2xl:gap-7">
             {navItems.map(item => (
               <Link key={item.href} href={item.href}>
                 <span
                   className={cn(
-                    "text-xs 2xl:text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer whitespace-nowrap",
+                    "text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer whitespace-nowrap",
                     location === item.href
                       ? "text-primary"
                       : "text-muted-foreground"
@@ -88,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ))}
             <Link href="/termin">
               <Button
-                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-4 text-xs 2xl:text-sm whitespace-nowrap"
+                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-5 text-sm whitespace-nowrap"
               >
                 Demo anfragen
               </Button>
