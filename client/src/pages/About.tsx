@@ -4,6 +4,7 @@ import { Link } from "wouter";
 import SEO from "@/components/SEO";
 import { Building2, Users, Award, CheckCircle2, Phone } from "lucide-react";
 import { generateOrganizationSchema, generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
+import GoogleReviews from "@/components/GoogleReviews";
 
 export default function About() {
   return (
@@ -365,6 +366,8 @@ export default function About() {
           </Link>
         </div>
       </section>
+
+      <GoogleReviews />
     </div>
   );
 }

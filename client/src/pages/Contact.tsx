@@ -8,6 +8,7 @@ import { generateLocalBusinessSchema, generateBreadcrumbSchema } from "@/lib/sch
 import { trpc } from "@/lib/trpc";
 import { useState } from "react";
 import { toast } from "sonner";
+import GoogleReviews from "@/components/GoogleReviews";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -308,6 +309,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      <GoogleReviews />
     </div>
   );
 }

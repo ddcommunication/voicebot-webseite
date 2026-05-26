@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import GoogleReviews from "@/components/GoogleReviews";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -450,6 +451,8 @@ export default function NFONSupport() {
           </div>
         </div>
       </section>
+
+      <GoogleReviews />
     </div>
   );
 }
