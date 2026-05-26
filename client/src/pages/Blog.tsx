@@ -9,7 +9,7 @@ import {
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
-import { generateBreadcrumbSchema } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
 
 export default function Blog() {
   const posts = [
@@ -128,7 +128,8 @@ export default function Blog() {
       generateBreadcrumbSchema([
         { name: "Startseite", url: "/" },
         { name: "Blog", url: "/blog" }
-      ])
+      ]),
+      generateLocalBusinessSchema()
     ]
   };
 

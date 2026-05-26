@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
 import { Building2, Users, Award, CheckCircle2, Phone } from "lucide-react";
-import { generateOrganizationSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateOrganizationSchema, generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
 
 export default function About() {
   return (
@@ -17,6 +17,7 @@ export default function About() {
           "@context": "https://schema.org",
           "@graph": [
             generateOrganizationSchema(),
+            generateLocalBusinessSchema(),
             generateBreadcrumbSchema([
               { name: "Startseite", url: "/" },
               { name: "Über uns", url: "/ueber-uns" }

@@ -17,22 +17,32 @@ import {
   Lock,
 } from "lucide-react";
 import { Link } from "wouter";
+import { generateAggregateRatingSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function NFONSupport() {
   const pageSchema = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    name: "NFON-Service & Support für Unternehmen",
-    description:
-      "Persönlicher NFON Support, Voicebots, CTI-Integrationen und moderne Cloud-Telefonie für Unternehmen jeder Größe – flexibel, sicher und skalierbar.",
-    url: "https://www.sprachassistent.net/nfon-support",
-    provider: {
-      "@type": "Organization",
-      name: "Zöllner Büro- und IT-Systeme GmbH",
-      url: "https://www.sprachassistent.net",
-    },
-    areaServed: "DE",
-    serviceType: "Cloud-Telefonie Support und NFON Integration",
+    "@graph": [
+      generateBreadcrumbSchema([
+        { name: "Startseite", url: "/" },
+        { name: "NFON Support", url: "/nfon-support" }
+      ]),
+      {
+        "@type": "Service",
+        name: "NFON-Service & Support für Unternehmen",
+        description:
+          "Persönlicher NFON Support, Voicebots, CTI-Integrationen und moderne Cloud-Telefonie für Unternehmen jeder Größe – flexibel, sicher und skalierbar.",
+        url: "https://www.sprachassistent.net/nfon-support",
+        provider: {
+          "@type": "Organization",
+          name: "Zöllner Büro- und IT-Systeme GmbH",
+          url: "https://www.sprachassistent.net",
+        },
+        areaServed: "DE",
+        serviceType: "Cloud-Telefonie Support und NFON Integration",
+        aggregateRating: generateAggregateRatingSchema(),
+      }
+    ]
   };
 
   const leistungen = [

@@ -1,5 +1,5 @@
 import SEO from "@/components/SEO";
-import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateArticleSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, MapPin, Calendar, Clock, Users, ExternalLink, Ticket } from "lucide-react";
 import { Link } from "wouter";
@@ -63,7 +63,13 @@ export default function BusinessBeats2026() {
         { name: "Startseite", url: "/" },
         { name: "Blog", url: "/blog" },
         { name: "onOffice business-beats 2026", url: "/blog/business-beats-2026-onoffice-voicebot" }
-      ])
+      ]),
+      {
+        "@type": "Organization",
+        "name": "Zöllner Büro- und IT-Systeme GmbH",
+        "url": "https://www.sprachassistent.net",
+        "aggregateRating": generateAggregateRatingSchema()
+      }
     ]
   };
 

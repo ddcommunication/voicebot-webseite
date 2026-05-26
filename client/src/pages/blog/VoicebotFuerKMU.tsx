@@ -2,7 +2,7 @@ import SEO from "@/components/SEO";
 import { ArrowLeft, TrendingUp, Calculator, Users, Clock, CheckCircle2, AlertCircle } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { generateOrganizationSchema, generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateOrganizationSchema, generateArticleSchema, generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
 
 export default function VoicebotFuerKMU() {
   const publishDate = "2026-02-14";
@@ -31,7 +31,7 @@ export default function VoicebotFuerKMU() {
         description="Voicebot für KMU: Kosten, ROI und Einsparpotenziale einfach erklärt. So rechnet sich Telefon-KI für kleine und mittlere Unternehmen."
         canonical="/blog/voicebot-kmu-kosten-roi"
         keywords="Voicebot Kosten, KI Telefonassistent, Voicebot Mittelstand, automatisierte Telefonzentrale, Telefon KI für Unternehmen, Voicebot ROI, KMU Digitalisierung"
-        schema={[generateOrganizationSchema(), articleSchema, breadcrumbSchema]}
+        schema={[generateLocalBusinessSchema(), articleSchema, breadcrumbSchema]}
       />
 
       {/* Hero Section */}

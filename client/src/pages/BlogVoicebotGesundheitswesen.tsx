@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/accordion";
 import { Calendar, User, ArrowLeft, Heart, Shield, Clock, Phone, AlertTriangle, CheckCircle2 } from "lucide-react";
 import { Link } from "wouter";
-import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateArticleSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import RelatedPosts from "@/components/RelatedPosts";
 
 const HERO_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-sozialwesen-gesundheitswesen-pflegedienst_99f45126.webp";
@@ -30,6 +30,20 @@ export default function BlogVoicebotGesundheitswesen() {
         { name: "Blog", url: "/blog" },
         { name: "Voicebots im Gesundheits- und Sozialwesen", url: "/blog/voicebots-gesundheitswesen-sozialwesen" },
       ]),
+      {
+        "@type": "BlogPosting",
+        "headline": "Voicebots im Gesundheits- und Sozialwesen",
+        "description": "Voicebots im Gesundheitswesen entlasten DRK, Johanniter und Malteser – wie Sprachassistenten Pflegedienste erreichbar halten und Personal schonen.",
+        "url": "https://www.sprachassistent.net/blog/voicebots-gesundheitswesen-sozialwesen",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": { "@type": "Organization", "name": "Zöllner Office" },
+        "publisher": { "@type": "Organization", "name": "Zöllner Büro- und IT-Systeme GmbH", "url": "https://www.sprachassistent.net" },
+        "image": HERO_IMAGE,
+        "inLanguage": "de",
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/voicebots-gesundheitswesen-sozialwesen" },
+        "aggregateRating": generateAggregateRatingSchema()
+      }
     ],
   };
 

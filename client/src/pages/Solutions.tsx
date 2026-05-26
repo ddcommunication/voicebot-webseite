@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Phone, Calendar, MessageSquare, UserCheck } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceWithRatingSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export default function Solutions() {
   return (
@@ -19,7 +19,7 @@ export default function Solutions() {
               { name: "Startseite", url: "/" },
               { name: "Lösungen", url: "/loesungen" }
             ]),
-            generateServiceSchema({
+            generateServiceWithRatingSchema({
               name: "Intelligente Telefonzentrale",
               description: "Der Bot nimmt jeden Anruf sofort an, begrüßt den Anrufer professionell und erfragt das Anliegen. Basierend auf den Antworten wird der Anruf an die richtige Abteilung oder den richtigen Ansprechpartner weitergeleitet.",
               url: "https://www.sprachassistent.net/loesungen"

@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/accordion";
 import { Calendar, User, ArrowLeft, Shield, Clock, Phone, Settings, Globe } from "lucide-react";
 import { Link } from "wouter";
-import { generateBreadcrumbSchema } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogNiaFrontDesk() {
@@ -27,6 +27,20 @@ export default function BlogNiaFrontDesk() {
               { name: "Blog", url: "/blog" },
               { name: "Nia FrontDesk: Der KI-Sprachassistent von NFON", url: "/blog/nia-frontdesk-nfon" },
             ]),
+            {
+              "@type": "BlogPosting",
+              "headline": "Nia FrontDesk: Der KI-Sprachassistent von NFON",
+              "description": "Nia FrontDesk übernimmt den Empfang, beantwortet Routinefragen und leitet Gespräche weiter rund um die Uhr. DSGVO konform.",
+              "url": "https://www.sprachassistent.net/blog/nia-frontdesk-nfon",
+              "datePublished": "2026-04-21",
+              "dateModified": "2026-04-21",
+              "author": { "@type": "Organization", "name": "Zöllner Office" },
+              "publisher": { "@type": "Organization", "name": "Zöllner Büro- und IT-Systeme GmbH", "url": "https://www.sprachassistent.net" },
+              "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp",
+              "inLanguage": "de",
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/nia-frontdesk-nfon" },
+              "aggregateRating": generateAggregateRatingSchema()
+            }
           ],
         }}
       />

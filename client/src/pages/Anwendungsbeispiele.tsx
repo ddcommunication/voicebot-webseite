@@ -1,5 +1,5 @@
 import SEO from "@/components/SEO";
-import { generateBreadcrumbSchema } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateServiceWithRatingSchema } from "@/lib/schema";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -110,7 +110,12 @@ export default function Anwendungsbeispiele() {
             generateBreadcrumbSchema([
               { name: "Startseite", url: "/" },
               { name: "Anwendungsbeispiele", url: "/anwendungsbeispiele" }
-            ])
+            ]),
+            generateServiceWithRatingSchema({
+              name: "KI-Voicebot Anwendungsbeispiele nach Branche",
+              description: "Praxisnahe Voicebot-Lösungen für Arztpraxen, Handwerksbetriebe, Immobilienverwaltung und E-Commerce. Automatisierte Telefonie spart Kosten und verbessert die Erreichbarkeit.",
+              url: "https://www.sprachassistent.net/anwendungsbeispiele"
+            })
           ]
         }}
       />

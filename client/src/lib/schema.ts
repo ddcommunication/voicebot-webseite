@@ -132,6 +132,48 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
   };
 }
 
+// Central aggregate rating data – update when new reviews come in
+export const AGGREGATE_RATING = {
+  ratingValue: 4.6,
+  reviewCount: 10,
+  bestRating: 5,
+  worstRating: 1,
+};
+
+export function generateAggregateRatingSchema() {
+  return {
+    "@type": "AggregateRating",
+    ratingValue: AGGREGATE_RATING.ratingValue,
+    reviewCount: AGGREGATE_RATING.reviewCount,
+    bestRating: AGGREGATE_RATING.bestRating,
+    worstRating: AGGREGATE_RATING.worstRating,
+  };
+}
+
+export function generateServiceWithRatingSchema(params: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: params.name,
+    description: params.description,
+    provider: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Germany",
+    },
+    url: params.url,
+    aggregateRating: generateAggregateRatingSchema(),
+  };
+}
+
 export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
@@ -152,5 +194,6 @@ export function generateLocalBusinessSchema() {
       opens: "08:00",
       closes: "18:00",
     },
+    aggregateRating: generateAggregateRatingSchema(),
   };
 }
