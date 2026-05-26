@@ -39,7 +39,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       {/* Main Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-20 items-center justify-between">
+        <div className="w-full px-4 xl:px-8 flex h-16 items-center justify-between gap-4">
           <Link href="/">
             <div className="flex items-center gap-2 cursor-pointer group">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center shadow-lg group-hover:shadow-blue-500/50 transition-all duration-300">
@@ -58,19 +58,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <line x1="12" x2="12" y1="19" y2="22" />
                 </svg>
               </div>
-              <span className="text-2xl font-sans font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300">
+              <span className="text-lg font-sans font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300 whitespace-nowrap">
                 sprachassistent.net
               </span>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
+          <nav className="hidden xl:flex items-center gap-3 2xl:gap-5">
             {navItems.map(item => (
               <Link key={item.href} href={item.href}>
                 <span
                   className={cn(
-                    "text-xs xl:text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer whitespace-nowrap",
+                    "text-xs 2xl:text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer whitespace-nowrap",
                     location === item.href
                       ? "text-primary"
                       : "text-muted-foreground"
@@ -88,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ))}
             <Link href="/termin">
               <Button
-                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-4 xl:px-6 text-xs xl:text-sm whitespace-nowrap"
+                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-4 text-xs 2xl:text-sm whitespace-nowrap"
               >
                 Demo anfragen
               </Button>
@@ -97,7 +97,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="lg:hidden p-2 text-primary"
+            className="xl:hidden p-2 text-primary"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -106,7 +106,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Mobile Nav */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden border-t bg-background p-4 absolute w-full shadow-lg animate-in slide-in-from-top-5">
+          <div className="xl:hidden border-t bg-background p-4 absolute w-full shadow-lg animate-in slide-in-from-top-5">
             <nav className="flex flex-col gap-4">
               {navItems.map(item => (
                 <Link key={item.href} href={item.href}>
