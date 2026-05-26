@@ -5,8 +5,24 @@ import { Link } from "wouter";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogVoicebotVsMitarbeiter() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich",
+    "description": "Voicebot vs. Mitarbeiter: Detaillierter Kosten-Nutzen-Vergleich am Beispiel einer Arztpraxis. Wann lohnt sich KI-Telefonie, was kostet sie und wie schnell amortisiert sie sich?",
+    "url": "https://www.sprachassistent.net/blog/voicebot-vs-mitarbeiter",
+    "datePublished": "2026-01-23",
+    "dateModified": "2026-01-23",
+    "author": { "@type": "Organization", "name": "Zöllner Office" },
+    "publisher": { "@type": "Organization", "name": "Zöllner Büro- und IT-Systeme GmbH", "url": "https://www.sprachassistent.net" },
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
+    "inLanguage": "de",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/voicebot-vs-mitarbeiter" }
+  };
+
   return (
     <div className="flex flex-col gap-0">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <SEO
         title="Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich"
         description="Voicebot vs. Mitarbeiter: Detaillierter Kosten-Nutzen-Vergleich am Beispiel einer Arztpraxis. Wann lohnt sich KI-Telefonie, was kostet sie und wie schnell amortisiert sie sich?"

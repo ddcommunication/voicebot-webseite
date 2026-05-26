@@ -5,8 +5,24 @@ import { Link } from "wouter";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogZukunftKundenservice() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Voicebots: Die Zukunft des Kundenservice",
+    "description": "Warum Voicebots die Zukunft des Kundenservice prägen: KI-Telefonie senkt Kosten um bis zu 70 %, steigert Erreichbarkeit auf 24/7 und verbessert die Kundenzufriedenheit messbar.",
+    "url": "https://www.sprachassistent.net/blog/zukunft-kundenservice",
+    "datePublished": "2026-02-10",
+    "dateModified": "2026-02-10",
+    "author": { "@type": "Organization", "name": "Zöllner Office" },
+    "publisher": { "@type": "Organization", "name": "Zöllner Büro- und IT-Systeme GmbH", "url": "https://www.sprachassistent.net" },
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg",
+    "inLanguage": "de",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/zukunft-kundenservice" }
+  };
+
   return (
     <div className="flex flex-col gap-0">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <SEO
         title="Voicebots: Die Zukunft des Kundenservice"
         description="Warum Voicebots die Zukunft des Kundenservice prägen: KI-Telefonie senkt Kosten um bis zu 70 %, steigert Erreichbarkeit auf 24/7 und verbessert die Kundenzufriedenheit messbar."

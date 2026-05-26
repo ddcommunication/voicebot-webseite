@@ -5,8 +5,24 @@ import { Link } from "wouter";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogPerfekteBegruessung() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "5 Tipps für die perfekte Voicebot-Begrüßung",
+    "description": "5 Praxistipps für die perfekte Voicebot-Begrüßung: Wie Sie Dialoge gestalten, die Anrufer nicht frustrieren, sondern begeistern – mit konkreten Beispielen und Formulierungshilfen.",
+    "url": "https://www.sprachassistent.net/blog/perfekte-begruessung",
+    "datePublished": "2026-01-05",
+    "dateModified": "2026-01-05",
+    "author": { "@type": "Organization", "name": "Zöllner Office" },
+    "publisher": { "@type": "Organization", "name": "Zöllner Büro- und IT-Systeme GmbH", "url": "https://www.sprachassistent.net" },
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg",
+    "inLanguage": "de",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/perfekte-begruessung" }
+  };
+
   return (
     <div className="flex flex-col gap-0">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <SEO
         title="5 Tipps für die perfekte Voicebot-Begrüßung"
         description="5 Praxistipps für die perfekte Voicebot-Begrüßung: Wie Sie Dialoge gestalten, die Anrufer nicht frustrieren, sondern begeistern – mit konkreten Beispielen und Formulierungshilfen."
