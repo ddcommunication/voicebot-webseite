@@ -101,17 +101,13 @@ export function generateServiceSchema(params: {
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "Product",
     name: params.name,
     description: params.description,
-    provider: {
+    brand: {
       "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
-    },
-    areaServed: {
-      "@type": "Country",
-      name: "Germany",
     },
     url: params.url,
   };
@@ -157,17 +153,13 @@ export function generateServiceWithRatingSchema(params: {
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "Product",
     name: params.name,
     description: params.description,
-    provider: {
+    brand: {
       "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
-    },
-    areaServed: {
-      "@type": "Country",
-      name: "Germany",
     },
     url: params.url,
     aggregateRating: generateAggregateRatingSchema(),

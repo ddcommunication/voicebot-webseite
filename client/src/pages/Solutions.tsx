@@ -28,24 +28,24 @@ export default function Solutions() {
               "@type": "ItemList",
               "itemListElement": [
                 {
-                  "@type": "Service",
-                  "name": "Intelligente Telefonzentrale",
-                  "description": "Automatische Anrufannahme und Weiterleitung"
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Intelligente Telefonzentrale"
                 },
                 {
-                  "@type": "Service",
-                  "name": "Termin-Management",
-                  "description": "Vollautomatische Terminvereinbarung mit Kalender-Synchronisation"
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Termin-Management"
                 },
                 {
-                  "@type": "Service",
-                  "name": "FAQ & Auskunft",
-                  "description": "24/7 Beantwortung von Standardfragen"
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "FAQ & Auskunft"
                 },
                 {
-                  "@type": "Service",
-                  "name": "Lead-Qualifizierung",
-                  "description": "Automatische Vorqualifizierung von Kundenanfragen"
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Lead-Qualifizierung"
                 }
               ]
             }

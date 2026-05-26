@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
 import RelatedPosts from "@/components/RelatedPosts";
-import { generateAggregateRatingSchema } from "@/lib/schema";
 
 export default function BlogVoicebotVsMitarbeiter() {
   const articleSchema = {
@@ -19,7 +18,6 @@ export default function BlogVoicebotVsMitarbeiter() {
     "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
     "inLanguage": "de",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/voicebot-vs-mitarbeiter" },
-    "aggregateRating": generateAggregateRatingSchema()
   };
 
   return (

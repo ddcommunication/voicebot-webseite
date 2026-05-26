@@ -1,5 +1,5 @@
 import SEO from "@/components/SEO";
-import { generateArticleSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Check, Phone, Clock, Users, TrendingUp, Shield, AlertTriangle } from "lucide-react";
@@ -26,7 +26,6 @@ export default function WohnungswirtschaftCaseStudy() {
         "@type": "Organization",
         "name": "Zöllner Büro- und IT-Systeme GmbH",
         "url": "https://www.sprachassistent.net",
-        "aggregateRating": generateAggregateRatingSchema()
       }
     ]
   };

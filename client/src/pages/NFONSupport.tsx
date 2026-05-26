@@ -29,18 +29,16 @@ export default function NFONSupport() {
         { name: "NFON Support", url: "/nfon-support" }
       ]),
       {
-        "@type": "Service",
+        "@type": "Product",
         name: "NFON-Service & Support für Unternehmen",
         description:
           "Persönlicher NFON Support, Voicebots, CTI-Integrationen und moderne Cloud-Telefonie für Unternehmen jeder Größe – flexibel, sicher und skalierbar.",
         url: "https://www.sprachassistent.net/nfon-support",
-        provider: {
+        brand: {
           "@type": "Organization",
           name: "Zöllner Büro- und IT-Systeme GmbH",
           url: "https://www.sprachassistent.net",
         },
-        areaServed: "DE",
-        serviceType: "Cloud-Telefonie Support und NFON Integration",
         aggregateRating: generateAggregateRatingSchema(),
       }
     ]

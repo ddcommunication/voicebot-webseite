@@ -1,5 +1,5 @@
 import SEO from "@/components/SEO";
-import { generateArticleSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, MapPin, Calendar, Clock, Users, ExternalLink } from "lucide-react";
 import { Link } from "wouter";
@@ -25,7 +25,6 @@ export default function KITagungWohnungsgenossenschaften() {
         "@type": "Organization",
         "name": "Zöllner Büro- und IT-Systeme GmbH",
         "url": "https://www.sprachassistent.net",
-        "aggregateRating": generateAggregateRatingSchema()
       }
     ]
   };

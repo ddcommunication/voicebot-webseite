@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/accordion";
 import { Calendar, User, ArrowLeft, Shield, Clock, Phone, Settings, Globe } from "lucide-react";
 import { Link } from "wouter";
-import { generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogNiaFrontDesk() {
@@ -38,8 +38,7 @@ export default function BlogNiaFrontDesk() {
               "publisher": { "@type": "Organization", "name": "Zöllner Büro- und IT-Systeme GmbH", "url": "https://www.sprachassistent.net" },
               "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp",
               "inLanguage": "de",
-              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/nia-frontdesk-nfon" },
-              "aggregateRating": generateAggregateRatingSchema()
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/nia-frontdesk-nfon" }
             }
           ],
         }}

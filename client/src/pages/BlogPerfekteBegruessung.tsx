@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, X, Check } from "lucide-react";
 import { Link } from "wouter";
 import RelatedPosts from "@/components/RelatedPosts";
-import { generateAggregateRatingSchema } from "@/lib/schema";
 
 export default function BlogPerfekteBegruessung() {
   const articleSchema = {
@@ -19,7 +18,6 @@ export default function BlogPerfekteBegruessung() {
     "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg",
     "inLanguage": "de",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.sprachassistent.net/blog/perfekte-begruessung" },
-    "aggregateRating": generateAggregateRatingSchema()
   };
 
   return (
