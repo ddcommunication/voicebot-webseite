@@ -1,7 +1,7 @@
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X, Phone, Mail, Headset } from "lucide-react";
 import { useState } from "react";
 import CookieBanner from "./CookieBanner";
 
@@ -140,6 +140,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1">{children}</main>
 
       <CookieBanner />
+
+      {/* Floating NFON Support Button */}
+      <a
+        href="https://sprachassistent.net/nfon-support"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-semibold text-sm px-4 py-3 rounded-full shadow-lg hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 group"
+        aria-label="NFON Support"
+      >
+        <Headset className="h-4 w-4 shrink-0" />
+        <span>NFON Support</span>
+      </a>
+
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground pt-16 pb-8">
         <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
