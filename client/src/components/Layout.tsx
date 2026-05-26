@@ -141,15 +141,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <CookieBanner />
 
-      {/* Floating NFON Support Button */}
-      <a
-        href="https://sprachassistent.net/nfon-support"
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-semibold text-sm px-4 py-3 rounded-full shadow-lg hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 group"
-        aria-label="NFON Support"
-      >
-        <Headset className="h-4 w-4 shrink-0" />
-        <span>NFON Support</span>
-      </a>
+      {/* Floating NFON Support Button – nicht auf der NFON-Support-Seite selbst anzeigen */}
+      {location !== "/nfon-support" && (
+        <a
+          href="https://sprachassistent.net/nfon-support"
+          className="fixed bottom-6 right-6 z-40 flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-semibold text-sm px-4 py-3 rounded-full shadow-lg hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 group"
+          aria-label="NFON Support"
+        >
+          <Headset className="h-4 w-4 shrink-0" />
+          <span>NFON Support</span>
+        </a>
+      )}
 
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground pt-16 pb-8">
