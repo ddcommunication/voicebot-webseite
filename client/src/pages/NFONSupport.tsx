@@ -160,20 +160,21 @@ export default function NFONSupport() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary">
-                Mehr als Telefonie – Entwicklung &amp; Integration
+                NFON Support &amp; Entwicklung aus einer Hand
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Als offizieller Entwicklungspartner der NFON AG entwickeln wir
-                individuelle Lösungen rund um moderne Business-Kommunikation.
-                Wir verbinden klassische Telefonie mit moderner
-                Softwareentwicklung und schaffen Lösungen, die Prozesse
-                automatisieren, Service verbessern und die Erreichbarkeit
-                optimieren.
+                Als offizieller Entwicklungspartner der NFON AG bieten wir
+                umfassenden NFON Support und entwickeln individuelle Lösungen
+                rund um moderne Business-Kommunikation. Wir verbinden klassische
+                Telefonie mit moderner Softwareentwicklung und schaffen Lösungen,
+                die Prozesse automatisieren, Service verbessern und die
+                Erreichbarkeit optimieren.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Gerade Unternehmen mit hohem Kommunikationsaufkommen profitieren
-                von intelligenten Sprachlösungen, automatisierten Abläufen und
-                nahtlosen Integrationen in bestehende Systeme.
+                von unserem persönlichen NFON Support, intelligenten
+                Sprachlösungen, automatisierten Abläufen und nahtlosen
+                Integrationen in bestehende Systeme.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-4">
@@ -200,11 +201,11 @@ export default function NFONSupport() {
         <div className="container max-w-5xl">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-              Unsere Leistungen im Überblick
+              Unser NFON Support – Leistungen im Überblick
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Von der Einrichtung bis zum laufenden Betrieb – wir übernehmen
-              alle Aufgaben rund um Ihre NFON-Telefonanlage.
+              Von der Einrichtung bis zum laufenden Betrieb – unser NFON Support
+              übernimmt alle Aufgaben rund um Ihre Cloud-Telefonanlage.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
@@ -269,13 +270,13 @@ export default function NFONSupport() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-white">
-                Unterstützung auch für bestehende NFON-Anlagen
+                NFON Support auch für bestehende Anlagen
               </h2>
               <p className="text-primary-foreground/80 leading-relaxed">
                 Viele Unternehmen nutzen bereits eine NFON-Telefonanlage,
-                erhalten jedoch keinen zuverlässigen Support oder wünschen sich
-                einen persönlicheren Ansprechpartner. Genau hier kommen wir ins
-                Spiel.
+                erhalten jedoch keinen zuverlässigen NFON Support oder wünschen
+                sich einen persönlicheren Ansprechpartner. Genau hier kommen wir
+                ins Spiel.
               </p>
               <p className="text-primary-foreground/80 leading-relaxed">
                 Wir übernehmen bestehende NFON-Umgebungen, analysieren die
@@ -361,12 +362,12 @@ export default function NFONSupport() {
         <div className="container max-w-5xl">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-              Ihr Partner für moderne Business-Kommunikation
+              Ihr Partner für NFON Support und moderne Business-Kommunikation
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Technik allein reicht heute nicht mehr aus. Entscheidend ist, wie
-              schnell und zuverlässig Probleme gelöst werden und ob ein Partner
-              erreichbar ist, wenn Unterstützung benötigt wird.
+              schnell und zuverlässig NFON Support geleistet wird und ob ein
+              Partner erreichbar ist, wenn Unterstützung benötigt wird.
             </p>
           </div>
 
@@ -376,12 +377,13 @@ export default function NFONSupport() {
                 <div className="h-12 w-12 rounded-lg bg-primary/5 flex items-center justify-center text-primary mb-2">
                   <Users className="h-6 w-6" />
                 </div>
-                <CardTitle className="text-lg">Persönlicher Support</CardTitle>
+                <CardTitle className="text-lg">Persönlicher NFON Support</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Ein fester Ansprechpartner, der Ihre Anlage kennt – kein
-                  anonymes Ticketsystem, keine langen Warteschleifen.
+                  Ein fester Ansprechpartner für Ihren NFON Support, der Ihre
+                  Anlage kennt – kein anonymes Ticketsystem, keine langen
+                  Warteschleifen.
                 </p>
               </CardContent>
             </Card>
