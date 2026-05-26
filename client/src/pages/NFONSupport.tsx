@@ -45,16 +45,76 @@ export default function NFONSupport() {
   };
 
   const leistungen = [
-    "Einrichtung und Migration von NFON-Cloud-Telefonanlagen",
-    "Betreuung bestehender NFON-Systeme",
-    "Benutzerverwaltung und Rufnummernkonzepte",
-    "Einrichtung von Softphones, Teams-Integration und Endgeräten",
-    "Unterstützung bei Homeoffice- und Mobil-Lösungen",
-    "Fehleranalyse und schnelle Hilfe im Supportfall",
-    "CTI- und CRM-Integrationen",
-    "Entwicklung individueller Voicebots und Sprachassistenten",
-    "Individuelle Anpassungen und Optimierungen",
-    "Persönlicher Ansprechpartner statt anonymem Ticketsystem",
+    {
+      icon: Building2,
+      title: "Einrichtung & Migration",
+      desc: "Nahtlose Einrichtung und Migration Ihrer NFON-Cloud-Telefonanlage – ohne Ausfallzeiten.",
+      color: "from-blue-500 to-blue-600",
+      bg: "bg-blue-50",
+    },
+    {
+      icon: Settings,
+      title: "Betreuung & Betrieb",
+      desc: "Laufende Betreuung bestehender NFON-Systeme – proaktiv, zuverlässig und persönlich.",
+      color: "from-cyan-500 to-cyan-600",
+      bg: "bg-cyan-50",
+    },
+    {
+      icon: Users,
+      title: "Benutzerverwaltung",
+      desc: "Professionelle Verwaltung von Nutzern, Gruppen und Rufnummernkonzepten für jede Unternehmensgröße.",
+      color: "from-violet-500 to-violet-600",
+      bg: "bg-violet-50",
+    },
+    {
+      icon: Phone,
+      title: "Softphones & Endgeräte",
+      desc: "Einrichtung von Softphones, Microsoft Teams-Integration und allen gängigen Endgeräten.",
+      color: "from-emerald-500 to-emerald-600",
+      bg: "bg-emerald-50",
+    },
+    {
+      icon: Globe,
+      title: "Homeoffice & Mobil",
+      desc: "Flexible Lösungen für Homeoffice, mobiles Arbeiten und verteilte Standorte.",
+      color: "from-orange-500 to-orange-600",
+      bg: "bg-orange-50",
+    },
+    {
+      icon: Zap,
+      title: "Schneller Support",
+      desc: "Fehleranalyse und direkte Hilfe im Supportfall – ohne lange Warteschleifen oder anonyme Tickets.",
+      color: "from-yellow-500 to-yellow-600",
+      bg: "bg-yellow-50",
+    },
+    {
+      icon: Code2,
+      title: "CTI & CRM-Integration",
+      desc: "Nahtlose Anbindung Ihrer NFON-Anlage an CRM-, ERP- und Ticketsysteme.",
+      color: "from-pink-500 to-pink-600",
+      bg: "bg-pink-50",
+    },
+    {
+      icon: Headphones,
+      title: "Voicebots & KI",
+      desc: "Entwicklung intelligenter Voicebots und Sprachassistenten direkt auf Basis Ihrer NFON-Anlage.",
+      color: "from-indigo-500 to-indigo-600",
+      bg: "bg-indigo-50",
+    },
+    {
+      icon: FileText,
+      title: "Individuelle Anpassungen",
+      desc: "Maßgeschneiderte Konfigurationen, Workflows und Optimierungen für Ihre spezifischen Anforderungen.",
+      color: "from-teal-500 to-teal-600",
+      bg: "bg-teal-50",
+    },
+    {
+      icon: Shield,
+      title: "Persönlicher Ansprechpartner",
+      desc: "Ein fester Experte, der Ihre Anlage kennt – erreichbar, verlässlich, ohne Ticketsystem-Frust.",
+      color: "from-blue-600 to-cyan-500",
+      bg: "bg-blue-50",
+    },
   ];
 
   const entwicklung = [
@@ -206,25 +266,47 @@ export default function NFONSupport() {
       </section>
 
       {/* Leistungen */}
-      <section className="py-20 bg-muted/30">
-        <div className="container max-w-5xl">
-          <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-              Unser NFON Support – Leistungen im Überblick
+      <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+        {/* Decorative background blobs */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-100/40 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-100/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 pointer-events-none" />
+        <div className="container max-w-6xl relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 rounded-full bg-blue-50 border border-blue-200 px-4 py-1.5 text-sm font-semibold text-blue-700 mb-5">
+              <Zap className="h-4 w-4" />
+              Alles aus einer Hand
+            </div>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-5">
+              Unser NFON Support
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
+                Leistungen im Überblick
+              </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Von der Einrichtung bis zum laufenden Betrieb – unser NFON Support
-              übernimmt alle Aufgaben rund um Ihre Cloud-Telefonanlage.
+              Von der Einrichtung bis zum laufenden Betrieb – wir übernehmen alle Aufgaben rund um Ihre Cloud-Telefonanlage.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
             {leistungen.map((item, i) => (
               <div
                 key={i}
-                className="flex items-start gap-3 p-4 bg-background rounded-xl shadow-sm border border-border/50"
+                className="group relative flex flex-col gap-4 p-6 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-default"
               >
-                <CheckCircle2 className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                <span className="text-sm text-muted-foreground">{item}</span>
+                {/* Number badge */}
+                <span className="absolute top-4 right-4 text-xs font-bold text-slate-300 group-hover:text-slate-400 transition-colors">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                {/* Icon */}
+                <div className={`h-12 w-12 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300`}>
+                  <item.icon className="h-6 w-6 text-white" />
+                </div>
+                {/* Content */}
+                <div>
+                  <h3 className="font-bold text-base text-foreground mb-1.5 leading-snug">{item.title}</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
+                </div>
+                {/* Bottom accent bar */}
+                <div className={`absolute bottom-0 left-0 right-0 h-0.5 rounded-b-2xl bg-gradient-to-r ${item.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
               </div>
             ))}
           </div>
