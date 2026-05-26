@@ -14,6 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { label: "Lösungen", href: "/loesungen" },
     { label: "Anwendungsbeispiele", href: "/anwendungsbeispiele" },
     { label: "Praxisbeispiele", href: "/praxisbeispiele" },
+    { label: "NFON Support", href: "/nfon-support" },
     { label: "Über uns", href: "/ueber-uns" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" },
@@ -64,12 +65,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
             {navItems.map(item => (
               <Link key={item.href} href={item.href}>
                 <span
                   className={cn(
-                    "text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer",
+                    "text-xs xl:text-sm font-medium transition-colors hover:text-primary relative group cursor-pointer whitespace-nowrap",
                     location === item.href
                       ? "text-primary"
                       : "text-muted-foreground"
@@ -87,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ))}
             <Link href="/termin">
               <Button
-                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-6"
+                className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-md hover:shadow-lg transition-all rounded-full px-4 xl:px-6 text-xs xl:text-sm whitespace-nowrap"
               >
                 Demo anfragen
               </Button>
@@ -201,6 +202,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <Link href="/blog">
                   <span className="hover:text-white transition-colors cursor-pointer">
                     Blog & News
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/nfon-support">
+                  <span className="hover:text-white transition-colors cursor-pointer">
+                    NFON Support
                   </span>
                 </Link>
               </li>
