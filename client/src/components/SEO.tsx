@@ -24,7 +24,7 @@ export default function SEO({
 }: SEOProps) {
   const siteTitle = "Zöllner Office";
   const fullTitle = `${title} | ${siteTitle}`;
-  const baseUrl = "https://www.sprachassistent.net";
+  const baseUrl = "https://sprachassistent.net";
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
   const fullImage = image.startsWith("http") ? image : `${baseUrl}${image}`;
 
