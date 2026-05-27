@@ -23,7 +23,7 @@ export default function SEO({
   robots = "index, follow",
 }: SEOProps) {
   const siteTitle = "Zöllner Office";
-  const fullTitle = `${title} | ${siteTitle}`;
+  const fullTitle = title.includes("|") ? title : `${title} | ${siteTitle}`;
   const baseUrl = "https://sprachassistent.net";
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
   const fullImage = image.startsWith("http") ? image : `${baseUrl}${image}`;

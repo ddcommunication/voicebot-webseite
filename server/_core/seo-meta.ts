@@ -14,6 +14,7 @@ interface PageMeta {
   canonical: string;
   keywords?: string;
   type?: string;
+  noSiteName?: boolean;
 }
 
 const PAGE_META: Record<string, PageMeta> = {
@@ -46,6 +47,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description: "Persönlicher NFON Support ✓ Voicebots, CTI-Integrationen, Cloud-Telefonie für Unternehmen ☎ +49 3533 4807-48 ✓ schnell, sicher, zuverlässig",
     canonical: "/nfon-support",
     keywords: "NFON Support, NFON Partner, Cloud-Telefonie, NFON Cloudya, CTI Integration, NFON Einrichtung",
+    noSiteName: true,
   },
   "/ueber-uns": {
     title: "Über uns – Zöllner Büro- und IT-Systeme GmbH",
@@ -156,7 +158,7 @@ const PAGE_META: Record<string, PageMeta> = {
 };
 
 function buildMetaTags(meta: PageMeta): string {
-  const fullTitle = `${meta.title} | ${SITE_NAME}`;
+  const fullTitle = meta.noSiteName ? meta.title : `${meta.title} | ${SITE_NAME}`;
   const canonicalUrl = `${BASE_URL}${meta.canonical}`;
   const type = meta.type || "website";
 
