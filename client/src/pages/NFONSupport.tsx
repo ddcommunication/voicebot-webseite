@@ -160,8 +160,8 @@ export default function NFONSupport() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
       <SEO
-        title="NFON-Service & Support für Unternehmen"
-        description="Persönlicher NFON Support, Voicebots, CTI-Integrationen und moderne Cloud-Telefonie für Unternehmen jeder Größe ► flexibel, sicher und skalierbar."
+        title="NFON Support & Service für Unternehmen ☑️ Jetzt anrufen"
+        description="Persönlicher NFON Support ✓ Voicebots, CTI-Integrationen, Cloud-Telefonie für Unternehmen ☎ +49 3533 4807-48 ✓ schnell, sicher, zuverlässig"
         canonical="/nfon-support"
       />
 
