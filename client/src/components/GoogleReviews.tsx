@@ -14,6 +14,33 @@ interface Review {
 // Alle Bewertungen (4–5 Sterne), neueste zuerst
 const ALL_REVIEWS: Review[] = [
   {
+    author: "Home & Living Immobilien",
+    rating: 5,
+    date: "Mai 2026",
+    dateISO: "2026-05-23",
+    text: "Kompetent, unkompliziert und mit vielen guten Ideen und Lösungsansätzen überzeugt uns die Zusammenarbeit mit der Firma Zöllner auf ganzer Linie. Man merkt schnell, dass hier mitgedacht wird und nicht einfach nur 'abgearbeitet' wird. Wir sind gespannt, wohin uns die gemeinsame Reise noch führt. Schön, euch an unserer Seite zu haben.",
+    initials: "HL",
+    avatarColor: "bg-orange-600",
+  },
+  {
+    author: "Timo Neuberger",
+    rating: 5,
+    date: "Mai 2026",
+    dateISO: "2026-05-23",
+    text: "Über eine Veranstaltung durften wir die Firma Zöllner kennenlernen – und sind darüber wirklich sehr froh. Unsere NFON-Telefonanlage wurde zuvor bereits von einem anderen Dienstleister betreut. Dass man Telefonie jedoch so intelligent mit CRM- und Terminprozessen verbinden kann, war uns ehrlich gesagt in dieser Form überhaupt nicht bewusst. Die Firma Zöllner hat uns hier ganz neue Möglichkeiten aufgezeigt und Lösungen geschaffen, die uns im Arbeitsalltag bereits jetzt spürbar weiterhelfen. Besonders schätzen wir die hohe Fachkompetenz, die schnelle Unterstützung und die sehr angenehme Zusammenarbeit. Vielen Dank an das Team der Firma Zöllner – eine klare Empfehlung von uns!",
+    initials: "TN",
+    avatarColor: "bg-teal-600",
+  },
+  {
+    author: "Uwe Ortlepp",
+    rating: 5,
+    date: "April 2026",
+    dateISO: "2026-04-27",
+    text: "Die Firma Zöllner ist mir von NFON als kompetenter Partner empfohlen worden. Von der ersten Kontaktaufnahme über die technische Beratung bis hin zur Installation habe ich mich perfekt betreut gefühlt. Alle Mitarbeiter kannten sich perfekt mit den NFON Lösungen aus und sind echte Profis in der Business Kommunikation. Kann ich wärmsten weiter empfehlen.",
+    initials: "UO",
+    avatarColor: "bg-indigo-600",
+  },
+  {
     author: "Marco Kaubisch",
     rating: 5,
     date: "Mai 2026",
@@ -31,23 +58,18 @@ const ALL_REVIEWS: Review[] = [
     initials: "KS",
     avatarColor: "bg-emerald-600",
   },
-  {
-    author: "Doreen Weizsäcker",
-    rating: 5,
-    date: "August 2024",
-    dateISO: "2024-08-15",
-    text: "Unser Drucker aus dem Netz war nach 3 Jahren kaputt und keiner ist bereit ihn zu reparieren. Bei der Firma Zöllner bekam ich schnell ein Angebot, nach einer kompetenten Beratung und 2 Tage später stand das Gerät mit Einweisung und Installation im Büro. Das Beste: es gibt ein 60-Monatsservice. Da gibt es die Farbe und Ersatzteile dazu. Dann habe ich erst mal für 5 Jahre eine Absicherung.",
-    initials: "DW",
-    avatarColor: "bg-violet-600",
-  },
 ];
 
-// Nur die 2 neuesten anzeigen
-const DISPLAYED_REVIEWS = ALL_REVIEWS.slice(0, 2);
+// Alle 5 Bewertungen anzeigen
+const DISPLAYED_REVIEWS = ALL_REVIEWS;
 
-const OVERALL_RATING = 4.6;
-const TOTAL_REVIEWS = 10;
-const REVIEW_URL = "https://share.google/b7hcOLkz9KNyN85ax";
+const OVERALL_RATING = 4.9;
+const TOTAL_REVIEWS = 13;
+
+// "Jetzt bewerten" → Dresdner Standort
+const REVIEW_URL = "https://share.google/Mmgz9NYGFHdTZfVB0";
+
+// "Alle Bewertungen ansehen" → Elsterwerda-Standort (bestehende Maps-URL)
 const MAPS_URL =
   "https://www.google.com/maps/place/Z%C3%B6llner+B%C3%BCro-+und+IT-Systeme+GmbH/@51.46169,13.52755,17z/data=!4m8!3m7!1s0x47a7891785f88d5b:0x539a41d4dff580da!8m2!3d51.46169!4d13.52755!9m1!1b1!16s%2Fg%2F1tx1s6nt?hl=de";
 
