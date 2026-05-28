@@ -70,8 +70,7 @@ const TOTAL_REVIEWS = 13;
 const REVIEW_URL = "https://share.google/Mmgz9NYGFHdTZfVB0";
 
 // "Alle Bewertungen ansehen" → Elsterwerda-Standort (bestehende Maps-URL)
-const MAPS_URL =
-  "https://www.google.com/maps/place/Z%C3%B6llner+B%C3%BCro-+und+IT-Systeme+GmbH/@51.46169,13.52755,17z/data=!4m8!3m7!1s0x47a7891785f88d5b:0x539a41d4dff580da!8m2!3d51.46169!4d13.52755!9m1!1b1!16s%2Fg%2F1tx1s6nt?hl=de";
+const MAPS_URL = "https://share.google/5OJaWcWkOC0KNKDn3";
 
 function StarRating({ rating }: { rating: number }) {
   return (
@@ -212,7 +211,7 @@ export default function GoogleReviews() {
             rel="noopener noreferrer"
             className="text-xs text-muted-foreground hover:text-primary transition-colors"
           >
-            Alle {TOTAL_REVIEWS} Bewertungen auf Google ansehen →
+            Alle Bewertungen auf Google ansehen →
           </a>
         </div>
       </div>
