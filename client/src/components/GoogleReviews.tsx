@@ -123,37 +123,24 @@ export default function GoogleReviews() {
 
       <div className="container max-w-3xl">
         {/* Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
-          <div className="flex items-center gap-4">
-            {/* Google-Logo */}
-            <div>
-              <span className="text-xl font-bold">
-                <span className="text-[#4285F4]">G</span>
-                <span className="text-[#EA4335]">o</span>
-                <span className="text-[#FBBC05]">o</span>
-                <span className="text-[#4285F4]">g</span>
-                <span className="text-[#34A853]">l</span>
-                <span className="text-[#EA4335]">e</span>
-              </span>
-              <span className="text-xl font-bold text-foreground ml-1">Bewertungen</span>
-            </div>
-            <div className="flex items-center gap-2 border-l border-border pl-4">
-              <span className="text-2xl font-bold text-foreground">{OVERALL_RATING}</span>
-              <div>
-                <StarRating rating={Math.round(OVERALL_RATING)} />
-                <a
-                  href={MAPS_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-muted-foreground hover:text-primary transition-colors"
-                >
-                  {TOTAL_REVIEWS} Bewertungen
-                </a>
-              </div>
-            </div>
+        <div className="flex flex-wrap items-center gap-4 mb-6">
+          {/* Google-Logo */}
+          <div>
+            <span className="text-xl font-bold">
+              <span className="text-[#4285F4]">G</span>
+              <span className="text-[#EA4335]">o</span>
+              <span className="text-[#FBBC05]">o</span>
+              <span className="text-[#4285F4]">g</span>
+              <span className="text-[#34A853]">l</span>
+              <span className="text-[#EA4335]">e</span>
+            </span>
+            <span className="text-xl font-bold text-foreground ml-1">Bewertungen</span>
           </div>
-
-          <a href={REVIEW_URL} target="_blank" rel="noopener noreferrer">
+          <div className="flex items-center gap-2 border-l border-border pl-4">
+            <span className="text-2xl font-bold text-foreground">{OVERALL_RATING}</span>
+            <StarRating rating={Math.round(OVERALL_RATING)} />
+          </div>
+          <a href={REVIEW_URL} target="_blank" rel="noopener noreferrer" className="ml-auto sm:ml-0">
             <Button size="sm" className="bg-primary hover:bg-primary/90 text-white font-semibold whitespace-nowrap">
               ★ Jetzt bewerten
             </Button>
