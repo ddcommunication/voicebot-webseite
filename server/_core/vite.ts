@@ -70,7 +70,7 @@ export function serveStatic(app: Express) {
         res.status(500).send("Internal Server Error");
         return;
       }
-      const injected = injectSeoMeta(html, req.path);
+      const injected = injectSeoMeta(html, req.originalUrl || req.path);
       res.set("Content-Type", "text/html").send(injected);
     });
   });
