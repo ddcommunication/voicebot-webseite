@@ -43,7 +43,7 @@ const PAGE_META: Record<string, PageMeta> = {
     keywords: "Voicebot Praxisbeispiele, Case Study, Kundenstimmen, Referenzen",
   },
   "/nfon-support": {
-    title: "NFON Support & Service für Unternehmen ☑️ Jetzt anrufen",
+    title: "☑️ NFON Support & Service für Unternehmen",
     description: "Persönlicher NFON Support ✓ Voicebots, CTI-Integrationen, Cloud-Telefonie für Unternehmen ☎ +49 3533 4807-48 ✓ schnell, sicher, zuverlässig",
     canonical: "/nfon-support",
     keywords: "NFON Support, NFON Partner, Cloud-Telefonie, NFON Cloudya, CTI Integration, NFON Einrichtung",
