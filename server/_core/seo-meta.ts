@@ -165,7 +165,6 @@ function buildMetaTags(meta: PageMeta): string {
   return `
     <title>${fullTitle}</title>
     <meta name="description" content="${meta.description.replace(/"/g, "&quot;")}">
-    <link rel="canonical" href="${canonicalUrl}">
     ${meta.keywords ? `<meta name="keywords" content="${meta.keywords.replace(/"/g, "&quot;")}">` : ""}
     <meta property="og:type" content="${type}">
     <meta property="og:title" content="${fullTitle.replace(/"/g, "&quot;")}">
