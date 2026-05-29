@@ -66,7 +66,7 @@ export default function SEO({
       <meta name="description" content={description} />
       <meta name="robots" content={robots} />
       {keywords && <meta name="keywords" content={keywords} />}
-      <link rel="canonical" href={fullCanonical} />
+      {/* canonical is set server-side in seo-meta.ts to avoid duplicates */}
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={type} />
