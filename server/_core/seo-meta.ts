@@ -43,11 +43,11 @@ const PAGE_META: Record<string, PageMeta> = {
     keywords: "Voicebot Praxisbeispiele, Case Study, Kundenstimmen, Referenzen",
   },
   "/nfon-support": {
-    title: "☑️ NFON Support & Service für Unternehmen",
-    description: "Persönlicher NFON Support ✓ Voicebots, CTI-Integrationen, Cloud-Telefonie für Unternehmen ☎ +49 3533 4807-48 ✓ schnell, sicher, zuverlässig",
+    title: "NFON Support & Service für Unternehmen | Zöllner Office",
+    noSiteName: true,
+    description: "Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-48",
     canonical: "/nfon-support",
     keywords: "NFON Support, NFON Partner, Cloud-Telefonie, NFON Cloudya, CTI Integration, NFON Einrichtung",
-    noSiteName: true,
   },
   "/ueber-uns": {
     title: "Über uns – Zöllner Büro- und IT-Systeme GmbH",
