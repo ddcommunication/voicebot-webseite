@@ -42,12 +42,13 @@ const PAGE_META: Record<string, PageMeta> = {
     canonical: "/praxisbeispiele",
     keywords: "Voicebot Praxisbeispiele, Case Study, Kundenstimmen, Referenzen",
   },
-  "/nfon-support": {
+  "/blog/nfon-support": {
     title: "NFON Support & Service für Unternehmen | Zöllner Office",
     noSiteName: true,
     description: "Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-48",
-    canonical: "/nfon-support",
+    canonical: "/blog/nfon-support",
     keywords: "NFON Support, NFON Partner, Cloud-Telefonie, NFON Cloudya, CTI Integration, NFON Einrichtung",
+    type: "article",
   },
   "/ueber-uns": {
     title: "Über uns – Zöllner Büro- und IT-Systeme GmbH",

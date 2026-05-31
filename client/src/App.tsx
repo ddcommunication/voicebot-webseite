@@ -31,6 +31,7 @@ import BlogNiaFrontDesk from "./pages/BlogNiaFrontDesk";
 import BlogVoicebotGesundheitswesen from "./pages/BlogVoicebotGesundheitswesen";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
 import NFONSupport from "./pages/NFONSupport";
+import NFONSupportBlog from "./pages/blog/NFONSupportBlog";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
 import TimumFuerMakler from "./pages/praxisbeispiele/TimumFuerMakler";
 
@@ -64,7 +65,8 @@ function Router() {
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/blog/nia-frontdesk-nfon" component={BlogNiaFrontDesk} />
         <Route path="/blog/voicebots-gesundheitswesen-sozialwesen" component={BlogVoicebotGesundheitswesen} />
-        <Route path="/nfon-support" component={NFONSupport} />
+        <Route path="/nfon-support" component={() => { window.location.replace("/blog/nfon-support"); return null; }} />
+        <Route path="/blog/nfon-support" component={NFONSupportBlog} />
         <Route path="/praxisbeispiele" component={Praxisbeispiele} />
         <Route path="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" component={UweOrtleppCaseStudy} />
         <Route path="/praxisbeispiele/timum-fuer-makler" component={TimumFuerMakler} />

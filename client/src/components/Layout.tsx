@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { label: "Lösungen", href: "/loesungen" },
     { label: "Anwendungsbeispiele", href: "/anwendungsbeispiele" },
     { label: "Praxisbeispiele", href: "/praxisbeispiele" },
-    { label: "NFON Support", href: "/nfon-support" },
+    { label: "NFON Support", href: "/blog/nfon-support" },
     { label: "Über uns", href: "/ueber-uns" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" },
@@ -142,9 +142,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <CookieBanner />
 
       {/* Floating NFON Support Button – nicht auf der NFON-Support-Seite selbst anzeigen */}
-      {location !== "/nfon-support" && (
+      {location !== "/blog/nfon-support" && (
         <a
-          href="https://sprachassistent.net/nfon-support"
+          href="https://sprachassistent.net/blog/nfon-support"
           className="fixed bottom-6 right-6 z-40 flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-semibold text-sm px-4 py-3 rounded-full shadow-lg hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 active:scale-95 group"
           aria-label="NFON Support"
         >
@@ -219,7 +219,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </Link>
               </li>
               <li>
-                <Link href="/nfon-support">
+                <Link href="/blog/nfon-support">
                   <span className="hover:text-white transition-colors cursor-pointer">
                     NFON Support
                   </span>
