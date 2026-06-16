@@ -32,7 +32,7 @@ export default function Praxisbeispiele() {
       category: "Wohnungswirtschaft",
       excerpt:
         "Wie eine Wohnungsgenossenschaft mit über 200 Mitarbeitern durch VoiceBot-Automatisierung die Erreichbarkeit auf 24/7 erweiterte und das Service-Team spürbar entlastete.",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
+      image: "/manus-storage/wohnungsgenossenschaft-hof_ccd6fb26.png",
       readTime: "7 Min.",
       results: [
         "7 automatisierte Prozesstypen (Havarie, Schadensmeldung, Beschwerde, Wohnungssuche, FAQ)",

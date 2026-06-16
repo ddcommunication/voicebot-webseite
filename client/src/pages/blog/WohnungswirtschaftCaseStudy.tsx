@@ -44,7 +44,7 @@ export default function WohnungswirtschaftCaseStudy() {
       {/* Hero Image */}
       <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
         <img
-          src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png"
+          src="/manus-storage/wohnungsgenossenschaft-hof_ccd6fb26.png"
           alt="Wohnungswirtschaft VoiceBot Automatisierung"
           className="w-full h-full object-cover"
         />
