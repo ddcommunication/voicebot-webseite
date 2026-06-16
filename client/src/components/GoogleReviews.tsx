@@ -88,7 +88,7 @@ const TOTAL_REVIEWS = 15;
 const REVIEW_URL = "https://share.google/Mmgz9NYGFHdTZfVB0";
 
 // "Alle Bewertungen ansehen" → Google-Suche mit allen Rezensionen
-const MAPS_URL = "https://www.google.com/search?num=10&sca_esv=ec2bff8bd1e2ef21&rlz=1C5CHFA_enDE1059DE1059&hl=de-DE&sxsrf=ANbL-n7FM8Zs0RMCwzeBA1lua1pfI8UL2w:1781627498288&q=rezensionen+f%C3%BCr+z%C3%B6llner+b%C3%BCro-+und+it-systeme+gmbh+dresden&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOS9X1nWvjZ4r2kqy9z3exegxXBUFtWgF3CY8vHKRb_QioEwk49beRUJxPIY7pmSdF7iYOFw%3D&uds=ALYpb_kG-luDHR7lH9jAiJP8Rqi2ydovLRRv5WVMLmoZY6rOQpWop16G4v8My4cpslHeKam5fe-biyty_MVAPWfus5uKYUK91c6jEHKtWiXIJ3vMUmO6XADZETQyMBvNfnnwCdgmhQ162ehp9cyFpnsKOW4mDRwo6irvFeFoSSxmUtycJUb6vEU&sa=X&ved=2ahUKEwji8KDRl4yVAxWgQ_EDHSwNLEgQ3PALegQIMxAF&biw=1475&bih=738&dpr=2";
+const MAPS_URL = "https://www.google.com/search?num=10&rlz=1C5CHFA_enDE1059DE1059&sca_esv=515e544df15d7837&cs=0&sxsrf=ANbL-n77SLp9GVP0Disc5GdRFgk-vyrxrw:1781630415431&q=Z%C3%B6llner+B%C3%BCro-+und+IT-Systeme+GmbH&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOS9X1nWvjZ4r2kqy9z3exegxXBUFtWgF3CY8vHKRb_QioEwk49beRUJxPIY7pmSdF7iYOFw%3D&uds=ALYpb_mgZNSyW_-r_VJg3_KzT_ZRV_yMx_9jDmQmRtrTKC3hzlCHSrugc_fsz9DmLUrpyiOk-rVePr5xlIl76bX3T4q-ztVHHoNB_DDJBemhZJD-lvkkTv5I_4E2WPMO2ElVEJKBV7J2&sa=X&ved=2ahUKEwjvi6HAooyVAxUvSPEDHeS0A7EQ3PALegQIFRAE&biw=1475&bih=738&dpr=2";
 
 function StarRating({ rating }: { rating: number }) {
   return (
