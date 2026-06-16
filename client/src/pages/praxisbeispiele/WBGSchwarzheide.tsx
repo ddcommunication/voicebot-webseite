@@ -97,10 +97,10 @@ export default function WBGSchwarzheide() {
           <img
             src="/manus-storage/wbg-schwarzheide-gebaeude_2a12d360.png"
             alt="Wohngebäude der WBG Schwarzheide eG – Voicebot-Lösung für die Wohnungswirtschaft"
-            className="w-full h-full object-cover opacity-50"
+            className="w-full h-full object-cover opacity-90"
             style={{ objectPosition: 'right center' }}
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950/80 to-slate-900" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/50 to-slate-900/20" />
         </div>
 
         <div className="container relative z-10 py-16 max-w-4xl">
