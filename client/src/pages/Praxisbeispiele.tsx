@@ -46,7 +46,7 @@ export default function Praxisbeispiele() {
       category: "Wohnungswirtschaft",
       excerpt:
         "Die Wohnungsbaugenossenschaft Schwarzheide eG betreut rund 1.720 Mieteinheiten. Mit dem KI-Voicebot \u201eMoni\u201c auf Basis der NFON Cloudtelefonie werden Anrufe 24/7 entgegengenommen, Schadensmeldungen strukturiert erfasst und Mitarbeitende sp\u00fcrbar entlastet.",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
+      image: "/manus-storage/wbg-schwarzheide-gebaeude_2a12d360.png",
       readTime: "5 Min.",
       results: [
         "24/7 Erreichbarkeit \u2013 kein Anruf bleibt unbeantwortet",
@@ -141,6 +141,7 @@ export default function Praxisbeispiele() {
                       src={study.image}
                       alt={study.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-2xl"
+                      style={study.slug === 'wbg-schwarzheide' ? { objectPosition: 'right center' } : undefined}
                     />
 
                   </div>
