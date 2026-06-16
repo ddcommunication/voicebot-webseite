@@ -33,6 +33,7 @@ import Praxisbeispiele from "./pages/Praxisbeispiele";
 import NFONSupport from "./pages/NFONSupport";
 import NFONSupportBlog from "./pages/blog/NFONSupportBlog";
 import UweOrtleppCaseStudy from "./pages/praxisbeispiele/UweOrtlepp";
+import WBGSchwarzheide from "./pages/praxisbeispiele/WBGSchwarzheide";
 import TimumFuerMakler from "./pages/praxisbeispiele/TimumFuerMakler";
 
 function Router() {
@@ -69,6 +70,7 @@ function Router() {
         <Route path="/blog/nfon-support" component={NFONSupportBlog} />
         <Route path="/praxisbeispiele" component={Praxisbeispiele} />
         <Route path="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung" component={UweOrtleppCaseStudy} />
+        <Route path="/praxisbeispiele/wbg-schwarzheide" component={WBGSchwarzheide} />
         <Route path="/praxisbeispiele/timum-fuer-makler" component={TimumFuerMakler} />
         <Route path="/impressum" component={Impressum} />
         <Route path="/datenschutz" component={Datenschutz} />

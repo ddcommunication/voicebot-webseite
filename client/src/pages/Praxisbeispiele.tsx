@@ -41,6 +41,20 @@ export default function Praxisbeispiele() {
       ],
     },
     {
+      slug: "wbg-schwarzheide",
+      title: "WBG Schwarzheide eG: Voicebot \u201eMoni\u201c f\u00fcr die Wohnungswirtschaft",
+      category: "Wohnungswirtschaft",
+      excerpt:
+        "Die Wohnungsbaugenossenschaft Schwarzheide eG betreut rund 1.720 Mieteinheiten. Mit dem KI-Voicebot \u201eMoni\u201c auf Basis der NFON Cloudtelefonie werden Anrufe 24/7 entgegengenommen, Schadensmeldungen strukturiert erfasst und Mitarbeitende sp\u00fcrbar entlastet.",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/GTfBPmolHhsQdIRR.png",
+      readTime: "5 Min.",
+      results: [
+        "24/7 Erreichbarkeit \u2013 kein Anruf bleibt unbeantwortet",
+        "Strukturierte Erfassung von Schadensmeldungen beim Erstkontakt",
+        "Nahtlose Integration in bestehende NFON Cloudtelefonie",
+      ],
+    },
+    {
       slug: "uwe-ortlepp-immobilienfinanzierung",
       title: "Uwe Ortlepp Immobilienfinanzierung",
       category: "Finanzdienstleistung",

@@ -140,6 +140,13 @@ const PAGE_META: Record<string, PageMeta> = {
     canonical: "/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung",
     type: "article",
   },
+  "/praxisbeispiele/wbg-schwarzheide": {
+    title: "Voicebot Moni fuer die WBG Schwarzheide eG | Praxisbeispiel",
+    description: "Wie die Wohnungsbaugenossenschaft Schwarzheide eG mit dem KI-Voicebot Moni von Zoellner ihre Erreichbarkeit verbessert, Mitarbeitende entlastet und Schadensmeldungen rund um die Uhr erfasst.",
+    canonical: "/praxisbeispiele/wbg-schwarzheide",
+    type: "article",
+    keywords: "WBG Schwarzheide, Wohnungsbaugenossenschaft Voicebot, Voicebot Wohnungswirtschaft, NFON Voicebot, Moni Voicebot, Schadensmeldung Voicebot, 24/7 Erreichbarkeit Wohnungswirtschaft",
+  },
   "/praxisbeispiele/timum-fuer-makler": {
     title: "Case Study: Timum Voicebot für Makler",
     description: "Wie Immobilienmakler mit dem Timum-Voicebot Besichtigungstermine automatisch vereinbaren und keine Anfrage mehr verpassen.",
