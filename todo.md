@@ -358,3 +358,12 @@
 - [x] Blogbeitrag KI-Tagung sächsische Wohnungsgenossenschaften erstellen mit Hero-Bild
 - [x] Weitere Artikel Abschnitt im KI-Tagung Blogbeitrag hinzufügen
 - [x] Hero-Bild KI-Tagung Blogbeitrag mit Flughafen-Konferenz Bild ersetzen
+
+## Neues Praxisbeispiel: WBG Schwarzheide (Jun 16, 2026)
+- [x] PDF Case Study lesen und Kerninformationen extrahieren
+- [x] Neue Seite /praxisbeispiele/wbg-schwarzheide erstellen (SEO-optimiert, og:type=article)
+- [x] Schema.org Article-Markup und unique meta tags hinzufügen
+- [x] Seite in Praxisbeispiele-Übersicht einbinden
+- [x] Route in App.tsx registrieren
+- [x] seo-meta.ts mit neuem Eintrag aktualisieren
+- [x] Sitemap um neue URL ergänzen
