@@ -14,6 +14,24 @@ interface Review {
 // Alle Bewertungen (4–5 Sterne), neueste zuerst
 const ALL_REVIEWS: Review[] = [
   {
+    author: "Alf Tempel",
+    rating: 5,
+    date: "Juni 2026",
+    dateISO: "2026-06-09",
+    text: "Sehr empfehlenswert – kompetenter Partner für Digitalisierung und moderne Kommunikationslösungen. Wir haben mit Zöllner im Bereich Digitalisierung und bei der Umsetzung KI-gestützter Kommunikationslösungen sehr gute Erfahrungen gemacht. Von der ersten Beratung bis zur Installation unserer Systeme wurden wir kompetent, strukturiert und zuverlässig begleitet. Besonders positiv ist, dass Zöllner nicht einfach nur Technik installiert, sondern auf unsere individuellen Wünsche & Anforderungen eingegangen ist. Wir waren auf der Suche nach einer Lösung KI-gestützter Kommunikation und einem Partner der verständlich erklärt, sauber umsetzt und auch nach der Einrichtung erreichbar bleibt. Die Implementierung verlief professionell und lösungsorientiert. Für uns ist Zöllner ein starker Partner, wenn es darum geht, Kommunikation moderner, effizienter und zukunftssicher aufzustellen. Vielen Dank für die sehr gute Zusammenarbeit – klare Empfehlung!",
+    initials: "AT",
+    avatarColor: "bg-sky-600",
+  },
+  {
+    author: "Alexander Lang",
+    rating: 5,
+    date: "Juni 2026",
+    dateISO: "2026-06-11",
+    text: "Die Zusammenarbeit mit dem verantwortlichen Team war durchweg positiv. Kommunikation, Abstimmungen und Support verliefen jederzeit offen, transparent und sehr professionell. Rückfragen wurden schnell beantwortet, Lösungen wurden konstruktiv erarbeitet und die Betreuung war stets kundenorientiert. Auch wenn wir das gemeinsame Projekt aufgrund interner Veränderungen in unserem Unternehmen beenden mussten, möchten wir betonen, dass die Zusammenarbeit auf der Dienstleisterseite vorbildlich war. Fachlich kompetent, zuverlässig und angenehm im Umgang. Eine klare Empfehlung für alle, die Wert auf professionelle Betreuung und verlässliche Zusammenarbeit legen. Mit freundlichen Grüßen, Johanniter-Unfall-Hilfe e.V. Regionalverband Dresden",
+    initials: "AL",
+    avatarColor: "bg-blue-700",
+  },
+  {
     author: "Home & Living Immobilien",
     rating: 5,
     date: "Mai 2026",
@@ -60,17 +78,17 @@ const ALL_REVIEWS: Review[] = [
   },
 ];
 
-// Alle 5 Bewertungen anzeigen
+// Alle 7 Bewertungen anzeigen
 const DISPLAYED_REVIEWS = ALL_REVIEWS;
 
 const OVERALL_RATING = 4.9;
-const TOTAL_REVIEWS = 13;
+const TOTAL_REVIEWS = 15;
 
 // "Jetzt bewerten" → Dresdner Standort
 const REVIEW_URL = "https://share.google/Mmgz9NYGFHdTZfVB0";
 
-// "Alle Bewertungen ansehen" → Elsterwerda-Standort (bestehende Maps-URL)
-const MAPS_URL = "https://share.google/5OJaWcWkOC0KNKDn3";
+// "Alle Bewertungen ansehen" → Google-Suche mit allen Rezensionen
+const MAPS_URL = "https://www.google.com/search?num=10&sca_esv=ec2bff8bd1e2ef21&rlz=1C5CHFA_enDE1059DE1059&hl=de-DE&sxsrf=ANbL-n7FM8Zs0RMCwzeBA1lua1pfI8UL2w:1781627498288&q=rezensionen+f%C3%BCr+z%C3%B6llner+b%C3%BCro-+und+it-systeme+gmbh+dresden&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOS9X1nWvjZ4r2kqy9z3exegxXBUFtWgF3CY8vHKRb_QioEwk49beRUJxPIY7pmSdF7iYOFw%3D&uds=ALYpb_kG-luDHR7lH9jAiJP8Rqi2ydovLRRv5WVMLmoZY6rOQpWop16G4v8My4cpslHeKam5fe-biyty_MVAPWfus5uKYUK91c6jEHKtWiXIJ3vMUmO6XADZETQyMBvNfnnwCdgmhQ162ehp9cyFpnsKOW4mDRwo6irvFeFoSSxmUtycJUb6vEU&sa=X&ved=2ahUKEwji8KDRl4yVAxWgQ_EDHSwNLEgQ3PALegQIMxAF&biw=1475&bih=738&dpr=2";
 
 function StarRating({ rating }: { rating: number }) {
   return (
