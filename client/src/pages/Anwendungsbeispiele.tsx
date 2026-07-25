@@ -14,6 +14,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "wouter";
+import AIBadge from "@/components/AIBadge";
 
 export default function Anwendungsbeispiele() {
   const useCases = [
@@ -129,6 +130,7 @@ export default function Anwendungsbeispiele() {
             alt="KI-Mitarbeiterin an Hotel-Rezeption mit VOICI Hotel Assistant"
             className="w-full h-full object-cover"
           />
+          <AIBadge />
           <div className="absolute inset-0 bg-slate-900/60" />
         </div>
 
