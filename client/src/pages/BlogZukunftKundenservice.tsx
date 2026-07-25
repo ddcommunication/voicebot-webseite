@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
+import AIBadge from "@/components/AIBadge";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogZukunftKundenservice() {
@@ -36,6 +37,7 @@ export default function BlogZukunftKundenservice() {
           alt="Zukunft des Kundenservice mit KI"
           className="w-full h-full object-cover"
         />
+        <AIBadge />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         <div className="absolute bottom-8 left-0 right-0">
           <div className="container max-w-4xl">
@@ -358,11 +360,14 @@ export default function BlogZukunftKundenservice() {
             {/* Article 1 */}
             <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
-                  alt="Voicebot vs. Mitarbeiter"
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
+                    alt="Voicebot vs. Mitarbeiter"
+                    className="w-full h-48 object-cover"
+                  />
+                  <AIBadge />
+                </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
                     Voicebot vs. Mitarbeiter: Der Kosten-Nutzen-Vergleich
@@ -377,11 +382,14 @@ export default function BlogZukunftKundenservice() {
             {/* Article 2 */}
             <Link href="/blog/perfekte-begruessung" className="group">
               <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
-                  alt="Perfekte Voicebot-Begrüßung"
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
+                    alt="Perfekte Voicebot-Begrüßung"
+                    className="w-full h-48 object-cover"
+                  />
+                  <AIBadge />
+                </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
                     5 Tipps für die perfekte Voicebot-Begrüßung

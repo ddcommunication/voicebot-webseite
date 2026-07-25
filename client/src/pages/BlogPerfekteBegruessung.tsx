@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowLeft, X, Check } from "lucide-react";
 import { Link } from "wouter";
+import AIBadge from "@/components/AIBadge";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogPerfekteBegruessung() {
@@ -36,6 +37,7 @@ export default function BlogPerfekteBegruessung() {
           alt="Perfekte Voicebot-Begrüßung"
           className="w-full h-full object-cover"
         />
+        <AIBadge />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         <div className="absolute bottom-8 left-0 right-0">
           <div className="container max-w-4xl">

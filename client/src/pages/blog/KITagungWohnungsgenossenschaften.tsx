@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, MapPin, Calendar, Clock, Users, ExternalLink } from "lucide-react";
@@ -47,6 +48,7 @@ export default function KITagungWohnungsgenossenschaften() {
           alt="KI-Tagung Wohnungswirtschaft Dresden – Fachleute im Gespräch an Ausstellungsstand"
           className="w-full h-full object-cover"
         />
+        <AIBadge />
         <div className="absolute inset-0 bg-slate-900/50" />
       </div>
 
@@ -256,12 +258,13 @@ export default function KITagungWohnungsgenossenschaften() {
             <div className="grid sm:grid-cols-2 gap-6">
               <Link href="/blog/wohnungswirtschaft-voicebot">
                 <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                  <div className="aspect-video overflow-hidden">
+                  <div className="aspect-video overflow-hidden relative">
                     <img
                       src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/wohnungswirtschaft-voicebot-hero_0f85733d.png"
                       alt="Voicebot in der Wohnungswirtschaft"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
+                    <AIBadge />
                   </div>
                   <div className="p-5">
                     <div className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary mb-3">
@@ -279,12 +282,13 @@ export default function KITagungWohnungsgenossenschaften() {
 
               <Link href="/blog/voicebot-kmu-kosten-roi">
                 <div className="group rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                  <div className="aspect-video overflow-hidden">
+                  <div className="aspect-video overflow-hidden relative">
                     <img
                       src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg"
                       alt="Voicebot für KMU"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
+                    <AIBadge />
                   </div>
                   <div className="p-5">
                     <div className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary mb-3">

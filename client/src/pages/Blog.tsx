@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import AIBadge from "@/components/AIBadge";
 import {
   Card,
   CardContent,
@@ -22,6 +23,7 @@ export default function Blog() {
       category: "Gesundheit & Soziales",
       image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-sozialwesen-gesundheitswesen-pflegedienst_99f45126.webp",
       slug: "/blog/voicebots-gesundheitswesen-sozialwesen",
+      aiGenerated: true,
     },
     {
       title: "Nia FrontDesk: Der KI-Sprachassistent von NFON",
@@ -32,6 +34,7 @@ export default function Blog() {
       category: "Produkttest",
       image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp",
       slug: "/blog/nia-frontdesk-nfon",
+      aiGenerated: true,
     },
     {
       title: "onOffice business-beats 2026 – Voicebot-Integration live erleben in Aachen",
@@ -42,6 +45,7 @@ export default function Blog() {
       category: "Veranstaltung",
       image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp",
       slug: "/blog/business-beats-2026-onoffice-voicebot",
+      aiGenerated: true,
     },
     {
       title: "KI-Tagung der sächsischen Wohnungsgenossenschaften – Wir sind dabei",
@@ -52,6 +56,7 @@ export default function Blog() {
       category: "Veranstaltung",
       image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp",
       slug: "/blog/ki-tagung-wohnungsgenossenschaften-2026",
+      aiGenerated: true,
     },
     {
       title: "Voicebot für KMU: Lohnt sich das?",
@@ -62,6 +67,7 @@ export default function Blog() {
       category: "KMU & Mittelstand",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg",
       slug: "/blog/voicebot-kmu-kosten-roi",
+      aiGenerated: true,
     },
     {
       title: "Hackathon Vice-Meister bei Nexus Connect 2026",
@@ -82,6 +88,7 @@ export default function Blog() {
       category: "Analyse",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
       slug: "/blog/voicebot-vs-mitarbeiter",
+      aiGenerated: true,
     },
     {
       title: "Warum Voicebots die Zukunft des Kundenservice sind",
@@ -92,6 +99,7 @@ export default function Blog() {
       category: "Technologie",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg",
       slug: "/blog/zukunft-kundenservice",
+      aiGenerated: true,
     },
     {
       title: "5 Tipps für die perfekte Voicebot-Begrüßung",
@@ -102,6 +110,7 @@ export default function Blog() {
       category: "Best Practices",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg",
       slug: "/blog/perfekte-begruessung",
+      aiGenerated: true,
     },
   ];
 
@@ -175,6 +184,7 @@ export default function Blog() {
                     <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
                       {post.category}
                     </div>
+                    {post.aiGenerated && <AIBadge />}
                   </div>
                 </Link>
                 <CardHeader>

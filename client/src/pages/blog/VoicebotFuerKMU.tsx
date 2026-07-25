@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { ArrowLeft, TrendingUp, Calculator, Users, Clock, CheckCircle2, AlertCircle } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
@@ -42,6 +43,7 @@ export default function VoicebotFuerKMU() {
             alt="KI-Telefonassistent Kosten-Nutzen-Analyse für KMU" 
             className="w-full h-full object-cover opacity-90"
           />
+          <AIBadge />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/50 via-slate-900/30 to-slate-900/20" />
         </div>
         
@@ -412,12 +414,13 @@ export default function VoicebotFuerKMU() {
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/blog/voicebot-vs-mitarbeiter" className="group">
               <div className="bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <img
                     src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg"
                     alt="Voicebot vs. Mitarbeiter Vergleich"
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  <AIBadge />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">Voicebot vs. Mitarbeiter: Der direkte Vergleich</h3>
@@ -430,12 +433,13 @@ export default function VoicebotFuerKMU() {
 
             <Link href="/blog/wohnungswirtschaft-voicebot" className="group">
               <div className="bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <img
                     src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/wohnungsgenossenschaft-voicebot-telefonannahme_2f4e9f7c.jpg"
                     alt="Wohnungswirtschaft Voicebot Praxisbeispiel"
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  <AIBadge />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">Wohnungsgenossenschaft: Automatisierte Telefonannahme</h3>

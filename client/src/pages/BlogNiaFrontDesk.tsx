@@ -9,6 +9,7 @@ import {
 import { Calendar, User, ArrowLeft, Shield, Clock, Phone, Settings, Globe } from "lucide-react";
 import { Link } from "wouter";
 import { generateBreadcrumbSchema } from "@/lib/schema";
+import AIBadge from "@/components/AIBadge";
 import RelatedPosts from "@/components/RelatedPosts";
 
 export default function BlogNiaFrontDesk() {
@@ -53,6 +54,7 @@ export default function BlogNiaFrontDesk() {
           width="1376"
           height="752"
         />
+        <AIBadge />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         <div className="absolute bottom-8 left-0 right-0">
           <div className="container max-w-4xl">

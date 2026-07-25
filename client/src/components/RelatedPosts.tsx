@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import AIBadge from "@/components/AIBadge";
 
 interface BlogPost {
   title: string;
@@ -6,6 +7,7 @@ interface BlogPost {
   category: string;
   image: string;
   slug: string;
+  aiGenerated?: boolean;
 }
 
 const ALL_POSTS: BlogPost[] = [
@@ -17,6 +19,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-sozialwesen-gesundheitswesen-pflegedienst_99f45126.webp",
     slug: "/blog/voicebots-gesundheitswesen-sozialwesen",
+    aiGenerated: true,
   },
   {
     title: "Nia FrontDesk: Der KI-Sprachassistent von NFON",
@@ -26,6 +29,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp",
     slug: "/blog/nia-frontdesk-nfon",
+    aiGenerated: true,
   },
   {
     title: "onOffice business-beats 2026 – Voicebot-Integration live erleben in Aachen",
@@ -35,6 +39,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp",
     slug: "/blog/business-beats-2026-onoffice-voicebot",
+    aiGenerated: true,
   },
   {
     title: "KI-Tagung der sächsischen Wohnungsgenossenschaften – Wir sind dabei",
@@ -44,6 +49,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp",
     slug: "/blog/ki-tagung-wohnungsgenossenschaften-2026",
+    aiGenerated: true,
   },
   {
     title: "Voicebot für KMU: Lohnt sich das?",
@@ -53,6 +59,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg",
     slug: "/blog/voicebot-kmu-kosten-roi",
+    aiGenerated: true,
   },
   {
     title: "Hackathon Vice-Meister bei Nexus Connect 2026",
@@ -70,6 +77,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
     slug: "/blog/voicebot-vs-mitarbeiter",
+    aiGenerated: true,
   },
   {
     title: "Warum Voicebots die Zukunft des Kundenservice sind",
@@ -79,6 +87,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg",
     slug: "/blog/zukunft-kundenservice",
+    aiGenerated: true,
   },
   {
     title: "5 Tipps für die perfekte Voicebot-Begrüßung",
@@ -88,6 +97,7 @@ const ALL_POSTS: BlogPost[] = [
     image:
       "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg",
     slug: "/blog/perfekte-begruessung",
+    aiGenerated: true,
   },
 ];
 
@@ -111,13 +121,14 @@ export default function RelatedPosts({ currentSlug, count = 3 }: RelatedPostsPro
           {related.map((post) => (
             <Link key={post.slug} href={post.slug}>
               <div className="bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group h-full flex flex-col">
-                <div className="h-44 overflow-hidden shrink-0">
+                <div className="relative h-44 overflow-hidden shrink-0">
                   <img
                     src={post.image}
                     alt={post.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
+                  {post.aiGenerated && <AIBadge />}
                 </div>
                 <div className="p-4 flex flex-col flex-1">
                   <span className="text-xs font-bold text-secondary uppercase tracking-wider">

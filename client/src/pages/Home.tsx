@@ -1,4 +1,5 @@
 import { useAuth } from "@/_core/hooks/useAuth";
+import AIBadge from "@/components/AIBadge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -75,6 +76,7 @@ export default function Home() {
             alt="Dynamische Voicebot Technologie"
             className="w-full h-full object-cover opacity-80"
           />
+          <AIBadge />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
         </div>
 
@@ -207,6 +209,7 @@ export default function Home() {
                 alt="Voici Voicebot"
                 className="relative rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
               />
+              <AIBadge />
             </div>
 
             <div className="order-1 md:order-2 space-y-8">

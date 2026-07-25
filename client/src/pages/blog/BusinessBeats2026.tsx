@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, MapPin, Calendar, Clock, Users, ExternalLink, Ticket } from "lucide-react";
@@ -91,6 +92,7 @@ export default function BusinessBeats2026() {
           alt="onOffice business-beats 2026 – Das Branchenevent für Immobilienmakler in Aachen"
           className="w-full h-full object-cover"
         />
+        <AIBadge />
         <div className="absolute inset-0 bg-slate-900/50" />
       </div>
 
@@ -296,11 +298,14 @@ export default function BusinessBeats2026() {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/ki-tagung-wohnungsgenossenschaften-2026">
                 <div className="group rounded-2xl overflow-hidden border border-border hover:shadow-md transition-shadow cursor-pointer">
-                  <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp"
-                    alt="KI-Tagung Wohnungsgenossenschaften"
-                    className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <div className="relative overflow-hidden">
+                    <img
+                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp"
+                      alt="KI-Tagung Wohnungsgenossenschaften"
+                      className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <AIBadge />
+                  </div>
                   <div className="p-4">
                     <p className="font-semibold text-foreground text-sm">KI-Tagung der sächsischen Wohnungsgenossenschaften – Wir sind dabei</p>
                     <p className="text-xs text-muted-foreground mt-1">Am 19. Mai 2026 in Dresden</p>
@@ -309,11 +314,14 @@ export default function BusinessBeats2026() {
               </Link>
               <Link href="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung">
                 <div className="group rounded-2xl overflow-hidden border border-border hover:shadow-md transition-shadow cursor-pointer">
-                  <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/uwe-ortlepp-consultation_c1ce43a0.jpg"
-                    alt="Uwe Ortlepp Praxisbeispiel"
-                    className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <div className="relative overflow-hidden">
+                    <img
+                      src="https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/uwe-ortlepp-consultation_c1ce43a0.jpg"
+                      alt="Uwe Ortlepp Praxisbeispiel"
+                      className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <AIBadge />
+                  </div>
                   <div className="p-4">
                     <p className="font-semibold text-foreground text-sm">Praxisbeispiel: Uwe Ortlepp Immobilienfinanzierung</p>
                     <p className="text-xs text-muted-foreground mt-1">Voicebot in der Praxis – live erleben</p>

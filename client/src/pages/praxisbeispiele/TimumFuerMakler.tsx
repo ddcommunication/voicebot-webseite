@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { Calendar, Building2, Zap, CheckCircle2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -38,13 +39,14 @@ export default function TimumFuerMakler() {
       <article className="py-16">
         <div className="container max-w-4xl">
           {/* Hero Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl">
+          <div className="relative mb-12 rounded-2xl overflow-hidden shadow-2xl">
             <img
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/CmbKtyqgiYbsPWCw.webp"
               alt="Immobilienmakler Terminplanung mit digitalem System"
               className="w-full h-auto object-cover"
               loading="lazy"
             />
+            <AIBadge />
           </div>
 
           {/* Introduction */}

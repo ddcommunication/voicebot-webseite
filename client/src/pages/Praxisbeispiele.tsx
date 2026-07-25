@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { generateBreadcrumbSchema, generateServiceWithRatingSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -101,6 +102,7 @@ export default function Praxisbeispiele() {
             alt="Praxisbeispiele Voicebot Technologie" 
             className="w-full h-full object-cover opacity-80"
           />
+          <AIBadge />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent" />
         </div>
 
@@ -143,7 +145,8 @@ export default function Praxisbeispiele() {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-2xl"
                       style={study.slug === 'wbg-schwarzheide' ? { objectPosition: 'right center' } : undefined}
                     />
-
+                    {/* KI-Badge nur für KI-generierte Bilder */}
+                    {(study.slug === 'timum-fuer-makler') && <AIBadge />}
                   </div>
 
                   {/* Content Section */}

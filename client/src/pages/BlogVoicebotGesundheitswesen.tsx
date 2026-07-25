@@ -9,6 +9,7 @@ import {
 import { Calendar, User, ArrowLeft, Heart, Shield, Clock, Phone, AlertTriangle, CheckCircle2 } from "lucide-react";
 import { Link } from "wouter";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import AIBadge from "@/components/AIBadge";
 import RelatedPosts from "@/components/RelatedPosts";
 
 const HERO_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-sozialwesen-gesundheitswesen-pflegedienst_99f45126.webp";
@@ -66,6 +67,7 @@ export default function BlogVoicebotGesundheitswesen() {
           width="1168"
           height="784"
         />
+        <AIBadge />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
         <div className="absolute bottom-8 left-0 right-0">
           <div className="container max-w-4xl">

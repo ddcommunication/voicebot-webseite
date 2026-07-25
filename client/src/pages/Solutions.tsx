@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import AIBadge from "@/components/AIBadge";
 import { Check, Phone, Calendar, MessageSquare, UserCheck } from "lucide-react";
 import { Link } from "wouter";
 import SEO from "@/components/SEO";
@@ -62,6 +63,7 @@ export default function Solutions() {
             alt="KI-Mitarbeiterinnen im modernen Call-Center mit Voicebot Solutions"
             className="w-full h-full object-cover"
           />
+          <AIBadge />
           <div className="absolute inset-0 bg-slate-900/60" />
         </div>
 
@@ -360,6 +362,7 @@ export default function Solutions() {
       {/* CTA */}
       <section className="py-20 bg-primary text-primary-foreground text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/SqjxazcyOtzEjaSx.jpg')] opacity-10 bg-cover bg-center"></div>
+        <AIBadge />
         <div className="container max-w-3xl relative z-10">
           <h2 className="text-3xl font-serif font-bold mb-6">
             Welche Lösung passt zu Ihnen?

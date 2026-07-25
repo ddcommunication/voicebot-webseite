@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -48,6 +49,7 @@ export default function VoicebotVsMitarbeiter() {
           alt="Voicebot vs. Mitarbeiter Kostenvergleich"
           className="w-full h-full object-cover"
         />
+        <AIBadge />
       </div>
 
       <article className="bg-background py-20 -mt-32 relative z-10">
@@ -230,11 +232,14 @@ export default function VoicebotVsMitarbeiter() {
           <div className="grid md:grid-cols-2 gap-8">
             <Link href="/blog/zukunft-kundenservice" className="block">
               <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden">
-                <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg"
-                  alt="Zukunft des Kundenservice"
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg"
+                    alt="Zukunft des Kundenservice"
+                    className="w-full h-48 object-cover"
+                  />
+                  <AIBadge />
+                </div>
                 <CardContent className="p-6">
                   <h4 className="font-bold text-xl mb-3">Warum Voicebots die Zukunft des Kundenservice sind</h4>
                   <p className="text-muted-foreground text-base">
@@ -246,11 +251,14 @@ export default function VoicebotVsMitarbeiter() {
 
             <Link href="/blog/perfekte-begruessung" className="block">
               <Card className="h-full hover:shadow-lg transition-shadow overflow-hidden">
-                <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
-                  alt="Perfekte Voicebot-Begrüßung"
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg"
+                    alt="Perfekte Voicebot-Begrüßung"
+                    className="w-full h-48 object-cover"
+                  />
+                  <AIBadge />
+                </div>
                 <CardContent className="p-6">
                   <h4 className="font-bold text-xl mb-3">5 Tipps für die perfekte Voicebot-Begrüßung</h4>
                   <p className="text-muted-foreground text-base">

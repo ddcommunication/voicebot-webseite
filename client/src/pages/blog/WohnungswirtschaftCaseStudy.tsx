@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import AIBadge from "@/components/AIBadge";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -519,11 +520,14 @@ export default function WohnungswirtschaftCaseStudy() {
               </Link>
               <Link href="/blog/voicebot-vs-mitarbeiter">
                 <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full overflow-hidden">
-                  <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg" 
-                    alt="Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen" 
-                    className="w-full h-48 object-cover"
-                  />
+                  <div className="relative">
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg" 
+                      alt="Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen" 
+                      className="w-full h-48 object-cover"
+                    />
+                    <AIBadge />
+                  </div>
                   <CardContent className="pt-6">
                     <h4 className="font-bold text-lg mb-2 hover:text-primary transition-colors">
                       Voicebot vs. Mitarbeiter: Kosten-Nutzen-Vergleich Arztpraxen
