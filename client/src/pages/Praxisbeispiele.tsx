@@ -146,7 +146,7 @@ export default function Praxisbeispiele() {
                       style={study.slug === 'wbg-schwarzheide' ? { objectPosition: 'right center' } : undefined}
                     />
                     {/* KI-Badge nur für KI-generierte Bilder */}
-                    {(study.slug === 'timum-fuer-makler') && <AIBadge />}
+                    {(study.slug === 'timum-fuer-makler' || study.slug === 'wohnungswirtschaft-voicebot') && <AIBadge />}
                   </div>
 
                   {/* Content Section */}

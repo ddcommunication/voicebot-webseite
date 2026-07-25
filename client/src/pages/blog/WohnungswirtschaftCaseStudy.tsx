@@ -49,6 +49,7 @@ export default function WohnungswirtschaftCaseStudy() {
           alt="Wohnungswirtschaft VoiceBot Automatisierung"
           className="w-full h-full object-cover"
         />
+        <AIBadge />
       </div>
 
       <article className="bg-background py-20 -mt-32 relative z-10">

@@ -9,6 +9,7 @@ import { trpc } from "@/lib/trpc";
 import { useState } from "react";
 import { toast } from "sonner";
 import GoogleReviews from "@/components/GoogleReviews";
+import AIBadge from "@/components/AIBadge";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -84,6 +85,7 @@ export default function Contact() {
             alt="KI-gestützte Kommunikationslösungen" 
             className="w-full h-full object-cover"
           />
+          <AIBadge />
           <div className="absolute inset-0 bg-slate-900/60" />
         </div>
         
