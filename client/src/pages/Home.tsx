@@ -391,7 +391,7 @@ export default function Home() {
                 Wie kann ich den Bot testen?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base leading-relaxed">
-                Sie können jederzeit einen kostenlosen Termin buchen und selbst erleben, wie einfach es funktioniert. Wenn Sie ein Gefühl dafür bekommen möchten, wie sich ein Voicebot für Ihre Branche anfühlt, kontaktieren Sie uns gern. Sie können unseren Termin-Bot auch unter <a href="tel:+4935334807-48" className="text-primary hover:underline font-medium">+49 3533 4807-48</a> erreichen.
+                Sie können jederzeit einen kostenlosen Termin buchen und selbst erleben, wie einfach es funktioniert. Wenn Sie ein Gefühl dafür bekommen möchten, wie sich ein Voicebot für Ihre Branche anfühlt, kontaktieren Sie uns gern. Sie können unseren Termin-Bot auch unter <a href="tel:+4935334807-12" className="text-primary hover:underline font-medium">+49 3533 4807-12</a> erreichen.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

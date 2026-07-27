@@ -79,10 +79,10 @@ export default function Impressum() {
                     <div>
                       <p className="font-medium text-slate-900">Telefon</p>
                       <a
-                        href="tel:+4935334807-48"
+                        href="tel:+4935334807-12"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +49 3533 4807-48
+                        +49 3533 4807-12
                       </a>
                     </div>
                   </div>

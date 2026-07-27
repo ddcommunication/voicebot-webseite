@@ -161,7 +161,7 @@ export default function NFONSupport() {
       />
       <SEO
         title="☑️ NFON Support & Service für Unternehmen"
-        description="Persönlicher NFON Support ✓ Voicebots, CTI-Integrationen, Cloud-Telefonie für Unternehmen ☎ +49 3533 4807-48 ✓ schnell, sicher, zuverlässig"
+        description="Persönlicher NFON Support ✓ Voicebots, CTI-Integrationen, Cloud-Telefonie für Unternehmen ☎ +49 3533 4807-12 ✓ schnell, sicher, zuverlässig"
         canonical="/nfon-support"
       />
 
@@ -208,14 +208,14 @@ export default function NFONSupport() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <a href="tel:+4935334807-48">
+              <a href="tel:+4935334807-12">
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-white/20 text-white hover:bg-white/10 rounded-full px-8 bg-transparent"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  +49 3533 4807-48
+                  +49 3533 4807-12
                 </Button>
               </a>
             </div>

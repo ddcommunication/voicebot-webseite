@@ -33,8 +33,8 @@ export default function Termin() {
           <div className="mt-12 text-center text-sm text-muted-foreground">
             <p>
               Sie haben Fragen? Rufen Sie uns an unter{" "}
-              <a href="tel:+4935334807-48" className="text-primary hover:underline">
-                +49 3533 4807-48
+              <a href="tel:+4935334807-12" className="text-primary hover:underline">
+                +49 3533 4807-12
               </a>{" "}
               oder schreiben Sie uns an{" "}
               <a href="mailto:kontakt@sprachassistent.net" className="text-primary hover:underline">

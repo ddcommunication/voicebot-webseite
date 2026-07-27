@@ -162,7 +162,7 @@ export default function NFONSupportBlog() {
       />
       <SEO
         title="NFON Support & Service für Unternehmen | Zöllner Office"
-        description="Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-48"
+        description="Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-12"
         canonical="/blog/nfon-support"
         type="article"
       />
@@ -210,14 +210,14 @@ export default function NFONSupportBlog() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <a href="tel:+4935334807-48">
+              <a href="tel:+4935334807-12">
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-white/20 text-white hover:bg-white/10 rounded-full px-8 bg-transparent"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  +49 3533 4807-48
+                  +49 3533 4807-12
                 </Button>
               </a>
             </div>

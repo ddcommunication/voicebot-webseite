@@ -284,9 +284,9 @@ export default function Contact() {
                     <div>
                       <h3 className="font-bold text-primary">Telefon</h3>
                       <p className="text-muted-foreground">
-                        <strong>Elsterwerda:</strong> +49 3533 4807-48
+                        <strong>Elsterwerda:</strong> <a href="tel:+4935334807-12" className="hover:text-primary transition-colors">+49 3533 4807-12</a>
                         <br />
-                        <strong>Dresden:</strong> +49 351 287087-51
+                        <strong>Dresden:</strong> <a href="tel:+493512870871" className="hover:text-primary transition-colors">+49 351 287087-51</a>
 
                       </p>
                     </div>
