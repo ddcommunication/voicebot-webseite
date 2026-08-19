@@ -9,7 +9,8 @@
     "start": "NODE_ENV=production node dist/index.js",
     "check": "tsc --noEmit",
     "format": "prettier --write .",
-    "test": "vitest run",
+    "test": "vitest run server/auth.logout.test.ts server/_core/seo-meta.test.ts",
+    "test:integration": "vitest run server/contact.test.ts server/contact.mailer.test.ts server/mailer.test.ts server/smtp.test.ts",
     "db:push": "drizzle-kit generate && drizzle-kit migrate",
     "postbuild:static": "react-snap"
   },

@@ -387,3 +387,6 @@
 
 ## Erneuter Bildwechsel: futureSAX-Innovationsforum (August 2026)
 - [x] Zuletzt bereitgestelltes Sorbisches-National-Ensemble-Foto in Hero, Vorschauen und SEO-Bildreferenzen austauschen
+
+## Testschutz: Kontaktformular (August 2026)
+- [x] Routine-Testbefehl so dokumentieren und absichern, dass SMTP-Tests keine realen Test-E-Mails versenden
