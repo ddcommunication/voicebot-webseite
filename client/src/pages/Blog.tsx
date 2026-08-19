@@ -192,7 +192,7 @@ export default function Blog() {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     {post.slug === "/blog/futuresax-innovationsforum-new-work-ki-2026" && (
-                      <div className="absolute inset-0 bg-gradient-to-br from-slate-950/30 via-blue-700/20 to-cyan-400/20 pointer-events-none" />
+                      <div className="absolute inset-0 bg-[#09213A]/55 pointer-events-none" />
                     )}
                     <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
                       {post.category}

@@ -110,10 +110,9 @@ export default function FutureSaxNewWorkKI2026() {
         <img
           src={HERO_IMAGE}
           alt="Blick auf Bautzen mit dem Sorbischen National-Ensemble als Veranstaltungsort des futureSAX-Innovationsforums"
-          className="w-full h-full object-cover object-center saturate-75"
+          className="w-full h-full object-cover object-center saturate-90 contrast-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/75 to-cyan-950/55" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_22%,rgba(14,165,233,0.24),transparent_36%)]" />
+        <div className="absolute inset-0 bg-[#09213A]/75" />
         <div className="absolute inset-x-0 bottom-0">
           <div className="container max-w-4xl pb-10 md:pb-14">
             <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-400/10 px-3 py-1.5 text-xs font-semibold text-cyan-100 backdrop-blur-sm mb-4">

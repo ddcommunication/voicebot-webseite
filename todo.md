@@ -381,3 +381,6 @@
 
 ## Bildwechsel: futureSAX-Innovationsforum (August 2026)
 - [x] Neues bereitgestelltes Sorbisches-National-Ensemble-Foto in Hero, Blogvorschau und SEO-Bildreferenzen integrieren
+
+## Farbverfeinerung: futureSAX-Bildtönung (August 2026)
+- [x] Milchige Blau-/Cyan-Tönung durch Markenblau #09213A in Hero und Blogvorschau ersetzen

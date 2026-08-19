@@ -31,3 +31,7 @@ Die ausgelieferte Seite wurde zudem auf technische SEO-Signale geprüft. Vorhand
 ## Bildwechsel (August 2026)
 
 Das zunächst bereitgestellte Hero-Foto wurde durch die neue, breitere Aufnahme des Sorbischen National-Ensembles ersetzt. Die neue Aufnahme wird im Artikel-Hero, in der Blogvorschau, in den ähnlichen Beiträgen und in den serverseitigen Open-Graph-/Twitter-Metadaten verwendet. Im Hero bleibt der Blau-/Cyan-Overlay bestehen; auch die Blogvorschau behält ihre dezente Blau-/Cyan-Tönung.
+
+## Markenblau-Anpassung (August 2026)
+
+Die zuvor blau-/cyanfarbene Tönung wurde durch das Markenblau `#09213A` ersetzt. Im Hero kommt ein gleichmäßiger Overlay in dieser Farbe zum Einsatz; die Blogvorschau nutzt dieselbe Farbe als dezente, klare Tönung. Hero und Vorschau wurden anschließend visuell geprüft; Bildinhalt und weiße Texte bleiben gut erkennbar.
