@@ -39,3 +39,7 @@ Die zuvor blau-/cyanfarbene Tönung wurde durch das Markenblau `#09213A` ersetzt
 ## Zweiter Bildwechsel (August 2026)
 
 Die zuletzt bereitgestellte Aufnahme des Sorbischen National-Ensembles wurde im Artikel-Hero und in der Blogvorschau erfolgreich geprüft. Die Tönung in Markenblau `#09213A` bleibt in beiden Bereichen bestehen und die neuen Bildreferenzen werden korrekt ausgeliefert.
+
+## Bautzen-Panorama mit Attribution (August 2026)
+
+Das Hero- und Vorschaubild wurde durch die bereitgestellte Bautzen-Panoramaaufnahme ersetzt. Der bisherige blaue Overlay wurde vollständig entfernt; das Bild wird unverfälscht dargestellt. Im Hero ist die sichtbare und mit der Lizenz verlinkte Attribution `Bautzen Bild: Monster4711, CC BY-SA 3.0` unten rechts eingebunden. Die Blogvorschau zeigt dasselbe Bild ohne Overlay.

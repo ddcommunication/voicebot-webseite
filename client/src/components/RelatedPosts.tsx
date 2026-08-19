@@ -16,7 +16,7 @@ const ALL_POSTS: BlogPost[] = [
     excerpt:
       "Peter Gemander spricht am 24. September 2026 in Bautzen über smarte Telefonanlagen mit KI-Assistenten und intelligente Business-Kommunikation.",
     category: "Veranstaltung",
-    image: "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026-v2_943a4396.jpg",
+    image: "/manus-storage/bautzen-panorama-monster4711-cc-by-sa-3_5ca87732.webp",
     slug: "/blog/futuresax-innovationsforum-new-work-ki-2026",
   },
   {

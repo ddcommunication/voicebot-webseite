@@ -116,7 +116,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description: "Peter Gemander spricht am 24. September 2026 beim futureSAX-Innovationsforum New Work & KI in Bautzen über smarte Telefonanlagen mit KI-Assistenten.",
     canonical: "/blog/futuresax-innovationsforum-new-work-ki-2026",
     keywords: "futureSAX Innovationsforum New Work KI 2026, Peter Gemander, smarte Telefonanlage, KI-Assistenten, KI Telefonie, Bautzen, Zöllner Office",
-    image: "https://sprachassistent.net/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026-v2_943a4396.jpg",
+    image: "https://sprachassistent.net/manus-storage/bautzen-panorama-monster4711-cc-by-sa-3_5ca87732.webp",
     type: "article",
   },
   "/blog/zukunft-kundenservice": {

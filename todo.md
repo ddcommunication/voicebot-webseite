@@ -390,3 +390,7 @@
 
 ## Testschutz: Kontaktformular (August 2026)
 - [x] Routine-Testbefehl so dokumentieren und absichern, dass SMTP-Tests keine realen Test-E-Mails versenden
+
+## Bildwechsel mit Attribution: futureSAX (August 2026)
+- [x] Bautzen-Panorama ohne Blau-Overlay in Hero, Vorschauen und SEO-Bildreferenzen einsetzen
+- [x] Sichtbare Bildattribution „Bautzen Bild: Monster4711, CC BY-SA 3.0“ am Beitrag ergänzen

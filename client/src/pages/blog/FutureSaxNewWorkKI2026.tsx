@@ -25,7 +25,7 @@ const EVENT_URL =
 const PROGRAM_URL =
   "https://www.futuresax.de/fileadmin/user_upload/Programm-IF-II-2026_.pdf";
 const HERO_IMAGE =
-  "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026-v2_943a4396.jpg";
+  "/manus-storage/bautzen-panorama-monster4711-cc-by-sa-3_5ca87732.webp";
 const ARTICLE_URL =
   "https://www.sprachassistent.net/blog/futuresax-innovationsforum-new-work-ki-2026";
 
@@ -107,23 +107,33 @@ export default function FutureSaxNewWorkKI2026() {
       />
 
       <section className="relative h-[400px] md:h-[520px] overflow-hidden">
-        <img
-          src={HERO_IMAGE}
-          alt="Blick auf Bautzen mit dem Sorbischen National-Ensemble als Veranstaltungsort des futureSAX-Innovationsforums"
-          className="w-full h-full object-cover object-center saturate-90 contrast-105"
-        />
-        <div className="absolute inset-0 bg-[#09213A]/75" />
-        <div className="absolute inset-x-0 bottom-0">
-          <div className="container max-w-4xl pb-10 md:pb-14">
-            <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-400/10 px-3 py-1.5 text-xs font-semibold text-cyan-100 backdrop-blur-sm mb-4">
-              <Calendar className="h-3.5 w-3.5" /> 24. September 2026 · Bautzen
+          <img
+            src={HERO_IMAGE}
+            alt="Panoramablick über die historische Altstadt von Bautzen"
+            className="w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-x-0 bottom-0">
+            <div className="container max-w-4xl pb-10 md:pb-14">
+              <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-400/10 px-3 py-1.5 text-xs font-semibold text-cyan-100 backdrop-blur-sm mb-4">
+                <Calendar className="h-3.5 w-3.5" /> 24. September 2026 · Bautzen
+              </div>
+              <h1 className="max-w-4xl text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight text-white [text-shadow:0_3px_14px_rgba(0,0,0,0.85)]">
+                futureSAX-Innovationsforum New Work & KI: Wir sind dabei
+              </h1>
             </div>
-            <h1 className="max-w-4xl text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight text-white">
-              futureSAX-Innovationsforum New Work & KI: Wir sind dabei
-            </h1>
           </div>
-        </div>
-      </section>
+          <div className="absolute bottom-3 right-3 rounded bg-white/90 px-2.5 py-1 text-[10px] font-medium text-slate-900 shadow-sm sm:bottom-4 sm:right-4 sm:text-xs">
+            Bautzen Bild: Monster4711, {" "}
+            <a
+              href="https://creativecommons.org/licenses/by-sa/3.0/deed.de"
+              target="_blank"
+              rel="license noopener noreferrer"
+              className="underline underline-offset-2 hover:text-primary"
+            >
+              CC BY-SA 3.0
+            </a>
+          </div>
+        </section>
 
       <article className="bg-background py-14 md:py-20">
         <div className="container max-w-3xl">
