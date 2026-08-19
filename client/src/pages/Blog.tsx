@@ -21,7 +21,7 @@ export default function Blog() {
       date: "24. Sept. 2026",
       author: "Zöllner Office",
       category: "Veranstaltung",
-      image: "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026_a453606a.jpg",
+      image: "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026-v2_943a4396.jpg",
       slug: "/blog/futuresax-innovationsforum-new-work-ki-2026",
     },
     {

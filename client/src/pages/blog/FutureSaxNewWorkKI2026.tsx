@@ -25,7 +25,7 @@ const EVENT_URL =
 const PROGRAM_URL =
   "https://www.futuresax.de/fileadmin/user_upload/Programm-IF-II-2026_.pdf";
 const HERO_IMAGE =
-  "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026_a453606a.jpg";
+  "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026-v2_943a4396.jpg";
 const ARTICLE_URL =
   "https://www.sprachassistent.net/blog/futuresax-innovationsforum-new-work-ki-2026";
 

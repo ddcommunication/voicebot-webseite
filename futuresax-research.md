@@ -35,3 +35,7 @@ Das zunächst bereitgestellte Hero-Foto wurde durch die neue, breitere Aufnahme 
 ## Markenblau-Anpassung (August 2026)
 
 Die zuvor blau-/cyanfarbene Tönung wurde durch das Markenblau `#09213A` ersetzt. Im Hero kommt ein gleichmäßiger Overlay in dieser Farbe zum Einsatz; die Blogvorschau nutzt dieselbe Farbe als dezente, klare Tönung. Hero und Vorschau wurden anschließend visuell geprüft; Bildinhalt und weiße Texte bleiben gut erkennbar.
+
+## Zweiter Bildwechsel (August 2026)
+
+Die zuletzt bereitgestellte Aufnahme des Sorbischen National-Ensembles wurde im Artikel-Hero und in der Blogvorschau erfolgreich geprüft. Die Tönung in Markenblau `#09213A` bleibt in beiden Bereichen bestehen und die neuen Bildreferenzen werden korrekt ausgeliefert.
