@@ -394,3 +394,6 @@
 ## Bildwechsel mit Attribution: futureSAX (August 2026)
 - [x] Bautzen-Panorama ohne Blau-Overlay in Hero, Vorschauen und SEO-Bildreferenzen einsetzen
 - [x] Sichtbare Bildattribution „Bautzen Bild: Monster4711, CC BY-SA 3.0“ am Beitrag ergänzen
+
+## Textkorrektur: Uwe Ortlepp Praxisbeispiel (August 2026)
+- [x] Firmenbezeichnung „OW Immobilien Finanzierung“ in „Uwe Ortlepp Immobilien Finanzierung“ korrigieren

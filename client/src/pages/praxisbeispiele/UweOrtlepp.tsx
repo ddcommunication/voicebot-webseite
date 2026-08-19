@@ -79,7 +79,7 @@ export default function UweOrtleppCaseStudy() {
               intelligente Voicebot-Integration
             </p>
             <div className="text-white/80 space-y-1">
-              <p className="text-sm font-medium">Inhaber - OW Immobilien Finanzierung</p>
+              <p className="text-sm font-medium">Inhaber - Uwe Ortlepp Immobilien Finanzierung</p>
               <a 
                 href="https://uoimmofinanz.de/" 
                 target="_blank" 
@@ -388,7 +388,7 @@ export default function UweOrtleppCaseStudy() {
                       Uwe Ortlepp
                     </a>
                     <div className="text-sm text-muted-foreground">
-                      Inhaber - OW Immobilien Finanzierung
+                      Inhaber - Uwe Ortlepp Immobilien Finanzierung
                     </div>
                   </div>
                 </div>
