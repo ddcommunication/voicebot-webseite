@@ -12,6 +12,14 @@ interface BlogPost {
 
 const ALL_POSTS: BlogPost[] = [
   {
+    title: "futureSAX-Innovationsforum New Work & KI 2026 – Wir sind dabei",
+    excerpt:
+      "Peter Gemander spricht am 24. September 2026 in Bautzen über smarte Telefonanlagen mit KI-Assistenten und intelligente Business-Kommunikation.",
+    category: "Veranstaltung",
+    image: "/manus-storage/futuresax-innovationsforum-bautzen-2026_05f7a066.png",
+    slug: "/blog/futuresax-innovationsforum-new-work-ki-2026",
+  },
+  {
     title: "Voicebots im Gesundheits- und Sozialwesen",
     excerpt:
       "Warum DRK, Johanniter und Malteser jetzt handeln müssen: Voicebots entlasten Pflegedienste, sichern 24/7-Erreichbarkeit und schonen Personal – DSGVO-konform und sofort einsatzbereit.",

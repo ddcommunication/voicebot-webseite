@@ -13,6 +13,7 @@ interface PageMeta {
   description: string;
   canonical: string;
   keywords?: string;
+  image?: string;
   type?: string;
   noSiteName?: boolean;
 }
@@ -45,7 +46,7 @@ const PAGE_META: Record<string, PageMeta> = {
   "/blog/nfon-support": {
     title: "NFON Support & Service für Unternehmen | Zöllner Office",
     noSiteName: true,
-    description: "Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-48",
+    description: "Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-12",
     canonical: "/blog/nfon-support",
     keywords: "NFON Support, NFON Partner, Cloud-Telefonie, NFON Cloudya, CTI Integration, NFON Einrichtung",
     type: "article",
@@ -108,6 +109,14 @@ const PAGE_META: Record<string, PageMeta> = {
     title: "Business Beats 2026 – onOffice Voicebot",
     description: "Unser Auftritt beim Business Beats 2026: Voicebot-Integration für onOffice und die Zukunft der Immobilienkommunikation.",
     canonical: "/blog/business-beats-2026-onoffice-voicebot",
+    type: "article",
+  },
+  "/blog/futuresax-innovationsforum-new-work-ki-2026": {
+    title: "futureSAX-Innovationsforum New Work & KI 2026",
+    description: "Peter Gemander spricht am 24. September 2026 beim futureSAX-Innovationsforum New Work & KI in Bautzen über smarte Telefonanlagen mit KI-Assistenten.",
+    canonical: "/blog/futuresax-innovationsforum-new-work-ki-2026",
+    keywords: "futureSAX Innovationsforum New Work KI 2026, Peter Gemander, smarte Telefonanlage, KI-Assistenten, KI Telefonie, Bautzen, Zöllner Office",
+    image: "https://sprachassistent.net/manus-storage/futuresax-innovationsforum-bautzen-2026_05f7a066.png",
     type: "article",
   },
   "/blog/zukunft-kundenservice": {
@@ -179,12 +188,12 @@ function buildMetaTags(meta: PageMeta): string {
     <meta property="og:title" content="${fullTitle.replace(/"/g, "&quot;")}">
     <meta property="og:description" content="${meta.description.replace(/"/g, "&quot;")}">
     <meta property="og:url" content="${canonicalUrl}">
-    <meta property="og:image" content="${DEFAULT_IMAGE}">
+    <meta property="og:image" content="${meta.image || DEFAULT_IMAGE}">
     <meta property="og:site_name" content="${SITE_NAME}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${fullTitle.replace(/"/g, "&quot;")}">
     <meta name="twitter:description" content="${meta.description.replace(/"/g, "&quot;")}">
-    <meta name="twitter:image" content="${DEFAULT_IMAGE}">
+    <meta name="twitter:image" content="${meta.image || DEFAULT_IMAGE}">
   `.trim();
 }
 

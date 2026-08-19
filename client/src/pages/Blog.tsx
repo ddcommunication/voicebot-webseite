@@ -15,6 +15,16 @@ import { generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/sch
 export default function Blog() {
   const posts = [
     {
+      title: "futureSAX-Innovationsforum New Work & KI 2026 – Peter Gemander spricht über smarte Telefonie",
+      excerpt:
+        "Am 24. September 2026 zeigt Peter Gemander beim futureSAX-Innovationsforum in Bautzen, wie smarte Telefonanlagen mit KI-Assistenten die Business-Kommunikation weiterentwickeln.",
+      date: "24. Sept. 2026",
+      author: "Zöllner Office",
+      category: "Veranstaltung",
+      image: "/manus-storage/futuresax-innovationsforum-bautzen-2026_05f7a066.png",
+      slug: "/blog/futuresax-innovationsforum-new-work-ki-2026",
+    },
+    {
       title: "Voicebots im Gesundheits- und Sozialwesen",
       excerpt:
         "Warum DRK, Johanniter und Malteser jetzt handeln müssen: Voicebots entlasten Pflegedienste, sichern 24/7-Erreichbarkeit und schonen Personal – DSGVO-konform und sofort einsatzbereit.",

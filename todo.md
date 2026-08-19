@@ -367,3 +367,11 @@
 - [x] Route in App.tsx registrieren
 - [x] seo-meta.ts mit neuem Eintrag aktualisieren
 - [x] Sitemap um neue URL ergänzen
+
+## Neuer Blogbeitrag: futureSAX-Innovationsforum New Work & KI (Juli 2026)
+- [x] Offizielle Veranstaltungs- und Programmdaten zum futureSAX-Innovationsforum New Work & KI prüfen
+- [x] Rechtssichere, an das Website-Design angepasste Hero-Visualisierung erstellen und als Web-Asset bereitstellen
+- [x] SEO-optimierten Artikel mit hervorgehobenem Vortrag von Peter Gemander um 14:30 Uhr verfassen
+- [x] Event- und Article-Schema.org-Markup, individuelle Metadaten und Canonical-URL implementieren
+- [x] Neue Blogroute, Blog-Vorschau, serverseitige SEO-Metadaten und Sitemap ergänzen
+- [x] Beitrag auf Darstellung, Links, strukturierte Daten und mobile Ansicht prüfen

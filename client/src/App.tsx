@@ -27,6 +27,7 @@ import WohnungswirtschaftCaseStudy from "./pages/blog/WohnungswirtschaftCaseStud
 import VoicebotFuerKMU from "./pages/blog/VoicebotFuerKMU";
 import KITagungWohnungsgenossenschaften from "./pages/blog/KITagungWohnungsgenossenschaften";
 import BusinessBeats2026 from "./pages/blog/BusinessBeats2026";
+import FutureSaxNewWorkKI2026 from "./pages/blog/FutureSaxNewWorkKI2026";
 import BlogNiaFrontDesk from "./pages/BlogNiaFrontDesk";
 import BlogVoicebotGesundheitswesen from "./pages/BlogVoicebotGesundheitswesen";
 import Praxisbeispiele from "./pages/Praxisbeispiele";
@@ -62,6 +63,7 @@ function Router() {
         <Route path="/blog/voicebot-kmu-kosten-roi" component={VoicebotFuerKMU} />
         <Route path="/blog/ki-tagung-wohnungsgenossenschaften-2026" component={KITagungWohnungsgenossenschaften} />
         <Route path="/blog/business-beats-2026-onoffice-voicebot" component={BusinessBeats2026} />
+        <Route path="/blog/futuresax-innovationsforum-new-work-ki-2026" component={FutureSaxNewWorkKI2026} />
         <Route path="/blog/zukunft-kundenservice" component={BlogZukunftKundenservice} />
         <Route path="/blog/perfekte-begruessung" component={BlogPerfekteBegruessung} />
         <Route path="/blog/nia-frontdesk-nfon" component={BlogNiaFrontDesk} />
