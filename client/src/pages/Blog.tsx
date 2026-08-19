@@ -21,7 +21,7 @@ export default function Blog() {
       date: "24. Sept. 2026",
       author: "Zöllner Office",
       category: "Veranstaltung",
-      image: "/manus-storage/futuresax-innovationsforum-bautzen-2026_05f7a066.png",
+      image: "/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026_a453606a.jpg",
       slug: "/blog/futuresax-innovationsforum-new-work-ki-2026",
     },
     {
@@ -191,6 +191,9 @@ export default function Blog() {
                       alt={post.title}
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
+                    {post.slug === "/blog/futuresax-innovationsforum-new-work-ki-2026" && (
+                      <div className="absolute inset-0 bg-gradient-to-br from-slate-950/30 via-blue-700/20 to-cyan-400/20 pointer-events-none" />
+                    )}
                     <div className="absolute top-4 left-4 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full">
                       {post.category}
                     </div>

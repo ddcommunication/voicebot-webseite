@@ -17,7 +17,7 @@ describe("SEO-Metadaten: futureSAX-Innovationsforum", () => {
     );
     expect(result).toContain('<meta property="og:type" content="article">');
     expect(result).toContain(
-      'content="https://sprachassistent.net/manus-storage/futuresax-innovationsforum-bautzen-2026_05f7a066.png"',
+      'content="https://sprachassistent.net/manus-storage/futuresax-sorbisches-national-ensemble-bautzen-2026_a453606a.jpg"',
     );
   });
 });

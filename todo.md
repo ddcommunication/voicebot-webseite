@@ -375,3 +375,9 @@
 - [x] Event- und Article-Schema.org-Markup, individuelle Metadaten und Canonical-URL implementieren
 - [x] Neue Blogroute, Blog-Vorschau, serverseitige SEO-Metadaten und Sitemap ergänzen
 - [x] Beitrag auf Darstellung, Links, strukturierte Daten und mobile Ansicht prüfen
+
+## Verfeinerung: futureSAX-Vorschaubild (August 2026)
+- [x] futureSAX-Vorschaubild in der Blogübersicht mit dezenter Blau-/Cyan-Tönung versehen
+
+## Bildwechsel: futureSAX-Innovationsforum (August 2026)
+- [x] Neues bereitgestelltes Sorbisches-National-Ensemble-Foto in Hero, Blogvorschau und SEO-Bildreferenzen integrieren

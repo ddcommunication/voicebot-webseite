@@ -27,3 +27,7 @@ Ab 14:50 Uhr folgen Pitch-Sessions zu Smart Co-Working; ab 15:10 Uhr Sessions zu
 Die Entwicklungsroute `/blog/futuresax-innovationsforum-new-work-ki-2026` wurde aufgerufen. Hero-Bild, Veranstaltungsdaten, hervorgehobener Pitch von Peter Gemander, externe Anmelde- und Programm-Links sowie FAQ werden korrekt angezeigt. Die Vorschaukarte steht an erster Position der Blogübersicht und verlinkt auf die neue Route.
 
 Die ausgelieferte Seite wurde zudem auf technische SEO-Signale geprüft. Vorhanden und korrekt sind der Canonical `https://sprachassistent.net/blog/futuresax-innovationsforum-new-work-ki-2026`, der Open-Graph-Typ `article`, das spezifische Open-Graph-Hero-Bild sowie JSON-LD mit einem `Event`-Eintrag für das futureSAX-Innovationsforum.
+
+## Bildwechsel (August 2026)
+
+Das zunächst bereitgestellte Hero-Foto wurde durch die neue, breitere Aufnahme des Sorbischen National-Ensembles ersetzt. Die neue Aufnahme wird im Artikel-Hero, in der Blogvorschau, in den ähnlichen Beiträgen und in den serverseitigen Open-Graph-/Twitter-Metadaten verwendet. Im Hero bleibt der Blau-/Cyan-Overlay bestehen; auch die Blogvorschau behält ihre dezente Blau-/Cyan-Tönung.
