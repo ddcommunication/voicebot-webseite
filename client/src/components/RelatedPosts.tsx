@@ -14,7 +14,7 @@ const ALL_POSTS: BlogPost[] = [
   {
     title: "Brains on Silicon 2026: Peter Gemander am NFON-Stand in Dresden",
     excerpt:
-      "Treffen Sie Peter Gemander am NFON-Stand der Brains on Silicon 2026 und erleben Sie ein Praxisbeispiel für KI-gestützte Business-Kommunikation.",
+      "Treffen Sie Peter Gemander am NFON-Stand der Brains on Silicon 2026 und entdecken Sie ein verlinktes Praxisbeispiel für KI-gestützte Business-Kommunikation.",
     category: "Veranstaltung",
     image: "/manus-storage/brains-on-silicon-2026-hero-2000_d660b672.webp",
     slug: "/blog/brains-on-silicon-2026",

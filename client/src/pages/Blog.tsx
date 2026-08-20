@@ -17,7 +17,7 @@ export default function Blog() {
     {
       title: "Brains on Silicon 2026: Peter Gemander am NFON-Stand in Dresden",
       excerpt:
-        "Am 14. und 15. September 2026 trifft sich die B2B-KI-Community im ICD Dresden. Peter Gemander ist am NFON-Stand im Austausch zu Voicebots und intelligenter Business-Kommunikation – mit Uwe Ortlepp als Praxisbeispiel.",
+        "Am 14. und 15. September 2026 trifft sich die B2B-KI-Community im ICD Dresden. Peter Gemander ist am NFON-Stand im Austausch zu Voicebots und intelligenter Business-Kommunikation – mit einem verlinkten Praxisbeispiel.",
       date: "14.–15. Sept. 2026",
       author: "Zöllner Office",
       category: "Veranstaltung",

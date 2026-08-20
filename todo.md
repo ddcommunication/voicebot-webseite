@@ -410,3 +410,6 @@
 - [x] Serverseitige Open-Graph-Metadaten und Bildauslieferung für Website- und Blogseiten prüfen
 - [x] Fehlende oder falsche Facebook-Vorschaubilder durch eindeutige Open-Graph-Bildmetadaten beheben
 - [x] Open-Graph-Auslieferung testen und den Facebook-Cache-Refresh dokumentieren
+
+## Inhaltskorrektur: Brains on Silicon (August 2026)
+- [x] Uwe Ortlepp nicht mehr als Konferenzteilnehmer darstellen und das Projekt eindeutig als Praxisbeispiel kennzeichnen

@@ -93,7 +93,7 @@ export default function BrainsOnSilicon2026() {
             name: "Welches Praxisbeispiel stellt Zöllner Office vor?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Im Mittelpunkt steht unter anderem das Praxisbeispiel von Uwe Ortlepp Immobilien Finanzierung: eine Voicebot-Integration für bessere Erreichbarkeit und automatisierte Terminbuchung.",
+              text: "Als unabhängig von der Konferenz umgesetztes Praxisbeispiel dient Uwe Ortlepp Immobilien Finanzierung: eine Voicebot-Integration für bessere Erreichbarkeit und automatisierte Terminbuchung.",
             },
           },
         ],
@@ -110,7 +110,7 @@ export default function BrainsOnSilicon2026() {
     <div className="flex flex-col gap-0">
       <SEO
         title="Brains on Silicon 2026: Peter Gemander am NFON-Stand"
-        description="Brains on Silicon 2026 in Dresden: Treffen Sie Peter Gemander am NFON-Stand. Mit Praxisbeispiel Uwe Ortlepp und KI-Voicebots für die Business-Kommunikation."
+        description="Brains on Silicon 2026 in Dresden: Treffen Sie Peter Gemander am NFON-Stand. Mit einem verlinkten Praxisbeispiel zu KI-Voicebots für die Business-Kommunikation."
         canonical="/blog/brains-on-silicon-2026"
         type="article"
         image={`https://www.sprachassistent.net${HERO_IMAGE}`}
@@ -216,12 +216,15 @@ export default function BrainsOnSilicon2026() {
           </p>
 
           <section className="mb-12 rounded-2xl border border-border bg-muted/30 p-6 md:p-8">
+            <div className="mb-3 inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+              Praxisbeispiel · unabhängig von der Konferenz
+            </div>
             <div className="mb-4 flex items-center gap-3 text-primary">
               <MessageSquareText className="h-6 w-6" />
               <h2 className="text-2xl font-bold text-foreground">Praxisbeispiel: Uwe Ortlepp Immobilien Finanzierung</h2>
             </div>
             <p className="mb-5 leading-relaxed text-muted-foreground">
-              Mit vor Ort ist <strong>Uwe Ortlepp</strong> von <strong>Uwe Ortlepp Immobilien Finanzierung</strong>. Gemeinsam mit Zöllner Office wurde bereits ein Voicebot-Projekt umgesetzt, das die telefonische Erreichbarkeit unterstützt und Termine automatisiert in die bestehenden Abläufe überführen kann. Das Beispiel zeigt, wie aus einer abstrakten KI-Diskussion ein konkreter Nutzen für Beratung, Service und Backoffice wird.
+              Als Referenz aus der Praxis zeigt das bereits gemeinsam mit <strong>Uwe Ortlepp Immobilien Finanzierung</strong> umgesetzte Voicebot-Projekt, wie telefonische Erreichbarkeit unterstützt und Termine automatisiert in bestehende Abläufe überführt werden können. Das Praxisbeispiel ist unabhängig von Brains on Silicon entstanden und zeigt, wie aus einer abstrakten KI-Diskussion ein konkreter Nutzen für Beratung, Service und Backoffice wird.
             </p>
             <Link href="/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung">
               <Button variant="outline" className="border-primary/30 text-primary hover:bg-primary/5">
@@ -293,9 +296,9 @@ export default function BrainsOnSilicon2026() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="uwe-ortlepp">
-              <AccordionTrigger>Was zeigt das Praxisbeispiel mit Uwe Ortlepp?</AccordionTrigger>
+              <AccordionTrigger>Was zeigt das unabhängige Praxisbeispiel mit Uwe Ortlepp?</AccordionTrigger>
               <AccordionContent className="leading-relaxed text-muted-foreground">
-                Es zeigt eine erfolgreich umgesetzte Voicebot-Integration für Uwe Ortlepp Immobilien Finanzierung – mit Fokus auf bessere Erreichbarkeit und automatisierte Terminbuchung.
+                Es zeigt eine unabhängig von der Konferenz erfolgreich umgesetzte Voicebot-Integration für Uwe Ortlepp Immobilien Finanzierung – mit Fokus auf bessere Erreichbarkeit und automatisierte Terminbuchung.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
