@@ -31,8 +31,26 @@ export function registerStorageProxy(app: Express) {
         res.status(502).send("Empty signed URL from backend");
         return;
       }
-      res.set("Cache-Control", "no-store");
-      res.redirect(307, url);
+
+      // Social crawlers, including Facebook's scraper, handle direct image
+      // responses more reliably than short-lived signed redirect chains. Keep
+      // the stable /manus-storage URL public and stream the image through it.
+      const assetResp = await fetch(url);
+      if (!assetResp.ok) {
+        console.error(`[StorageProxy] asset error: ${assetResp.status}`);
+        res.status(502).send("Storage asset unavailable");
+        return;
+      }
+
+      const contentType = assetResp.headers.get("content-type") || "application/octet-stream";
+      const contentLength = assetResp.headers.get("content-length");
+      const content = Buffer.from(await assetResp.arrayBuffer());
+
+      res.set("Content-Type", contentType);
+      if (contentLength) res.set("Content-Length", contentLength);
+      res.set("Cache-Control", "public, max-age=31536000, immutable");
+      res.set("X-Content-Type-Options", "nosniff");
+      res.status(200).send(content);
     } catch (err) {
       console.error("[StorageProxy] failed:", err);
       res.status(502).send("Storage proxy error");

@@ -18,6 +18,13 @@ interface PageMeta {
   noSiteName?: boolean;
 }
 
+function getOgImageType(imageUrl: string): string {
+  const extension = imageUrl.split("?")[0].split(".").pop()?.toLowerCase();
+  if (extension === "png") return "image/png";
+  if (extension === "webp") return "image/webp";
+  return "image/jpeg";
+}
+
 const PAGE_META: Record<string, PageMeta> = {
   "/": {
     title: "Voicebots für Unternehmen",
@@ -49,6 +56,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description: "Persönlicher NFON Support – Voicebots, CTI-Integrationen und Cloud-Telefonie für Unternehmen. Schnell, sicher, zuverlässig. Jetzt anfragen: +49 3533 4807-12",
     canonical: "/blog/nfon-support",
     keywords: "NFON Support, NFON Partner, Cloud-Telefonie, NFON Cloudya, CTI Integration, NFON Einrichtung",
+    image: DEFAULT_IMAGE,
     type: "article",
   },
   "/ueber-uns": {
@@ -79,36 +87,42 @@ const PAGE_META: Record<string, PageMeta> = {
     title: "Voicebot vs. Mitarbeiter – Was lohnt sich wirklich?",
     description: "Voicebot oder menschlicher Mitarbeiter? Ein ehrlicher Vergleich von Kosten, Qualität und Einsatzbereichen für Unternehmen.",
     canonical: "/blog/voicebot-vs-mitarbeiter",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/tQqBNxdVhzvLaJJB.jpg",
     type: "article",
   },
   "/blog/hackathon-vice-meister": {
     title: "Hackathon Vice-Meister – Unser KI-Projekt",
     description: "Wie unser Team beim Hackathon den zweiten Platz belegte und was wir dabei über KI-Voicebots gelernt haben.",
     canonical: "/blog/hackathon-vice-meister",
+    image: "https://sprachassistent.net/images/Hackathon-Vice-Meister4.jpeg",
     type: "article",
   },
   "/blog/wohnungswirtschaft-voicebot": {
     title: "Voicebot in der Wohnungswirtschaft",
     description: "Case Study: Wie Wohnungsgenossenschaften mit KI-Voicebots Mieteranfragen automatisieren und Erreichbarkeit verbessern.",
     canonical: "/blog/wohnungswirtschaft-voicebot",
+    image: "https://sprachassistent.net/manus-storage/wohnungsgenossenschaft-hof_ccd6fb26.png",
     type: "article",
   },
   "/blog/voicebot-kmu-kosten-roi": {
     title: "Voicebot für KMU – Kosten & ROI",
     description: "Was kostet ein Voicebot wirklich? ROI-Analyse für kleine und mittelständische Unternehmen mit konkreten Zahlen.",
     canonical: "/blog/voicebot-kmu-kosten-roi",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/DxjkMTxZCjnyTRIc.jpg",
     type: "article",
   },
   "/blog/ki-tagung-wohnungsgenossenschaften-2026": {
     title: "KI-Tagung Wohnungsgenossenschaften 2026",
     description: "Rückblick auf die KI-Tagung für Wohnungsgenossenschaften 2026 – Erkenntnisse, Trends und Praxisbeispiele.",
     canonical: "/blog/ki-tagung-wohnungsgenossenschaften-2026",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/ki-tagung-airport-conference-boNhqRTLWGMLwVojLUrzQV.webp",
     type: "article",
   },
   "/blog/business-beats-2026-onoffice-voicebot": {
     title: "Business Beats 2026 – onOffice Voicebot",
     description: "Unser Auftritt beim Business Beats 2026: Voicebot-Integration für onOffice und die Zukunft der Immobilienkommunikation.",
     canonical: "/blog/business-beats-2026-onoffice-voicebot",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/business-beats-hero-2026-jZnDmrkB7YXis7h5S2DkzV.webp",
     type: "article",
   },
   "/blog/futuresax-innovationsforum-new-work-ki-2026": {
@@ -131,24 +145,28 @@ const PAGE_META: Record<string, PageMeta> = {
     title: "Die Zukunft des Kundenservice mit KI",
     description: "Wie KI und Voicebots den Kundenservice revolutionieren – Trends, Chancen und praktische Umsetzung für Unternehmen.",
     canonical: "/blog/zukunft-kundenservice",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/cWJnjiaMnKxmewHD.jpg",
     type: "article",
   },
   "/blog/perfekte-begruessung": {
     title: "Die perfekte Begrüßung am Telefon",
     description: "Wie ein KI-Voicebot die perfekte Begrüßung am Telefon gestaltet und warum das für Ihren Unternehmenserfolg entscheidend ist.",
     canonical: "/blog/perfekte-begruessung",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030399330/FyIGbdGFeQuXelAa.jpg",
     type: "article",
   },
   "/blog/nia-frontdesk-nfon": {
     title: "Nia FrontDesk – KI-Rezeption auf NFON-Basis",
     description: "Nia FrontDesk: Die KI-gestützte Telefonrezeption auf Basis von NFON Cloudya – für professionellen Empfang ohne Wartezeiten.",
     canonical: "/blog/nia-frontdesk-nfon",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/nia-frontdesk-empfang-ki-sprachassistent_615ddce2.webp",
     type: "article",
   },
   "/blog/voicebots-gesundheitswesen-sozialwesen": {
     title: "Voicebots im Gesundheits- und Sozialwesen",
     description: "Wie KI-Voicebots in Arztpraxen, Pflegeeinrichtungen und sozialen Diensten die Erreichbarkeit verbessern und Personal entlasten.",
     canonical: "/blog/voicebots-gesundheitswesen-sozialwesen",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030399330/jqo46mGjR6yyo4xPHsKw3d/voicebot-sozialwesen-gesundheitswesen-pflegedienst_99f45126.webp",
     type: "article",
   },
   "/praxisbeispiele/uwe-ortlepp-immobilienfinanzierung": {
@@ -186,6 +204,8 @@ function buildMetaTags(meta: PageMeta): string {
   const fullTitle = meta.noSiteName ? meta.title : `${meta.title} | ${SITE_NAME}`;
   const canonicalUrl = `${BASE_URL}${meta.canonical}`;
   const type = meta.type || "website";
+  const image = meta.image || DEFAULT_IMAGE;
+  const imageType = getOgImageType(image);
 
   return `
     <title>${fullTitle}</title>
@@ -196,12 +216,16 @@ function buildMetaTags(meta: PageMeta): string {
     <meta property="og:title" content="${fullTitle.replace(/"/g, "&quot;")}">
     <meta property="og:description" content="${meta.description.replace(/"/g, "&quot;")}">
     <meta property="og:url" content="${canonicalUrl}">
-    <meta property="og:image" content="${meta.image || DEFAULT_IMAGE}">
+    <meta property="og:image" content="${image}">
+    <meta property="og:image:secure_url" content="${image}">
+    <meta property="og:image:type" content="${imageType}">
+    <meta property="og:image:alt" content="${fullTitle.replace(/"/g, "&quot;")}">
     <meta property="og:site_name" content="${SITE_NAME}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${fullTitle.replace(/"/g, "&quot;")}">
     <meta name="twitter:description" content="${meta.description.replace(/"/g, "&quot;")}">
-    <meta name="twitter:image" content="${meta.image || DEFAULT_IMAGE}">
+    <meta name="twitter:image" content="${image}">
+    <meta name="twitter:image:alt" content="${fullTitle.replace(/"/g, "&quot;")}">
   `.trim();
 }
 

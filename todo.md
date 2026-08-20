@@ -22,11 +22,11 @@
 - [ ] Replace Solutions page hero image with faster-loading eyecatcher
 - [x] Update phone number everywhere to +49 3533 4807-0
 - [x] Add two contact addresses (Elsterwerda: Burgstraße 1, 04910 Elsterwerda, +49 3533 4807-0 and Dresden: Pillnitzer Landstraße 32, 01326 Dresden, +49 351 287087-50)
-- [ ] Update About Us page with Zöllner Office information, focus on voice assistants
-- [ ] Mention NFON and botario partnerships with detailed descriptions
+- [x] Update About Us page with Zöllner Office information, focus on voice assistants
+- [x] Mention NFON and botario partnerships with detailed descriptions
 - [ ] Optimize homepage for "Sprachassistent" SEO ranking
 - [x] Remove Pricing page completely
-- [ ] Create full blog article pages (not just previews)
+- [x] Create full blog article pages (not just previews)
 - [ ] Add smooth scroll to contact form for CTA buttons
 - [x] Update FAQ pricing answer to remove 99€/Monat and emphasize individual configuration-based pricing
 - [x] Update Impressum with Zöllner Büro- & IT-Systeme GmbH data
@@ -405,3 +405,8 @@
 - [x] Eigenständiges Konferenzbild im Stil von Brains on Silicon erstellen und auf maximal 2.000 Pixel Breite begrenzen
 - [x] Neue Route, Blogvorschau, interne Verlinkungen, serverseitige SEO-Metadaten und Sitemap ergänzen
 - [x] Beitrag, Bild, strukturierte Daten und Links prüfen
+
+## Fehlerbehebung: Facebook-Linkvorschauen (August 2026)
+- [x] Serverseitige Open-Graph-Metadaten und Bildauslieferung für Website- und Blogseiten prüfen
+- [x] Fehlende oder falsche Facebook-Vorschaubilder durch eindeutige Open-Graph-Bildmetadaten beheben
+- [x] Open-Graph-Auslieferung testen und den Facebook-Cache-Refresh dokumentieren
