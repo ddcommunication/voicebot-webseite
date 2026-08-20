@@ -119,6 +119,14 @@ const PAGE_META: Record<string, PageMeta> = {
     image: "https://sprachassistent.net/manus-storage/bautzen-panorama-monster4711-cc-by-sa-3_5ca87732.webp",
     type: "article",
   },
+  "/blog/brains-on-silicon-2026": {
+    title: "Brains on Silicon 2026: Peter Gemander am NFON-Stand",
+    description: "Brains on Silicon 2026 in Dresden: Treffen Sie Peter Gemander am NFON-Stand. Mit Praxisbeispiel Uwe Ortlepp und KI-Voicebots für die Business-Kommunikation.",
+    canonical: "/blog/brains-on-silicon-2026",
+    keywords: "Brains on Silicon 2026, Brains on Silicon Dresden, NFON Stand, Peter Gemander, Zöllner Office, KI Konferenz Dresden, angewandte KI, Voicebot, Uwe Ortlepp Immobilien Finanzierung",
+    image: "https://sprachassistent.net/manus-storage/brains-on-silicon-2026-hero-2000_d660b672.webp",
+    type: "article",
+  },
   "/blog/zukunft-kundenservice": {
     title: "Die Zukunft des Kundenservice mit KI",
     description: "Wie KI und Voicebots den Kundenservice revolutionieren – Trends, Chancen und praktische Umsetzung für Unternehmen.",

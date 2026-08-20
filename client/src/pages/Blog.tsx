@@ -15,6 +15,17 @@ import { generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/sch
 export default function Blog() {
   const posts = [
     {
+      title: "Brains on Silicon 2026: Peter Gemander am NFON-Stand in Dresden",
+      excerpt:
+        "Am 14. und 15. September 2026 trifft sich die B2B-KI-Community im ICD Dresden. Peter Gemander ist am NFON-Stand im Austausch zu Voicebots und intelligenter Business-Kommunikation – mit Uwe Ortlepp als Praxisbeispiel.",
+      date: "14.–15. Sept. 2026",
+      author: "Zöllner Office",
+      category: "Veranstaltung",
+      image: "/manus-storage/brains-on-silicon-2026-hero-2000_d660b672.webp",
+      slug: "/blog/brains-on-silicon-2026",
+      aiGenerated: true,
+    },
+    {
       title: "futureSAX-Innovationsforum New Work & KI 2026 – Peter Gemander spricht über smarte Telefonie",
       excerpt:
         "Am 24. September 2026 zeigt Peter Gemander beim futureSAX-Innovationsforum in Bautzen, wie smarte Telefonanlagen mit KI-Assistenten die Business-Kommunikation weiterentwickeln.",

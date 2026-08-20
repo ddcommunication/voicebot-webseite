@@ -397,3 +397,11 @@
 
 ## Textkorrektur: Uwe Ortlepp Praxisbeispiel (August 2026)
 - [x] Firmenbezeichnung „OW Immobilien Finanzierung“ in „Uwe Ortlepp Immobilien Finanzierung“ korrigieren
+
+## Neuer Blogbeitrag: Brains on Silicon 2026 (August 2026)
+- [x] Offizielle Veranstaltungsdaten, Agenda-Details und Markenstil von Brains on Silicon 2026 prüfen
+- [x] SEO- und GEO-optimierten Beitrag mit Peter Gemander am NFON-Stand und Uwe Ortlepp als Praxisbeispiel verfassen
+- [x] Article- und Event-Schema.org-Markup, individuelle Meta-Daten und Canonical-URL implementieren
+- [x] Eigenständiges Konferenzbild im Stil von Brains on Silicon erstellen und auf maximal 2.000 Pixel Breite begrenzen
+- [x] Neue Route, Blogvorschau, interne Verlinkungen, serverseitige SEO-Metadaten und Sitemap ergänzen
+- [x] Beitrag, Bild, strukturierte Daten und Links prüfen
